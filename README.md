@@ -1,5 +1,7 @@
 # Menu Studio
 
+Each restaurant has an editable **Menu design prompt** section. The initial Kemang and Kuningan prompts describe their own reference PDF, layout, type hierarchy, legend, specials panel, pricing and content reflow rules. Prompts are saved in restaurant data and backups. This is a planning placeholder: saving a prompt does not generate a menu. Regression checks: `node --test tests/design-prompts.test.cjs`.
+
 Local restaurant menu editor, preloaded from the supplied Kemang and Kuningan PDFs. Run `python server.py`, then open http://127.0.0.1:8765. Python 3.10+; no dependencies needed to run the editor.
 
 The editor saves to `data/menus.json`. The previous successful file is retained in `data/menus.previous.json`. Export a JSON backup from the website for an additional portable copy, including uploaded images. Keep the project folder backed up. Do not run `scripts/seed.py` to update a live menu; that script only creates missing initial data.

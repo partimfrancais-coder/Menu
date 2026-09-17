@@ -57,6 +57,24 @@ class HostedTests(unittest.TestCase):
             with self.call(path) as response: self.assertEqual(response.status_code,200)
     def test_missing_auth_configuration_fails_closed(self):
         with self.assertRaises(RuntimeError): create_app(dict(self.config,PASSWORD_HASH=''))
+    def test_design_prompt_persists_separately_without_changing_dishes(self):
+        self.login();data=self.call('/api/menus').json;before=copy.deepcopy(data)
+        data['restaurants'][0]['designPrompt']='Kemang design instructions\nNo generation yet.'
+        data['restaurants'][1]['designPrompt']='Kuningan design instructions'
+        self.assertEqual(self.call('/api/menus','POST',json=data).status_code,200)
+        self.app=create_app(self.config);self.client=self.app.test_client();self.login()
+        saved=self.call('/api/menus').json
+        for i in range(2):
+            self.assertEqual(saved['restaurants'][i]['designPrompt'],data['restaurants'][i]['designPrompt'])
+            self.assertEqual(saved['restaurants'][i]['categories'],before['restaurants'][i]['categories'])
+        saved['restaurants'][0]['designPrompt']=''
+        self.assertEqual(self.call('/api/menus','POST',json=saved).status_code,200)
+        self.assertEqual(self.call('/api/menus').json['restaurants'][0]['designPrompt'],'')
+    def test_invalid_design_prompts_rejected(self):
+        self.login();data=self.call('/api/menus').json
+        for value in [42,{},'x'*30001]:
+            data['restaurants'][0]['designPrompt']=value
+            self.assertEqual(self.call('/api/menus','POST',json=data).status_code,400)
     def test_restaurant_catalog_persists_and_other_restaurant_is_unchanged(self):
         self.login();data=self.call('/api/menus').json;other=copy.deepcopy(data['restaurants'][1])
         data['restaurants'][0]['tagCatalog']=[{'name':'Chef choice','kind':'label','icon':'⭐','iconImage':''},{'name':'With rice','kind':'serving','icon':'','iconImage':'data:image/png;base64,iVBORw0KGgo='}]
