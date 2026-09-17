@@ -34,6 +34,16 @@ def validate(data):
         for k in ['priceUnit','serviceCharge','tax']: number(r,k)
         if r['priceUnit']<=0: raise ValueError('Price unit must be positive.')
         picture(r,'logo')
+        if 'tagCatalog' in r:
+            if not isinstance(r['tagCatalog'],list): raise ValueError('Invalid label catalog.')
+            names=set()
+            for tag in r['tagCatalog']:
+                if not isinstance(tag,dict): raise ValueError('Invalid label definition.')
+                string(tag,'name',True)
+                if len(tag['name'])>200 or tag.get('kind') not in ('label','serving'): raise ValueError('Invalid label definition.')
+                name=tag['name'].strip().lower()
+                if name in names: raise ValueError('Label names must be unique within a restaurant.')
+                names.add(name)
         if not isinstance(r.get('categories'),list): raise ValueError('Invalid categories.')
         for c in r['categories']:
             identity(c); string(c,'name',True); string(c,'notes')
@@ -74,7 +84,7 @@ class Handler(SimpleHTTPRequestHandler):
             name=unquote(path[len('/sources/'):])
             if name not in ['Kemang Lunch & Dinner 20260605A.pdf','Kuningan Lunch & Dinner 20260606A.pdf']: return self.result(404,{'error':'Source not found.'})
             raw=(ROOT/name).read_bytes(); self.send_response(200); self.send_header('Content-Type','application/pdf'); self.send_header('Content-Length',str(len(raw))); self.end_headers(); self.wfile.write(raw); return
-        if path not in ['/','/index.html','/app.js','/styles.css']: return self.result(404,{'error':'Not found.'})
+        if path not in ['/','/index.html','/app.js','/catalog.js','/styles.css']: return self.result(404,{'error':'Not found.'})
         return super().do_GET()
     def do_POST(self):
         if not self.allowed() or self.headers.get('Origin') not in ['http://127.0.0.1:8765','http://localhost:8765']:

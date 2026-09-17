@@ -104,7 +104,7 @@ def create_app(config=None):
 
     @app.get('/<name>')
     def asset(name):
-        if name not in ('app.js','styles.css','index.html'): return jsonify(error='Not found.'),404
+        if name not in ('app.js','catalog.js','styles.css','index.html'): return jsonify(error='Not found.'),404
         return send_from_directory(ROOT/'dist',name)
 
     @app.get('/sources/<name>')

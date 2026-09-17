@@ -6,6 +6,8 @@ The editor saves to `data/menus.json`. The previous successful file is retained 
 
 Restaurant menus are independent. Prices preserve the PDF units (IDR × 1,000), so 95 means Rp 95,000. Tax and service charge are stored as separate percentages; no assumption is made about compounded calculation. Item options distinguish replacement prices from additional charges.
 
+Each restaurant has a **Labels & serving details** manager. Add options, rename them, change their type, or remove them. Renames update assigned dishes in that restaurant; removals ask for confirmation when dishes are affected. Item editing displays separate label and serving-detail choices. Existing menus and older backups are migrated in the editor without replacing menu data. Restaurant copies have independent catalogs. Run catalog regression checks with `node --test tests/catalog.test.cjs`.
+
 Initial entries are transcribed from artwork and marked for review. Review against each restaurant's source before approving for print. One special's spelling is explicitly flagged as unclear. Dietary labels reproduce source symbols and are not verified ingredient or allergy claims.
 
 The local server binds to the local computer only. The Railway version uses Flask and Gunicorn with password authentication, secure session cookies, origin checks, and persistent disk storage. PDF layout generation is a later phase.
