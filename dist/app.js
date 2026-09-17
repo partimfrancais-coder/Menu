@@ -162,15 +162,17 @@ modal.addEventListener('input',()=>{if(dialogAction==='manage-labels')catalogDir
 modal.addEventListener('change',()=>{if(dialogAction==='manage-labels')catalogDirty=true;});
 modal.addEventListener('cancel',e=>{if(catalogDirty&&!confirm('Discard unsaved label and serving detail changes?'))e.preventDefault();else catalogDirty=false;});
 
-const iconChoices=[['','No icon'],['🌿','Leaf'],['🌶️','Chilli'],['🔥','Flame'],['⭐','Star'],['✨','Sparkles'],['🆕','New'],['⏱️','Timer'],['🍚','Rice'],['🥔','Potato'],['🍟','Fries'],['🥗','Salad'],['🥖','Bread'],['🍞','Toast'],['🍜','Noodles'],['🍲','Soup'],['🧀','Cheese'],['🥚','Egg'],['🐟','Fish'],['🦐','Shrimp'],['🥜','Nuts'],['🌾','Wheat'],['🥛','Milk'],['🍋','Lemon'],['🍷','Wine'],['☕','Coffee'],['✓','Check']];
+const iconChoices=[...Object.entries(globalThis.MenuIconSet||{}).map(([key,value])=>[key,'Menu · '+value.name]),['','No icon'],['🌿','Leaf'],['🌶️','Chilli'],['🔥','Flame'],['⭐','Star'],['✨','Sparkles'],['🆕','New'],['⏱️','Timer'],['🍚','Rice'],['🥔','Potato'],['🍟','Fries'],['🥗','Salad'],['🥖','Bread'],['🍞','Toast'],['🍜','Noodles'],['🍲','Soup'],['🧀','Cheese'],['🥚','Egg'],['🐟','Fish'],['🦐','Shrimp'],['🥜','Nuts'],['🌾','Wheat'],['🥛','Milk'],['🍋','Lemon'],['🍷','Wine'],['☕','Coffee'],['✓','Check']];
 function iconHTML(tag){
+ const preset=globalThis.MenuIconSet?.[tag?.icon];
+ if(preset&&!tag?.iconImage)return `<img class="label-icon" src="${esc(preset.image)}" alt="" aria-hidden="true">`;
  if(tag?.iconImage&&/^data:image\/(png|jpeg|webp);base64,/.test(tag.iconImage))return `<img class="label-icon" src="${esc(tag.iconImage)}" alt="" aria-hidden="true">`;
  return tag?.icon?`<span class="label-icon symbol" aria-hidden="true">${esc(tag.icon)}</span>`:'';
 }
 function tagDisplay(name){return iconHTML(restaurant().tagCatalog?.find(t=>t.name===name))+esc(name);}
 function iconPickerHTML(tag){
  const choices=iconChoices.some(([value])=>value===(tag.icon||''))?iconChoices:[...iconChoices,[tag.icon,'Saved icon']];
- return `<div class="catalog-icon-control"><label class="field">Icon<select class="catalog-icon" aria-label="Icon for ${esc(tag.name||'new option')}">${choices.map(([value,label])=>`<option value="${esc(value)}" ${(tag.icon||'')===value?'selected':''}>${esc(value?value+' '+label:label)}</option>`).join('')}</select></label><div class="icon-upload-row"><span class="icon-sample">${iconHTML(tag)||'<span aria-hidden="true">—</span>'}</span><label class="icon-upload"><span>Upload icon</span><input class="catalog-icon-file" type="file" accept="image/png,image/jpeg,image/webp" aria-label="Upload icon for ${esc(tag.name||'new option')}"></label>${button('clear-catalog-icon','Clear','aria-label="Clear icon"','text-button')}<input type="hidden" class="catalog-icon-image" value="${esc(tag.iconImage||'')}"></div><small>PNG, JPG, WebP · 256 KB max</small></div>`;
+ return `<div class="catalog-icon-control"><label class="field">Icon<select class="catalog-icon" aria-label="Icon for ${esc(tag.name||'new option')}">${choices.map(([value,label])=>`<option value="${esc(value)}" ${(tag.icon||'')===value?'selected':''}>${esc(value.startsWith('menu:')?label:value?value+' '+label:label)}</option>`).join('')}</select></label><div class="icon-upload-row"><span class="icon-sample">${iconHTML(tag)||'<span aria-hidden="true">—</span>'}</span><label class="icon-upload"><span>Upload icon</span><input class="catalog-icon-file" type="file" accept="image/png,image/jpeg,image/webp" aria-label="Upload icon for ${esc(tag.name||'new option')}"></label>${button('clear-catalog-icon','Clear','aria-label="Clear icon"','text-button')}<input type="hidden" class="catalog-icon-image" value="${esc(tag.iconImage||'')}"></div><small>PNG, JPG, WebP · 256 KB max</small></div>`;
 }
 modal.addEventListener('change',async e=>{
  const row=e.target.closest('.catalog-row');if(!row)return;

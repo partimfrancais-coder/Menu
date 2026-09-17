@@ -19,7 +19,7 @@
    for(const item of items(r))item.tags=[...new Set(item.tags.map(name=>r.tagCatalog.find(t=>key(t.name)===key(name)).name))];
   }
   for(const tag of r.tagCatalog){
-   if(tag.icon===undefined)tag.icon='';
+   if(tag.icon===undefined)tag.icon=Object.entries(globalThis.MenuIconSet||{}).find(([,preset])=>key(preset.name)===key(tag.name))?.[0]||'';
    if(tag.iconImage===undefined)tag.iconImage='';
   }
   return r.tagCatalog;

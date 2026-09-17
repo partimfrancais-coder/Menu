@@ -3,6 +3,17 @@ const assert=require('node:assert/strict');
 const catalog=require('../dist/catalog.js');
 const fixture=()=>({categories:[{items:[{tags:['Vegetarian','With baguette','House special']},{tags:['Vegetarian']}]}]});
 const rows=r=>r.tagCatalog.map(t=>({...t,original:t.name}));
+test('original menu icon set supplies all 11 matching defaults and preserves custom choices',()=>{
+ require('../dist/menu-icons.js');
+ try{
+  assert.equal(Object.keys(globalThis.MenuIconSet).length,11);
+  for(const preset of Object.values(globalThis.MenuIconSet))assert.match(preset.image,/^data:image\/png;base64,/);
+  const a=fixture();catalog.initialize(a);
+  assert.equal(a.tagCatalog.find(t=>t.name==='Vegetarian').icon,'menu:vegetarian');
+  assert.equal(a.tagCatalog.find(t=>t.name==='With baguette').icon,'menu:baguette');
+  a.tagCatalog[0].icon='';catalog.initialize(a);assert.equal(a.tagCatalog[0].icon,'');
+ }finally{delete globalThis.MenuIconSet;}
+});
 test('icons survive rename and backup restore and remain independent',()=>{
  const a=fixture(),b=fixture();catalog.initialize(a);catalog.initialize(b);
  const edits=rows(a);edits[0].icon='🌿';edits[0].name='Plant-based';

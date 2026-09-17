@@ -23,3 +23,5 @@ Run checks with `python -m unittest discover -s tests -v` after installing `requ
 Files: `dist/` contains the interface; `server.py` provides local storage and source PDF access; `scripts/seed.py` records the initial transcription.
 
 Labels and serving details support a built-in symbol or a custom PNG, JPG or WebP icon (up to 256 KB). Icons appear in item selections, item badges and the content preview. Use Clear to remove an icon. Icon assignments and image data are restaurant-specific and included in backups.
+
+The icon picker includes 11 original menu icons under “Menu”. These are high-resolution PNG assets extracted from the supplied PDF's vector artwork, with white details preserved for display on colored surfaces. Reusable files are in `assets/menu-icons/`; the bundled web definitions are in `dist/menu-icons.js`. Matching options in newly initialized catalogs use these icons by default. Saved selections and explicitly cleared icons are retained.

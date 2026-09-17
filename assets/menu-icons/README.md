@@ -1,0 +1,1 @@
+11 reusable 256px PNG icons extracted from the vector artwork in Kemang Lunch & Dinner 20260605A.pdf. Original menu colors and artwork retained. Transparent canvas; not AI-generated. The same legend is used in the supplied Kuningan menu.
