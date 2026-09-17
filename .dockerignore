@@ -1,0 +1,9 @@
+.git
+.deployment
+reference
+__pycache__
+tests
+data/*.previous.json
+data/*.tmp
+node_modules
+.env*

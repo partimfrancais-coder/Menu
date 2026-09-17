@@ -2,3 +2,6 @@ __pycache__/
 data/*.tmp
 data/*.previous.json
 reference/
+.deployment/
+.env*
+node_modules/

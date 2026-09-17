@@ -66,6 +66,7 @@ class Handler(SimpleHTTPRequestHandler):
     def do_GET(self):
         if not self.allowed(): return self.result(403,{'error':'Local access only.'})
         path=urlparse(self.path).path
+        if path=='/api/runtime': return self.result(200,{'hosted':False})
         if path=='/api/menus':
             with LOCK: data=json.loads(DATA.read_text(encoding='utf-8'))
             return self.result(200,data)

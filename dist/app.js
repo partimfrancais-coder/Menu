@@ -1,7 +1,7 @@
 'use strict';
 const $ = (s, root=document) => root.querySelector(s);
 const app=$('#app'), modal=$('#dialog');
-let data, restaurantId, categoryId, itemId, search='', filter='all', dirty=false, busy=false, unsaved=false, saveError='';
+let data, restaurantId, categoryId, itemId, search='', filter='all', dirty=false, busy=false, unsaved=false, saveError='', hosted=false;
 const labels=['Vegetarian','Spicy','New menu','Takes more than 15 mins','With jasmine rice','Choice of white or red rice','With baby potatoes','With mashed potato','With French or Belgian fries','With mixed salad','With baguette'];
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const id=()=>crypto.randomUUID();
@@ -16,13 +16,13 @@ function toast(text){$('#toast').textContent=text;$('#toast').classList.add('vis
 function canLeave(){return !dirty||confirm('You have unsaved item edits. Discard those edits?');}
 function selectRestaurant(rid){restaurantId=rid;categoryId=restaurant().categories[0]?.id;itemId=category()?.items[0]?.id;search='';filter='all';dirty=false;}
 function selectCategory(cid){categoryId=cid;itemId=category()?.items[0]?.id;search='';dirty=false;}
-function status(){return busy?'Saving…':saveError?'Save failed':unsaved?'Changes not saved':'Saved to this computer';}
+function status(){return busy?'Saving…':saveError?'Save failed':unsaved?'Changes not saved':hosted?'Saved online':'Saved to this computer';}
 function render(){
  const r=restaurant(),c=category(),i=item(),items=allItems(),review=items.filter(i=>!i.reviewed).length;
  app.innerHTML=`<aside class="sidebar"><a class="brand" href="/" aria-label="Menu Studio home"><span class="brand-mark">KOI</span><span>Menu Studio<small>RESTAURANT WORKSPACE</small></span></a>
  <div class="nav-label">RESTAURANTS ${button('add-restaurant','+','aria-label="Add restaurant"','icon-button')}</div>
  <nav aria-label="Restaurants">${data.restaurants.map(x=>`<button class="restaurant ${x.id===r.id?'selected':''}" data-action="restaurant" data-id="${x.id}" aria-current="${x.id===r.id?'true':'false'}"><span class="restaurant-initial">${esc(x.location.slice(0,1)||x.name.slice(0,1))}</span><span>${esc(x.name)}<small>${esc(x.menuTitle)}</small></span>${x.id===r.id?'<span class="active-bar"></span>':''}</button>`).join('')}</nav>
- <div class="sidebar-bottom"><p>YOUR MENUS, IN ONE PLACE</p><span>Each restaurant has its own dishes, prices and details.</span><div class="backup-actions">${button('backup','Export backup')}${button('restore','Restore backup')}</div><small>Stored on this computer</small></div></aside>
+ <div class="sidebar-bottom"><p>YOUR MENUS, IN ONE PLACE</p><span>Each restaurant has its own dishes, prices and details.</span><div class="backup-actions">${button('backup','Export backup')}${button('restore','Restore backup')}${hosted?button('logout','Sign out'):''}</div><small>${hosted?'Saved in your private workspace':'Stored on this computer'}</small></div></aside>
  <div class="workspace"><header class="topbar"><div class="breadcrumb">Restaurants <span>/</span> ${esc(r.name)}</div><div class="save-status ${saveError?'error':''}" role="status">${status()}${saveError?button('retry','Retry save'):''}</div></header>
  ${saveError?`<div class="error-banner" role="alert">${esc(saveError)} Export a backup to keep a copy of your changes.</div>`:''}
  <main><div class="page-heading"><div><div class="eyebrow">MENU EDITOR</div><h1>${esc(r.name)}</h1><p>${esc(r.menuTitle)} <span class="dot-sep">·</span> ${items.length} items <span class="dot-sep">·</span> ${r.categories.length} categories</p></div><div class="heading-actions">${button('settings','Restaurant settings','','secondary')}${button('preview','Preview menu','','primary')}</div></div>
@@ -68,6 +68,7 @@ async function action(name,el){
  if(busy){toast('Please wait for the current save to finish.');return;}
  if(name==='close-dialog'){finishDialog();return;}
  if(name==='backup'){backup();return;}
+ if(name==='logout'){if(!canLeave())return;if(unsaved&&!confirm('Some changes have not reached the server. Sign out anyway? Export a backup first to keep them.'))return;await fetch('/logout',{method:'POST'});dirty=false;unsaved=false;location.href='/login';return;}
  if(name==='retry'){await save();return;}
  if(name==='add-option'){$('#options').insertAdjacentHTML('beforeend',optionHTML());setDirty();return;}
  if(name==='remove-option'){el.closest('.option-row').remove();setDirty();return;}
@@ -132,4 +133,4 @@ modal.addEventListener('submit',async e=>{e.preventDefault();if(busy)return;cons
  }catch(err){toast(err.message||'Could not read the backup.');}
 });
 window.addEventListener('beforeunload',e=>{if(dirty||unsaved||busy){e.preventDefault();e.returnValue='';}});
-fetch('/api/menus').then(async res=>{if(!res.ok)throw Error('Could not load saved menus.');return res.json();}).then(result=>{data=result;selectRestaurant(data.restaurants[0].id);render();}).catch(e=>{app.innerHTML=`<div class="load-error"><h1>Unable to open your menus</h1><p>${esc(e.message)}</p><p>Start the local Menu Studio server and reload this page.</p><a href="/">Reload</a></div>`;});
+Promise.all([fetch('/api/menus').then(async res=>{if(res.status===401){location.href='/login';throw Error('Please sign in.');}if(!res.ok)throw Error('Could not load saved menus.');return res.json();}),fetch('/api/runtime').then(res=>res.ok?res.json():{hosted:false}).catch(()=>({hosted:false}))]).then(([result,runtime])=>{data=result;hosted=runtime.hosted;selectRestaurant(data.restaurants[0].id);render();}).catch(e=>{app.innerHTML=`<div class="load-error"><h1>Unable to open your menus</h1><p>${esc(e.message)}</p><p>Check your connection and reload this page.</p><a href="/">Reload</a></div>`;});
