@@ -1,0 +1,3180 @@
+{
+  "version": 1,
+  "revision": 0,
+  "restaurants": [
+    {
+      "id": "8da98570fdb44f4285cdc2314393798c",
+      "name": "KOI Kemang",
+      "location": "Kemang",
+      "menuTitle": "Lunch & Dinner",
+      "currency": "IDR",
+      "priceUnit": 1000,
+      "serviceCharge": 10,
+      "tax": 10,
+      "footer": "All prices are listed in Rp. 1.000,- and are subject to a 10% service charge and 10% tax",
+      "dietaryNote": "No pork, no lard",
+      "logo": "",
+      "source": "Kemang Lunch & Dinner 20260605A.pdf",
+      "categories": [
+        {
+          "id": "5464c4c5ca7741429ff7aeb86659c623",
+          "name": "Soups",
+          "notes": "",
+          "items": [
+            {
+              "id": "15465fca1f0e4c8a92800af67de26b48",
+              "name": "Mushroom Soup",
+              "price": 70,
+              "description": "with Garlic Bread",
+              "tags": [
+                "Vegetarian"
+              ],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "5e5833193a0e455298c2396cb0c694c3",
+              "name": "Onion Soup",
+              "price": 70,
+              "description": "with Cheese Toast Gratined",
+              "tags": [
+                "New menu"
+              ],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "db079624ab124e189f50199c1d0f5972",
+              "name": "Asparagus Soup",
+              "price": 70,
+              "description": "with Seed Bread",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "33cc333d0257425ead08058db77d7543",
+              "name": "Baby Spinach Soup",
+              "price": 95,
+              "description": "",
+              "tags": [
+                "Vegetarian",
+                "With baguette"
+              ],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "5d8a96276283444e9439300feed10ab0",
+              "name": "Tom Yam Seafood",
+              "price": 125,
+              "description": "Served with Rice or Rice Noodles",
+              "tags": [
+                "Spicy"
+              ],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            }
+          ]
+        },
+        {
+          "id": "3655b84edb844e8b98425b821329b5c2",
+          "name": "Appetizers",
+          "notes": "",
+          "items": [
+            {
+              "id": "88537e674f3f4c6ea57295e92d53fd47",
+              "name": "Escargots Gratin",
+              "price": 60,
+              "description": "with Garlic Butter",
+              "tags": [
+                "With baguette"
+              ],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "04817698cf0c49c5aee749f498c1562c",
+              "name": "Cheese Fondue",
+              "price": 85,
+              "description": "",
+              "tags": [
+                "Vegetarian"
+              ],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "6f0a6298342b444ca973b0dac30c322e",
+              "name": "Homemade Smoked Barramundi Fillet",
+              "price": 125,
+              "description": "with Herbs Cream Cheese, Rustiquette Bread",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "b65b4a258f4041dcb91fe5d65e11e53b",
+              "name": "Avocado & Goat Cheese",
+              "price": 125,
+              "description": "with Dry Tomato Toast",
+              "tags": [
+                "Vegetarian"
+              ],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "3db020eb0c26419a8a8542f9b94c7cbb",
+              "name": "Homemade Duck Pâté",
+              "price": 130,
+              "description": "with Chutney",
+              "tags": [
+                "With baguette"
+              ],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "ee5068900a984bff9716ae611ad3fa06",
+              "name": "Smoked Salmon Platter",
+              "price": 140,
+              "description": "with Baby Spinach",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "023f62e03fde4f5ebb70c04d4fd7ccb0",
+              "name": "Burrata Cheese",
+              "price": 155,
+              "description": "with Baby Tomato, spicy Italian Dressing and French Bread",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            }
+          ]
+        },
+        {
+          "id": "677cc2174f47468e849b9bac8c4395dd",
+          "name": "Salads",
+          "notes": "",
+          "items": [
+            {
+              "id": "157214f502bc4cf59f3207b62bfd52fe",
+              "name": "Koi Special Caesar Salad",
+              "price": 105,
+              "description": "with Truffle & Krupuk",
+              "tags": [
+                "Vegetarian"
+              ],
+              "options": [
+                {
+                  "name": "with Chicken or Beef or Beef Snout",
+                  "price": 140,
+                  "kind": "Variant"
+                },
+                {
+                  "name": "with Smoked Salmon",
+                  "price": 155,
+                  "kind": "Variant"
+                }
+              ],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "16fbf9cf760f4fc1bb7da599ef520d53",
+              "name": "Gado - Gado",
+              "price": 70,
+              "description": "Indonesian Salad",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "fcd9834f4f8d4fbaade2e567716771b6",
+              "name": "Chicken & Avocado Salad",
+              "price": 90,
+              "description": "with Wasabi Dressing",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            }
+          ]
+        },
+        {
+          "id": "158da9104319488e9eccb437ce8a1b9d",
+          "name": "Sandwiches",
+          "notes": "",
+          "items": [
+            {
+              "id": "49195dedb77449b4b0bdd8307016f60e",
+              "name": "Home Made Smoked Salmon Bagel",
+              "price": 95,
+              "description": "with Cream Cheese",
+              "tags": [
+                "New menu"
+              ],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "21545479c94e4d03b849d7d558db0850",
+              "name": "Club Sandwich",
+              "price": 115,
+              "description": "",
+              "tags": [
+                "With French or Belgian fries"
+              ],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "866f4d8967474e48b91fcfb550d11ab5",
+              "name": "Beef Bacon, Egg and Cheese Croissant",
+              "price": 125,
+              "description": "",
+              "tags": [
+                "With French or Belgian fries"
+              ],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            }
+          ]
+        },
+        {
+          "id": "3b4a90fb193d4024b699404901f55dcf",
+          "name": "Burger",
+          "notes": "Served with French or Belgian fries and mixed salad.",
+          "items": [
+            {
+              "id": "803618c3279e4612a2df5a021b36e98f",
+              "name": "Beef Burger",
+              "price": 135,
+              "description": "",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "f789459ef5fb446b8f05e710b6ff59d0",
+              "name": "Vegetarian Burger with Melted Cheese",
+              "price": 140,
+              "description": "",
+              "tags": [
+                "Vegetarian"
+              ],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "fef042d9e6ca4e10a0e2ceea69697c58",
+              "name": "Cheese Burger",
+              "price": 145,
+              "description": "",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "ee11bfa460f34c809de748c3be68173f",
+              "name": "Smoked Beef Brisket Burger",
+              "price": 195,
+              "description": "with Melted Cheese",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "e249f88e9f9f4267ac9caba208bc92d8",
+              "name": "KOI Mega Double Cheese Burger",
+              "price": 210,
+              "description": "",
+              "tags": [
+                "New menu"
+              ],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            }
+          ]
+        },
+        {
+          "id": "7b190a2c0e75483cbd8382434b873b4c",
+          "name": "Pastas",
+          "notes": "",
+          "items": [
+            {
+              "id": "8e579c176f084ecc9ecfb9b58a961b2f",
+              "name": "Potato Gnocchi",
+              "price": 95,
+              "description": "with Gorgonzola Sauce & Cherry Tomatoes",
+              "tags": [
+                "New menu"
+              ],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "891dc13515b8403db0860da6190aa2f3",
+              "name": "Aglio Olio Spaghetti",
+              "price": 95,
+              "description": "",
+              "tags": [
+                "Vegetarian",
+                "Spicy"
+              ],
+              "options": [
+                {
+                  "name": "Additional Chicken or Beef bacon or Tuna",
+                  "price": 30,
+                  "kind": "Add-on"
+                }
+              ],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "cf1c0d8660e445bcb288fec15781f952",
+              "name": "Mac & Cheese",
+              "price": 95,
+              "description": "with Beef Bacon",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "d9564f8d2a164b3a99fa318452e707f5",
+              "name": "Beef Lasagna",
+              "price": 115,
+              "description": "",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "89620938c95f48139bafdde81e33c010",
+              "name": "Tagliatelle Carbonara",
+              "price": 125,
+              "description": "with Beef Bacon, Parmesan & 62° Egg",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "30e27d2665874317aef7ee0071f76dbe",
+              "name": "Spaghetti Bolognese",
+              "price": 125,
+              "description": "",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "dfe747082efa4756bcfe3c055959b269",
+              "name": "Smoked Brisket Ravioli",
+              "price": 130,
+              "description": "with Gravy Sauce",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "644f2477281041219e507d9c92880f07",
+              "name": "Truffle Ravioli",
+              "price": 130,
+              "description": "with Brown Butter",
+              "tags": [
+                "Vegetarian"
+              ],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "147d7f72dfd245e19c2cef4205263c91",
+              "name": "Salmon Ravioli",
+              "price": 130,
+              "description": "with Light Crustacean Creamy Sauce",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "0aaeb438a6d64007a366e31b7df2b3c4",
+              "name": "Spinach Ravioli",
+              "price": 130,
+              "description": "with Creamy Parmesan Sauce",
+              "tags": [
+                "Vegetarian"
+              ],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "5adbf88870804e689f02593ffedfdf7b",
+              "name": "Black ink Seafood Spaghetti",
+              "price": 125,
+              "description": "with Shrimp and Calamari",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "ff093862d86d456789774d87c3cf18cb",
+              "name": "Arabica Spaghetti Burrata",
+              "price": 190,
+              "description": "",
+              "tags": [
+                "New menu",
+                "Spicy"
+              ],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            }
+          ]
+        },
+        {
+          "id": "805b9b4d2cdf4c40858c2fca5b25b1cf",
+          "name": "Noodles & Rice",
+          "notes": "",
+          "items": [
+            {
+              "id": "e4296eefbba44ffd858be6c53c909528",
+              "name": "Mie Ayam Kampung",
+              "price": 75,
+              "description": "",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "5eebb032c6c84e57b22e644c1ec02259",
+              "name": "Mie Goreng",
+              "price": 85,
+              "description": "",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "d9e43c12b1bd407a9e4e8a3c95d0c13f",
+              "name": "Nasi Goreng (Chicken or Beef or Seafood)",
+              "price": 95,
+              "description": "",
+              "tags": [
+                "Choice of white or red rice"
+              ],
+              "options": [
+                {
+                  "name": "Additional Chicken Satay (2Pcs)",
+                  "price": 25,
+                  "kind": "Add-on"
+                }
+              ],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "2b6c3abcb21e462aa0ec71fba678debf",
+              "name": "Nasi Goreng (Lamb or Duck)",
+              "price": 130,
+              "description": "",
+              "tags": [
+                "Choice of white or red rice"
+              ],
+              "options": [
+                {
+                  "name": "Additional Chicken Satay (2Pcs)",
+                  "price": 25,
+                  "kind": "Add-on"
+                }
+              ],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "11e71c10715c48f1b00c16d5cc1ecef7",
+              "name": "Fried Rice Sambal Ijo with Beef",
+              "price": 95,
+              "description": "",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "71e4af96f4e44270984bef75b1842e31",
+              "name": "Pad Thai (Chicken/Sea Food)",
+              "price": 105,
+              "description": "",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "82eaf62d073e497486ff2b7aaefba32a",
+              "name": "Nasi Campur",
+              "price": 130,
+              "description": "with Crispy Chicken, Egg, Chili Tempe & Beef Satay",
+              "tags": [
+                "Choice of white or red rice"
+              ],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            }
+          ]
+        },
+        {
+          "id": "e9b890056b41496b98fb84785c82961d",
+          "name": "Poultry",
+          "notes": "",
+          "items": [
+            {
+              "id": "052a82f593d341069ad7167003930ed6",
+              "name": "Chicken Shawarma",
+              "price": 105,
+              "description": "with Tabbouleh & Fresh Pita Bread",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "ccb9f32a981944a099928d86ad2fed45",
+              "name": "Pan-Fried Duck Fillet",
+              "price": 150,
+              "description": "with Green Pepper Sauce & French Fries",
+              "tags": [
+                "New menu"
+              ],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "31f13d58b3104a389d36bdc8d974fb6f",
+              "name": "Roasted Chicken (1/2 Chicken)",
+              "price": 155,
+              "description": "",
+              "tags": [
+                "Takes more than 15 mins",
+                "With French or Belgian fries",
+                "With mixed salad"
+              ],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "47545537ecf846b699c68061b824a82d",
+              "name": "Homemade Duck Confit",
+              "price": 155,
+              "description": "with Green Beans & Beef Bacon",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "c57e12817e8940d4a37a24c686f5fece",
+              "name": "Hainanese Chicken Rice",
+              "price": 105,
+              "description": "Steamed or Fried",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "11b8c462bb854ea6b2ae1757eb73665f",
+              "name": "Chicken Betutu",
+              "price": 105,
+              "description": "with Garlic Rice & Sambal Matah",
+              "tags": [
+                "Spicy"
+              ],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "0cd8ab9f3ef54580b27d47bcab35b270",
+              "name": "Thai Chicken Green Curry",
+              "price": 105,
+              "description": "",
+              "tags": [
+                "With jasmine rice"
+              ],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "fd11754b5b554d28bafad38dd3eea844",
+              "name": "Ayam Bakar",
+              "price": 105,
+              "description": "with Nasi Daun Jeruk",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "b94dfd4a73bc475fb950953521cd35c5",
+              "name": "Chicken Kemangi",
+              "price": 105,
+              "description": "",
+              "tags": [
+                "With jasmine rice"
+              ],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            }
+          ]
+        },
+        {
+          "id": "99a38380abb94d74b93789bbd91b3433",
+          "name": "Seafood",
+          "notes": "",
+          "items": [
+            {
+              "id": "1233bcfcf6ae4ab29df16d2229272b95",
+              "name": "Roasted Dory Fillet topped with “Niçoise”",
+              "price": 95,
+              "description": "with Eggplant, Red Paprika, Mushrooms, Basil Sauce & Mashed Potatoes",
+              "tags": [
+                "New menu"
+              ],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "1b8eb090e4ed447aa10781dd8e142e68",
+              "name": "Smoked Barramundi Fillet",
+              "price": 120,
+              "description": "steamed on crushed potatoes with leek, cherry tomatoes & asparagus sauce",
+              "tags": [
+                "New menu"
+              ],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "2f23d6a8473b43d58485cbe1f110d74e",
+              "name": "Fish & Chips",
+              "price": 130,
+              "description": "with Tartare Sauce",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "ade31ef1d0ce41599e482ad9c2cde3e7",
+              "name": "Dory Fish Fillet & Parmesan Gratin",
+              "price": 160,
+              "description": "Served with Sautéed Asparagus and Ricotta Ravioli",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "05488f3fc1c3422f964a7bb00c9ecef0",
+              "name": "Barramundi Fillet",
+              "price": 210,
+              "description": "with Creamy Polenta, Cherry Tomatoes & Arugula",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "88dece5c4ee643018b362d2473444f6c",
+              "name": "Salmon Fillet",
+              "price": 245,
+              "description": "with Nori Butter, Sautéed Vegetables & Fennel Creamy Sauce",
+              "tags": [
+                "With mashed potato"
+              ],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "a920c5624c0b48bfa6231f4ff14cf4fb",
+              "name": "Crispy Kalan",
+              "price": 65,
+              "description": "with Shrimp",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "429d1dd80d524d44b1b25f422ccc2257",
+              "name": "Indonesian Dory Fillet “Bumbu Kuning”",
+              "price": 95,
+              "description": "",
+              "tags": [
+                "New menu"
+              ],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "62a3cf05cedc47fbbc81275219351cf9",
+              "name": "Calamari Asiatique",
+              "price": 115,
+              "description": "Deep Fried Squid Sautéed w/ Chilli Padi & Garlic",
+              "tags": [
+                "With jasmine rice"
+              ],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            }
+          ]
+        },
+        {
+          "id": "c5772cd398c848199bc0f8e52dea81c0",
+          "name": "Beef",
+          "notes": "",
+          "items": [
+            {
+              "id": "fca846fa37d14a2aa2c8bb12d012bce4",
+              "name": "Gratin Potato",
+              "price": 80,
+              "description": "with Beef and Cheese",
+              "tags": [
+                "New menu"
+              ],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "7da19309d1c84a4091af140de219811e",
+              "name": "Beef Tongue “Poulette”",
+              "price": 145,
+              "description": "carrot, Leek",
+              "tags": [
+                "With baby potatoes"
+              ],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "c876f6680fb94169a38db8ad65144f1e",
+              "name": "Vegetarian Tartare",
+              "price": 150,
+              "description": "",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "464c5529b15c4ef39758cce2464e4cda",
+              "name": "Beef Piccata",
+              "price": 165,
+              "description": "",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "20fc6a347f5d4996836c6ff10a86782e",
+              "name": "Belgian Beef Stew",
+              "price": 165,
+              "description": "",
+              "tags": [
+                "With French or Belgian fries"
+              ],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "57b913c7c6064793a2019211ae821810",
+              "name": "Beef Tartare",
+              "price": 215,
+              "description": "",
+              "tags": [
+                "With French or Belgian fries",
+                "With mixed salad"
+              ],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "3928850cdc79456188fdc738d88eacaf",
+              "name": "Vietnamese Steak",
+              "price": 135,
+              "description": "with Fried Rice",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "64140f2e58fb404083a5e203d238f6d9",
+              "name": "Beef Rendang",
+              "price": 140,
+              "description": "",
+              "tags": [
+                "With jasmine rice"
+              ],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "e90c3d0cbd9747638dcee55194f073c0",
+              "name": "Beef Ribs",
+              "price": 155,
+              "description": "with Fried Rice",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "cee3ed4a7cee468e8cfa9a971312ccbc",
+              "name": "Beef Tongue “Sambal Ijo”",
+              "price": 155,
+              "description": "",
+              "tags": [
+                "Spicy",
+                "With jasmine rice"
+              ],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "b229ac19f3724144b405247e8b811255",
+              "name": "Oxtail Soup",
+              "price": 245,
+              "description": "",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            }
+          ]
+        },
+        {
+          "id": "a051324559fc4195a90ce3fe85c73d5c",
+          "name": "Grill",
+          "notes": "Served with French or Belgian fries and mixed salad.",
+          "items": [
+            {
+              "id": "2128e97b22224a178e9120a4c844b6b7",
+              "name": "Meltique Australian Striploin (200Gr)",
+              "price": 220,
+              "description": "",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "ef7837db86fd406f84e387f10186b7cc",
+              "name": "Tenderloin (220Gr)",
+              "price": 240,
+              "description": "",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "e8db2d4feccf469fb7168ac46c9236de",
+              "name": "Wagyu Flank Steak (200Gr)",
+              "price": 270,
+              "description": "",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "2cb083b8779448b3a5fd397b9afdc331",
+              "name": "Wagyu Rib Eye Grade 6 (300G 2Pax)",
+              "price": 750,
+              "description": "",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            }
+          ]
+        },
+        {
+          "id": "fa8c8fbbb3e84ba4b98f95d26ff3e43a",
+          "name": "Pizza",
+          "notes": "",
+          "items": [
+            {
+              "id": "715ad3e8c96b47b9bd819cb310a234d7",
+              "name": "Margherita",
+              "price": 75,
+              "description": "Tomato Sauce, Basil & Mozarella",
+              "tags": [
+                "Vegetarian"
+              ],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "c5c584b8edc946f6ad475782bd0487cc",
+              "name": "Turkish Beef",
+              "price": 105,
+              "description": "Beef Kebab, Cherry Tomatoes, Mint & Mozarella",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "920595ec51cc4ce6a82895eb4304cb64",
+              "name": "Carbonara",
+              "price": 155,
+              "description": "Beef Bacon, Egg 62°, Mozarella & Parmesan",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "37e40d8b524c47228b10c166ade04de4",
+              "name": "Carnivora",
+              "price": 170,
+              "description": "Tomato Sc, Beef sausage, Brisket, paprika & Mozarella",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "1dcb5f67c59846c5871bd8dafc1eea92",
+              "name": "Burrata and Rucola",
+              "price": 195,
+              "description": "",
+              "tags": [
+                "New menu"
+              ],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            }
+          ]
+        },
+        {
+          "id": "5c8b7567dab94e66bc0be65e9d94cc17",
+          "name": "Lamb",
+          "notes": "",
+          "items": [
+            {
+              "id": "90e9f643f8074d93a35e979e58820140",
+              "name": "Lamb “Tongseng”",
+              "price": 145,
+              "description": "",
+              "tags": [
+                "With jasmine rice"
+              ],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            }
+          ]
+        },
+        {
+          "id": "132fa79cdba84c17b8ada2dffb811158",
+          "name": "Poke Bowl",
+          "notes": "",
+          "items": [
+            {
+              "id": "ca9b901e22594003b127b320f3bfc847",
+              "name": "Grilled Chicken",
+              "price": 85,
+              "description": "white & red cabbage, carrot, chayote, radishes, edamame, Nori, & mushrooms dressing",
+              "tags": [
+                "Choice of white or red rice",
+                "New menu"
+              ],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "a934862be24242a0be75477ec2248bee",
+              "name": "Shrimp",
+              "price": 85,
+              "description": "white & red cabbage, carrot, chayote, radishes, edamame, mushrooms, nori & KOI caesar sauce",
+              "tags": [
+                "Choice of white or red rice",
+                "New menu"
+              ],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "d8d58448341c4b2ebab9c8bc4d8836d5",
+              "name": "Smoked Salmon",
+              "price": 105,
+              "description": "white & red cabbage, carrot, chayote, radishes, edamame, mushrooms, nori & KOI caesar sauce",
+              "tags": [
+                "Choice of white or red rice",
+                "New menu"
+              ],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            }
+          ]
+        },
+        {
+          "id": "412cf4402c0747fbaaf1d2d396173b0f",
+          "name": "Sauce",
+          "notes": "",
+          "items": [
+            {
+              "id": "a2da57db1bcc45cf941fb77b43d8987a",
+              "name": "Tartare, Mushroom",
+              "price": 20,
+              "description": "",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "bde0345e7cae428aad766353f5194a53",
+              "name": "Black Pepper, BBQ",
+              "price": 20,
+              "description": "",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "529faa8b2c2f44428f2e03bdcef0bf98",
+              "name": "Béarnaise",
+              "price": 45,
+              "description": "",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "d54ae75eca094ca1b0658d8dca9e086d",
+              "name": "Gorgonzola Blue Cheese",
+              "price": 45,
+              "description": "",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            }
+          ]
+        },
+        {
+          "id": "e557ecdd4c264f3b881dace64e6eae10",
+          "name": "Side Dishes",
+          "notes": "",
+          "items": [
+            {
+              "id": "d7ed1175f5484e578a39c9c4256ab325",
+              "name": "Jasmine Rice",
+              "price": 15,
+              "description": "",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "03e7561c2bb2486e85adaa690513972b",
+              "name": "Sautéed Green Beans",
+              "price": 30,
+              "description": "",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "0b5ea4a08a2f4c11b9278921354c6510",
+              "name": "Baby Potato",
+              "price": 30,
+              "description": "",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "70e3b538b2214ad6a91a05db1ad429ca",
+              "name": "Green Salad with Vinaigrette",
+              "price": 49,
+              "description": "",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "c9794ecfd1494e68a8ab76c0bb494511",
+              "name": "Spinach à la Crème",
+              "price": 49,
+              "description": "",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "6b1eb0bbc1db4c9c84bc84be70490bd7",
+              "name": "Garlic Bread",
+              "price": 40,
+              "description": "",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "588bc93fd81e4777bb6f995131590b70",
+              "name": "French Fries",
+              "price": 49,
+              "description": "",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "002e7e6ab95f4fd9a166c3cfda3f5bc3",
+              "name": "Mashed Potato",
+              "price": 49,
+              "description": "",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "9471ab34ebf142f994cbd047dc032bd9",
+              "name": "Homemade Belgian Fries",
+              "price": 49,
+              "description": "",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "d718c430a41a4e03b34816b894be6391",
+              "name": "Potato Gratined",
+              "price": 49,
+              "description": "",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            }
+          ]
+        },
+        {
+          "id": "23922dd4121e41d9a60b419a8080706f",
+          "name": "Kids",
+          "notes": "",
+          "items": [
+            {
+              "id": "9f1d2f6862ba45e2a2beb69fd1b2c8fc",
+              "name": "Roasted Boneless Chicken",
+              "price": 75,
+              "description": "",
+              "tags": [
+                "With French or Belgian fries"
+              ],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "13f6e6927cc94cd39f4cb5c0a6261bc4",
+              "name": "Spaghetti Bolognese",
+              "price": 65,
+              "description": "",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "2dea523709e147eea1f4d59afec6445a",
+              "name": "Beef Sausage",
+              "price": 75,
+              "description": "",
+              "tags": [
+                "With French or Belgian fries"
+              ],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            }
+          ]
+        },
+        {
+          "id": "078c3074b377472697fef5d0e130edc4",
+          "name": "Monthly Specials · Salad",
+          "notes": "",
+          "items": [
+            {
+              "id": "106833e6d0894289b72f1c6dad5bbd5c",
+              "name": "Thai Seafood Salad",
+              "price": 80,
+              "description": "",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            }
+          ]
+        },
+        {
+          "id": "7ec62d8c652343bfb4665e87b97cf3fd",
+          "name": "Monthly Specials · Pasta",
+          "notes": "",
+          "items": [
+            {
+              "id": "b1555bb41a0543b09d4fed064cdc4999",
+              "name": "Rico… a raviolis",
+              "price": 95,
+              "description": "with Smoked salmon",
+              "tags": [],
+              "options": [],
+              "notes": "Check spelling against original artwork: one character in the dish name is unclear in both source PDFs.",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            }
+          ]
+        },
+        {
+          "id": "dd0a788e78384424a637223fa77c28fd",
+          "name": "Monthly Specials · Main",
+          "notes": "",
+          "items": [
+            {
+              "id": "bdb4d0d1e6ff4c3c8b13477d669191e7",
+              "name": "Whole Duck Stew",
+              "price": 150,
+              "description": "with mushroom ravioli",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "d1cf9a9c45404368b36492fe7adca20f",
+              "name": "Classic Indonesian Beef Stew “Rawon”",
+              "price": 105,
+              "description": "",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            }
+          ]
+        },
+        {
+          "id": "28b884f7d83141f9993187f79abbc71a",
+          "name": "Monthly Specials · Pizza",
+          "notes": "",
+          "items": [
+            {
+              "id": "d843a472d1614887a08164ff8dea1c9f",
+              "name": "Chicken Lahmacun",
+              "price": 65,
+              "description": "thin Turkish pizza",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            }
+          ]
+        },
+        {
+          "id": "add46a293e2e49fb84705eb828253451",
+          "name": "Monthly Specials · Dessert",
+          "notes": "",
+          "items": [
+            {
+              "id": "bfdc7424fa9247e9a6f14fe33f4cf86e",
+              "name": "Poppy Seed Lemon Cake",
+              "price": 55,
+              "description": "",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "bc7ee5ebff7b4d4db20cc13eff7a8956",
+              "name": "Bika Ambon Chocolate Brulee",
+              "price": 75,
+              "description": "",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            }
+          ]
+        },
+        {
+          "id": "91d4611857cf499a9a8767c56f0f2309",
+          "name": "Wine of the Month",
+          "notes": "",
+          "items": [
+            {
+              "id": "6ff0c82590cf4044a797d0f28d0cfd6d",
+              "name": "MOI Primitivo Puglia",
+              "price": 590,
+              "description": "Italy 2022",
+              "tags": [],
+              "options": [
+                {
+                  "name": "Glass 12cl",
+                  "price": 105,
+                  "kind": "Variant"
+                },
+                {
+                  "name": "Glass 18cl",
+                  "price": 155,
+                  "kind": "Variant"
+                }
+              ],
+              "notes": "Bottle price; previous bottle price 690 is crossed out in the source.",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2c17e525f2c8468185774403afefa264",
+      "name": "KOI Kuningan",
+      "location": "Kuningan",
+      "menuTitle": "Lunch & Dinner",
+      "currency": "IDR",
+      "priceUnit": 1000,
+      "serviceCharge": 10,
+      "tax": 10,
+      "footer": "All prices are listed in Rp. 1.000,- and are subject to a 10% service charge and 10% tax",
+      "dietaryNote": "No pork, no lard",
+      "logo": "",
+      "source": "Kuningan Lunch & Dinner 20260606A.pdf",
+      "categories": [
+        {
+          "id": "5e3dea55b3cc4c4a86dd464dcd995fb8",
+          "name": "Soups",
+          "notes": "",
+          "items": [
+            {
+              "id": "24b02fb7359c4afd8e5a3d83f20de2e6",
+              "name": "Mushroom Soup",
+              "price": 70,
+              "description": "with Puff Pastry",
+              "tags": [
+                "Takes more than 15 mins",
+                "Vegetarian"
+              ],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "99052032480348a0a22594e2c182fdee",
+              "name": "Onion Soup",
+              "price": 70,
+              "description": "with Cheese Toast Gratined",
+              "tags": [
+                "New menu"
+              ],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "6b9145ece3ae440aadf7376bc2555556",
+              "name": "Asparagus Soup",
+              "price": 70,
+              "description": "with Seed Bread",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "8222259b54674e8d8ea10f7cf88f67bb",
+              "name": "Baby Spinach Soup",
+              "price": 95,
+              "description": "",
+              "tags": [
+                "Vegetarian",
+                "With baguette"
+              ],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "f8a0e62d109247dea908977b118802b4",
+              "name": "Tom Yam Seafood",
+              "price": 125,
+              "description": "Served with Rice or Rice Noodles",
+              "tags": [
+                "Spicy"
+              ],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            }
+          ]
+        },
+        {
+          "id": "5adb8865c26f4d658762a9fcd765997b",
+          "name": "Appetizers",
+          "notes": "",
+          "items": [
+            {
+              "id": "35cadca1ef4141bd88e52c69287e2ba2",
+              "name": "Escargots Gratin",
+              "price": 60,
+              "description": "with Garlic Butter",
+              "tags": [
+                "With baguette"
+              ],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "173c044e63b54a2ead9605b48b830c09",
+              "name": "Cheese Fondue",
+              "price": 85,
+              "description": "",
+              "tags": [
+                "Vegetarian"
+              ],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "4b6aec0f832a4ac79d63d08f48a5a626",
+              "name": "Homemade Smoked Barramundi Fillet",
+              "price": 125,
+              "description": "with Herbs Cream Cheese, Rustiquette Bread",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "56b1333f1b614affba182ae67f6b5ba0",
+              "name": "Avocado & Goat Cheese",
+              "price": 125,
+              "description": "with Dry Tomato Toast",
+              "tags": [
+                "Vegetarian"
+              ],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "c7511448270042a2bf6d61ff2fc10322",
+              "name": "Homemade Duck Pâté",
+              "price": 130,
+              "description": "with Chutney",
+              "tags": [
+                "With baguette"
+              ],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "8f90da56cd3a447bae1ac5e4ecc70018",
+              "name": "Smoked Salmon Platter",
+              "price": 140,
+              "description": "with Baby Spinach",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "b6fd4f1123ef4a14b256579d5817abdf",
+              "name": "Burrata Cheese",
+              "price": 155,
+              "description": "with Baby Tomato, spicy Italian Dressing and French Bread",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            }
+          ]
+        },
+        {
+          "id": "37c3dd6e62eb43a791480d9b9c2d2ac2",
+          "name": "Salads",
+          "notes": "",
+          "items": [
+            {
+              "id": "176902a0f16c42bc9aba30b194c01871",
+              "name": "Koi Special Caesar Salad",
+              "price": 105,
+              "description": "with Truffle & Krupuk",
+              "tags": [
+                "Vegetarian"
+              ],
+              "options": [
+                {
+                  "name": "with Chicken or Beef or Beef Snout",
+                  "price": 140,
+                  "kind": "Variant"
+                },
+                {
+                  "name": "with Smoked Salmon",
+                  "price": 155,
+                  "kind": "Variant"
+                }
+              ],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "229b7c20ddf44f969da9a18c75b36b0e",
+              "name": "Gado - Gado",
+              "price": 70,
+              "description": "Indonesian Salad",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "135d051147434c71bf8262896a2a9354",
+              "name": "Chicken & Avocado Salad",
+              "price": 90,
+              "description": "with Wasabi Dressing",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            }
+          ]
+        },
+        {
+          "id": "69705b4718724cf4902f142b440f0100",
+          "name": "Sandwiches",
+          "notes": "",
+          "items": [
+            {
+              "id": "60bf200ce7894746817da578c0f1ab3c",
+              "name": "Home Made Smoked Salmon Bagel",
+              "price": 95,
+              "description": "with Cream Cheese",
+              "tags": [
+                "New menu"
+              ],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "e16acbdab4cc46df97d95127a4eac9c2",
+              "name": "Club Sandwich",
+              "price": 115,
+              "description": "",
+              "tags": [
+                "With French or Belgian fries"
+              ],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "f0457fca9153447cb8cc9bc613f240d9",
+              "name": "Beef Bacon, Egg and Cheese Croissant",
+              "price": 125,
+              "description": "",
+              "tags": [
+                "With French or Belgian fries"
+              ],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            }
+          ]
+        },
+        {
+          "id": "87396f6d0ec043d89d298c38050e6a82",
+          "name": "Burger",
+          "notes": "Served with French or Belgian fries and mixed salad.",
+          "items": [
+            {
+              "id": "d82364fd1f9e4851ae655f8ed906b42a",
+              "name": "Beef Burger",
+              "price": 135,
+              "description": "",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "ddab2c47ce4a4784a31a83dc92820919",
+              "name": "Vegetarian Burger with Melted Cheese",
+              "price": 140,
+              "description": "",
+              "tags": [
+                "Vegetarian"
+              ],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "8c58f442c6d34a8ab98dc298471d75a4",
+              "name": "Cheese Burger",
+              "price": 145,
+              "description": "",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "0c7a6fbd1dca44c28a7cb67ae2b02fa6",
+              "name": "Smoked Beef Brisket Burger",
+              "price": 195,
+              "description": "with Melted Cheese",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "78e6b9b2aa934cc3809bdc9f452ebc1f",
+              "name": "KOI Mega Double Cheese Burger",
+              "price": 210,
+              "description": "",
+              "tags": [
+                "New menu"
+              ],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            }
+          ]
+        },
+        {
+          "id": "05cc248e08124a96a6c1dc3fa351708e",
+          "name": "Pastas",
+          "notes": "",
+          "items": [
+            {
+              "id": "913c4d3fd2f540da99e23b1df647b3bb",
+              "name": "Potato Gnocchi",
+              "price": 95,
+              "description": "with Gorgonzola Sauce & Cherry Tomatoes",
+              "tags": [
+                "New menu"
+              ],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "d9b7c76ba0f04a0facf9f37c197ef7fb",
+              "name": "Aglio Olio Spaghetti",
+              "price": 95,
+              "description": "",
+              "tags": [
+                "Vegetarian",
+                "Spicy"
+              ],
+              "options": [
+                {
+                  "name": "Additional Chicken or Beef bacon or Tuna",
+                  "price": 30,
+                  "kind": "Add-on"
+                }
+              ],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "a1f45e4c038543a880c949e316c7b42f",
+              "name": "Mac & Cheese",
+              "price": 95,
+              "description": "with Beef Bacon",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "4d7da9696561447bbf11240985ce927a",
+              "name": "Beef Lasagna",
+              "price": 115,
+              "description": "",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "33b48c82dd7143afbe4af801e343e2c6",
+              "name": "Tagliatelle Carbonara",
+              "price": 125,
+              "description": "with Beef Bacon, Parmesan & 62° Egg",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "8aa86f0498494af69b60c2a6579973eb",
+              "name": "Spaghetti Bolognese",
+              "price": 125,
+              "description": "",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "b4a3a8bf8c0d48e49bedec35ed5458a4",
+              "name": "Smoked Brisket Ravioli",
+              "price": 130,
+              "description": "with Gravy Sauce",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "23652eb6d55742c5bc475c2cf1a7d19d",
+              "name": "Truffle Ravioli",
+              "price": 130,
+              "description": "with Brown Butter",
+              "tags": [
+                "Vegetarian"
+              ],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "88c32d49311d4a979858194785452e3f",
+              "name": "Salmon Ravioli",
+              "price": 130,
+              "description": "with Light Crustacean Creamy Sauce",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "9838bc49a92d48e7a68b85401f850375",
+              "name": "Spinach Ravioli",
+              "price": 130,
+              "description": "with Creamy Parmesan Sauce",
+              "tags": [
+                "Vegetarian"
+              ],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "dd8f0f88b4f545f9964b23712e57ef40",
+              "name": "Black ink Seafood Spaghetti",
+              "price": 125,
+              "description": "with Shrimp and Calamari",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "cf197e111c18402cbc7bff52ef7d9ba8",
+              "name": "Arabica Spaghetti Burrata",
+              "price": 190,
+              "description": "",
+              "tags": [
+                "New menu",
+                "Spicy"
+              ],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            }
+          ]
+        },
+        {
+          "id": "fd14c91e235d45599e4f3f7b77d3d225",
+          "name": "Noodles & Rice",
+          "notes": "",
+          "items": [
+            {
+              "id": "a7036aae15b749269fb53638e0ea966d",
+              "name": "Mie Ayam Kampung",
+              "price": 75,
+              "description": "",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "fde17bfa8a0e42ae8bcc399514196d94",
+              "name": "Mie Goreng",
+              "price": 85,
+              "description": "",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "acc6ecd08e7e400fa762a341a7afbb02",
+              "name": "Nasi Goreng (Chicken or Beef or Seafood)",
+              "price": 95,
+              "description": "",
+              "tags": [
+                "Choice of white or red rice"
+              ],
+              "options": [
+                {
+                  "name": "Additional Chicken Satay (2Pcs)",
+                  "price": 25,
+                  "kind": "Add-on"
+                }
+              ],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "c65a991a4c9f49b2abb5202f49b26662",
+              "name": "Nasi Goreng (Lamb or Duck)",
+              "price": 130,
+              "description": "",
+              "tags": [
+                "Choice of white or red rice"
+              ],
+              "options": [
+                {
+                  "name": "Additional Chicken Satay (2Pcs)",
+                  "price": 25,
+                  "kind": "Add-on"
+                }
+              ],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "523d8b88044e438798c638f694ea6b83",
+              "name": "Fried Rice Sambal Ijo with Beef",
+              "price": 95,
+              "description": "",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "e9e379025c7a42c6babb8eeb03a8e11c",
+              "name": "Pad Thai (Chicken/Sea Food)",
+              "price": 105,
+              "description": "",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "626d2dc2e0b149a4a12c329977db47ef",
+              "name": "Nasi Campur",
+              "price": 130,
+              "description": "with Crispy Chicken, Egg, Chili Tempe & Beef Satay",
+              "tags": [
+                "Choice of white or red rice"
+              ],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            }
+          ]
+        },
+        {
+          "id": "5e79286bfcfb4ea0982a090ba4c07ca8",
+          "name": "Poultry",
+          "notes": "",
+          "items": [
+            {
+              "id": "68f02074aa5148bca2329df29a0b8511",
+              "name": "Chicken Shawarma",
+              "price": 105,
+              "description": "with Tabbouleh & Fresh Pita Bread",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "f8ad06292aae444da22982b32da63a46",
+              "name": "Pan-Fried Duck Fillet",
+              "price": 150,
+              "description": "with Green Pepper Sauce & French Fries",
+              "tags": [
+                "New menu"
+              ],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "d17a405a04aa47a6a336cd7e7b525137",
+              "name": "Roasted Chicken (1/2 Chicken)",
+              "price": 155,
+              "description": "",
+              "tags": [
+                "Takes more than 15 mins",
+                "With French or Belgian fries",
+                "With mixed salad"
+              ],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "fb0ce8239d464bf3a5987e235781fd22",
+              "name": "Homemade Duck Confit",
+              "price": 155,
+              "description": "with Green Beans & Beef Bacon",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "bb4add8e376e43babe0529ac0076a1e2",
+              "name": "Hainanese Chicken Rice",
+              "price": 105,
+              "description": "Steamed or Fried",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "a70b3a49aae640658d0ab3d4f62e58ee",
+              "name": "Chicken Betutu",
+              "price": 105,
+              "description": "with Garlic Rice & Sambal Matah",
+              "tags": [
+                "Spicy"
+              ],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "41c41c832fbc4eb7a68e59163a803451",
+              "name": "Thai Chicken Green Curry",
+              "price": 105,
+              "description": "",
+              "tags": [
+                "With jasmine rice"
+              ],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "0c75568a00bd4c798b445c1a81ce439f",
+              "name": "Ayam Bakar",
+              "price": 105,
+              "description": "with Nasi Daun Jeruk",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "67d322457365405d8e5cdbefe4f1dc8d",
+              "name": "Chicken Kemangi",
+              "price": 105,
+              "description": "",
+              "tags": [
+                "With jasmine rice"
+              ],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            }
+          ]
+        },
+        {
+          "id": "b22dacf1b5db463d828aa12d9ecd3a0e",
+          "name": "Seafood",
+          "notes": "",
+          "items": [
+            {
+              "id": "103cf5df5736412aaad78b66b55b0439",
+              "name": "Roasted Dory Fillet topped with “Niçoise”",
+              "price": 95,
+              "description": "with Eggplant, Red Paprika, Mushrooms, Basil Sauce & Mashed Potatoes",
+              "tags": [
+                "New menu"
+              ],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "48bc8d46cc014cf185a214b3bdf253f3",
+              "name": "Smoked Barramundi Fillet",
+              "price": 120,
+              "description": "steamed on crushed potatoes with leek, cherry tomatoes & asparagus sauce",
+              "tags": [
+                "New menu"
+              ],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "1235180ce79b4b23a1af764950b00dbb",
+              "name": "Fish & Chips",
+              "price": 130,
+              "description": "with Tartare Sauce",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "87d16afc5eab4d15903a28a42ddca65f",
+              "name": "Dory Fish Fillet & Parmesan Gratin",
+              "price": 160,
+              "description": "Served with Sautéed Asparagus and Ricotta Ravioli",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "6b9c0c2d9665415ea64cac8ffa2f541d",
+              "name": "Barramundi Fillet",
+              "price": 210,
+              "description": "with Creamy Polenta, Cherry Tomatoes & Arugula",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "377ec7dbd413419489423e2d4b1446ad",
+              "name": "Salmon Fillet",
+              "price": 245,
+              "description": "with Nori Butter, Sautéed Vegetables & Fennel Creamy Sauce",
+              "tags": [
+                "With mashed potato"
+              ],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "68b658fef13f490c8d216716d54d13b0",
+              "name": "Crispy Kalan",
+              "price": 65,
+              "description": "with Shrimp",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "94d382bc527047a3966994ac92474c7e",
+              "name": "Indonesian Dory Fillet “Bumbu Kuning”",
+              "price": 95,
+              "description": "",
+              "tags": [
+                "New menu"
+              ],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "b536d912f16b40cb80ce90ad6386f95f",
+              "name": "Calamari Asiatique",
+              "price": 115,
+              "description": "Deep Fried Squid Sautéed w/ Chilli Padi & Garlic",
+              "tags": [
+                "With jasmine rice"
+              ],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            }
+          ]
+        },
+        {
+          "id": "6f257d3ba60d4a7c86c51858e9831e62",
+          "name": "Beef",
+          "notes": "",
+          "items": [
+            {
+              "id": "8e4b393b9bce4f53acda52594fd3217d",
+              "name": "Gratin Potato",
+              "price": 80,
+              "description": "with Beef and Cheese",
+              "tags": [
+                "New menu"
+              ],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "c54d8644e2fb47dcba3d36affa2ce2c2",
+              "name": "Vegetarian Tartare",
+              "price": 150,
+              "description": "",
+              "tags": [
+                "With French or Belgian fries"
+              ],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "22eefe178b21405db28918ca7ecea4d6",
+              "name": "Beef Piccata",
+              "price": 165,
+              "description": "",
+              "tags": [
+                "With French or Belgian fries"
+              ],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "f541612f68824885997799057ecc008a",
+              "name": "Belgian Beef Stew",
+              "price": 165,
+              "description": "",
+              "tags": [
+                "With French or Belgian fries"
+              ],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "540550cacfc04f7898d3d157545ba8ba",
+              "name": "Beef Tartare",
+              "price": 215,
+              "description": "",
+              "tags": [
+                "With French or Belgian fries",
+                "With mixed salad"
+              ],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "c26b35ab891a4f97a6305d0ae480ab3b",
+              "name": "Vietnamese Steak",
+              "price": 135,
+              "description": "with Fried Rice",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "8d9b06293ad14cb9a5d550c98d97af31",
+              "name": "Beef Rendang",
+              "price": 140,
+              "description": "",
+              "tags": [
+                "With jasmine rice"
+              ],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "fefa512cba444b04a79f2936c3f2eff8",
+              "name": "Beef Ribs",
+              "price": 155,
+              "description": "with Fried Rice",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "70e3e9b81ce846288058f2c6fc483223",
+              "name": "Beef Tongue “Sambal Ijo”",
+              "price": 155,
+              "description": "",
+              "tags": [
+                "Spicy",
+                "With jasmine rice"
+              ],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "544cd6266fe8496a991d844de5d411da",
+              "name": "Oxtail Soup",
+              "price": 245,
+              "description": "",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            }
+          ]
+        },
+        {
+          "id": "448505ae56bd4d9d9eec5c379dd2ff20",
+          "name": "Grill",
+          "notes": "Served with French or Belgian fries and mixed salad.",
+          "items": [
+            {
+              "id": "4b46754113104e53aaaf1074ac2d5cd0",
+              "name": "Meltique Australian Striploin (200Gr)",
+              "price": 220,
+              "description": "",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "ca3e8ee2b6d6451e8aad6465c109e4e2",
+              "name": "Tenderloin (220Gr)",
+              "price": 240,
+              "description": "",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "352f347fabe14682b93f89f43a98410c",
+              "name": "Wagyu Flank Steak (200Gr)",
+              "price": 270,
+              "description": "",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "33f360bd82304e52bbcfad4a2ed1d7b0",
+              "name": "Wagyu Rib Eye Grade 6 (300G 2Pax)",
+              "price": 750,
+              "description": "",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            }
+          ]
+        },
+        {
+          "id": "efd28a2ee0cc4872b59bef9ac63ca065",
+          "name": "Lamb",
+          "notes": "",
+          "items": [
+            {
+              "id": "dd6b6843ade0470c940b9386ed0242fd",
+              "name": "Lamb “Tongseng”",
+              "price": 145,
+              "description": "",
+              "tags": [
+                "With jasmine rice"
+              ],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            }
+          ]
+        },
+        {
+          "id": "3baee9d23a8848ba9a72e3a3bde03f20",
+          "name": "Poke Bowl",
+          "notes": "",
+          "items": [
+            {
+              "id": "f1c042612225476ba9bb33e207ae4e61",
+              "name": "Grilled Chicken",
+              "price": 85,
+              "description": "white & red cabbage, carrot, chayote, radishes, edamame, Nori, & mushrooms dressing",
+              "tags": [
+                "Choice of white or red rice",
+                "New menu"
+              ],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "b8c7b967806445fea339551d55cf6d99",
+              "name": "Shrimp",
+              "price": 85,
+              "description": "white & red cabbage, carrot, chayote, radishes, edamame, mushrooms, nori & KOI caesar sauce",
+              "tags": [
+                "Choice of white or red rice",
+                "New menu"
+              ],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "b2f92aa164324785b71a3599efb8f939",
+              "name": "Smoked Salmon",
+              "price": 105,
+              "description": "white & red cabbage, carrot, chayote, radishes, edamame, mushrooms, nori & KOI caesar sauce",
+              "tags": [
+                "Choice of white or red rice",
+                "New menu"
+              ],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            }
+          ]
+        },
+        {
+          "id": "f1fe6822935b41e2963949bb947f2321",
+          "name": "Sauce",
+          "notes": "",
+          "items": [
+            {
+              "id": "01bc7cd286104ca7b50584cb44b4d81d",
+              "name": "Tartare, Mushroom",
+              "price": 20,
+              "description": "",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "0dbb1d99a7814aa8856c93d2897e69c9",
+              "name": "Black Pepper, BBQ",
+              "price": 20,
+              "description": "",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "8685c536b423493b8450ba119e110a5d",
+              "name": "Béarnaise",
+              "price": 45,
+              "description": "",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "98bd7a240a4c436087541acf43f13f41",
+              "name": "Gorgonzola Blue Cheese",
+              "price": 45,
+              "description": "",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            }
+          ]
+        },
+        {
+          "id": "847b4ae5a2354ef59428d8b072099a56",
+          "name": "Side Dishes",
+          "notes": "",
+          "items": [
+            {
+              "id": "1fef1f63d8fe4e31b0295db454654b98",
+              "name": "Jasmine Rice",
+              "price": 15,
+              "description": "",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "85dfdff203ab4192af25b0747ee51b3f",
+              "name": "Sautéed Green Beans",
+              "price": 30,
+              "description": "",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "565f513b42524b96b1d05d00d90167a5",
+              "name": "Baby Potato",
+              "price": 30,
+              "description": "",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "3c03b4ee913648828a8a90d6d5f53082",
+              "name": "Green Salad with Vinaigrette",
+              "price": 49,
+              "description": "",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "303b032ea08e4972bc1617808c5dceaa",
+              "name": "Spinach à la Crème",
+              "price": 49,
+              "description": "",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "bd1e57aa50b5418494f4e2e0fba123dd",
+              "name": "Garlic Bread",
+              "price": 40,
+              "description": "",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "1aaa2bf35f7244c1871576c0d91c004e",
+              "name": "French Fries",
+              "price": 49,
+              "description": "",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "5108b51fdfce48fd89802638d077afb8",
+              "name": "Mashed Potato",
+              "price": 49,
+              "description": "",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "dd16b325e9af4c81ac471f9439247924",
+              "name": "Homemade Belgian Fries",
+              "price": 49,
+              "description": "",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "8cc647f5d6f8460f851388f018e20f8f",
+              "name": "Potato Gratined",
+              "price": 49,
+              "description": "",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            }
+          ]
+        },
+        {
+          "id": "a04a8c9841194414b79a5ad8620544e3",
+          "name": "Kids",
+          "notes": "",
+          "items": [
+            {
+              "id": "6700202ba63d4cfa848ddd216f434ca2",
+              "name": "Roasted Boneless Chicken",
+              "price": 75,
+              "description": "",
+              "tags": [
+                "With French or Belgian fries"
+              ],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "d399280075394721809990219d87264b",
+              "name": "Spaghetti Bolognese",
+              "price": 65,
+              "description": "",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "e0af92403f5947948785a5de536b2ac0",
+              "name": "Beef Sausage",
+              "price": 75,
+              "description": "",
+              "tags": [
+                "With French or Belgian fries"
+              ],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            }
+          ]
+        },
+        {
+          "id": "873e99530592457c99c02d2f22b8c16a",
+          "name": "Monthly Specials · Salad",
+          "notes": "",
+          "items": [
+            {
+              "id": "d364ec0965854c5594c2a0353ea1df0a",
+              "name": "Thai Seafood Salad",
+              "price": 80,
+              "description": "",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            }
+          ]
+        },
+        {
+          "id": "35e86b484f254b25b3bea152f4151e1a",
+          "name": "Monthly Specials · Pasta",
+          "notes": "",
+          "items": [
+            {
+              "id": "df10380437ea4cc29a936b27f01aef81",
+              "name": "Rico… a raviolis",
+              "price": 95,
+              "description": "with Smoked salmon",
+              "tags": [],
+              "options": [],
+              "notes": "Check spelling against original artwork: one character in the dish name is unclear in both source PDFs.",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            }
+          ]
+        },
+        {
+          "id": "6c39934e21894eeda39dc9b9a4d433da",
+          "name": "Monthly Specials · Main",
+          "notes": "",
+          "items": [
+            {
+              "id": "eefc46a1fb9e47b2ab71b4010ca96d88",
+              "name": "Whole Duck Stew",
+              "price": 150,
+              "description": "with mushroom ravioli",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "28ebc0fd3b944a1c81e30170da3a6b5b",
+              "name": "Classic Indonesian Beef Stew “Rawon”",
+              "price": 105,
+              "description": "",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            }
+          ]
+        },
+        {
+          "id": "346a99f667d4479ea54bac8c9f661005",
+          "name": "Monthly Specials · Pizza",
+          "notes": "",
+          "items": [
+            {
+              "id": "eb81237a07d04ae0b4d84d6690868149",
+              "name": "Chicken Lahmacun",
+              "price": 65,
+              "description": "thin Turkish pizza",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            }
+          ]
+        },
+        {
+          "id": "7d2dacdadb3d4c74a0636d2aaed5b138",
+          "name": "Monthly Specials · Dessert",
+          "notes": "",
+          "items": [
+            {
+              "id": "5e99ad309559464fa401f7562511e59c",
+              "name": "Poppy Seed Lemon Cake",
+              "price": 55,
+              "description": "",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            },
+            {
+              "id": "7809de4745df4d55ace49e66a4f7e038",
+              "name": "Bika Ambon Chocolate Brulee",
+              "price": 75,
+              "description": "",
+              "tags": [],
+              "options": [],
+              "notes": "",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            }
+          ]
+        },
+        {
+          "id": "20fc659676f0446cb166f7ef3b79ac6f",
+          "name": "Wine of the Month",
+          "notes": "",
+          "items": [
+            {
+              "id": "dc270707988a4a2b9a0c92096fc5896a",
+              "name": "MOI Primitivo Puglia",
+              "price": 590,
+              "description": "Italy 2022",
+              "tags": [],
+              "options": [
+                {
+                  "name": "Glass 12cl",
+                  "price": 105,
+                  "kind": "Variant"
+                },
+                {
+                  "name": "Glass 18cl",
+                  "price": 155,
+                  "kind": "Variant"
+                }
+              ],
+              "notes": "Bottle price; previous bottle price 690 is crossed out in the source.",
+              "image": "",
+              "available": true,
+              "reviewed": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
