@@ -21,3 +21,5 @@ Use one replica and one Gunicorn worker (four threads). The file store uses a pr
 Run checks with `python -m unittest discover -s tests -v` after installing `requirements.txt`. Gunicorn runs on Linux in the container; local editing still works with `python server.py` and no additional packages.
 
 Files: `dist/` contains the interface; `server.py` provides local storage and source PDF access; `scripts/seed.py` records the initial transcription.
+
+Labels and serving details support a built-in symbol or a custom PNG, JPG or WebP icon (up to 256 KB). Icons appear in item selections, item badges and the content preview. Use Clear to remove an icon. Icon assignments and image data are restaurant-specific and included in backups.

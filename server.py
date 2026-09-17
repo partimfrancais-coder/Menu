@@ -41,6 +41,10 @@ def validate(data):
                 if not isinstance(tag,dict): raise ValueError('Invalid label definition.')
                 string(tag,'name',True)
                 if len(tag['name'])>200 or tag.get('kind') not in ('label','serving'): raise ValueError('Invalid label definition.')
+                if 'icon' in tag and (not isinstance(tag['icon'],str) or len(tag['icon'])>32): raise ValueError('Invalid label icon.')
+                if 'iconImage' in tag:
+                    picture(tag,'iconImage')
+                    if len(tag['iconImage'])>400000: raise ValueError('Label icon image is too large.')
                 name=tag['name'].strip().lower()
                 if name in names: raise ValueError('Label names must be unique within a restaurant.')
                 names.add(name)

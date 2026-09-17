@@ -59,7 +59,7 @@ class HostedTests(unittest.TestCase):
         with self.assertRaises(RuntimeError): create_app(dict(self.config,PASSWORD_HASH=''))
     def test_restaurant_catalog_persists_and_other_restaurant_is_unchanged(self):
         self.login();data=self.call('/api/menus').json;other=copy.deepcopy(data['restaurants'][1])
-        data['restaurants'][0]['tagCatalog']=[{'name':'Chef choice','kind':'label'},{'name':'With rice','kind':'serving'}]
+        data['restaurants'][0]['tagCatalog']=[{'name':'Chef choice','kind':'label','icon':'⭐','iconImage':''},{'name':'With rice','kind':'serving','icon':'','iconImage':'data:image/png;base64,iVBORw0KGgo='}]
         self.assertEqual(self.call('/api/menus','POST',json=data).status_code,200)
         self.app=create_app(self.config);self.client=self.app.test_client();self.login()
         saved=self.call('/api/menus').json
@@ -68,7 +68,7 @@ class HostedTests(unittest.TestCase):
         with self.call('/catalog.js') as response: self.assertEqual(response.status_code,200)
     def test_invalid_catalog_rejected_without_overwriting_menu(self):
         self.login();data=self.call('/api/menus').json;before=copy.deepcopy(data)
-        for catalog in [[{'name':'Hot','kind':'label'},{'name':'hot','kind':'serving'}],[{'name':'','kind':'label'}],[{'name':'Hot','kind':'unknown'}],['Hot']]:
+        for catalog in [[{'name':'Hot','kind':'label'},{'name':'hot','kind':'serving'}],[{'name':'','kind':'label'}],[{'name':'Hot','kind':'unknown'}],['Hot'],[{'name':'Hot','kind':'label','icon':7}],[{'name':'Hot','kind':'label','iconImage':'data:image/svg+xml;base64,abc'}],[{'name':'Hot','kind':'label','iconImage':'data:image/png;base64,'+'a'*400000}]]:
             data['restaurants'][0]['tagCatalog']=catalog
             self.assertEqual(self.call('/api/menus','POST',json=data).status_code,400)
         self.assertEqual(self.call('/api/menus').json,before)

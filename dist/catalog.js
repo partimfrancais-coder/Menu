@@ -18,6 +18,10 @@
    }
    for(const item of items(r))item.tags=[...new Set(item.tags.map(name=>r.tagCatalog.find(t=>key(t.name)===key(name)).name))];
   }
+  for(const tag of r.tagCatalog){
+   if(tag.icon===undefined)tag.icon='';
+   if(tag.iconImage===undefined)tag.iconImage='';
+  }
   return r.tagCatalog;
  }
  function validate(rows){
@@ -25,6 +29,8 @@
   for(const row of rows){
    if(!row.name.trim()||row.name.trim().length>200)throw Error('Enter a name of 1–200 characters for every option.');
    if(!['label','serving'].includes(row.kind))throw Error('Choose Labels or Serving details for every option.');
+   if(row.icon!==undefined&&(typeof row.icon!=='string'||row.icon.length>32))throw Error('Choose a valid icon.');
+   if(row.iconImage!==undefined&&(typeof row.iconImage!=='string'||row.iconImage.length>400000||(row.iconImage&&!/^data:image\/(png|jpeg|webp);base64,/.test(row.iconImage))))throw Error('Choose a PNG, JPG or WebP icon smaller than 256 KB.');
    if(names.has(key(row.name)))throw Error('Each label or serving detail must have a unique name.');
    names.add(key(row.name));
   }
@@ -33,7 +39,10 @@
   validate(rows);
   const original=initialize(r),oldNames=new Set(original.map(t=>t.name));
   const renamed=new Map(rows.filter(t=>t.original).map(t=>[t.original,t.name.trim()]));
-  const next=rows.map(t=>({name:t.name.trim(),kind:t.kind}));
+  const next=rows.map(t=>{
+   const previous=original.find(old=>old.name===t.original);
+   return {name:t.name.trim(),kind:t.kind,icon:t.icon??previous?.icon??'',iconImage:t.iconImage??previous?.iconImage??''};
+  });
   for(const item of items(r))item.tags=[...new Set(item.tags.flatMap(name=>oldNames.has(name)?(renamed.has(name)?[renamed.get(name)]:[]):[name]))];
   r.tagCatalog=next;
  }

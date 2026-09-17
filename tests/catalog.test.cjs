@@ -3,6 +3,23 @@ const assert=require('node:assert/strict');
 const catalog=require('../dist/catalog.js');
 const fixture=()=>({categories:[{items:[{tags:['Vegetarian','With baguette','House special']},{tags:['Vegetarian']}]}]});
 const rows=r=>r.tagCatalog.map(t=>({...t,original:t.name}));
+test('icons survive rename and backup restore and remain independent',()=>{
+ const a=fixture(),b=fixture();catalog.initialize(a);catalog.initialize(b);
+ const edits=rows(a);edits[0].icon='🌿';edits[0].name='Plant-based';
+ edits[1].iconImage='data:image/png;base64,iVBORw0KGgo=';catalog.apply(a,edits);
+ const restored=JSON.parse(JSON.stringify(a));catalog.initialize(restored);
+ assert.equal(restored.tagCatalog[0].icon,'🌿');assert.equal(restored.tagCatalog[0].name,'Plant-based');
+ assert.equal(restored.tagCatalog[1].iconImage,edits[1].iconImage);assert.equal(b.tagCatalog[0].icon,'');
+ const clear=rows(restored);clear[0].icon='';clear[1].iconImage='';catalog.apply(restored,clear);catalog.initialize(restored);
+ assert.equal(restored.tagCatalog[0].icon,'');assert.equal(restored.tagCatalog[1].iconImage,'');
+});
+test('invalid custom icons are rejected without mutating data',()=>{
+ const a=fixture();catalog.initialize(a);const before=structuredClone(a);
+ for(const iconImage of ['data:image/svg+xml;base64,abc','https://example.com/icon.png','data:image/png;base64,'+'a'.repeat(400000)]){
+  const edits=rows(a);edits[0].iconImage=iconImage;assert.throws(()=>catalog.apply(a,edits));
+ }
+ assert.deepEqual(a,before);
+});
 
 test('legacy menus retain selections and custom labels in independent catalogs',()=>{
  const a=fixture(),b=fixture();catalog.initialize(a);catalog.initialize(b);

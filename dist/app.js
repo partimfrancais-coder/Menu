@@ -2,7 +2,7 @@
 const $ = (s, root=document) => root.querySelector(s);
 const app=$('#app'), modal=$('#dialog');
 let data, restaurantId, categoryId, itemId, search='', filter='all', dirty=false, busy=false, unsaved=false, saveError='', hosted=false;
-let catalogDirty=false;
+let catalogDirty=false, pendingIconReads=0;
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const id=()=>crypto.randomUUID();
 const restaurant=()=>data.restaurants.find(r=>r.id===restaurantId);
@@ -39,7 +39,7 @@ function render(){
 function listHTML(){
  let pairs=search?restaurant().categories.flatMap(c=>c.items.map(i=>({c,i}))):(category()?.items||[]).map(i=>({c:category(),i}));
  pairs=pairs.filter(({i})=>(!search||[i.name,i.description,...i.tags].join(' ').toLowerCase().includes(search.toLowerCase()))&&(filter==='all'||filter==='review'&&!i.reviewed||filter==='hidden'&&!i.available));
- return pairs.map(({c,i})=>`<button class="item-row ${i.id===itemId?'selected':''}" data-action="item" data-id="${i.id}" data-category="${c.id}"><span><strong>${esc(i.name)}</strong><small>${search?esc(c.name)+' · ':''}${esc(i.description||'No description')}</small><span class="row-tags">${!i.available?'<span class="mini-tag">Hidden</span>':''}${!i.reviewed?'<span class="review-dot">To review</span>':''}${i.tags.slice(0,2).map(tag=>`<span class="mini-tag">${esc(tag)}</span>`).join('')}</span></span><span class="item-price">${fmt(i.price)}</span></button>`).join('')||'<div class="empty-small">No items here. Try another filter or add an item.</div>';
+ return pairs.map(({c,i})=>`<button class="item-row ${i.id===itemId?'selected':''}" data-action="item" data-id="${i.id}" data-category="${c.id}"><span><strong>${esc(i.name)}</strong><small>${search?esc(c.name)+' · ':''}${esc(i.description||'No description')}</small><span class="row-tags">${!i.available?'<span class="mini-tag">Hidden</span>':''}${!i.reviewed?'<span class="review-dot">To review</span>':''}${i.tags.slice(0,2).map(tag=>`<span class="mini-tag">${tagDisplay(tag)}</span>`).join('')}</span></span><span class="item-price">${fmt(i.price)}</span></button>`).join('')||'<div class="empty-small">No items here. Try another filter or add an item.</div>';
 }
 function detailHTML(i){return `<form id="item-form"><div class="detail-heading"><span class="eyebrow">ITEM DETAILS</span><div>${button('duplicate-item','Duplicate','','text-button')}${button('delete-item','Delete','','text-button danger')}</div></div><h2>${esc(i.name)}</h2><div class="review-notice">${i.reviewed?'Reviewed and ready for your menu.':'Check the imported details against your original menu.'}</div>
  ${input('name','Item name',i.name,'text','required maxlength="200"')}<label class="field">Description<textarea name="description" rows="3" maxlength="3000">${esc(i.description)}</textarea></label>
@@ -69,6 +69,7 @@ async function action(name,el){
  if(busy){toast('Please wait for the current save to finish.');return;}
  if(name==='close-dialog'){if(catalogDirty&&!confirm('Discard unsaved label and serving detail changes?'))return;finishDialog();return;}
  if(name==='add-catalog-row'){$('#catalog-rows').insertAdjacentHTML('beforeend',catalogRowHTML({name:'',kind:el.dataset.kind},true));catalogDirty=true;$('#catalog-rows .catalog-row:last-child input').focus();return;}
+ if(name==='clear-catalog-icon'){const row=el.closest('.catalog-row');$('.catalog-icon',row).value='';$('.catalog-icon-image',row).value='';$('.catalog-icon-file',row).value='';$('.icon-sample',row).textContent='—';catalogDirty=true;return;}
  if(name==='remove-catalog-row'){el.closest('.catalog-row').remove();catalogDirty=true;return;}
  if(name==='backup'){backup();return;}
  if(name==='logout'){if(!canLeave())return;if(unsaved&&!confirm('Some changes have not reached the server. Sign out anyway? Export a backup first to keep them.'))return;await fetch('/logout',{method:'POST'});dirty=false;unsaved=false;location.href='/login';return;}
@@ -91,10 +92,10 @@ async function action(name,el){
  if(name==='delete-restaurant'){if(data.restaurants.length===1){toast('Keep at least one restaurant.');return;}if(!confirm(`Delete ${r.name} and its entire menu? Export a backup first if you need to keep it.`))return;data.restaurants=data.restaurants.filter(x=>x.id!==r.id);selectRestaurant(data.restaurants[0].id);finishDialog();await save();return;}
  render();dialogAction=name;
  if(name==='add-restaurant'){openDialog('Add restaurant',`${input('name','Restaurant name','','text','required maxlength="200"')}${input('location','Location')}<label class="field">Starting menu<select name="template"><option value="">Start with an empty menu</option>${data.restaurants.map(r=>`<option value="${r.id}">Copy ${esc(r.name)}’s menu</option>`).join('')}</select></label><p class="hint">Copied menus are independent. Changes won’t affect the original restaurant.</p>`,'Create restaurant');}
- if(name==='manage-labels'){catalogDirty=false;openDialog('Labels & serving details',`<p class="catalog-intro">Manage options for <strong>${esc(r.name)}</strong>. Renaming an option updates the dishes using it in this restaurant.</p><div class="catalog-toolbar">${button('add-catalog-row','+ Label','data-kind="label"','secondary')}${button('add-catalog-row','+ Serving detail','data-kind="serving"','secondary')}</div><div id="catalog-rows">${MenuCatalog.initialize(r).map(t=>catalogRowHTML(t)).join('')}</div><p class="hint">Removing an option also removes it from this restaurant’s dishes when you save. Other restaurants are unaffected.</p>`,'Save labels & details',true);}
+ if(name==='manage-labels'){catalogDirty=false;openDialog('Labels & serving details',`<p class="catalog-intro">Manage options for <strong>${esc(r.name)}</strong>. Choose a symbol or upload your own icon. Changes update the dishes using this option in this restaurant.</p><div class="catalog-toolbar">${button('add-catalog-row','+ Label','data-kind="label"','secondary')}${button('add-catalog-row','+ Serving detail','data-kind="serving"','secondary')}</div><div id="catalog-rows">${MenuCatalog.initialize(r).map(t=>catalogRowHTML(t)).join('')}</div><p class="hint">Removing an option also removes it from this restaurant’s dishes when you save. Other restaurants are unaffected.</p>`,'Save labels & details',true);}
  if(name==='settings'){openDialog('Restaurant settings',`${input('name','Restaurant name',r.name,'text','required')}${input('location','Location',r.location)}${input('menuTitle','Menu title',r.menuTitle,'text','required')}<div class="two-fields">${input('currency','Currency',r.currency,'text','required maxlength="12"')}${input('priceUnit','Price multiplier',r.priceUnit,'number','required min="1" step="1"')}</div><div class="two-fields">${input('serviceCharge','Service charge (%)',r.serviceCharge,'number','required min="0" max="100" step="0.01"')}${input('tax','Tax (%)',r.tax,'number','required min="0" max="100" step="0.01"')}</div>${input('dietaryNote','Menu-wide dietary note',r.dietaryNote)}<label class="field">Footer / pricing note<textarea name="footer" rows="3">${esc(r.footer)}</textarea></label><p class="hint">Update the footer wording if you change the price multiplier, tax or service charge.</p><label class="field">Restaurant logo<input type="file" id="logo-file" accept="image/png,image/jpeg,image/webp"></label>${r.logo?'<label class="check-row"><input type="checkbox" name="removeLogo">Remove current logo</label>':''}<hr>${button('delete-restaurant','Delete restaurant','','text-button danger')}`);}
  if(name==='add-category'||name==='edit-category'){openDialog(name==='add-category'?'Add category':'Edit category',`${input('name','Category name',name==='edit-category'?c.name:'','text','required maxlength="200"')}<label class="field">Category notes<textarea name="notes" rows="3">${esc(name==='edit-category'?c.notes:'')}</textarea></label>${name==='edit-category'?`<div class="dialog-actions">${button('category-up','↑ Move up','','secondary')}${button('category-down','↓ Move down','','secondary')}${button('delete-category','Delete category','','text-button danger')}</div>`:''}`);}
- if(name==='preview'){modal.className='wide';modal.innerHTML=`<header><div><span class="eyebrow">CONTENT PREVIEW</span><h2>${esc(r.name)}</h2></div>${button('close-dialog','×','aria-label="Close preview"','icon-button')}</header><div class="preview"><div class="preview-heading">${r.logo?`<img src="${esc(r.logo)}" alt="${esc(r.name)} logo">`:''}<h2>${esc(r.menuTitle)}</h2><p>${esc(r.dietaryNote)}</p><small>Prices in ${esc(r.currency)} × ${fmt(r.priceUnit)}. This is a content preview; the final PDF layout comes later.</small></div><div class="preview-grid">${r.categories.map(c=>`<section><h3>${esc(c.name)}</h3>${c.notes?`<p class="hint">${esc(c.notes)}</p>`:''}${c.items.filter(i=>i.available).map(i=>`<article>${i.image?`<img class="dish-thumb" src="${esc(i.image)}" alt="${esc(i.name)}">`:''}<div class="preview-item"><strong>${esc(i.name)}</strong><b>${fmt(i.price)}</b></div><p>${esc(i.description)}</p>${i.options.map(o=>`<p class="preview-option">${esc(o.name)} <b>${o.kind==='Add-on'?'+':''}${fmt(o.price)}</b></p>`).join('')}<small>${esc(i.tags.join(' · '))}</small></article>`).join('')||'<p class="hint">No visible items</p>'}</section>`).join('')}</div><p class="preview-footer">${esc(r.footer)}</p></div>`;modal.showModal();}
+ if(name==='preview'){modal.className='wide';modal.innerHTML=`<header><div><span class="eyebrow">CONTENT PREVIEW</span><h2>${esc(r.name)}</h2></div>${button('close-dialog','×','aria-label="Close preview"','icon-button')}</header><div class="preview"><div class="preview-heading">${r.logo?`<img src="${esc(r.logo)}" alt="${esc(r.name)} logo">`:''}<h2>${esc(r.menuTitle)}</h2><p>${esc(r.dietaryNote)}</p><small>Prices in ${esc(r.currency)} × ${fmt(r.priceUnit)}. This is a content preview; the final PDF layout comes later.</small></div><div class="preview-grid">${r.categories.map(c=>`<section><h3>${esc(c.name)}</h3>${c.notes?`<p class="hint">${esc(c.notes)}</p>`:''}${c.items.filter(i=>i.available).map(i=>`<article>${i.image?`<img class="dish-thumb" src="${esc(i.image)}" alt="${esc(i.name)}">`:''}<div class="preview-item"><strong>${esc(i.name)}</strong><b>${fmt(i.price)}</b></div><p>${esc(i.description)}</p>${i.options.map(o=>`<p class="preview-option">${esc(o.name)} <b>${o.kind==='Add-on'?'+':''}${fmt(o.price)}</b></p>`).join('')}<small class="preview-tags">${i.tags.map(tag=>`<span>${tagDisplay(tag)}</span>`).join('')}</small></article>`).join('')||'<p class="hint">No visible items</p>'}</section>`).join('')}</div><p class="preview-footer">${esc(r.footer)}</p></div>`;modal.showModal();}
  if(name==='restore'){openDialog('Restore a backup','<p>This replaces all restaurants and menu data with a previously exported backup. Export your current data first if you want to keep a copy.</p><label class="field">Menu Studio backup<input type="file" name="backup" accept="application/json,.json" required></label>','Restore backup');}
 }
 function setDirty(){dirty=true;const state=$('#edit-state');if(state)state.textContent='Unsaved edits';}
@@ -109,11 +110,11 @@ app.addEventListener('submit',async e=>{if(e.target.id!=='item-form')return;e.pr
  Object.assign(i,{name,description:fields.get('description').trim(),price:Number(fields.get('price')),notes:fields.get('notes').trim(),image:fields.get('image'),available:fields.has('available'),reviewed:fields.has('reviewed'),tags:selectedTags,options});
  if(fields.get('category')!==categoryId){old.items=old.items.filter(x=>x.id!==i.id);categoryId=fields.get('category');category().items.push(i);}dirty=false;await save();if(!saveError)toast('Item saved');
 });
-modal.addEventListener('submit',async e=>{e.preventDefault();if(busy)return;const f=new FormData(e.target),r=restaurant();
+modal.addEventListener('submit',async e=>{e.preventDefault();if(busy||pendingIconReads)return;const f=new FormData(e.target),r=restaurant();
  try{
  if(['settings','add-restaurant','add-category','edit-category'].includes(dialogAction)&&!f.get('name').trim()){toast('Enter a name.');return;}
  if(dialogAction==='manage-labels'){
-  const rows=[...modal.querySelectorAll('.catalog-row')].map(row=>({original:row.dataset.original,name:$('.catalog-name',row).value.trim(),kind:$('.catalog-kind',row).value}));
+  const rows=[...modal.querySelectorAll('.catalog-row')].map(row=>({original:row.dataset.original,name:$('.catalog-name',row).value.trim(),kind:$('.catalog-kind',row).value,icon:$('.catalog-icon',row).value,iconImage:$('.catalog-icon-image',row).value}));
   MenuCatalog.validate(rows);
   const kept=new Set(rows.map(row=>row.original));
   const removed=r.tagCatalog.filter(tag=>!kept.has(tag.name));
@@ -151,12 +152,40 @@ Promise.all([fetch('/api/menus').then(async res=>{if(res.status===401){location.
 
 function tagChoices(item,kind,title){
  const choices=MenuCatalog.initialize(restaurant()).filter(t=>t.kind===kind);
- return `<fieldset class="tag-group"><legend>${title}</legend><div class="tags">${choices.map(t=>`<label class="tag"><input type="checkbox" name="tag" value="${esc(t.name)}" ${item.tags.includes(t.name)?'checked':''}><span>${esc(t.name)}</span></label>`).join('')||'<span class="hint">No options yet. Use Manage to add one.</span>'}</div></fieldset>`;
+ return `<fieldset class="tag-group"><legend>${title}</legend><div class="tags">${choices.map(t=>`<label class="tag"><input type="checkbox" name="tag" value="${esc(t.name)}" ${item.tags.includes(t.name)?'checked':''}><span>${iconHTML(t)}${esc(t.name)}</span></label>`).join('')||'<span class="hint">No options yet. Use Manage to add one.</span>'}</div></fieldset>`;
 }
 function catalogRowHTML(tag,isNew=false){
  const count=isNew?0:allItems().filter(item=>item.tags.includes(tag.name)).length;
- return `<div class="catalog-row" data-original="${esc(isNew?'':tag.name)}"><label class="field">Name<input class="catalog-name" value="${esc(tag.name)}" maxlength="200" required placeholder="e.g. Spicy or With jasmine rice"></label><label class="field">Type<select class="catalog-kind"><option value="label" ${tag.kind==='label'?'selected':''}>Label</option><option value="serving" ${tag.kind==='serving'?'selected':''}>Serving detail</option></select></label><span class="catalog-usage">${count} ${count===1?'dish':'dishes'}</span>${button('remove-catalog-row','×','aria-label="Remove option"','icon-button danger')}</div>`;
+ return `<div class="catalog-row" data-original="${esc(isNew?'':tag.name)}"><label class="field">Name<input class="catalog-name" value="${esc(tag.name)}" maxlength="200" required placeholder="e.g. Spicy or With jasmine rice"></label><label class="field">Type<select class="catalog-kind"><option value="label" ${tag.kind==='label'?'selected':''}>Label</option><option value="serving" ${tag.kind==='serving'?'selected':''}>Serving detail</option></select></label>${iconPickerHTML(tag)}<span class="catalog-usage">${count} ${count===1?'dish':'dishes'}</span>${button('remove-catalog-row','×','aria-label="Remove option"','icon-button danger')}</div>`;
 }
 modal.addEventListener('input',()=>{if(dialogAction==='manage-labels')catalogDirty=true;});
 modal.addEventListener('change',()=>{if(dialogAction==='manage-labels')catalogDirty=true;});
 modal.addEventListener('cancel',e=>{if(catalogDirty&&!confirm('Discard unsaved label and serving detail changes?'))e.preventDefault();else catalogDirty=false;});
+
+const iconChoices=[['','No icon'],['🌿','Leaf'],['🌶️','Chilli'],['🔥','Flame'],['⭐','Star'],['✨','Sparkles'],['🆕','New'],['⏱️','Timer'],['🍚','Rice'],['🥔','Potato'],['🍟','Fries'],['🥗','Salad'],['🥖','Bread'],['🍞','Toast'],['🍜','Noodles'],['🍲','Soup'],['🧀','Cheese'],['🥚','Egg'],['🐟','Fish'],['🦐','Shrimp'],['🥜','Nuts'],['🌾','Wheat'],['🥛','Milk'],['🍋','Lemon'],['🍷','Wine'],['☕','Coffee'],['✓','Check']];
+function iconHTML(tag){
+ if(tag?.iconImage&&/^data:image\/(png|jpeg|webp);base64,/.test(tag.iconImage))return `<img class="label-icon" src="${esc(tag.iconImage)}" alt="" aria-hidden="true">`;
+ return tag?.icon?`<span class="label-icon symbol" aria-hidden="true">${esc(tag.icon)}</span>`:'';
+}
+function tagDisplay(name){return iconHTML(restaurant().tagCatalog?.find(t=>t.name===name))+esc(name);}
+function iconPickerHTML(tag){
+ const choices=iconChoices.some(([value])=>value===(tag.icon||''))?iconChoices:[...iconChoices,[tag.icon,'Saved icon']];
+ return `<div class="catalog-icon-control"><label class="field">Icon<select class="catalog-icon" aria-label="Icon for ${esc(tag.name||'new option')}">${choices.map(([value,label])=>`<option value="${esc(value)}" ${(tag.icon||'')===value?'selected':''}>${esc(value?value+' '+label:label)}</option>`).join('')}</select></label><div class="icon-upload-row"><span class="icon-sample">${iconHTML(tag)||'<span aria-hidden="true">—</span>'}</span><label class="icon-upload"><span>Upload icon</span><input class="catalog-icon-file" type="file" accept="image/png,image/jpeg,image/webp" aria-label="Upload icon for ${esc(tag.name||'new option')}"></label>${button('clear-catalog-icon','Clear','aria-label="Clear icon"','text-button')}<input type="hidden" class="catalog-icon-image" value="${esc(tag.iconImage||'')}"></div><small>PNG, JPG, WebP · 256 KB max</small></div>`;
+}
+modal.addEventListener('change',async e=>{
+ const row=e.target.closest('.catalog-row');if(!row)return;
+ if(e.target.matches('.catalog-icon')){
+  $('.catalog-icon-image',row).value='';$('.catalog-icon-file',row).value='';
+  $('.icon-sample',row).innerHTML=iconHTML({icon:e.target.value})||'<span aria-hidden="true">—</span>';catalogDirty=true;
+ }
+ if(e.target.matches('.catalog-icon-file')){
+  const file=e.target.files[0];if(!file)return;
+  if(file.size>256*1024){toast('Choose an icon smaller than 256 KB.');e.target.value='';return;}
+  const submit=$('#modal-form button[type=submit]');pendingIconReads++;submit.disabled=true;
+  try{
+   const encoded=await imageData(file);if(!row.isConnected)return;
+   $('.catalog-icon-image',row).value=encoded;$('.catalog-icon',row).value='';
+   $('.icon-sample',row).innerHTML=iconHTML({iconImage:encoded});catalogDirty=true;
+  }catch(err){toast(err.message);}finally{pendingIconReads--;if(submit.isConnected)submit.disabled=pendingIconReads>0;}
+ }
+});
