@@ -16,7 +16,7 @@ The local server binds to the local computer only. The Railway version uses Flas
 
 ## Railway
 
-Build with the included Dockerfile. Attach a persistent volume at `/data`; set `MENU_DATA_DIR=/data`, `PORT=8080`, and `MENU_PUBLIC_ORIGIN` to the exact HTTPS service URL. Set `MENU_USERNAME`, `MENU_PASSWORD_HASH` (a Werkzeug password hash), and a random `MENU_SESSION_SECRET` as private Railway variables. Startup refuses to run without authentication configuration. Do not commit credentials. `.deployment/` and `.env*` are excluded from both Git and deployment uploads.
+Build with the included Dockerfile. Attach a persistent volume at `/data`; set `MENU_DATA_DIR=/data`, `PORT=8080`, and `MENU_PUBLIC_ORIGIN` to the exact HTTPS service URL. Set `MENU_USERNAME`, `MENU_PASSWORD_HASH` (a Werkzeug password hash), and a random `MENU_SESSION_SECRET` as private Railway variables. Optional additional logins can be supplied with `MENU_ADDITIONAL_USERS` as a JSON object mapping usernames to Werkzeug password hashes, for example `{"admin2":"scrypt:..."}`. Startup refuses to run with missing or malformed authentication configuration. Do not commit credentials. `.deployment/` and `.env*` are excluded from both Git and deployment uploads.
 
 Use one replica and one Gunicorn worker (four threads). The file store uses a process lock and optimistic revision checks; multiple workers or replicas would require a transactional database. The initial menu data is copied only when the volume is empty. Later releases never replace the stored menus. `/health` checks storage readability; menus and PDFs require sign-in. Sessions expire after 12 hours; sign-in attempts are rate limited per IP within the running process. Export backups regularly.
 

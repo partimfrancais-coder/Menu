@@ -21,6 +21,7 @@ def create_app(config=None):
         SECRET_KEY=os.environ.get('MENU_SESSION_SECRET'),
         PASSWORD_HASH=os.environ.get('MENU_PASSWORD_HASH'),
         USERNAME=os.environ.get('MENU_USERNAME', 'admin'),
+        ADDITIONAL_USERS_JSON=os.environ.get('MENU_ADDITIONAL_USERS', '{}'),
         DATA_DIR=os.environ.get('MENU_DATA_DIR', '/data'),
         PUBLIC_ORIGIN=os.environ.get('MENU_PUBLIC_ORIGIN') or ('https://'+os.environ['RAILWAY_PUBLIC_DOMAIN'] if os.environ.get('RAILWAY_PUBLIC_DOMAIN') else ''),
         MAX_CONTENT_LENGTH=LIMIT,
@@ -32,6 +33,16 @@ def create_app(config=None):
     if config: app.config.update(config)
     if not app.config['SECRET_KEY'] or not app.config['PASSWORD_HASH']:
         raise RuntimeError('MENU_SESSION_SECRET and MENU_PASSWORD_HASH must be configured.')
+    try:
+        additional_users=app.config['ADDITIONAL_USERS_JSON']
+        if isinstance(additional_users,str): additional_users=json.loads(additional_users)
+        if not isinstance(additional_users,dict): raise ValueError
+        if any(not isinstance(username,str) or not username or len(username)>100 or not isinstance(password_hash,str) or not password_hash for username,password_hash in additional_users.items()):
+            raise ValueError
+        if app.config['USERNAME'] in additional_users: raise ValueError
+    except (TypeError,ValueError,json.JSONDecodeError):
+        raise RuntimeError('MENU_ADDITIONAL_USERS must be a JSON object mapping usernames to Werkzeug password hashes.') from None
+    credentials={app.config['USERNAME']:app.config['PASSWORD_HASH'],**additional_users}
     if not app.config['PUBLIC_ORIGIN'].startswith('https://'):
         raise RuntimeError('A trusted HTTPS MENU_PUBLIC_ORIGIN or Railway public domain is required.')
     app.wsgi_app=ProxyFix(app.wsgi_app, x_for=1, x_proto=1)
@@ -89,7 +100,9 @@ def create_app(config=None):
             if len(recent)>=10: return render_template('login.html',error='Too many attempts. Try again in 15 minutes.'),429
             recent.append(now)
         username=request.form.get('username',''); password=request.form.get('password','')
-        if len(password)>1024 or not secrets.compare_digest(username.encode(),app.config['USERNAME'].encode()) or not check_password_hash(app.config['PASSWORD_HASH'],password):
+        password_hash=next((value for name,value in credentials.items() if secrets.compare_digest(username.encode(),name.encode())),None)
+        check_hash=password_hash or app.config['PASSWORD_HASH']
+        if len(password)>1024 or password_hash is None or not check_password_hash(check_hash,password):
             return render_template('login.html',error='Incorrect username or password.'),401
         with attempt_lock: attempts.pop(key,None)
         session.clear(); session['authenticated']=True; session.permanent=True

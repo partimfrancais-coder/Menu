@@ -10,6 +10,7 @@ class HostedTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         cls.password_hash=generate_password_hash('test-password',method='pbkdf2:sha256:600000')
+        cls.admin2_password_hash=generate_password_hash('admin2-password',method='pbkdf2:sha256:600000')
     def setUp(self):
         self.temp=tempfile.TemporaryDirectory()
         self.config=dict(TESTING=True,SECRET_KEY='test-session-secret',PASSWORD_HASH=self.password_hash,DATA_DIR=self.temp.name,PUBLIC_ORIGIN='https://menu.test')
@@ -29,6 +30,13 @@ class HostedTests(unittest.TestCase):
         for flag in ['Secure','HttpOnly','SameSite=Lax']: self.assertIn(flag,cookie)
         self.assertEqual(self.call('/api/menus').status_code,200)
         self.call('/logout','POST');self.assertEqual(self.call('/api/menus').status_code,401)
+    def test_additional_user_can_login_without_replacing_primary_user(self):
+        config=dict(self.config,ADDITIONAL_USERS_JSON=json.dumps({'admin2':self.admin2_password_hash}))
+        self.app=create_app(config);self.client=self.app.test_client()
+        response=self.call('/login','POST',data={'username':'admin2','password':'admin2-password'})
+        self.assertEqual(response.status_code,302)
+        self.call('/logout','POST')
+        self.assertEqual(self.login().status_code,302)
     def test_save_survives_app_restart_without_overwriting_seed(self):
         self.login();data=self.call('/api/menus').json
         untouched=copy.deepcopy(data['restaurants'][1]);data['restaurants'][0]['categories'][0]['items'][0]['price']=89
@@ -57,6 +65,7 @@ class HostedTests(unittest.TestCase):
             with self.call(path) as response: self.assertEqual(response.status_code,200)
     def test_missing_auth_configuration_fails_closed(self):
         with self.assertRaises(RuntimeError): create_app(dict(self.config,PASSWORD_HASH=''))
+        with self.assertRaises(RuntimeError): create_app(dict(self.config,ADDITIONAL_USERS_JSON='not-json'))
     def test_design_prompt_persists_separately_without_changing_dishes(self):
         self.login();data=self.call('/api/menus').json;before=copy.deepcopy(data)
         data['restaurants'][0]['designPrompt']='Kemang design instructions\nNo generation yet.'
