@@ -30,6 +30,15 @@ class StorageTests(unittest.TestCase):
         self.assertEqual(saved['restaurants'][1],self.seed['restaurants'][1])
         self.assertEqual(result['revision'],self.seed['revision']+1)
         self.assertTrue(server.DATA.with_suffix('.previous.json').exists())
+    def test_restaurant_download_and_replace(self):
+        rid=self.seed['restaurants'][0]['id'];path=f'/api/restaurants/{rid}/data'
+        status,download=self.request(path=path);self.assertEqual(status,200)
+        download['restaurant']['categories']=[]
+        status,saved=self.request('POST',path,{'revision':self.seed['revision'],'upload':download})
+        self.assertEqual(status,200)
+        self.assertEqual(saved['restaurants'][0]['categories'],[])
+        self.assertEqual(saved['restaurants'][1],self.seed['restaurants'][1])
+        self.assertEqual(self.request()[1],saved)
     def test_rejects_stale_tab_without_overwriting(self):
         data=copy.deepcopy(self.seed)
         self.assertEqual(self.request('POST',data=data)[0],200)

@@ -5,3 +5,11 @@ reference/
 .deployment/
 .env*
 node_modules/
+
+data/*.sqlite3*
+
+data/*.before-products.json
+
+data/*.before-product-categories.json
+
+data/*.before-cuisine.json

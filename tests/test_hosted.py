@@ -35,11 +35,23 @@ class HostedTests(unittest.TestCase):
         self.app=create_app(config);self.client=self.app.test_client()
         response=self.call('/login','POST',data={'username':'admin2','password':'admin2-password'})
         self.assertEqual(response.status_code,302)
+        self.assertEqual(self.call('/api/menus').status_code,200)
+        self.assertEqual(self.call('/users').status_code,403)
         self.call('/logout','POST')
         self.assertEqual(self.login().status_code,302)
+    def test_additional_user_remains_disabled_after_restart(self):
+        config=dict(self.config,ADDITIONAL_USERS_JSON=json.dumps({'admin2':self.admin2_password_hash}))
+        self.app=create_app(config)
+        accounts=self.app.extensions['accounts']
+        people,_=accounts.listing()
+        owner=next(user for user in people if user['owner'])
+        extra=next(user for user in people if user['username']=='admin2')
+        accounts.manage(extra['id'],'editor',False,owner['id'])
+        self.app=create_app(config);self.client=self.app.test_client()
+        self.assertEqual(self.call('/login','POST',data={'username':'admin2','password':'admin2-password'}).status_code,401)
     def test_save_survives_app_restart_without_overwriting_seed(self):
         self.login();data=self.call('/api/menus').json
-        untouched=copy.deepcopy(data['restaurants'][1]);data['restaurants'][0]['categories'][0]['items'][0]['price']=89
+        untouched=copy.deepcopy(data['restaurants'][1]);pid=data['restaurants'][0]['categories'][0]['items'][0]['productId'];next(p for p in data['products'] if p['id']==pid)['price']=89
         self.assertEqual(self.call('/api/menus','POST',json=data).status_code,200)
         self.app=create_app(self.config);self.client=self.app.test_client();self.login()
         restored=self.call('/api/menus').json
@@ -47,7 +59,9 @@ class HostedTests(unittest.TestCase):
         self.assertEqual(restored['restaurants'][1],untouched)
         self.assertTrue((Path(self.temp.name)/'menus.previous.json').exists())
     def test_origin_and_host_protection(self):
+        self.assertEqual(self.call('/login').headers['Referrer-Policy'],'same-origin')
         self.login()
+        self.assertEqual(self.client.post('/login',base_url='https://menu.test',headers={'Origin':'null'},data={'username':'admin','password':'test-password'}).status_code,403)
         self.assertEqual(self.client.post('/api/menus',base_url='https://menu.test',headers={'Origin':'https://evil.test'},json={}).status_code,403)
         self.assertEqual(self.client.get('/api/menus',base_url='https://evil.test').status_code,403)
     def test_conflict_and_malformed_restore_do_not_overwrite(self):
@@ -60,7 +74,7 @@ class HostedTests(unittest.TestCase):
         for _ in range(10): self.assertEqual(self.call('/login','POST',data={'username':'admin','password':'wrong'}).status_code,401)
         self.assertEqual(self.login().status_code,429)
     def test_hosted_runtime_and_assets(self):
-        self.login();self.assertEqual(self.call('/api/runtime').json,{'hosted':True})
+        self.login();self.assertEqual(self.call('/api/runtime').json,{'hosted':True,'user':{'username':'admin','role':'admin'}})
         for path in ['/','/app.js','/styles.css','/sources/Kemang%20Lunch%20%26%20Dinner%2020260605A.pdf']:
             with self.call(path) as response: self.assertEqual(response.status_code,200)
     def test_missing_auth_configuration_fails_closed(self):
@@ -84,14 +98,15 @@ class HostedTests(unittest.TestCase):
         for value in [42,{},'x'*30001]:
             data['restaurants'][0]['designPrompt']=value
             self.assertEqual(self.call('/api/menus','POST',json=data).status_code,400)
-    def test_restaurant_catalog_persists_and_other_restaurant_is_unchanged(self):
+    def test_shared_catalog_persists_across_restaurants(self):
         self.login();data=self.call('/api/menus').json;other=copy.deepcopy(data['restaurants'][1])
-        data['restaurants'][0]['tagCatalog']=[{'name':'Chef choice','kind':'label','icon':'⭐','iconImage':''},{'name':'With rice','kind':'serving','icon':'','iconImage':'data:image/png;base64,iVBORw0KGgo='}]
+        data['productTags']=[{'name':'Chef choice','kind':'label','icon':'⭐','iconImage':''},{'name':'With rice','kind':'serving','icon':'','iconImage':'data:image/png;base64,iVBORw0KGgo='}]
         self.assertEqual(self.call('/api/menus','POST',json=data).status_code,200)
         self.app=create_app(self.config);self.client=self.app.test_client();self.login()
         saved=self.call('/api/menus').json
-        self.assertEqual(saved['restaurants'][0]['tagCatalog'],data['restaurants'][0]['tagCatalog'])
-        self.assertEqual(saved['restaurants'][1],other)
+        self.assertEqual(saved['restaurants'][0]['tagCatalog'],data['productTags'])
+        self.assertEqual(saved['restaurants'][1]['tagCatalog'],data['productTags'])
+        self.assertEqual(saved['restaurants'][1]['categories'],other['categories'])
         with self.call('/catalog.js') as response: self.assertEqual(response.status_code,200)
     def test_invalid_catalog_rejected_without_overwriting_menu(self):
         self.login();data=self.call('/api/menus').json;before=copy.deepcopy(data)

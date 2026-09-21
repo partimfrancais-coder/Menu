@@ -3,7 +3,7 @@ ENV PYTHONDONTWRITEBYTECODE=1 PYTHONUNBUFFERED=1
 WORKDIR /app
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
-COPY server.py hosted.py ./
+COPY server.py hosted.py accounts.py products.py public_menu.py ./
 COPY dist ./dist
 COPY templates ./templates
 COPY data/menus.json ./data/menus.json

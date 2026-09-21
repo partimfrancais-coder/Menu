@@ -6,3 +6,13 @@ data/*.previous.json
 data/*.tmp
 node_modules
 .env*
+tmp/
+output/
+
+data/*.sqlite3*
+
+data/*.before-products.json
+
+data/*.before-product-categories.json
+
+data/*.before-cuisine.json

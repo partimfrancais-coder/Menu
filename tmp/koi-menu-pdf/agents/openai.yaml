@@ -1,0 +1,4 @@
+interface:
+  display_name: "KOI Menu PDF"
+  short_description: "Generate KOI menus matching their original design"
+  default_prompt: "Use $koi-menu-pdf to generate a menu from the restaurant's latest saved data and design prompt."
