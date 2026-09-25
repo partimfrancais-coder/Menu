@@ -1,0 +1,2158 @@
+{
+  "categories": [
+    {
+      "catalogCategoryId": "7ba10699-e7e1-5056-9bf9-4de922b5b29c",
+      "id": "f812d05b-8c74-4e5b-8d07-be469ba0e23e",
+      "items": [
+        {
+          "available": true,
+          "categoryId": "7ba10699-e7e1-5056-9bf9-4de922b5b29c",
+          "cuisine": "Asian",
+          "description": "",
+          "id": "b9c4d241-01fc-469e-a825-c730f3557f32",
+          "image": "",
+          "name": "Crispy Enoki",
+          "notes": "PROVISIONAL PRICE — temporary placeholder requested by owner; confirm before final printing or customer use.",
+          "options": [],
+          "price": 45,
+          "productCode": "kk1904",
+          "productId": "f26d5b6a-4c60-509a-ab6b-d80c8297c5c3",
+          "reviewed": true,
+          "tags": [
+            "Spicy"
+          ]
+        },
+        {
+          "available": true,
+          "categoryId": "7ba10699-e7e1-5056-9bf9-4de922b5b29c",
+          "cuisine": "European",
+          "description": "",
+          "id": "c94d09f2-49e5-4981-8372-f70561a99ce7",
+          "image": "",
+          "name": "Cheese and Beef Croquettes",
+          "notes": "PROVISIONAL PRICE — temporary placeholder requested by owner; confirm before final printing or customer use.",
+          "options": [],
+          "price": 65,
+          "productCode": "kk4104",
+          "productId": "f5a2c24a-ffa6-5bfc-bbe5-a1cc84b3f534",
+          "reviewed": true,
+          "tags": []
+        },
+        {
+          "available": true,
+          "categoryId": "7ba10699-e7e1-5056-9bf9-4de922b5b29c",
+          "cuisine": "Asian",
+          "description": "",
+          "id": "7f055693-c1af-462f-b066-6bd73a4ed60b",
+          "image": "",
+          "name": "Spicy Garlic Chicken Wings",
+          "notes": "PROVISIONAL PRICE — temporary placeholder requested by owner; confirm before final printing or customer use.",
+          "options": [],
+          "price": 65,
+          "productCode": "kk3104",
+          "productId": "2cb78a25-ec3e-5660-aca7-8d0ebf76ab53",
+          "reviewed": true,
+          "tags": [
+            "Spicy"
+          ]
+        },
+        {
+          "available": true,
+          "categoryId": "7ba10699-e7e1-5056-9bf9-4de922b5b29c",
+          "cuisine": "European",
+          "description": "",
+          "id": "3c545dc4-803d-40bc-b45d-d6be34a1c408",
+          "image": "",
+          "name": "Mexican Nachos",
+          "notes": "PROVISIONAL PRICE — temporary placeholder requested by owner; confirm before final printing or customer use.",
+          "options": [],
+          "price": 105,
+          "productCode": "kk2430",
+          "productId": "fb9fc65a-6f8c-5720-b76d-a5a16351edd1",
+          "reviewed": true,
+          "tags": []
+        },
+        {
+          "available": true,
+          "categoryId": "7ba10699-e7e1-5056-9bf9-4de922b5b29c",
+          "cuisine": "Asian",
+          "description": "",
+          "id": "370c3eaa-b666-491d-b055-8ac14e516371",
+          "image": "",
+          "name": "Indian Samosa with Green Chutney",
+          "notes": "PROVISIONAL PRICE — temporary placeholder requested by owner; confirm before final printing or customer use.",
+          "options": [],
+          "price": 50,
+          "productCode": "kk3105",
+          "productId": "9ed272d4-456b-5ebd-8514-d8fc06ec7098",
+          "reviewed": true,
+          "tags": []
+        },
+        {
+          "available": true,
+          "categoryId": "7ba10699-e7e1-5056-9bf9-4de922b5b29c",
+          "cuisine": "European",
+          "description": "",
+          "id": "9adb902b-24b7-4f5b-9b82-59aa0b8c9c3c",
+          "image": "",
+          "name": "Homemade Fries with Spicy Aioli",
+          "notes": "PROVISIONAL PRICE — temporary placeholder requested by owner; confirm before final printing or customer use.",
+          "options": [],
+          "price": 65,
+          "productCode": "kk3101",
+          "productId": "53d51493-064c-5ecf-8d56-3564486a658f",
+          "reviewed": true,
+          "tags": []
+        },
+        {
+          "available": true,
+          "categoryId": "7ba10699-e7e1-5056-9bf9-4de922b5b29c",
+          "cuisine": "",
+          "description": "",
+          "id": "8922c815-330f-4091-a401-b2dffa6c2cc3",
+          "image": "",
+          "name": "Platter of Escargots with Garlic Butter",
+          "notes": "",
+          "options": [],
+          "price": 60.0,
+          "productCode": "",
+          "productId": "504904fb-47b4-4997-bf73-4f0cb0b6230e",
+          "reviewed": false,
+          "tags": []
+        },
+        {
+          "available": true,
+          "categoryId": "7ba10699-e7e1-5056-9bf9-4de922b5b29c",
+          "cuisine": "European",
+          "description": "",
+          "id": "c656485c-0ec4-4a84-9b90-e4e302386ced",
+          "image": "",
+          "name": "Triple Cheese Quesadillas and Guacamole",
+          "notes": "PROVISIONAL PRICE — temporary placeholder requested by owner; confirm before final printing or customer use.",
+          "options": [],
+          "price": 85,
+          "productCode": "kk4003",
+          "productId": "dd0ac532-fbb9-5362-9630-4d4378848c7e",
+          "reviewed": true,
+          "tags": [
+            "Vegetarian"
+          ]
+        }
+      ],
+      "name": "Finger Food",
+      "notes": ""
+    },
+    {
+      "catalogCategoryId": "e825a6de-58c4-4600-b7f3-b7697ca021e0",
+      "id": "e99bca32-8341-4d4b-9826-90ccbeeb1672",
+      "items": [
+        {
+          "available": true,
+          "categoryId": "e825a6de-58c4-4600-b7f3-b7697ca021e0",
+          "cuisine": "",
+          "description": "",
+          "id": "a78503e8-6676-4137-80c2-6efda578f6b4",
+          "image": "",
+          "name": "San Miguel Light",
+          "notes": "",
+          "options": [],
+          "price": 50.0,
+          "productCode": "",
+          "productId": "97bb530c-8c5e-493b-8668-cb4c265a903a",
+          "reviewed": false,
+          "tags": []
+        },
+        {
+          "available": true,
+          "categoryId": "e825a6de-58c4-4600-b7f3-b7697ca021e0",
+          "cuisine": "",
+          "description": "",
+          "id": "c5306579-dc97-4fe1-bb1e-3bddc77d53c2",
+          "image": "",
+          "name": "Bintang Lemon Radler",
+          "notes": "",
+          "options": [],
+          "price": 50.0,
+          "productCode": "",
+          "productId": "b452e2a5-5b8a-4b73-b9c6-59cd56644dc9",
+          "reviewed": false,
+          "tags": []
+        },
+        {
+          "available": true,
+          "categoryId": "e825a6de-58c4-4600-b7f3-b7697ca021e0",
+          "cuisine": "",
+          "description": "",
+          "id": "176097e6-0ba8-41c3-9014-35fac4c2eb3d",
+          "image": "",
+          "name": "Bintang Crystal",
+          "notes": "",
+          "options": [],
+          "price": 55.0,
+          "productCode": "",
+          "productId": "0c400b9d-169b-4cfa-9c24-c2158437aded",
+          "reviewed": false,
+          "tags": []
+        },
+        {
+          "available": true,
+          "categoryId": "e825a6de-58c4-4600-b7f3-b7697ca021e0",
+          "cuisine": "",
+          "description": "",
+          "id": "de4f2358-f3f0-4538-8889-e25e23c04c6a",
+          "image": "",
+          "name": "Carlsberg",
+          "notes": "",
+          "options": [],
+          "price": 65.0,
+          "productCode": "",
+          "productId": "a80db59c-78bf-4a90-84ce-c4bd7a56a1d7",
+          "reviewed": false,
+          "tags": []
+        },
+        {
+          "available": true,
+          "categoryId": "e825a6de-58c4-4600-b7f3-b7697ca021e0",
+          "cuisine": "",
+          "description": "",
+          "id": "cfefd4af-3049-452a-84fe-45944146b111",
+          "image": "",
+          "name": "Bintang",
+          "notes": "",
+          "options": [],
+          "price": 50.0,
+          "productCode": "",
+          "productId": "59657d07-d281-448b-8191-24fd6420a5a5",
+          "reviewed": false,
+          "tags": []
+        },
+        {
+          "available": true,
+          "categoryId": "e825a6de-58c4-4600-b7f3-b7697ca021e0",
+          "cuisine": "",
+          "description": "",
+          "id": "0268d520-8e93-4894-9910-682d265b9ae5",
+          "image": "",
+          "name": "Guinness Extra Stout",
+          "notes": "",
+          "options": [],
+          "price": 55.0,
+          "productCode": "",
+          "productId": "cca7440f-b6ec-40a0-9c9d-624638ca8989",
+          "reviewed": false,
+          "tags": []
+        },
+        {
+          "available": true,
+          "categoryId": "e825a6de-58c4-4600-b7f3-b7697ca021e0",
+          "cuisine": "",
+          "description": "",
+          "id": "477bf171-a4a1-4436-9f1e-db6c42f5f562",
+          "image": "",
+          "name": "Koenig",
+          "notes": "",
+          "options": [],
+          "price": 60.0,
+          "productCode": "",
+          "productId": "f7f457a2-2928-445f-a3d0-35cc30e1bad4",
+          "reviewed": false,
+          "tags": []
+        },
+        {
+          "available": true,
+          "categoryId": "e825a6de-58c4-4600-b7f3-b7697ca021e0",
+          "cuisine": "",
+          "description": "",
+          "id": "e440d5dd-7849-48dd-aacb-49c5ad2d4d70",
+          "image": "",
+          "name": "Anker",
+          "notes": "",
+          "options": [],
+          "price": 50.0,
+          "productCode": "",
+          "productId": "6825d289-b4af-4aa3-a9d9-ad4e1eb05d2c",
+          "reviewed": false,
+          "tags": []
+        },
+        {
+          "available": true,
+          "categoryId": "e825a6de-58c4-4600-b7f3-b7697ca021e0",
+          "cuisine": "",
+          "description": "",
+          "id": "8c82b8a7-f825-465d-9219-115525b81d44",
+          "image": "",
+          "name": "Carlsberg Draught",
+          "notes": "",
+          "options": [
+            {
+              "kind": "Variant",
+              "name": "33cl",
+              "price": 65
+            },
+            {
+              "kind": "Variant",
+              "name": "55cl",
+              "price": 110
+            }
+          ],
+          "price": 65,
+          "productCode": "",
+          "productId": "05b9d66a-1e03-469e-8b71-169cc1520aa2",
+          "reviewed": false,
+          "tags": []
+        }
+      ],
+      "name": "Local Beers",
+      "notes": ""
+    },
+    {
+      "catalogCategoryId": "651ba752-5f62-4b9e-ab9a-b32024fc4f5c",
+      "id": "9e67f1d0-59b0-4b92-ba67-9b28a4a0530d",
+      "items": [
+        {
+          "available": true,
+          "categoryId": "651ba752-5f62-4b9e-ab9a-b32024fc4f5c",
+          "cuisine": "",
+          "description": "Belgium; 3.8%",
+          "id": "f934bc03-50fd-4bf6-89fa-346102a7a992",
+          "image": "",
+          "name": "Liefmans Fruitesse",
+          "notes": "",
+          "options": [],
+          "price": 95,
+          "productCode": "",
+          "productId": "9ba3c922-6554-44f1-b798-b01fc89d6edf",
+          "reviewed": false,
+          "tags": []
+        },
+        {
+          "available": true,
+          "categoryId": "651ba752-5f62-4b9e-ab9a-b32024fc4f5c",
+          "cuisine": "",
+          "description": "Belgium; 4.9%",
+          "id": "b43e5f5f-4fe4-4340-b3c0-61c038f11838",
+          "image": "",
+          "name": "Hoegaarden Blanche",
+          "notes": "",
+          "options": [],
+          "price": 100,
+          "productCode": "",
+          "productId": "fba9869a-512e-47ec-bd6f-438ff48fd73c",
+          "reviewed": false,
+          "tags": []
+        },
+        {
+          "available": true,
+          "categoryId": "651ba752-5f62-4b9e-ab9a-b32024fc4f5c",
+          "cuisine": "",
+          "description": "Belgium; 8%",
+          "id": "f84af519-73a9-489c-97da-699fe4bbe50f",
+          "image": "",
+          "name": "La Chouffe",
+          "notes": "",
+          "options": [],
+          "price": 170,
+          "productCode": "",
+          "productId": "df7727de-a217-4484-9fcf-49d844d945bc",
+          "reviewed": false,
+          "tags": []
+        },
+        {
+          "available": true,
+          "categoryId": "651ba752-5f62-4b9e-ab9a-b32024fc4f5c",
+          "cuisine": "",
+          "description": "Belgium; 8.5%",
+          "id": "5a270519-eebe-4487-8979-9a3b9dedb6f2",
+          "image": "",
+          "name": "Duvel Golden Ale",
+          "notes": "",
+          "options": [],
+          "price": 170,
+          "productCode": "",
+          "productId": "ac801e76-05ac-4c65-bbd6-be92bc2db8d7",
+          "reviewed": false,
+          "tags": []
+        },
+        {
+          "available": true,
+          "categoryId": "651ba752-5f62-4b9e-ab9a-b32024fc4f5c",
+          "cuisine": "",
+          "description": "Belgium; 10%",
+          "id": "922c0f90-73a4-4e50-8ae4-939c04b32b97",
+          "image": "",
+          "name": "Maredsous Triple",
+          "notes": "",
+          "options": [],
+          "price": 170,
+          "productCode": "",
+          "productId": "d6ddf1bf-08a3-4bba-b554-36b625ddb735",
+          "reviewed": false,
+          "tags": []
+        },
+        {
+          "available": true,
+          "categoryId": "651ba752-5f62-4b9e-ab9a-b32024fc4f5c",
+          "cuisine": "",
+          "description": "Germany; 5.3%",
+          "id": "06306174-5dcb-454b-ba6c-60ac958a00bb",
+          "image": "",
+          "name": "Erdinger Weissbier",
+          "notes": "",
+          "options": [],
+          "price": 135,
+          "productCode": "",
+          "productId": "959884f7-8026-455c-bb7c-b2101f98bcf9",
+          "reviewed": false,
+          "tags": []
+        },
+        {
+          "available": true,
+          "categoryId": "651ba752-5f62-4b9e-ab9a-b32024fc4f5c",
+          "cuisine": "",
+          "description": "Germany; 5.3%",
+          "id": "d1ae52a5-cce6-4e2e-ba20-834e0a13b856",
+          "image": "",
+          "name": "Erdinger Dunkel",
+          "notes": "",
+          "options": [],
+          "price": 135,
+          "productCode": "",
+          "productId": "fa3323e3-ac78-4c18-801e-c78340b3822b",
+          "reviewed": false,
+          "tags": []
+        },
+        {
+          "available": true,
+          "categoryId": "651ba752-5f62-4b9e-ab9a-b32024fc4f5c",
+          "cuisine": "",
+          "description": "Mexico; 4.5%",
+          "id": "6810166f-b241-4bd4-84ff-0e6311b92a3a",
+          "image": "",
+          "name": "Corona",
+          "notes": "",
+          "options": [],
+          "price": 100,
+          "productCode": "",
+          "productId": "cdc3d260-3d0e-4ce8-a1e6-b003df8b682f",
+          "reviewed": false,
+          "tags": []
+        }
+      ],
+      "name": "Imported Beers",
+      "notes": ""
+    },
+    {
+      "catalogCategoryId": "174c016b-2c14-4448-9270-f71cb418d832",
+      "id": "65a02400-8840-411e-aa40-ceaadb967293",
+      "items": [
+        {
+          "available": true,
+          "categoryId": "174c016b-2c14-4448-9270-f71cb418d832",
+          "cuisine": "",
+          "description": "4.8%",
+          "id": "89dc6670-7f8a-4be4-8f61-5b09055edf89",
+          "image": "",
+          "name": "Island of Imagination Whitty White",
+          "notes": "",
+          "options": [],
+          "price": 85,
+          "productCode": "",
+          "productId": "df64f144-db2e-440e-a4a7-9f1b9edd4df3",
+          "reviewed": false,
+          "tags": []
+        },
+        {
+          "available": true,
+          "categoryId": "174c016b-2c14-4448-9270-f71cb418d832",
+          "cuisine": "",
+          "description": "5%",
+          "id": "ce1acc94-7f71-423b-9891-154530d0f2fb",
+          "image": "",
+          "name": "Kura Kura Island Ale",
+          "notes": "",
+          "options": [],
+          "price": 90,
+          "productCode": "",
+          "productId": "3c576b1d-b146-4466-9a22-083950e55ca4",
+          "reviewed": false,
+          "tags": []
+        },
+        {
+          "available": true,
+          "categoryId": "174c016b-2c14-4448-9270-f71cb418d832",
+          "cuisine": "",
+          "description": "4.8%",
+          "id": "7f4bb07b-3dd7-417f-a214-6d82665668bd",
+          "image": "",
+          "name": "Small Hazy",
+          "notes": "",
+          "options": [],
+          "price": 95,
+          "productCode": "",
+          "productId": "fd22abbb-0209-480e-bda1-2426cbcc4aae",
+          "reviewed": false,
+          "tags": []
+        },
+        {
+          "available": true,
+          "categoryId": "174c016b-2c14-4448-9270-f71cb418d832",
+          "cuisine": "",
+          "description": "7.9%",
+          "id": "75c6abb4-d105-4fe1-80ba-46b6ea1ae656",
+          "image": "",
+          "name": "Island of Imagination XPA",
+          "notes": "",
+          "options": [],
+          "price": 135,
+          "productCode": "",
+          "productId": "eedf5572-d5ee-4bac-a44e-17c993fd0539",
+          "reviewed": false,
+          "tags": []
+        },
+        {
+          "available": true,
+          "categoryId": "174c016b-2c14-4448-9270-f71cb418d832",
+          "cuisine": "",
+          "description": "7.1%",
+          "id": "75a39ced-0257-4a7e-9f12-ae5bb201cf29",
+          "image": "",
+          "name": "Kura Kura I.P.A",
+          "notes": "",
+          "options": [],
+          "price": 145,
+          "productCode": "",
+          "productId": "2f10a9c1-416e-4abc-8a04-a9bd944a6147",
+          "reviewed": false,
+          "tags": []
+        }
+      ],
+      "name": "Bali Craft Beers",
+      "notes": ""
+    },
+    {
+      "catalogCategoryId": "76b7119b-a246-4686-b968-01e23df3049c",
+      "id": "f7b16d14-0f2d-4faa-a242-ac8190302fa8",
+      "items": [
+        {
+          "available": true,
+          "categoryId": "76b7119b-a246-4686-b968-01e23df3049c",
+          "cuisine": "",
+          "description": "",
+          "id": "8d7dbc51-9bd3-4ea1-8813-12d9c5638b74",
+          "image": "",
+          "name": "Somersby Apple Cider",
+          "notes": "",
+          "options": [],
+          "price": 75,
+          "productCode": "",
+          "productId": "d66ef79b-e485-4c58-82be-6788b9a4310e",
+          "reviewed": false,
+          "tags": []
+        }
+      ],
+      "name": "Ciders",
+      "notes": ""
+    },
+    {
+      "catalogCategoryId": "01390a8d-22d4-4ddc-b1c9-b7a8ae97e634",
+      "id": "d8a93c3a-bdb4-478f-860f-9ddbe17c1fb6",
+      "items": [
+        {
+          "available": true,
+          "categoryId": "01390a8d-22d4-4ddc-b1c9-b7a8ae97e634",
+          "cuisine": "",
+          "description": "",
+          "id": "8278478c-b417-4402-a908-a16e8053738e",
+          "image": "",
+          "name": "Original Soju",
+          "notes": "",
+          "options": [],
+          "price": 125,
+          "productCode": "",
+          "productId": "bd49c89c-064d-4af7-8471-24ea316065b0",
+          "reviewed": false,
+          "tags": []
+        },
+        {
+          "available": true,
+          "categoryId": "01390a8d-22d4-4ddc-b1c9-b7a8ae97e634",
+          "cuisine": "",
+          "description": "",
+          "id": "355ec925-e2a9-4810-b191-18901ecbc0dc",
+          "image": "",
+          "name": "Lime Soju",
+          "notes": "",
+          "options": [],
+          "price": 125,
+          "productCode": "",
+          "productId": "e84ce467-cac7-48ed-b9ac-4d05e962b79c",
+          "reviewed": false,
+          "tags": []
+        },
+        {
+          "available": true,
+          "categoryId": "01390a8d-22d4-4ddc-b1c9-b7a8ae97e634",
+          "cuisine": "",
+          "description": "",
+          "id": "fc3e62f7-606e-44d5-9711-dad87b96a2e6",
+          "image": "",
+          "name": "Lychee Soju",
+          "notes": "",
+          "options": [],
+          "price": 125,
+          "productCode": "",
+          "productId": "3ded6491-4b26-4a67-bb60-43058815bf37",
+          "reviewed": false,
+          "tags": []
+        },
+        {
+          "available": true,
+          "categoryId": "01390a8d-22d4-4ddc-b1c9-b7a8ae97e634",
+          "cuisine": "",
+          "description": "",
+          "id": "4a79a1e7-2401-47df-a5b3-6cea12537ba1",
+          "image": "",
+          "name": "Peach Soju",
+          "notes": "",
+          "options": [],
+          "price": 125,
+          "productCode": "",
+          "productId": "51e4202c-a26a-40d6-993e-ab77ff01b3ca",
+          "reviewed": false,
+          "tags": []
+        },
+        {
+          "available": true,
+          "categoryId": "01390a8d-22d4-4ddc-b1c9-b7a8ae97e634",
+          "cuisine": "",
+          "description": "",
+          "id": "1e4e1fa8-0931-457b-b391-c0f1daa73df0",
+          "image": "",
+          "name": "Green Grape Soju",
+          "notes": "",
+          "options": [],
+          "price": 125,
+          "productCode": "",
+          "productId": "9bf5a9b4-a0d3-426b-a5c2-59e0fca6383a",
+          "reviewed": false,
+          "tags": []
+        }
+      ],
+      "name": "Korean Soju",
+      "notes": ""
+    },
+    {
+      "catalogCategoryId": "8ad09475-b2f9-4be8-82d4-2a7290297802",
+      "id": "b757e4d2-d27c-4013-8e12-4c598bb74493",
+      "items": [
+        {
+          "available": true,
+          "categoryId": "8ad09475-b2f9-4be8-82d4-2a7290297802",
+          "cuisine": "",
+          "description": "",
+          "id": "6b5c1041-6761-4de3-aa69-a5c69ba19adb",
+          "image": "",
+          "name": "Red Wine",
+          "notes": "",
+          "options": [
+            {
+              "kind": "Variant",
+              "name": "12cl",
+              "price": 95
+            },
+            {
+              "kind": "Variant",
+              "name": "18cl",
+              "price": 135
+            }
+          ],
+          "price": 95,
+          "productCode": "",
+          "productId": "b698a0b2-e061-4c86-a1c1-4d63534f6c35",
+          "reviewed": false,
+          "tags": []
+        },
+        {
+          "available": true,
+          "categoryId": "8ad09475-b2f9-4be8-82d4-2a7290297802",
+          "cuisine": "",
+          "description": "",
+          "id": "9d26244b-3ef1-4933-8e7d-c6d7dc5bfa52",
+          "image": "",
+          "name": "White Wine",
+          "notes": "",
+          "options": [
+            {
+              "kind": "Variant",
+              "name": "12cl",
+              "price": 95
+            },
+            {
+              "kind": "Variant",
+              "name": "18cl",
+              "price": 135
+            }
+          ],
+          "price": 95,
+          "productCode": "",
+          "productId": "8e0d9675-4f3c-4989-bfd1-5657b4fb1258",
+          "reviewed": false,
+          "tags": []
+        },
+        {
+          "available": true,
+          "categoryId": "8ad09475-b2f9-4be8-82d4-2a7290297802",
+          "cuisine": "",
+          "description": "9cl",
+          "id": "4aad084b-885f-4cee-9db6-57def49ff405",
+          "image": "",
+          "name": "Niepoort Tawny",
+          "notes": "",
+          "options": [],
+          "price": 95,
+          "productCode": "",
+          "productId": "fb90305c-e7cd-44c5-a12b-edcc6dba6183",
+          "reviewed": false,
+          "tags": []
+        }
+      ],
+      "name": "Wine by Glass",
+      "notes": ""
+    },
+    {
+      "catalogCategoryId": "7f24ca81-1a7c-4c64-a91d-45f73453974c",
+      "id": "8412f780-d1b5-42b7-888b-69bd5dd26f5b",
+      "items": [
+        {
+          "available": true,
+          "categoryId": "7f24ca81-1a7c-4c64-a91d-45f73453974c",
+          "cuisine": "",
+          "description": "",
+          "id": "73709e9b-3cfd-4864-a676-401a884f81a5",
+          "image": "",
+          "name": "Vanilla Milkshake",
+          "notes": "",
+          "options": [],
+          "price": 55,
+          "productCode": "",
+          "productId": "51c0e7fe-043d-4bb2-807e-2de965fce888",
+          "reviewed": false,
+          "tags": []
+        },
+        {
+          "available": true,
+          "categoryId": "7f24ca81-1a7c-4c64-a91d-45f73453974c",
+          "cuisine": "",
+          "description": "",
+          "id": "d9568fe5-0282-4776-91f4-e5b5b0cfa2a4",
+          "image": "",
+          "name": "Chocolate Milkshake",
+          "notes": "",
+          "options": [],
+          "price": 55,
+          "productCode": "",
+          "productId": "c68ed9a9-666c-4d45-b358-83840c6e4373",
+          "reviewed": false,
+          "tags": []
+        },
+        {
+          "available": true,
+          "categoryId": "7f24ca81-1a7c-4c64-a91d-45f73453974c",
+          "cuisine": "",
+          "description": "",
+          "id": "cd41adea-5cdb-4db3-9893-1d4afbc8263a",
+          "image": "",
+          "name": "Coconut Milkshake",
+          "notes": "",
+          "options": [],
+          "price": 55,
+          "productCode": "",
+          "productId": "952401b2-3b9b-446e-9ad1-052552bed7d0",
+          "reviewed": false,
+          "tags": []
+        },
+        {
+          "available": true,
+          "categoryId": "7f24ca81-1a7c-4c64-a91d-45f73453974c",
+          "cuisine": "",
+          "description": "",
+          "id": "f7d8ac58-58a2-4a86-a067-32349bc1da7b",
+          "image": "",
+          "name": "Strawberry Milkshake",
+          "notes": "",
+          "options": [],
+          "price": 55,
+          "productCode": "",
+          "productId": "5949482f-418a-48e5-b384-07a1bfaece53",
+          "reviewed": false,
+          "tags": []
+        },
+        {
+          "available": true,
+          "categoryId": "7f24ca81-1a7c-4c64-a91d-45f73453974c",
+          "cuisine": "",
+          "description": "",
+          "id": "0b78cf30-e505-4bc5-bbf3-9591695302b9",
+          "image": "",
+          "name": "Salted Caramel Milkshake",
+          "notes": "",
+          "options": [],
+          "price": 70,
+          "productCode": "",
+          "productId": "16f54327-3538-45b8-af54-9d1651c1c37b",
+          "reviewed": false,
+          "tags": []
+        }
+      ],
+      "name": "Milkshake",
+      "notes": ""
+    },
+    {
+      "catalogCategoryId": "8499bc7b-fa6c-496f-a555-ab7cbfdd59d6",
+      "id": "ab89575e-1d5b-469e-b168-e94240581da4",
+      "items": [
+        {
+          "available": true,
+          "categoryId": "8499bc7b-fa6c-496f-a555-ab7cbfdd59d6",
+          "cuisine": "",
+          "description": "",
+          "id": "28ae6d65-e134-4484-8ae5-4abe585974cc",
+          "image": "",
+          "name": "Lychee Spritzer",
+          "notes": "",
+          "options": [],
+          "price": 55,
+          "productCode": "",
+          "productId": "9965b576-ab7b-4bf2-b0aa-ec8dbf61e812",
+          "reviewed": false,
+          "tags": []
+        },
+        {
+          "available": true,
+          "categoryId": "8499bc7b-fa6c-496f-a555-ab7cbfdd59d6",
+          "cuisine": "",
+          "description": "",
+          "id": "a7ab3351-36d2-46e5-ae2f-a4e66cf746fc",
+          "image": "",
+          "name": "Orange The Basil",
+          "notes": "",
+          "options": [],
+          "price": 55,
+          "productCode": "",
+          "productId": "418bbd1d-023c-4195-8ad5-0808cd193a7c",
+          "reviewed": false,
+          "tags": []
+        },
+        {
+          "available": true,
+          "categoryId": "8499bc7b-fa6c-496f-a555-ab7cbfdd59d6",
+          "cuisine": "",
+          "description": "",
+          "id": "bd8e1d00-a21f-4883-980e-8b02676dabb3",
+          "image": "",
+          "name": "Pina & Lemongrass",
+          "notes": "",
+          "options": [],
+          "price": 55,
+          "productCode": "",
+          "productId": "52d597a8-e0d5-4c6e-8a08-07d96738d91a",
+          "reviewed": false,
+          "tags": []
+        },
+        {
+          "available": true,
+          "categoryId": "8499bc7b-fa6c-496f-a555-ab7cbfdd59d6",
+          "cuisine": "",
+          "description": "",
+          "id": "7337c748-f15c-48e5-9df1-1169404baaab",
+          "image": "",
+          "name": "Cucumber Spring",
+          "notes": "",
+          "options": [],
+          "price": 55,
+          "productCode": "",
+          "productId": "0badb492-3c8b-4728-933e-e19d14f465eb",
+          "reviewed": false,
+          "tags": []
+        },
+        {
+          "available": true,
+          "categoryId": "8499bc7b-fa6c-496f-a555-ab7cbfdd59d6",
+          "cuisine": "",
+          "description": "",
+          "id": "835a2f63-d81e-4fd6-a749-f23293ee41d7",
+          "image": "",
+          "name": "Yellow Peach",
+          "notes": "",
+          "options": [],
+          "price": 65,
+          "productCode": "",
+          "productId": "443c3ec5-ca5e-4cd5-8429-d5eb252a0c74",
+          "reviewed": false,
+          "tags": []
+        },
+        {
+          "available": true,
+          "categoryId": "8499bc7b-fa6c-496f-a555-ab7cbfdd59d6",
+          "cuisine": "",
+          "description": "",
+          "id": "cc9f4e32-d5a9-48a6-9251-cbfe79eb0860",
+          "image": "",
+          "name": "Unsalted Blue Caramel",
+          "notes": "",
+          "options": [],
+          "price": 65,
+          "productCode": "",
+          "productId": "8c5ed384-633b-4fb5-8e7d-fa2ba9abb16f",
+          "reviewed": false,
+          "tags": []
+        }
+      ],
+      "name": "Mocktails",
+      "notes": ""
+    },
+    {
+      "catalogCategoryId": "2599c74c-ff24-4535-8ef3-0abc6c16d82b",
+      "id": "3a37ea1d-1a0b-4763-b29f-1cdb8e03fc09",
+      "items": [
+        {
+          "available": true,
+          "categoryId": "2599c74c-ff24-4535-8ef3-0abc6c16d82b",
+          "cuisine": "",
+          "description": "",
+          "id": "dc128e81-b6fd-4157-94e7-3c60523815b1",
+          "image": "",
+          "name": "Pokka Green Tea",
+          "notes": "",
+          "options": [],
+          "price": 20.0,
+          "productCode": "",
+          "productId": "795bf4d2-1316-4e6e-a9f9-5ac6b653fdc2",
+          "reviewed": false,
+          "tags": []
+        },
+        {
+          "available": true,
+          "categoryId": "2599c74c-ff24-4535-8ef3-0abc6c16d82b",
+          "cuisine": "",
+          "description": "",
+          "id": "ee2f1d47-c7a2-4aad-ae5b-81772b642b1b",
+          "image": "",
+          "name": "Coke",
+          "notes": "",
+          "options": [],
+          "price": 25.0,
+          "productCode": "",
+          "productId": "ca6a210d-9659-4711-8637-e541dfe7b5dc",
+          "reviewed": false,
+          "tags": []
+        },
+        {
+          "available": true,
+          "categoryId": "2599c74c-ff24-4535-8ef3-0abc6c16d82b",
+          "cuisine": "",
+          "description": "",
+          "id": "d5da4d17-47f1-4524-933d-07f463444338",
+          "image": "",
+          "name": "Sprite",
+          "notes": "",
+          "options": [],
+          "price": 25.0,
+          "productCode": "",
+          "productId": "9b3855a4-1aa5-475d-97b8-9642ea78dfd9",
+          "reviewed": false,
+          "tags": []
+        },
+        {
+          "available": true,
+          "categoryId": "2599c74c-ff24-4535-8ef3-0abc6c16d82b",
+          "cuisine": "",
+          "description": "",
+          "id": "23039c5f-64ff-4065-8551-e321c472fc42",
+          "image": "",
+          "name": "Coke Zero",
+          "notes": "",
+          "options": [],
+          "price": 30.0,
+          "productCode": "",
+          "productId": "2a8a67b6-3ec0-4f7e-a218-4cd8a8d49083",
+          "reviewed": false,
+          "tags": []
+        },
+        {
+          "available": true,
+          "categoryId": "2599c74c-ff24-4535-8ef3-0abc6c16d82b",
+          "cuisine": "",
+          "description": "",
+          "id": "78e6d8a7-8506-424d-87a2-cea841d7e817",
+          "image": "",
+          "name": "Ginger Ale",
+          "notes": "",
+          "options": [],
+          "price": 30.0,
+          "productCode": "",
+          "productId": "b183e6d6-e520-4ecd-9fee-25171e0405f5",
+          "reviewed": false,
+          "tags": []
+        },
+        {
+          "available": true,
+          "categoryId": "2599c74c-ff24-4535-8ef3-0abc6c16d82b",
+          "cuisine": "",
+          "description": "",
+          "id": "79325092-075b-48b2-9fef-230860fa8d31",
+          "image": "",
+          "name": "Tonic",
+          "notes": "",
+          "options": [],
+          "price": 30.0,
+          "productCode": "",
+          "productId": "ccbc2127-d902-4ef4-8bfd-df2a7f038d5a",
+          "reviewed": false,
+          "tags": []
+        },
+        {
+          "available": true,
+          "categoryId": "2599c74c-ff24-4535-8ef3-0abc6c16d82b",
+          "cuisine": "",
+          "description": "",
+          "id": "96182f31-29d0-4c8b-a634-6a9e4f9ee706",
+          "image": "",
+          "name": "Soda Water",
+          "notes": "",
+          "options": [],
+          "price": 30.0,
+          "productCode": "",
+          "productId": "86254550-d399-4076-924f-4d9dfc8e3244",
+          "reviewed": false,
+          "tags": []
+        },
+        {
+          "available": true,
+          "categoryId": "2599c74c-ff24-4535-8ef3-0abc6c16d82b",
+          "cuisine": "",
+          "description": "",
+          "id": "47736ba6-5aef-4541-97ac-7a213c92ef6e",
+          "image": "",
+          "name": "Kratingdaeng",
+          "notes": "",
+          "options": [],
+          "price": 30.0,
+          "productCode": "",
+          "productId": "3450deb3-cb1a-47d5-93f9-938ca1b830eb",
+          "reviewed": false,
+          "tags": []
+        }
+      ],
+      "name": "Soft",
+      "notes": ""
+    },
+    {
+      "catalogCategoryId": "35ad5701-375e-442e-8af8-9b2b5da45715",
+      "id": "fae671f9-6d5b-4666-8eca-9c91f1aa5af6",
+      "items": [
+        {
+          "available": true,
+          "categoryId": "35ad5701-375e-442e-8af8-9b2b5da45715",
+          "cuisine": "",
+          "description": "",
+          "id": "d24aaa67-434f-43a3-9c26-10cf5e5e8e1f",
+          "image": "",
+          "name": "Mineral Water (50cl)",
+          "notes": "",
+          "options": [],
+          "price": 19,
+          "productCode": "",
+          "productId": "40e17968-feec-4213-b1da-e6388d520499",
+          "reviewed": false,
+          "tags": []
+        },
+        {
+          "available": true,
+          "categoryId": "35ad5701-375e-442e-8af8-9b2b5da45715",
+          "cuisine": "",
+          "description": "",
+          "id": "1f7aeee6-626a-44ef-bba0-a79afeb24bf0",
+          "image": "",
+          "name": "Sparkling Water (50cl)",
+          "notes": "",
+          "options": [],
+          "price": 25,
+          "productCode": "",
+          "productId": "34c63a1a-c40d-49c1-9378-a016d37fc76b",
+          "reviewed": false,
+          "tags": []
+        },
+        {
+          "available": true,
+          "categoryId": "35ad5701-375e-442e-8af8-9b2b5da45715",
+          "cuisine": "",
+          "description": "",
+          "id": "886f37bb-04ea-4626-b3b9-5d6986cfcb63",
+          "image": "",
+          "name": "Dolomia Still",
+          "notes": "",
+          "options": [
+            {
+              "kind": "Variant",
+              "name": "33cl",
+              "price": 45
+            },
+            {
+              "kind": "Variant",
+              "name": "75cl",
+              "price": 70
+            }
+          ],
+          "price": 45,
+          "productCode": "",
+          "productId": "f4e6813a-28a7-4863-b21b-2ec37caa6c2c",
+          "reviewed": false,
+          "tags": []
+        },
+        {
+          "available": true,
+          "categoryId": "35ad5701-375e-442e-8af8-9b2b5da45715",
+          "cuisine": "",
+          "description": "",
+          "id": "036edd7c-745c-4d38-ade0-1a31c121fbb9",
+          "image": "",
+          "name": "Dolomia Sparkling",
+          "notes": "",
+          "options": [
+            {
+              "kind": "Variant",
+              "name": "33cl",
+              "price": 45
+            },
+            {
+              "kind": "Variant",
+              "name": "75cl",
+              "price": 70
+            }
+          ],
+          "price": 45,
+          "productCode": "",
+          "productId": "6706baaa-5f15-446e-bbfe-2d89cc966ebb",
+          "reviewed": false,
+          "tags": []
+        }
+      ],
+      "name": "Water",
+      "notes": ""
+    },
+    {
+      "catalogCategoryId": "85043b9a-6abf-4da4-bd40-11a02be28ae4",
+      "id": "4f87b1c5-dcf8-469f-9de0-a34bc5c03bb0",
+      "items": [
+        {
+          "available": true,
+          "categoryId": "85043b9a-6abf-4da4-bd40-11a02be28ae4",
+          "cuisine": "",
+          "description": "Squeeze or squash",
+          "id": "b0ba6e4b-4763-42a7-ac0d-0e6f0c05365e",
+          "image": "",
+          "name": "Lime Juice",
+          "notes": "",
+          "options": [],
+          "price": 40,
+          "productCode": "",
+          "productId": "6f115c7f-d39f-4a71-b87b-5c146aca5df4",
+          "reviewed": false,
+          "tags": []
+        },
+        {
+          "available": true,
+          "categoryId": "85043b9a-6abf-4da4-bd40-11a02be28ae4",
+          "cuisine": "",
+          "description": "Squeeze or squash",
+          "id": "e82b4b20-c9af-4805-b581-9e6181dbd63e",
+          "image": "",
+          "name": "Lemon Juice",
+          "notes": "",
+          "options": [],
+          "price": 40,
+          "productCode": "",
+          "productId": "9a93d007-723d-42e7-84c0-9b2291af79a3",
+          "reviewed": false,
+          "tags": []
+        },
+        {
+          "available": true,
+          "categoryId": "85043b9a-6abf-4da4-bd40-11a02be28ae4",
+          "cuisine": "",
+          "description": "",
+          "id": "c9f8ee8e-d939-4a8b-890d-14e1d7f08827",
+          "image": "",
+          "name": "Melon Juice",
+          "notes": "",
+          "options": [],
+          "price": 45,
+          "productCode": "",
+          "productId": "8a0d8051-94c5-4e00-8330-5ce7c839bf40",
+          "reviewed": false,
+          "tags": []
+        },
+        {
+          "available": true,
+          "categoryId": "85043b9a-6abf-4da4-bd40-11a02be28ae4",
+          "cuisine": "",
+          "description": "",
+          "id": "fd7cd005-a922-4c9d-bd5b-c3baee9ddbd6",
+          "image": "",
+          "name": "Watermelon Juice",
+          "notes": "",
+          "options": [],
+          "price": 45,
+          "productCode": "",
+          "productId": "a2a91fc2-cb35-4fc3-994d-3c8cf11e3f1b",
+          "reviewed": false,
+          "tags": []
+        },
+        {
+          "available": true,
+          "categoryId": "85043b9a-6abf-4da4-bd40-11a02be28ae4",
+          "cuisine": "",
+          "description": "",
+          "id": "78a912f0-f421-40f5-875b-5999c1decbba",
+          "image": "",
+          "name": "Pineapple Juice",
+          "notes": "",
+          "options": [],
+          "price": 45,
+          "productCode": "",
+          "productId": "ec814cdf-7165-4bce-ab0b-bcca9ef9d817",
+          "reviewed": false,
+          "tags": []
+        },
+        {
+          "available": true,
+          "categoryId": "85043b9a-6abf-4da4-bd40-11a02be28ae4",
+          "cuisine": "",
+          "description": "",
+          "id": "bc42c2d0-776d-4e44-aaa2-95daa0c68c2c",
+          "image": "",
+          "name": "Papaya Juice",
+          "notes": "",
+          "options": [],
+          "price": 45,
+          "productCode": "",
+          "productId": "7a99b938-51d2-4f84-be63-2e3d08af9507",
+          "reviewed": false,
+          "tags": []
+        },
+        {
+          "available": true,
+          "categoryId": "85043b9a-6abf-4da4-bd40-11a02be28ae4",
+          "cuisine": "",
+          "description": "",
+          "id": "1eb324bf-7a28-4b0d-bee9-bb45659fb675",
+          "image": "",
+          "name": "Mango Juice",
+          "notes": "",
+          "options": [],
+          "price": 55,
+          "productCode": "",
+          "productId": "4658f759-d870-4f5e-bae7-622822fee7d2",
+          "reviewed": false,
+          "tags": []
+        },
+        {
+          "available": true,
+          "categoryId": "85043b9a-6abf-4da4-bd40-11a02be28ae4",
+          "cuisine": "",
+          "description": "",
+          "id": "ec49cca6-c2a5-4249-8c67-4588e2d03c93",
+          "image": "",
+          "name": "Strawberry Juice",
+          "notes": "",
+          "options": [],
+          "price": 55,
+          "productCode": "",
+          "productId": "9039abcc-a819-4de6-98a4-a1bc165efe8b",
+          "reviewed": false,
+          "tags": []
+        },
+        {
+          "available": true,
+          "categoryId": "85043b9a-6abf-4da4-bd40-11a02be28ae4",
+          "cuisine": "",
+          "description": "",
+          "id": "109cb9fa-cf71-47f2-a76b-b28deb76099f",
+          "image": "",
+          "name": "Orange Juice",
+          "notes": "",
+          "options": [],
+          "price": 60,
+          "productCode": "",
+          "productId": "633f17b0-c639-457d-bec8-d334a3d61211",
+          "reviewed": false,
+          "tags": []
+        },
+        {
+          "available": true,
+          "categoryId": "85043b9a-6abf-4da4-bd40-11a02be28ae4",
+          "cuisine": "",
+          "description": "",
+          "id": "615d36e8-977f-4f1d-bd97-06738f35f959",
+          "image": "",
+          "name": "Carrot Juice",
+          "notes": "",
+          "options": [],
+          "price": 60,
+          "productCode": "",
+          "productId": "f199acb6-65eb-4638-b229-602dfca7d809",
+          "reviewed": false,
+          "tags": []
+        },
+        {
+          "available": true,
+          "categoryId": "85043b9a-6abf-4da4-bd40-11a02be28ae4",
+          "cuisine": "",
+          "description": "",
+          "id": "913df3b6-ff17-40c7-b3d6-d76d78658121",
+          "image": "",
+          "name": "Orange Squash",
+          "notes": "",
+          "options": [],
+          "price": 55,
+          "productCode": "",
+          "productId": "cfad825a-3ec4-4dc1-90b4-a6287171f2dc",
+          "reviewed": false,
+          "tags": []
+        }
+      ],
+      "name": "Juice",
+      "notes": ""
+    },
+    {
+      "catalogCategoryId": "5298f091-ba94-4d4e-9eae-d46eef46ed32",
+      "id": "9ef7e2fb-101f-4e9e-ba2d-5d71ab44677f",
+      "items": [
+        {
+          "available": true,
+          "categoryId": "5298f091-ba94-4d4e-9eae-d46eef46ed32",
+          "cuisine": "",
+          "description": "",
+          "id": "64d74b7f-6833-4498-a178-5c0ba922d170",
+          "image": "",
+          "name": "Hot or Cold Chocolate",
+          "notes": "",
+          "options": [],
+          "price": 40,
+          "productCode": "",
+          "productId": "b4d68292-b630-4e4a-b2b6-69af4552bb72",
+          "reviewed": false,
+          "tags": []
+        }
+      ],
+      "name": "Chocolate",
+      "notes": ""
+    },
+    {
+      "catalogCategoryId": "19821760-27c1-4967-aada-67a4b61888f8",
+      "id": "5a578cf1-86fe-4ae3-8a09-503c5bf0eaad",
+      "items": [
+        {
+          "available": true,
+          "categoryId": "19821760-27c1-4967-aada-67a4b61888f8",
+          "cuisine": "",
+          "description": "",
+          "id": "cc6d8d56-77a0-4296-82ec-96eb29d8b00e",
+          "image": "",
+          "name": "Tea (Iced or Hot)",
+          "notes": "",
+          "options": [],
+          "price": 28.0,
+          "productCode": "",
+          "productId": "a246cf84-5c07-4714-bdda-60c2c7c761de",
+          "reviewed": false,
+          "tags": []
+        },
+        {
+          "available": true,
+          "categoryId": "19821760-27c1-4967-aada-67a4b61888f8",
+          "cuisine": "",
+          "description": "",
+          "id": "c83a3f79-8662-4c3a-8085-f1b46d41e2c5",
+          "image": "",
+          "name": "Lemon Tea (Iced or Hot)",
+          "notes": "",
+          "options": [],
+          "price": 30.0,
+          "productCode": "",
+          "productId": "921bde09-9daf-4d21-8e20-579fc83bb2e1",
+          "reviewed": false,
+          "tags": []
+        },
+        {
+          "available": true,
+          "categoryId": "19821760-27c1-4967-aada-67a4b61888f8",
+          "cuisine": "",
+          "description": "",
+          "id": "eaf2e49d-146a-47cb-a2e9-d02dd102b60c",
+          "image": "",
+          "name": "Lemongrass Tea",
+          "notes": "",
+          "options": [],
+          "price": 40.0,
+          "productCode": "",
+          "productId": "462f29cc-7212-4f61-904b-041e481a6f69",
+          "reviewed": false,
+          "tags": []
+        },
+        {
+          "available": true,
+          "categoryId": "19821760-27c1-4967-aada-67a4b61888f8",
+          "cuisine": "",
+          "description": "",
+          "id": "b4a5b9dc-333c-4078-afcc-e6912a2943f3",
+          "image": "",
+          "name": "Peach Sorbet Iced Tea",
+          "notes": "",
+          "options": [],
+          "price": 55.0,
+          "productCode": "",
+          "productId": "9a85d7cb-92fe-4a20-b2af-ca35c1aabfda",
+          "reviewed": false,
+          "tags": []
+        },
+        {
+          "available": true,
+          "categoryId": "19821760-27c1-4967-aada-67a4b61888f8",
+          "cuisine": "",
+          "description": "",
+          "id": "fe8db651-b3e6-46d5-b00f-c8b7bad7febf",
+          "image": "",
+          "name": "Strawberry Sorbet Iced Tea",
+          "notes": "",
+          "options": [],
+          "price": 55.0,
+          "productCode": "",
+          "productId": "494baa90-3390-4324-b7c8-6b55d492809d",
+          "reviewed": false,
+          "tags": []
+        },
+        {
+          "available": true,
+          "categoryId": "19821760-27c1-4967-aada-67a4b61888f8",
+          "cuisine": "",
+          "description": "Lychee, Peach, Strawberry, Green Apple syrups",
+          "id": "65e68114-bb35-45d7-a555-da76ec220970",
+          "image": "",
+          "name": "Flavoured Iced Tea",
+          "notes": "",
+          "options": [],
+          "price": 45,
+          "productCode": "",
+          "productId": "99b0cc55-9206-4b62-a5ff-9c251a4ed848",
+          "reviewed": false,
+          "tags": []
+        },
+        {
+          "available": true,
+          "categoryId": "19821760-27c1-4967-aada-67a4b61888f8",
+          "cuisine": "",
+          "description": "Black tea: English Breakfast, Earl Grey. Green tea: Sencha, Grand Jasmine, Moroccan Mint, Waterfruit. No theine: Chamomille, Vanilla Bourbon Red Tea. Grand Jasmine, Moroccan Mint, Waterfruit and Vanilla Bourbon Red Tea can be served iced.",
+          "id": "62a836ae-6ccb-40d7-ac5f-0de55302c542",
+          "image": "",
+          "name": "Pot of TWG Tea",
+          "notes": "",
+          "options": [],
+          "price": 45,
+          "productCode": "",
+          "productId": "871a96cb-c02e-44e4-8245-3104019ccea2",
+          "reviewed": false,
+          "tags": []
+        }
+      ],
+      "name": "Tea",
+      "notes": ""
+    },
+    {
+      "catalogCategoryId": "849567d3-2855-4531-aac5-0ee49052ffa8",
+      "id": "96d31a85-8e6e-4ad0-bdcd-bbaf29fabbf3",
+      "items": [
+        {
+          "available": true,
+          "categoryId": "849567d3-2855-4531-aac5-0ee49052ffa8",
+          "cuisine": "",
+          "description": "",
+          "id": "6575349a-b29b-4b4a-a606-b7aea1d45ffa",
+          "image": "",
+          "name": "Espresso",
+          "notes": "",
+          "options": [
+            {
+              "kind": "Add-on",
+              "name": "Oat Milk",
+              "price": 5
+            },
+            {
+              "kind": "Add-on",
+              "name": "Caramel Syrup",
+              "price": 10
+            },
+            {
+              "kind": "Add-on",
+              "name": "Hazelnut Syrup",
+              "price": 10
+            },
+            {
+              "kind": "Add-on",
+              "name": "Vanilla Syrup",
+              "price": 10
+            },
+            {
+              "kind": "Add-on",
+              "name": "Espresso Shot",
+              "price": 12
+            }
+          ],
+          "price": 28,
+          "productCode": "",
+          "productId": "c996586d-a014-4fdd-addc-52a24cb99a20",
+          "reviewed": false,
+          "tags": []
+        },
+        {
+          "available": true,
+          "categoryId": "849567d3-2855-4531-aac5-0ee49052ffa8",
+          "cuisine": "",
+          "description": "",
+          "id": "32121e6a-7c67-46fa-a089-92fafc27aa67",
+          "image": "",
+          "name": "Black Coffee",
+          "notes": "",
+          "options": [
+            {
+              "kind": "Add-on",
+              "name": "Oat Milk",
+              "price": 5
+            },
+            {
+              "kind": "Add-on",
+              "name": "Caramel Syrup",
+              "price": 10
+            },
+            {
+              "kind": "Add-on",
+              "name": "Hazelnut Syrup",
+              "price": 10
+            },
+            {
+              "kind": "Add-on",
+              "name": "Vanilla Syrup",
+              "price": 10
+            },
+            {
+              "kind": "Add-on",
+              "name": "Espresso Shot",
+              "price": 12
+            }
+          ],
+          "price": 28,
+          "productCode": "",
+          "productId": "9e5a4a03-8502-4cf0-ba8c-a4e6146b883b",
+          "reviewed": false,
+          "tags": []
+        },
+        {
+          "available": true,
+          "categoryId": "849567d3-2855-4531-aac5-0ee49052ffa8",
+          "cuisine": "",
+          "description": "",
+          "id": "25dae635-13c2-4e51-a6ba-8e92a630059f",
+          "image": "",
+          "name": "Macchiato",
+          "notes": "",
+          "options": [
+            {
+              "kind": "Add-on",
+              "name": "Oat Milk",
+              "price": 5
+            },
+            {
+              "kind": "Add-on",
+              "name": "Caramel Syrup",
+              "price": 10
+            },
+            {
+              "kind": "Add-on",
+              "name": "Hazelnut Syrup",
+              "price": 10
+            },
+            {
+              "kind": "Add-on",
+              "name": "Vanilla Syrup",
+              "price": 10
+            },
+            {
+              "kind": "Add-on",
+              "name": "Espresso Shot",
+              "price": 12
+            }
+          ],
+          "price": 32,
+          "productCode": "",
+          "productId": "bd8e4d9e-8c73-4226-a2a2-008414aabd4a",
+          "reviewed": false,
+          "tags": []
+        },
+        {
+          "available": true,
+          "categoryId": "849567d3-2855-4531-aac5-0ee49052ffa8",
+          "cuisine": "",
+          "description": "",
+          "id": "435a2140-d50d-4273-902d-b0efa8642924",
+          "image": "",
+          "name": "Piccolo Latte",
+          "notes": "",
+          "options": [
+            {
+              "kind": "Add-on",
+              "name": "Oat Milk",
+              "price": 5
+            },
+            {
+              "kind": "Add-on",
+              "name": "Caramel Syrup",
+              "price": 10
+            },
+            {
+              "kind": "Add-on",
+              "name": "Hazelnut Syrup",
+              "price": 10
+            },
+            {
+              "kind": "Add-on",
+              "name": "Vanilla Syrup",
+              "price": 10
+            },
+            {
+              "kind": "Add-on",
+              "name": "Espresso Shot",
+              "price": 12
+            }
+          ],
+          "price": 32,
+          "productCode": "",
+          "productId": "b290504e-da89-4414-9960-abd9f0d6e820",
+          "reviewed": false,
+          "tags": []
+        },
+        {
+          "available": true,
+          "categoryId": "849567d3-2855-4531-aac5-0ee49052ffa8",
+          "cuisine": "",
+          "description": "",
+          "id": "d11bf2c5-9451-4c5a-a717-5d8e91da3512",
+          "image": "",
+          "name": "Cappuccino",
+          "notes": "",
+          "options": [
+            {
+              "kind": "Add-on",
+              "name": "Oat Milk",
+              "price": 5
+            },
+            {
+              "kind": "Add-on",
+              "name": "Caramel Syrup",
+              "price": 10
+            },
+            {
+              "kind": "Add-on",
+              "name": "Hazelnut Syrup",
+              "price": 10
+            },
+            {
+              "kind": "Add-on",
+              "name": "Vanilla Syrup",
+              "price": 10
+            },
+            {
+              "kind": "Add-on",
+              "name": "Espresso Shot",
+              "price": 12
+            }
+          ],
+          "price": 42,
+          "productCode": "",
+          "productId": "29dc630a-faa1-4a16-8946-b6df64255bb1",
+          "reviewed": false,
+          "tags": []
+        },
+        {
+          "available": true,
+          "categoryId": "849567d3-2855-4531-aac5-0ee49052ffa8",
+          "cuisine": "",
+          "description": "",
+          "id": "8e63899b-f7cd-4287-8069-2a91583f45f2",
+          "image": "",
+          "name": "Latte",
+          "notes": "",
+          "options": [
+            {
+              "kind": "Add-on",
+              "name": "Oat Milk",
+              "price": 5
+            },
+            {
+              "kind": "Add-on",
+              "name": "Caramel Syrup",
+              "price": 10
+            },
+            {
+              "kind": "Add-on",
+              "name": "Hazelnut Syrup",
+              "price": 10
+            },
+            {
+              "kind": "Add-on",
+              "name": "Vanilla Syrup",
+              "price": 10
+            },
+            {
+              "kind": "Add-on",
+              "name": "Espresso Shot",
+              "price": 12
+            }
+          ],
+          "price": 44,
+          "productCode": "",
+          "productId": "f4d1734e-0eaf-4844-9ddf-13b1353370db",
+          "reviewed": false,
+          "tags": []
+        },
+        {
+          "available": true,
+          "categoryId": "849567d3-2855-4531-aac5-0ee49052ffa8",
+          "cuisine": "",
+          "description": "",
+          "id": "63c0da54-1734-48b5-b9d8-498e35dcb8f3",
+          "image": "",
+          "name": "Mocha",
+          "notes": "",
+          "options": [
+            {
+              "kind": "Add-on",
+              "name": "Oat Milk",
+              "price": 5
+            },
+            {
+              "kind": "Add-on",
+              "name": "Caramel Syrup",
+              "price": 10
+            },
+            {
+              "kind": "Add-on",
+              "name": "Hazelnut Syrup",
+              "price": 10
+            },
+            {
+              "kind": "Add-on",
+              "name": "Vanilla Syrup",
+              "price": 10
+            },
+            {
+              "kind": "Add-on",
+              "name": "Espresso Shot",
+              "price": 12
+            }
+          ],
+          "price": 44,
+          "productCode": "",
+          "productId": "382dc52e-15b6-4350-9a9d-aee674a8c5b0",
+          "reviewed": false,
+          "tags": []
+        }
+      ],
+      "name": "Coffee",
+      "notes": ""
+    },
+    {
+      "catalogCategoryId": "8f39e6cd-b57d-4bee-8fa3-df2b2f6a27eb",
+      "id": "7c243958-0781-4e62-a555-48faac16b39e",
+      "items": [
+        {
+          "available": true,
+          "categoryId": "8f39e6cd-b57d-4bee-8fa3-df2b2f6a27eb",
+          "cuisine": "",
+          "description": "",
+          "id": "c6ea4a1d-1d04-458e-81ae-abb167a5bfbf",
+          "image": "",
+          "name": "Papaya & Orange",
+          "notes": "",
+          "options": [],
+          "price": 55.0,
+          "productCode": "",
+          "productId": "af6c2cd7-8199-4e12-beb1-61a4028b1671",
+          "reviewed": false,
+          "tags": []
+        },
+        {
+          "available": true,
+          "categoryId": "8f39e6cd-b57d-4bee-8fa3-df2b2f6a27eb",
+          "cuisine": "",
+          "description": "",
+          "id": "bbf1ab40-76d7-4feb-aaa3-16b743d962e5",
+          "image": "",
+          "name": "Yakult & Tomato Basil",
+          "notes": "",
+          "options": [],
+          "price": 60.0,
+          "productCode": "",
+          "productId": "2a3bd39c-f18f-4536-830d-9fe8e3ffbf00",
+          "reviewed": false,
+          "tags": []
+        },
+        {
+          "available": true,
+          "categoryId": "8f39e6cd-b57d-4bee-8fa3-df2b2f6a27eb",
+          "cuisine": "",
+          "description": "",
+          "id": "cc5dc92e-b3d8-4744-8fbf-cef374ead469",
+          "image": "",
+          "name": "Wheat Grass Orange",
+          "notes": "",
+          "options": [],
+          "price": 65.0,
+          "productCode": "",
+          "productId": "44f5e1f3-9c12-4e13-85c4-c4ce529d4752",
+          "reviewed": false,
+          "tags": []
+        }
+      ],
+      "name": "Healthy Drink",
+      "notes": ""
+    },
+    {
+      "catalogCategoryId": "e90cc148-4a3d-41c1-82f1-6b88d9514830",
+      "id": "bd16a5c5-377d-48d3-912f-27f8c88ce45e",
+      "items": [
+        {
+          "available": true,
+          "categoryId": "e90cc148-4a3d-41c1-82f1-6b88d9514830",
+          "cuisine": "",
+          "description": "Every day, 4–8 PM",
+          "id": "50aa5282-496a-45e3-b802-c5fce838ad2d",
+          "image": "",
+          "name": "Bintang - Bucket of 5 Bottles",
+          "notes": "",
+          "options": [],
+          "price": 195,
+          "productCode": "",
+          "productId": "1a6e6dd2-4e04-46d6-9cda-b6b7d3c4d963",
+          "reviewed": false,
+          "tags": []
+        },
+        {
+          "available": true,
+          "categoryId": "e90cc148-4a3d-41c1-82f1-6b88d9514830",
+          "cuisine": "",
+          "description": "Every day, 4–8 PM",
+          "id": "0aa59d08-40d7-4497-b128-7a09f9d39d1a",
+          "image": "",
+          "name": "San Miguel Light - Bucket of 5 Bottles",
+          "notes": "",
+          "options": [],
+          "price": 195,
+          "productCode": "",
+          "productId": "efb9f14c-8c18-4c77-9305-bdaffd9b40d0",
+          "reviewed": false,
+          "tags": []
+        },
+        {
+          "available": true,
+          "categoryId": "e90cc148-4a3d-41c1-82f1-6b88d9514830",
+          "cuisine": "",
+          "description": "Every day, 4–8 PM",
+          "id": "a0f29364-0cb3-43fb-9c5c-5a60991f15de",
+          "image": "",
+          "name": "Carlsberg - Bucket of 5 Bottles",
+          "notes": "",
+          "options": [],
+          "price": 255,
+          "productCode": "",
+          "productId": "a925c500-7198-49e8-ac08-b7f696cac5ba",
+          "reviewed": false,
+          "tags": []
+        },
+        {
+          "available": true,
+          "categoryId": "e90cc148-4a3d-41c1-82f1-6b88d9514830",
+          "cuisine": "",
+          "description": "Every day, 4–8 PM",
+          "id": "cad73b00-6131-4def-851f-f7529f9ad6fd",
+          "image": "",
+          "name": "Heineken - Bucket of 5 Bottles",
+          "notes": "",
+          "options": [],
+          "price": 255,
+          "productCode": "",
+          "productId": "cea4476f-46ff-42fc-96f1-f64271a61c26",
+          "reviewed": false,
+          "tags": []
+        },
+        {
+          "available": true,
+          "categoryId": "e90cc148-4a3d-41c1-82f1-6b88d9514830",
+          "cuisine": "",
+          "description": "Every day, 4–8 PM",
+          "id": "f4080cf3-ee85-43bf-b5b4-1b42dce54eaf",
+          "image": "",
+          "name": "Anker - Bucket of 5 Bottles",
+          "notes": "",
+          "options": [],
+          "price": 195,
+          "productCode": "",
+          "productId": "aac82f55-5f82-48d6-bbff-9dd17fba0f9c",
+          "reviewed": false,
+          "tags": []
+        },
+        {
+          "available": true,
+          "categoryId": "e90cc148-4a3d-41c1-82f1-6b88d9514830",
+          "cuisine": "",
+          "description": "Every day, 4–8 PM",
+          "id": "4dff82aa-6f2d-4b71-875f-f5004ca4c5af",
+          "image": "",
+          "name": "Corona - Bucket of 5 Bottles",
+          "notes": "",
+          "options": [],
+          "price": 395,
+          "productCode": "",
+          "productId": "406e3b5c-b2d5-41a3-98ab-0c2e9dfe8a53",
+          "reviewed": false,
+          "tags": []
+        }
+      ],
+      "name": "Everyday Happy Hour",
+      "notes": "Every day, 4–8 PM. Bucket of 5 bottles."
+    },
+    {
+      "catalogCategoryId": "43746f8b-2d9e-495e-b840-5564175b7fee",
+      "id": "78ee4d70-cf0e-4f61-b861-1c031e21ef1e",
+      "items": [
+        {
+          "available": true,
+          "categoryId": "43746f8b-2d9e-495e-b840-5564175b7fee",
+          "cuisine": "",
+          "description": "Spiced Rum, Lime Juice, Fresh Ginger, Brown Sugar",
+          "id": "8d981cf6-019d-4a2a-9598-22855a970cb3",
+          "image": "",
+          "name": "Dark & Stormy",
+          "notes": "",
+          "options": [],
+          "price": 120,
+          "productCode": "",
+          "productId": "430f56fa-e26d-4c5e-8c5a-930664d38657",
+          "reviewed": false,
+          "tags": []
+        },
+        {
+          "available": true,
+          "categoryId": "43746f8b-2d9e-495e-b840-5564175b7fee",
+          "cuisine": "",
+          "description": "Vodka, Fresh Lime Juice, Simple Syrup",
+          "id": "83fd7b02-c720-4177-95fa-26c0eae008f4",
+          "image": "",
+          "name": "Caipiroska",
+          "notes": "",
+          "options": [],
+          "price": 120,
+          "productCode": "",
+          "productId": "cfaa7574-23b3-4e2a-b5ed-30fba32c5d7f",
+          "reviewed": false,
+          "tags": []
+        },
+        {
+          "available": true,
+          "categoryId": "43746f8b-2d9e-495e-b840-5564175b7fee",
+          "cuisine": "",
+          "description": "Blended Whiskey, Lemon Juice, Egg White",
+          "id": "f8a0a057-945a-4ddd-9149-b4b59300775f",
+          "image": "",
+          "name": "Whiskey Sour",
+          "notes": "",
+          "options": [],
+          "price": 125,
+          "productCode": "",
+          "productId": "cbef8854-b9a8-45f7-8d03-ba6d1f17057f",
+          "reviewed": false,
+          "tags": []
+        },
+        {
+          "available": true,
+          "categoryId": "43746f8b-2d9e-495e-b840-5564175b7fee",
+          "cuisine": "",
+          "description": "Vodka, Strawberry Puree, Pineapple Cordial, Fresh Lemon Juice, Simple Syrup",
+          "id": "a399fd4c-1f30-4762-b42f-e4b186155090",
+          "image": "",
+          "name": "Spinning Kiss",
+          "notes": "",
+          "options": [],
+          "price": 125,
+          "productCode": "",
+          "productId": "8a10fedf-6da9-49ac-a061-368cb134040d",
+          "reviewed": false,
+          "tags": []
+        },
+        {
+          "available": true,
+          "categoryId": "43746f8b-2d9e-495e-b840-5564175b7fee",
+          "cuisine": "",
+          "description": "Gold Rum, Guava Juice, Lemon Juice, Passion Fruit Syrup, Egg White",
+          "id": "37acb837-0aa9-43ae-bba8-7f157d623e08",
+          "image": "",
+          "name": "Pinkin Sour",
+          "notes": "",
+          "options": [],
+          "price": 130,
+          "productCode": "",
+          "productId": "d9077ab2-fbfd-4bac-87d1-dfb03d7461c4",
+          "reviewed": false,
+          "tags": []
+        },
+        {
+          "available": true,
+          "categoryId": "43746f8b-2d9e-495e-b840-5564175b7fee",
+          "cuisine": "",
+          "description": "Dry Gin, Sweet Vermouth, Campari Bitter, Orange Peel",
+          "id": "564eab55-69bc-4729-a0fa-bc4a195235aa",
+          "image": "",
+          "name": "Negroni",
+          "notes": "",
+          "options": [],
+          "price": 155,
+          "productCode": "",
+          "productId": "a3d18ebf-54e0-4976-8908-bb507e4ba957",
+          "reviewed": false,
+          "tags": []
+        },
+        {
+          "available": true,
+          "categoryId": "43746f8b-2d9e-495e-b840-5564175b7fee",
+          "cuisine": "",
+          "description": "Aperol, Ponte Blanco, Soda Water, Orange Sliced",
+          "id": "d871e2e3-57a0-457d-acad-416a36b640cc",
+          "image": "",
+          "name": "Aperol Spritz",
+          "notes": "",
+          "options": [],
+          "price": 160,
+          "productCode": "",
+          "productId": "cc81156f-ea89-4e1a-be5b-85f53dadd9b1",
+          "reviewed": false,
+          "tags": []
+        },
+        {
+          "available": true,
+          "categoryId": "43746f8b-2d9e-495e-b840-5564175b7fee",
+          "cuisine": "",
+          "description": "",
+          "id": "a6399445-98f8-47f3-ba5b-0cf4dad7e2b7",
+          "image": "",
+          "name": "Caipirinha",
+          "notes": "",
+          "options": [],
+          "price": 120,
+          "productCode": "",
+          "productId": "a6a8c7d6-0683-43c5-9dde-894b5e7acd9e",
+          "reviewed": false,
+          "tags": []
+        }
+      ],
+      "name": "Cocktails",
+      "notes": "Every Friday & Saturday: buy 1 get 1, from 6 PM until closing."
+    }
+  ],
+  "currency": "IDR",
+  "designPrompt": "",
+  "dietaryNote": "No pork, no lard",
+  "footer": "All prices are listed in Rp. 1.000,- and are subject to 10% service charge and 10% tax",
+  "id": "99b9b1b3-6731-4b93-971d-10a1c4e990a4",
+  "location": "Mahakam",
+  "logo": "",
+  "menuTitle": "Drinks & Cocktails",
+  "name": "KOI Mahakam Drinks and Cocktail",
+  "priceUnit": 1000,
+  "serviceCharge": 10,
+  "source": "Mahakam Fingerfood Drinks Standart Menu November.pdf",
+  "tagCatalog": [
+    {
+      "icon": "menu:vegetarian",
+      "iconImage": "",
+      "kind": "label",
+      "name": "Vegetarian"
+    },
+    {
+      "icon": "menu:spicy",
+      "iconImage": "",
+      "kind": "label",
+      "name": "Spicy"
+    },
+    {
+      "icon": "menu:new",
+      "iconImage": "",
+      "kind": "label",
+      "name": "New menu"
+    },
+    {
+      "icon": "menu:timer",
+      "iconImage": "",
+      "kind": "serving",
+      "name": "Takes more than 15 mins"
+    },
+    {
+      "icon": "menu:jasmine-rice",
+      "iconImage": "",
+      "kind": "serving",
+      "name": "With jasmine rice"
+    },
+    {
+      "icon": "menu:rice-choice",
+      "iconImage": "",
+      "kind": "serving",
+      "name": "Choice of white or red rice"
+    },
+    {
+      "icon": "menu:baby-potatoes",
+      "iconImage": "",
+      "kind": "serving",
+      "name": "With baby potatoes"
+    },
+    {
+      "icon": "menu:mashed-potato",
+      "iconImage": "",
+      "kind": "serving",
+      "name": "With mashed potato"
+    },
+    {
+      "icon": "menu:fries",
+      "iconImage": "",
+      "kind": "serving",
+      "name": "With French or Belgian fries"
+    },
+    {
+      "icon": "menu:salad",
+      "iconImage": "",
+      "kind": "serving",
+      "name": "With mixed salad"
+    },
+    {
+      "icon": "menu:baguette",
+      "iconImage": "",
+      "kind": "serving",
+      "name": "With baguette"
+    },
+    {
+      "icon": "",
+      "iconImage": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFIAAABOCAYAAACzOEF7AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAGyUlEQVR4nO2cC2wUVRSGRwUBSSCAYIj4Ir5CStQAidFEkaiEGJWQRgSNARWDxkgiBiT4CI8IqCFBIwYImp3dpWVpUYvF2NpUS0tNgUjLQ1ptLdJWHgWl3drS9s7x3Jnd7nbZtrNzz72zmDnJn+1rp+d+e8695z5mNM0zzzzzzLMrykDbMhg0/+2gBR4HTV+Mege/X29JX4d6C79eiK8z8G8muO1v2hhowYkI5SWEs83Q/IfxtRsFdmVo+ll8XwF+vRyvNcXt9ig1bPQ9qDUI8Egq0GyqHvUh6i632ynFQNs7xIo8vVICvL5UhnoGNLjK7fYLG4IbjlrBU1AhwASZH95st1k4Nu48NqLBPYCJ/am/GP3JcJuLbQMtNBYdDjlu8JgQGAvKgGXXAas8D6y5HVhTGNiBc8C214DxbAkYw3Y4BdqFepdXB25z6tfQyekI8bQjgCOygX10FFjLJWCM9a+LHcA2HAFjeJZToBU4yt/hNq+khs69CimWLz0QH/gO2KnWgQEmqiEMxqOFDlNdb027vtMqlh2m8qwie1HYlzq7wFhY5jAydcaLfLf5mYaObHIMcVo+sFYBiPEwZ/7gNM050I+vXIjXBoFV/yMOMapGTPPrHA9CHOY6tyA6TmcT5Gs/00GMiF9TxCfUEsUQ+cKBkMPAys+Sg2SFjaIgDQyQJxVBDEzCES8sFI08rS910YPEmlP0A0ZdQI2XDJEvc4kvNhi37KaHGE3vIUECmHqhZJDm+qCwo0ZGnjyQN+dSRCWHuUASRN+NePE2EpBT8uWBnJpPBfIMdmMjJIDUP6FxEEFO/14eSKF6MlG+lcQQfWMQZDsZyKUH5YGcW0IGEgfVZr4USAhSX0Hm3KAAsGMXpIHkK0R0EWnqdUqQNVSOsXVH5EHkaus0qwI6kHoNEcTA/WTROHonsA4J9WOi9jYQR6XvPgKQzufTl4F8rFA+xGhfecMuSpirKUAeJwM5Pif5ak9XN7D6FjqQ3d1m9BOCPCQIMTQazPknXZoYTxebC7Jmg0+2AltTCcYEq4hm7x82IfQAae8EllUH7IMqYGf/7Q2r6jyw9djfBmqt68T/bhv1gMPXLYOjRKJxDq1DEZiatbUAkVfjjQpzldz8+cNYY+q/A/vsBBgTv4q959bdsdG+qMl6H87Zuczf872eyXt6vYcY5kwBkL6VcpyKia2t6hVlxvOl5uaWMRQ1rwRY3p/AcuotSPxnOL00gfOinm+MnWkDY1KeVB8jetMxSCxId8l20Fh2yF6/x9P8c4zSV8qBbanutXrEBzHpfmr6VoGI1H+R7iDf+BIdoe/+RkVEfisQkf4m6SAHB4GFBfZteAF+dUAFyFKRiCSbX/cnPng4BnnwnAqIPLWrBEDKd9AEuarSOcit1R7IHidnFDjvH+fv80D2OInljtM5ON2K+EAg/YdFQF5QBZOVnUkdZF2LEt8iIAsEQKo7GMoPRaUM0l+rDCTqC8cgVRTkPZ/4E0Wpp/Vi4QMBqcj5CpDoaYqUQI7MtlaBUgGpZmoYkT5HAGQgU+EnDuxQs32QjWGV0YjKukkkIscpBbnpuH2QoT+U+YVd3F+OIcbBlHEbR3KHM3+0n9aLylWC1ClArlLm8Lhd9kHe+bUykEL9YxzIDHUO++1t1Z5qVRmNYdBCw4RBcsOL7VcGkq81plH9SJLWUcMLzlPm+HP7Bk7rF0qVgcTK5SFCkOZxvpNKQOLceUCQt1EeAOhP+gEyiDGY+iJVUcDn0Okwv5Zyehc73GuwvziqBOS2mr5BblG2/rifHGIMZuBBIN7nTtqIzJ/6TuvZxSpAdku//xvDfbt0kGNDyefd/H6aUaQnKPrSZqkQLZCBERj21bIbY97EmQiy5LQKiL+RnokcAOZk/GcdUkF++uvlINdUSobIN/uC9yqBGAfzRZmNMk9ZJPaPs4pkgsS+3zdfKcQ4mG9LA5nkFhLiE2aJWu4KxBhM/2pZjTNveI+CrL0oE+JGVyFGDfuWtVJA8gNU8ufX6QExamDOx2lPZhhLKmJpjXNwWoD8zKPimzjtGi/YDc1/igzkhFyrnvy7g7R/5Cve/GlWbvPq16xTvnouWXpvPGbuMBJG4h7QdlzvNifbhk4/peI0Wwqqx4yZ6zYXRxZ5gNJ7mEoX3QNo3lOIZdqXQ93mIWx8WokNWkrZf9rQCevpfoqmeyoNtOJBfI0PG+mPPC6GGl4jajNO8x75XzwTzY7xVMNInYVgN/C1P1SLg7Stw9ccK3X1qW63KW2MP1wz8pBNnMfryy6X/+XILSvTsDoY6ba/nnnmmWeeeeaZZ5555tT+A4NEGX1I9hwHAAAAAElFTkSuQmCC",
+      "kind": "serving",
+      "name": "With Vanilla Ice Cream"
+    }
+  ],
+  "tax": 10
+}

@@ -1,0 +1,875 @@
+{
+  "items": [
+    {
+      "id": "1f4a38979a734f99954b9d03afa69c27",
+      "name": "Crispy Enoki",
+      "price": 45,
+      "x": 138,
+      "y": 278,
+      "page": 0,
+      "bottom": 293.0
+    },
+    {
+      "id": "0d723309a41a433db748de839ee5cbe6",
+      "name": "Indian Samosa with Green Chutney",
+      "price": 50,
+      "x": 138,
+      "y": 293.0,
+      "page": 0,
+      "bottom": 308.0
+    },
+    {
+      "id": "934e4610-66a3-4c70-a970-cb3c08cb8325",
+      "name": "Chicken Lahmacun",
+      "price": 65,
+      "x": 138,
+      "y": 308.0,
+      "page": 0,
+      "bottom": 323.0
+    },
+    {
+      "id": "305fcd401f0e4b3fa7d0384c92561b25",
+      "name": "Cheese and Beef Croquettes",
+      "price": 65,
+      "x": 138,
+      "y": 323.0,
+      "page": 0,
+      "bottom": 338.0
+    },
+    {
+      "id": "213badc792174c179564c6305563913e",
+      "name": "Spicy Garlic Chicken Wings",
+      "price": 65,
+      "x": 138,
+      "y": 338.0,
+      "page": 0,
+      "bottom": 353.0
+    },
+    {
+      "id": "76dfb7517f1442dd8935f65d3d6f587c",
+      "name": "Homemade Fries with Spicy Aioli",
+      "price": 65,
+      "x": 138,
+      "y": 353.0,
+      "page": 0,
+      "bottom": 368.0
+    },
+    {
+      "id": "4a36998affe848549b0a659c78b885e1",
+      "name": "Triple Cheese Quesadillas and Guacamole",
+      "price": 85,
+      "x": 138,
+      "y": 368.0,
+      "page": 0,
+      "bottom": 383.0
+    },
+    {
+      "id": "60bae7ec4acc4f9aa93818eabe63e00b",
+      "name": "Mexican Nachos",
+      "price": 105,
+      "x": 138,
+      "y": 383.0,
+      "page": 0,
+      "bottom": 398.0
+    },
+    {
+      "id": "ddeef24cd7ed4b548ad483a66c093fae",
+      "name": "Mushroom Soup with Garlic Bread",
+      "price": 70,
+      "x": 138,
+      "y": 442.0,
+      "page": 0,
+      "bottom": 457.0
+    },
+    {
+      "id": "8304287d91a846c696d141e7faaf1e71",
+      "name": "Onion Soup",
+      "price": 70,
+      "x": 138,
+      "y": 457.0,
+      "page": 0,
+      "bottom": 472.0
+    },
+    {
+      "id": "f21d64d437044895a3083feb49af26f3",
+      "name": "Asparagus Soup",
+      "price": 70,
+      "x": 138,
+      "y": 472.0,
+      "page": 0,
+      "bottom": 487.0
+    },
+    {
+      "id": "4944b1aad90b4b89a7e9cf68006adb73",
+      "name": "Tom Yam Seafood",
+      "price": 125,
+      "x": 138,
+      "y": 495.0,
+      "page": 0,
+      "bottom": 510.0
+    },
+    {
+      "id": "a5cc1c7d1de24e6e80f932b73286d514",
+      "name": "Escargots Gratin",
+      "price": 60,
+      "x": 138,
+      "y": 554.0,
+      "page": 0,
+      "bottom": 569.0
+    },
+    {
+      "id": "ad660369a0bd485f8b5261ef1e2dbc0d",
+      "name": "Avocado & Goat Cheese",
+      "price": 125,
+      "x": 138,
+      "y": 569.0,
+      "page": 0,
+      "bottom": 584.0
+    },
+    {
+      "id": "41089c8335bd458fb6d897e239bc8bf2",
+      "name": "Koi Special Caesar Salad",
+      "price": 105,
+      "x": 138,
+      "y": 628.0,
+      "page": 0,
+      "bottom": 668.0
+    },
+    {
+      "id": "11684eea-3246-4b53-98f4-aa76a9e58379",
+      "name": "Gado - Gado",
+      "price": 70,
+      "x": 138,
+      "y": 676.0,
+      "page": 0,
+      "bottom": 691.0
+    },
+    {
+      "id": "8a42a3240bf54a1c89f990fa46a8bdc4",
+      "name": "Chicken & Avocado Salad",
+      "price": 95,
+      "x": 138,
+      "y": 691.0,
+      "page": 0,
+      "bottom": 706.0
+    },
+    {
+      "id": "7ed6cc5e16ed4c2690b8ab52c8c1bd43",
+      "name": "Beef Burger",
+      "price": 139,
+      "x": 138,
+      "y": 750.0,
+      "page": 0,
+      "bottom": 765.0
+    },
+    {
+      "id": "1ceec07a9c254f0e8d46315d2121db76",
+      "name": "Cheese Burger",
+      "price": 149,
+      "x": 138,
+      "y": 765.0,
+      "page": 0,
+      "bottom": 780.0
+    },
+    {
+      "id": "75b844e90be14aa9b1593ae733a29dad",
+      "name": "Smoked Beef Brisket Burger",
+      "price": 199,
+      "x": 138,
+      "y": 780.0,
+      "page": 0,
+      "bottom": 795.0
+    },
+    {
+      "id": "734fe729c6ad48639b5354a3ca4f7c29",
+      "name": "KOI Mega Double Cheese Burger",
+      "price": 215,
+      "x": 138,
+      "y": 795.0,
+      "page": 0,
+      "bottom": 810.0
+    },
+    {
+      "id": "ccbfa0ae0a93458f9f86c0d777860eca",
+      "name": "Club Sandwich",
+      "price": 115,
+      "x": 138,
+      "y": 854.0,
+      "page": 0,
+      "bottom": 869.0
+    },
+    {
+      "id": "8496d8077d974087b4ec40fccbb692bd",
+      "name": "Mac & Cheese",
+      "price": 95,
+      "x": 480,
+      "y": 278,
+      "page": 0,
+      "bottom": 293.0
+    },
+    {
+      "id": "0d99aea1853a438f8da6d6da95e45a76",
+      "name": "Aglio Olio Spaghetti",
+      "price": 95,
+      "x": 480,
+      "y": 293.0,
+      "page": 0,
+      "bottom": 320.5
+    },
+    {
+      "id": "74c8039a481941919a11c3f535d39618",
+      "name": "Potato Gnocchi",
+      "price": 105,
+      "x": 480,
+      "y": 320.5,
+      "page": 0,
+      "bottom": 335.5
+    },
+    {
+      "id": "0b307d7762b94fccb0ae90e99623b70d",
+      "name": "Beef Lasagna",
+      "price": 115,
+      "x": 480,
+      "y": 335.5,
+      "page": 0,
+      "bottom": 350.5
+    },
+    {
+      "id": "eddd0e089a6d4533953d54b6d3f8af89",
+      "name": "Spaghetti Bolognese",
+      "price": 130,
+      "x": 480,
+      "y": 350.5,
+      "page": 0,
+      "bottom": 365.5
+    },
+    {
+      "id": "9c160527d87d480e84e935ace8871b5a",
+      "name": "Spinach Ravioli",
+      "price": 130,
+      "x": 480,
+      "y": 365.5,
+      "page": 0,
+      "bottom": 380.5
+    },
+    {
+      "id": "17d5a2d5-7c3d-4b80-8691-115dce074236",
+      "name": "Salmon Ravioli",
+      "price": 130,
+      "x": 480,
+      "y": 380.5,
+      "page": 0,
+      "bottom": 395.5
+    },
+    {
+      "id": "c3f698f27e2042a7b7a14e4ec05a69c7",
+      "name": "Beef Tartare",
+      "price": 225,
+      "x": 480,
+      "y": 439.5,
+      "page": 0,
+      "bottom": 454.5
+    },
+    {
+      "id": "09985b25f69d443e9929addbdecaa56f",
+      "name": "Classic Indonesian Beef Stew “Rawon”",
+      "price": 135,
+      "x": 480,
+      "y": 462.5,
+      "page": 0,
+      "bottom": 477.5
+    },
+    {
+      "id": "72046b6ab2ff4522b3f8c9b65da03cd0",
+      "name": "Vietnamese Steak",
+      "price": 135,
+      "x": 480,
+      "y": 477.5,
+      "page": 0,
+      "bottom": 492.5
+    },
+    {
+      "id": "70b017383f5641489c30d161510f2f75",
+      "name": "Beef Ribs",
+      "price": 155,
+      "x": 480,
+      "y": 492.5,
+      "page": 0,
+      "bottom": 507.5
+    },
+    {
+      "id": "721b63e3d0ca4d57be589ebcffa44dbe",
+      "name": "Beef Tongue “Sambal Ijo”",
+      "price": 155,
+      "x": 480,
+      "y": 507.5,
+      "page": 0,
+      "bottom": 522.5
+    },
+    {
+      "id": "87d6dbd56fda40af8cb0c9b48baa24ef",
+      "name": "Oxtail Soup",
+      "price": 265,
+      "x": 480,
+      "y": 522.5,
+      "page": 0,
+      "bottom": 537.5
+    },
+    {
+      "id": "311b6cc6babf4039938041e89b47ba4a",
+      "name": "Meltique Australian Striploin (200Gr)",
+      "price": 225,
+      "x": 480,
+      "y": 581.5,
+      "page": 0,
+      "bottom": 596.5
+    },
+    {
+      "id": "32ba4931166b49c587a31a0c8f319195",
+      "name": "Wagyu Flank Steak (200Gr)",
+      "price": 295,
+      "x": 480,
+      "y": 596.5,
+      "page": 0,
+      "bottom": 611.5
+    },
+    {
+      "id": "f477108fa68b4776ad036f6fd0837b42",
+      "name": "Tenderloin (220Gr)",
+      "price": 249,
+      "x": 480,
+      "y": 611.5,
+      "page": 0,
+      "bottom": 626.5
+    },
+    {
+      "id": "baefa9c4bd92451bbe32571c9e2f1e62",
+      "name": "Wagyu Rib Eye Grade 6 (300G 2Pax)",
+      "price": 895,
+      "x": 480,
+      "y": 626.5,
+      "page": 0,
+      "bottom": 641.5
+    },
+    {
+      "id": "6e7ee1df82404a50aca2eccfe2c9c2dc",
+      "name": "Tartare, Mushroom",
+      "price": 20,
+      "x": 480,
+      "y": 685.5,
+      "page": 0,
+      "bottom": 700.5
+    },
+    {
+      "id": "aa2ab74ce6fa46639fbf379593c75a85",
+      "name": "Black Pepper, BBQ",
+      "price": 20,
+      "x": 480,
+      "y": 700.5,
+      "page": 0,
+      "bottom": 715.5
+    },
+    {
+      "id": "4dda49fd366342c0b2a753a57a4594b0",
+      "name": "Béarnaise",
+      "price": 45,
+      "x": 480,
+      "y": 715.5,
+      "page": 0,
+      "bottom": 730.5
+    },
+    {
+      "id": "8ebe78339d5f4ebc8aa2f238eeb5b95c",
+      "name": "Gorgonzola Blue Cheese",
+      "price": 45,
+      "x": 480,
+      "y": 730.5,
+      "page": 0,
+      "bottom": 745.5
+    },
+    {
+      "id": "f340b7d93313403fa088a3fc812f03c1",
+      "name": "Lamb “Tongseng”",
+      "price": 145,
+      "x": 828,
+      "y": 278,
+      "page": 0,
+      "bottom": 293.0
+    },
+    {
+      "id": "41dbf2af4c424e7d9485fb5b5de0104e",
+      "name": "Roasted Dory Fillet topped with “Niçoise”",
+      "price": 105,
+      "x": 828,
+      "y": 337.0,
+      "page": 0,
+      "bottom": 363.1
+    },
+    {
+      "id": "ca6b2ca16a1b420a8149c8af56dd2332",
+      "name": "Smoked Barramundi Fillet",
+      "price": 120,
+      "x": 828,
+      "y": 363.1,
+      "page": 0,
+      "bottom": 389.20000000000005
+    },
+    {
+      "id": "84c776cb13fc42f0b3465d8bb0664a63",
+      "name": "Fish & Chips",
+      "price": 130,
+      "x": 828,
+      "y": 389.20000000000005,
+      "page": 0,
+      "bottom": 404.20000000000005
+    },
+    {
+      "id": "16f069431d594d559cfbb3c9ca7010b7",
+      "name": "Dory Fish Fillet & Parmesan Gratin",
+      "price": 165,
+      "x": 828,
+      "y": 404.20000000000005,
+      "page": 0,
+      "bottom": 430.30000000000007
+    },
+    {
+      "id": "faf38603830745589144db115af6b475",
+      "name": "Barramundi Fillet",
+      "price": 210,
+      "x": 828,
+      "y": 430.30000000000007,
+      "page": 0,
+      "bottom": 445.30000000000007
+    },
+    {
+      "id": "7f706301d1da4773b05d20d957b7df1a",
+      "name": "Salmon Fillet",
+      "price": 245,
+      "x": 828,
+      "y": 445.30000000000007,
+      "page": 0,
+      "bottom": 471.4000000000001
+    },
+    {
+      "id": "3c2327de9ddf4f3295ab720931dbada2",
+      "name": "Crispy Kalan",
+      "price": 65,
+      "x": 828,
+      "y": 479.4000000000001,
+      "page": 0,
+      "bottom": 494.4000000000001
+    },
+    {
+      "id": "174123d84d9341808214d4cf946e8fa0",
+      "name": "Indonesian Dory Fillet “Bumbu Kuning”",
+      "price": 95,
+      "x": 828,
+      "y": 494.4000000000001,
+      "page": 0,
+      "bottom": 509.4000000000001
+    },
+    {
+      "id": "b28e785acee74aaea797a645fc1eb91c",
+      "name": "Calamari Asiatique",
+      "price": 115,
+      "x": 828,
+      "y": 509.4000000000001,
+      "page": 0,
+      "bottom": 535.5000000000001
+    },
+    {
+      "id": "02c0fb89-9cf3-4dba-97f0-48ef70139f5e",
+      "name": "Chicken Shawarma",
+      "price": 115,
+      "x": 828,
+      "y": 579.5000000000001,
+      "page": 0,
+      "bottom": 594.5000000000001
+    },
+    {
+      "id": "645d1fe5-01ee-4d68-99fb-d139656a1ce7",
+      "name": "Chicken Rosemary (1/2 Chicken)",
+      "price": 155,
+      "x": 828,
+      "y": 594.5000000000001,
+      "page": 0,
+      "bottom": 609.5000000000001
+    },
+    {
+      "id": "3bd67a8d536a467d83ac53e4dbf92abd",
+      "name": "Homemade Duck Confit",
+      "price": 155,
+      "x": 828,
+      "y": 609.5000000000001,
+      "page": 0,
+      "bottom": 624.5000000000001
+    },
+    {
+      "id": "296a6fd11970477c9f177c663b2307ab",
+      "name": "Chicken Betutu",
+      "price": 105,
+      "x": 828,
+      "y": 632.5000000000001,
+      "page": 0,
+      "bottom": 647.5000000000001
+    },
+    {
+      "id": "c4406d7373624d5897e689c80889dd15",
+      "name": "Thai Chicken Green Curry",
+      "price": 105,
+      "x": 828,
+      "y": 647.5000000000001,
+      "page": 0,
+      "bottom": 662.5000000000001
+    },
+    {
+      "id": "1246e3be1a414dcd914d873be1585419",
+      "name": "Ayam Bakar",
+      "price": 105,
+      "x": 828,
+      "y": 662.5000000000001,
+      "page": 0,
+      "bottom": 677.5000000000001
+    },
+    {
+      "id": "08e4f07388d343718efd0ef7e24a3549",
+      "name": "Chicken Kemangi",
+      "price": 105,
+      "x": 828,
+      "y": 677.5000000000001,
+      "page": 0,
+      "bottom": 692.5000000000001
+    },
+    {
+      "id": "4c68e897-43fd-463a-87ae-b7aa43c59901",
+      "name": "Hainanese Chicken Rice",
+      "price": 105,
+      "x": 828,
+      "y": 692.5000000000001,
+      "page": 0,
+      "bottom": 707.5000000000001
+    },
+    {
+      "id": "5cdaa00c45014d3d98f52ed68d221139",
+      "name": "Mie Ayam Kampung",
+      "price": 75,
+      "x": 1170,
+      "y": 278,
+      "page": 0,
+      "bottom": 293.0
+    },
+    {
+      "id": "f1e7619c5ca74230a93a5fdb63c0f447",
+      "name": "Fried Rice Sambal Ijo with Beef",
+      "price": 99,
+      "x": 1170,
+      "y": 293.0,
+      "page": 0,
+      "bottom": 308.0
+    },
+    {
+      "id": "bd23bb4114ba4603b570db82d26cb354",
+      "name": "Nasi Goreng (Chicken or Beef or Duck or Seafood)",
+      "price": 99,
+      "x": 1170,
+      "y": 308.0,
+      "page": 0,
+      "bottom": 335.5
+    },
+    {
+      "id": "54c3528aeadf48049fa96254eaff59c1",
+      "name": "Nasi Goreng (Lamb)",
+      "price": 140,
+      "x": 1170,
+      "y": 335.5,
+      "page": 0,
+      "bottom": 363.0
+    },
+    {
+      "id": "96e5cd2d5cf3474890dfe3ef69aa5f0a",
+      "name": "Pad Thai (Chicken/Sea Food)",
+      "price": 105,
+      "x": 1170,
+      "y": 363.0,
+      "page": 0,
+      "bottom": 378.0
+    },
+    {
+      "id": "11fa582aaef94757a5cd2d9ea561c035",
+      "name": "Jasmine Rice",
+      "price": 15,
+      "x": 1170,
+      "y": 422.0,
+      "page": 0,
+      "bottom": 437.0
+    },
+    {
+      "id": "46aac220f875455d880a7e9f32ea08bf",
+      "name": "Sautéed Green Beans",
+      "price": 30,
+      "x": 1170,
+      "y": 445.0,
+      "page": 0,
+      "bottom": 460.0
+    },
+    {
+      "id": "0454049fb2cf41a486de82ae73b84785",
+      "name": "Green Salad with Vinaigrette",
+      "price": 55,
+      "x": 1170,
+      "y": 460.0,
+      "page": 0,
+      "bottom": 475.0
+    },
+    {
+      "id": "23b7ca127a08401aa8470d5f696fbdf6",
+      "name": "Garlic Bread",
+      "price": 40,
+      "x": 1170,
+      "y": 475.0,
+      "page": 0,
+      "bottom": 490.0
+    },
+    {
+      "id": "bedd1f0c0b3e45f09f839abeae89e3b7",
+      "name": "French Fries",
+      "price": 49,
+      "x": 1170,
+      "y": 490.0,
+      "page": 0,
+      "bottom": 505.0
+    },
+    {
+      "id": "1615ec0ccf8c4451961c615b594bb3a3",
+      "name": "Mashed Potato",
+      "price": 49,
+      "x": 1170,
+      "y": 505.0,
+      "page": 0,
+      "bottom": 520.0
+    },
+    {
+      "id": "9efd0bfa0a78415ebbf5a015fa266cab",
+      "name": "Homemade Belgian Fries",
+      "price": 49,
+      "x": 1170,
+      "y": 520.0,
+      "page": 0,
+      "bottom": 535.0
+    },
+    {
+      "id": "0d8e80ae9f5548049ea12e9cc3cf140b",
+      "name": "Potato Gratined",
+      "price": 49,
+      "x": 1170,
+      "y": 535.0,
+      "page": 0,
+      "bottom": 550.0
+    },
+    {
+      "id": "4ec82f1f70824f7695221ca38c783540",
+      "name": "Churros",
+      "price": 40,
+      "x": 1170,
+      "y": 594.0,
+      "page": 0,
+      "bottom": 609.0
+    },
+    {
+      "id": "dc51b749bc204d16bb652da1f20cb509",
+      "name": "6 Profiteroles",
+      "price": 55,
+      "x": 1170,
+      "y": 609.0,
+      "page": 0,
+      "bottom": 624.0
+    },
+    {
+      "id": "9b84fa22464c472b88ecc9b71cdf4f5c",
+      "name": "Vanilla Mille-Feuille",
+      "price": 75,
+      "x": 1170,
+      "y": 624.0,
+      "page": 0,
+      "bottom": 639.0
+    },
+    {
+      "id": "13922b94e02f41e2a04a7c7314f669cf",
+      "name": "Chocolate Mille Feuilles",
+      "price": 75,
+      "x": 1170,
+      "y": 639.0,
+      "page": 0,
+      "bottom": 654.0
+    },
+    {
+      "id": "196494e76e274cde931f9b88dc795cd6",
+      "name": "Trio of Melted Chocolate Cakes",
+      "price": 80,
+      "x": 1170,
+      "y": 654.0,
+      "page": 0,
+      "bottom": 669.0
+    },
+    {
+      "id": "0b68858bfacf4984bf2e6633874753a9",
+      "name": "Apple Crumble",
+      "price": 85,
+      "x": 1170,
+      "y": 669.0,
+      "page": 0,
+      "bottom": 684.0
+    },
+    {
+      "id": "c0af2fb1d5984c74b139a93ce77089dd",
+      "name": "Classic Italian Tiramisu",
+      "price": 85,
+      "x": 1170,
+      "y": 684.0,
+      "page": 0,
+      "bottom": 699.0
+    },
+    {
+      "id": "9cd0b0e4641e4a0a9ac7aba8c1345678",
+      "name": "Large Crepe",
+      "price": 45,
+      "x": 1170,
+      "y": 699.0,
+      "page": 0,
+      "bottom": 739.0
+    },
+    {
+      "id": "292c3e5282f24409840d14892d915386",
+      "name": "Vanilla Ice Cream",
+      "price": 25,
+      "x": 1170,
+      "y": 783.0,
+      "page": 0,
+      "bottom": 798.0
+    },
+    {
+      "id": "ccbcaced95a74d3f840f055ba925e991",
+      "name": "Chocolate Ice Cream",
+      "price": 25,
+      "x": 1170,
+      "y": 798.0,
+      "page": 0,
+      "bottom": 813.0
+    },
+    {
+      "id": "eb3d9065e4bd4ae5838d2c53a79a97ad",
+      "name": "Strawberry Sorbet",
+      "price": 25,
+      "x": 1170,
+      "y": 813.0,
+      "page": 0,
+      "bottom": 828.0
+    },
+    {
+      "id": "096fbb5eeb0f48f088a60151686f913f",
+      "name": "Coconut Sorbet",
+      "price": 25,
+      "x": 1170,
+      "y": 828.0,
+      "page": 0,
+      "bottom": 843.0
+    },
+    {
+      "id": "5a144f92-d55e-48e1-a32d-c2c9ba8baacf",
+      "name": "Chicken or Beef Stuffed Potato",
+      "price": 65,
+      "x": 480,
+      "y": 822.5,
+      "page": 0,
+      "bottom": 837.5
+    },
+    {
+      "id": "4cff5ab9-4d21-46ea-8389-314c04c02a8d",
+      "name": "Shrimp Stuffed Potatoes",
+      "price": 75,
+      "x": 480,
+      "y": 837.5,
+      "page": 0,
+      "bottom": 852.5
+    },
+    {
+      "id": "094f00e0-d5b0-4d4d-a4f3-cc603f234d37",
+      "name": "Asinan Bogor",
+      "price": 65,
+      "x": 480,
+      "y": 880.5,
+      "page": 0,
+      "bottom": 895.5
+    },
+    {
+      "id": "98743a2f-181a-4d2c-bc71-4823c2e4c126",
+      "name": "40-hour Ribeye",
+      "price": 225,
+      "x": 480,
+      "y": 923.5,
+      "page": 0,
+      "bottom": 938.5
+    },
+    {
+      "id": "9cc2a34d-8548-46b4-95f3-e55cb5cbabe8",
+      "name": "Chicken Satay 5 pcs",
+      "price": 85,
+      "x": 480,
+      "y": 946.5,
+      "page": 0,
+      "bottom": 961.5
+    },
+    {
+      "id": "2fbc0f3c-c303-4688-92ad-8fff9db08160",
+      "name": "Ribeye Geprek",
+      "price": 135,
+      "x": 480,
+      "y": 961.5,
+      "page": 0,
+      "bottom": 976.5
+    },
+    {
+      "id": "09d63052-345f-4210-a1e1-e41b566fc807",
+      "name": "White Chocolate Cremeux",
+      "price": 60,
+      "x": 828,
+      "y": 822.5,
+      "page": 0,
+      "bottom": 837.5
+    },
+    {
+      "id": "f45a76f3-103e-4ee7-ad7a-55cfa1e9ab6a",
+      "name": "Chocolate Brownie",
+      "price": 60,
+      "x": 828,
+      "y": 837.5,
+      "page": 0,
+      "bottom": 852.5
+    },
+    {
+      "id": "83926a7ba9054834b93913c8663ff54b",
+      "name": "MOI Primitivo Puglia",
+      "price": 590,
+      "x": 828,
+      "y": 880.5,
+      "page": 0,
+      "bottom": 920.5
+    }
+  ],
+  "count": 95,
+  "pages": 1,
+  "pagePoints": [
+    538.8099975585938,
+    348.0
+  ],
+  "dividers": [
+    "Soups",
+    "Salads",
+    "Beef",
+    "Seafood",
+    "Poultry",
+    "Side Dishes",
+    "Monthly Specials · Mains"
+  ],
+  "missingNames": []
+}

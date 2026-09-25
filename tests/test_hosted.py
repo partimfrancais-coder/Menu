@@ -74,7 +74,7 @@ class HostedTests(unittest.TestCase):
         for _ in range(10): self.assertEqual(self.call('/login','POST',data={'username':'admin','password':'wrong'}).status_code,401)
         self.assertEqual(self.login().status_code,429)
     def test_hosted_runtime_and_assets(self):
-        self.login();self.assertEqual(self.call('/api/runtime').json,{'hosted':True,'user':{'username':'admin','role':'admin'}})
+        self.login();self.assertEqual(self.call('/api/runtime').json,{'hosted':True,'user':{'username':'admin','role':'admin','canManageApiKey':False}})
         for path in ['/','/app.js','/styles.css','/sources/Kemang%20Lunch%20%26%20Dinner%2020260605A.pdf']:
             with self.call(path) as response: self.assertEqual(response.status_code,200)
     def test_missing_auth_configuration_fails_closed(self):

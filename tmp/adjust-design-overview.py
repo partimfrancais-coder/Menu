@@ -1,0 +1,10 @@
+from pathlib import Path
+p=Path('dist/app.js')
+s=p.read_text(encoding='utf-8')
+s=s.replace('function showDesignStudio(result){','function showDesignStudio(result,showDetails=false){')
+s=s.replace("${v.number===selected?'true':'false'}", "${showDetails&&v.number===selected?'true':'false'}")
+s=s.replace("(v.number===selected?'selected':'')", "(showDetails&&v.number===selected?'selected':'')")
+s=s.replace('</div><div class="design-version-heading">', '</div>${showDetails?\'\':\'<p class="hint">Choose a version to view its skill and reference PDF.</p>\'}<div class="design-version-details" ${showDetails?\'\':\'hidden\'}><div class="design-version-heading">')
+s=s.replace('aria-label="Design skill document"></pre><section class="design-create">', 'aria-label="Design skill document"></pre></div><section class="design-create">')
+s=s.replace("modal.open&&$('[data-skill-loading]',modal))showDesignStudio(result);", "modal.open&&$('[data-skill-loading]',modal))showDesignStudio(result,true);")
+p.write_text(s,encoding='utf-8')

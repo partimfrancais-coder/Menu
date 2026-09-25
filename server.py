@@ -166,7 +166,7 @@ class Handler(SimpleHTTPRequestHandler):
             name=unquote(path[len('/sources/'):])
             if name not in ['Kemang Lunch & Dinner 20260605A.pdf','Kuningan Lunch & Dinner 20260606A.pdf','MAHAKAM LUNCH DINNER 20260605A.pdf']: return self.result(404,{'error':'Source not found.'})
             raw=(ROOT/name).read_bytes(); self.send_response(200); self.send_header('Content-Type','application/pdf'); self.send_header('Content-Length',str(len(raw))); self.end_headers(); self.wfile.write(raw); return
-        if path not in ['/','/index.html','/app.js','/catalog.js','/menu-icons.js','/design-prompts.js','/styles.css']: return self.result(404,{'error':'Not found.'})
+        if path not in ['/','/index.html','/app.js','/catalog.js','/menu-icons.js','/design-prompts.js','/menu-chat.js','/styles.css']: return self.result(404,{'error':'Not found.'})
         return super().do_GET()
     def do_POST(self):
         if not self.allowed() or self.headers.get('Origin') not in ['http://127.0.0.1:8765','http://localhost:8765']:

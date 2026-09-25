@@ -14,6 +14,7 @@ from server import validate, restaurant_export, replace_restaurant, write_replac
 from accounts import Accounts
 from public_menu import public_menu, public_image
 from products import migrate, migrate_categories, migrate_cuisines, prepare_save
+from menu_ai import register_menu_ai
 
 
 def create_app(config=None):
@@ -22,6 +23,7 @@ def create_app(config=None):
         SECRET_KEY=os.environ.get('MENU_SESSION_SECRET'),
         PASSWORD_HASH=os.environ.get('MENU_PASSWORD_HASH'),
         USERNAME=os.environ.get('MENU_USERNAME', 'admin'),
+        AI_KEY_USERNAME=os.environ.get('MENU_AI_KEY_USERNAME', 'alain'),
         ADDITIONAL_USERS_JSON=os.environ.get('MENU_ADDITIONAL_USERS', '{}'),
         DATA_DIR=os.environ.get('MENU_DATA_DIR', '/data'),
         PUBLIC_ORIGIN=os.environ.get('MENU_PUBLIC_ORIGIN') or ('https://'+os.environ['RAILWAY_PUBLIC_DOMAIN'] if os.environ.get('RAILWAY_PUBLIC_DOMAIN') else ''),
@@ -63,6 +65,24 @@ def create_app(config=None):
     lock=threading.Lock()
     attempts={}
     attempt_lock=threading.Lock()
+
+    def ai_snapshot(rid):
+        with lock:
+            current=json.loads(data_path.read_text(encoding='utf-8'))
+            try:
+                snapshot=restaurant_export(current,rid)['restaurant']
+            except ValueError:
+                from flask import abort
+                abort(404)
+            return snapshot,current['revision']
+
+    register_menu_ai(app,directory,ROOT,accounts,ai_snapshot)
+    # Capture existing restaurant designs as v1 at startup, before any later code release can change the bundled skill.
+    current_for_versions=json.loads(data_path.read_text(encoding='utf-8'))
+    for restaurant_record in current_for_versions['restaurants']:
+        snapshot=restaurant_export(current_for_versions,restaurant_record['id'])['restaurant']
+        try: app.extensions['menu_ai'].design_versions.ensure(snapshot)
+        except ValueError: pass  # A new restaurant without reference artwork must upload its first pair.
 
     @app.after_request
     def security_headers(response):
@@ -167,7 +187,7 @@ def create_app(config=None):
 
     @app.get('/<name>')
     def asset(name):
-        if name not in ('app.js','catalog.js','menu-icons.js','design-prompts.js','styles.css','index.html','invite.js'): return jsonify(error='Not found.'),404
+        if name not in ('app.js','catalog.js','menu-icons.js','design-prompts.js','menu-chat.js','styles.css','index.html','invite.js'): return jsonify(error='Not found.'),404
         return send_from_directory(ROOT/'dist',name)
 
     @app.get('/sources/<name>')
@@ -203,7 +223,8 @@ def create_app(config=None):
         return send_from_directory(ROOT/'dist',assets[name])
 
     @app.get('/api/runtime')
-    def runtime(): return jsonify(hosted=True,user={'username':g.user['username'],'role':g.user['role']})
+    def runtime(): return jsonify(hosted=True,user={'username':g.user['username'],'role':g.user['role'],
+                                                  'canManageApiKey':app.extensions['menu_ai'].can_manage(g.user)})
 
     @app.route('/api/menus',methods=['GET','POST'])
     def menus():

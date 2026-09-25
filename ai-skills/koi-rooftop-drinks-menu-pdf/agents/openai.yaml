@@ -1,0 +1,4 @@
+interface:
+  display_name: "KOI Rooftop Drinks Menu PDF"
+  short_description: "Create Rooftop drinks and cocktail menu PDFs"
+  default_prompt: "Use $koi-rooftop-drinks-menu-pdf to generate the KOI Rooftop Drinks and Cocktail menu from current saved Menu Studio data."

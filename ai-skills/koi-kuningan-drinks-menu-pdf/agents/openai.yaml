@@ -1,0 +1,4 @@
+interface:
+  display_name: "KOI Kuningan Drinks Menu PDF"
+  short_description: "Create Kuningan drinks and finger-food menu PDFs"
+  default_prompt: "Use $koi-kuningan-drinks-menu-pdf to generate the KOI Kuningan Drinks and Cocktail menu from current saved Menu Studio data."

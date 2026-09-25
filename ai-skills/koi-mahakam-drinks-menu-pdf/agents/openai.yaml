@@ -1,0 +1,4 @@
+interface:
+  display_name: "KOI Mahakam Drinks Menu PDF"
+  short_description: "Create Mahakam drinks and finger-food menu PDFs"
+  default_prompt: "Use $koi-mahakam-drinks-menu-pdf to generate the KOI Mahakam Drinks and Cocktail menu from current saved Menu Studio data."

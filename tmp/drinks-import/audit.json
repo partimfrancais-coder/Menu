@@ -1,0 +1,4039 @@
+{
+  "summary": {
+    "restaurants": [
+      {
+        "name": "KOI Kuningan Drinks and Cocktail",
+        "items": 117,
+        "categories": 21
+      },
+      {
+        "name": "KOI Rooftop Drinks and Cocktail",
+        "items": 115,
+        "categories": 16
+      },
+      {
+        "name": "KOI Mahakam Drinks and Cocktail",
+        "items": 105,
+        "categories": 18
+      }
+    ],
+    "newProducts": 165,
+    "newCategories": [
+      "Local Beers",
+      "Imported Beers",
+      "Bali Craft Beers",
+      "Ciders",
+      "Korean Soju",
+      "Wine by Glass",
+      "Milkshake",
+      "Smoothies",
+      "Matcha",
+      "Mocktails",
+      "Soft",
+      "Water",
+      "Signature Latte",
+      "Juice",
+      "Chocolate",
+      "Tea",
+      "Coffee",
+      "Healthy Drink",
+      "Everyday Happy Hour",
+      "Cocktails",
+      "Gin",
+      "Rum",
+      "Vodka",
+      "Whisky",
+      "Tequila"
+    ],
+    "reusedPlacements": 172,
+    "priceDifferences": [
+      {
+        "restaurant": "KOI Kuningan Drinks and Cocktail",
+        "sourceCategory": "Finger Food",
+        "sourceName": "Cheese & Beef Croquettes",
+        "catalogName": "Cheese and Beef Croquettes",
+        "catalogCategory": "Finger Food",
+        "productId": "f5a2c24a-ffa6-5bfc-bbe5-a1cc84b3f534",
+        "reused": true,
+        "differences": {
+          "price": {
+            "source": 60.0,
+            "catalog": 65
+          }
+        }
+      },
+      {
+        "restaurant": "KOI Kuningan Drinks and Cocktail",
+        "sourceCategory": "Finger Food",
+        "sourceName": "Triple Cheese Quesadillas and Guacamole",
+        "catalogName": "Triple Cheese Quesadillas and Guacamole",
+        "catalogCategory": "Finger Food",
+        "productId": "dd0ac532-fbb9-5362-9630-4d4378848c7e",
+        "reused": true,
+        "differences": {
+          "price": {
+            "source": 80.0,
+            "catalog": 85
+          }
+        }
+      },
+      {
+        "restaurant": "KOI Rooftop Drinks and Cocktail",
+        "sourceCategory": "Finger Food",
+        "sourceName": "Cheese & Beef Croquettes",
+        "catalogName": "Cheese and Beef Croquettes",
+        "catalogCategory": "Finger Food",
+        "productId": "f5a2c24a-ffa6-5bfc-bbe5-a1cc84b3f534",
+        "reused": true,
+        "differences": {
+          "price": {
+            "source": 60.0,
+            "catalog": 65
+          }
+        }
+      },
+      {
+        "restaurant": "KOI Rooftop Drinks and Cocktail",
+        "sourceCategory": "Finger Food",
+        "sourceName": "Triple Cheese Quesadillas and Guacamole",
+        "catalogName": "Triple Cheese Quesadillas and Guacamole",
+        "catalogCategory": "Finger Food",
+        "productId": "dd0ac532-fbb9-5362-9630-4d4378848c7e",
+        "reused": true,
+        "differences": {
+          "price": {
+            "source": 80.0,
+            "catalog": 85
+          }
+        }
+      },
+      {
+        "restaurant": "KOI Rooftop Drinks and Cocktail",
+        "sourceCategory": "Finger Food",
+        "sourceName": "Cheese & Seafood Croquette",
+        "catalogName": "Cheese & Seafood Croquette",
+        "catalogCategory": "Finger Food",
+        "productId": "22af2c52-c33f-535e-9c28-807fdff2a771",
+        "reused": true,
+        "differences": {
+          "price": {
+            "source": 65.0,
+            "catalog": 45
+          }
+        }
+      },
+      {
+        "restaurant": "KOI Mahakam Drinks and Cocktail",
+        "sourceCategory": "Finger Food",
+        "sourceName": "Cheese & Beef Croquettes",
+        "catalogName": "Cheese and Beef Croquettes",
+        "catalogCategory": "Finger Food",
+        "productId": "f5a2c24a-ffa6-5bfc-bbe5-a1cc84b3f534",
+        "reused": true,
+        "differences": {
+          "price": {
+            "source": 60.0,
+            "catalog": 65
+          }
+        }
+      },
+      {
+        "restaurant": "KOI Mahakam Drinks and Cocktail",
+        "sourceCategory": "Finger Food",
+        "sourceName": "Indian Samosa with Green Chutney",
+        "catalogName": "Indian Samosa with Green Chutney",
+        "catalogCategory": "Finger Food",
+        "productId": "9ed272d4-456b-5ebd-8514-d8fc06ec7098",
+        "reused": true,
+        "differences": {
+          "price": {
+            "source": 60.0,
+            "catalog": 50
+          }
+        }
+      },
+      {
+        "restaurant": "KOI Mahakam Drinks and Cocktail",
+        "sourceCategory": "Finger Food",
+        "sourceName": "Homemade Fries with Spicy Aioli",
+        "catalogName": "Homemade Fries with Spicy Aioli",
+        "catalogCategory": "Finger Food",
+        "productId": "53d51493-064c-5ecf-8d56-3564486a658f",
+        "reused": true,
+        "differences": {
+          "price": {
+            "source": 60.0,
+            "catalog": 65
+          }
+        }
+      },
+      {
+        "restaurant": "KOI Mahakam Drinks and Cocktail",
+        "sourceCategory": "Finger Food",
+        "sourceName": "Triple Cheese Quesadillas and Guacamole",
+        "catalogName": "Triple Cheese Quesadillas and Guacamole",
+        "catalogCategory": "Finger Food",
+        "productId": "dd0ac532-fbb9-5362-9630-4d4378848c7e",
+        "reused": true,
+        "differences": {
+          "price": {
+            "source": 75.0,
+            "catalog": 85
+          }
+        }
+      },
+      {
+        "restaurant": "KOI Mahakam Drinks and Cocktail",
+        "sourceCategory": "Water",
+        "sourceName": "Dolomia Still",
+        "catalogName": "Dolomia Still",
+        "catalogCategory": "Water",
+        "productId": "f4e6813a-28a7-4863-b21b-2ec37caa6c2c",
+        "reused": true,
+        "differences": {
+          "price": {
+            "source": 50,
+            "catalog": 45
+          },
+          "options": {
+            "source": [
+              {
+                "name": "33cl",
+                "price": 50,
+                "kind": "Variant"
+              },
+              {
+                "name": "75cl",
+                "price": 75,
+                "kind": "Variant"
+              }
+            ],
+            "catalog": [
+              {
+                "name": "33cl",
+                "price": 45,
+                "kind": "Variant"
+              },
+              {
+                "name": "75cl",
+                "price": 70,
+                "kind": "Variant"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "restaurant": "KOI Mahakam Drinks and Cocktail",
+        "sourceCategory": "Water",
+        "sourceName": "Dolomia Sparkling",
+        "catalogName": "Dolomia Sparkling",
+        "catalogCategory": "Water",
+        "productId": "6706baaa-5f15-446e-bbfe-2d89cc966ebb",
+        "reused": true,
+        "differences": {
+          "price": {
+            "source": 50,
+            "catalog": 45
+          },
+          "options": {
+            "source": [
+              {
+                "name": "33cl",
+                "price": 50,
+                "kind": "Variant"
+              },
+              {
+                "name": "75cl",
+                "price": 75,
+                "kind": "Variant"
+              }
+            ],
+            "catalog": [
+              {
+                "name": "33cl",
+                "price": 45,
+                "kind": "Variant"
+              },
+              {
+                "name": "75cl",
+                "price": 70,
+                "kind": "Variant"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "reviewNotes": [
+      "Spirit prices are preserved in printed order; the PDF does not label serving units.",
+      "The Mahakam PDF includes a Thursday Aperitivo promotion explicitly restricted to Kemang and Mega Kuningan; it was not assigned to Mahakam.",
+      "Product prices, options, and descriptions are shared across restaurants. Differences are recorded in the audit."
+    ]
+  },
+  "items": [
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Finger Food",
+      "sourceName": "Crispy Enoki",
+      "catalogName": "Crispy Enoki",
+      "catalogCategory": "Finger Food",
+      "productId": "f26d5b6a-4c60-509a-ab6b-d80c8297c5c3",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Finger Food",
+      "sourceName": "Cheese & Beef Croquettes",
+      "catalogName": "Cheese and Beef Croquettes",
+      "catalogCategory": "Finger Food",
+      "productId": "f5a2c24a-ffa6-5bfc-bbe5-a1cc84b3f534",
+      "reused": true,
+      "differences": {
+        "price": {
+          "source": 60.0,
+          "catalog": 65
+        }
+      }
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Finger Food",
+      "sourceName": "Spicy Garlic Chicken Wings",
+      "catalogName": "Spicy Garlic Chicken Wings",
+      "catalogCategory": "Finger Food",
+      "productId": "2cb78a25-ec3e-5660-aca7-8d0ebf76ab53",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Finger Food",
+      "sourceName": "Mexican Nachos",
+      "catalogName": "Mexican Nachos",
+      "catalogCategory": "Finger Food",
+      "productId": "fb9fc65a-6f8c-5720-b76d-a5a16351edd1",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Finger Food",
+      "sourceName": "Vietnamese Vegetarian Spring Roll",
+      "catalogName": "Vietnamese Vegetarian Spring Roll",
+      "catalogCategory": "Finger Food",
+      "productId": "767166a2-ca49-4855-b66f-630037bb1bc4",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Finger Food",
+      "sourceName": "Indian Samosa with Green Chutney",
+      "catalogName": "Indian Samosa with Green Chutney",
+      "catalogCategory": "Finger Food",
+      "productId": "9ed272d4-456b-5ebd-8514-d8fc06ec7098",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Finger Food",
+      "sourceName": "Chicken Arayes (Lebanese Sandwich)",
+      "catalogName": "Chicken Arayes (Lebanese Sandwich)",
+      "catalogCategory": "Finger Food",
+      "productId": "2dac0c84-0b95-4252-83b0-92bae58122d6",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Finger Food",
+      "sourceName": "Homemade Fries with Spicy Aioli",
+      "catalogName": "Homemade Fries with Spicy Aioli",
+      "catalogCategory": "Finger Food",
+      "productId": "53d51493-064c-5ecf-8d56-3564486a658f",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Finger Food",
+      "sourceName": "Grilled Chicken Wings with Herbs",
+      "catalogName": "Grilled Chicken Wings with Herbs",
+      "catalogCategory": "Finger Food",
+      "productId": "e59e116d-6369-4f6f-829d-199d94cd2c01",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Finger Food",
+      "sourceName": "3 Bao Peking Duck (Steamed Sandwich)",
+      "catalogName": "3 Bao Peking Duck (Steamed Sandwich)",
+      "catalogCategory": "Finger Food",
+      "productId": "d7c02143-9625-4ce8-a3b1-700439522c78",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Finger Food",
+      "sourceName": "Crispy Calamari Marinara Sauce",
+      "catalogName": "Crispy Calamari Marinara Sauce",
+      "catalogCategory": "Finger Food",
+      "productId": "35bc062c-9a47-40c1-89af-84c124261d1b",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Finger Food",
+      "sourceName": "Triple Cheese Quesadillas and Guacamole",
+      "catalogName": "Triple Cheese Quesadillas and Guacamole",
+      "catalogCategory": "Finger Food",
+      "productId": "dd0ac532-fbb9-5362-9630-4d4378848c7e",
+      "reused": true,
+      "differences": {
+        "price": {
+          "source": 80.0,
+          "catalog": 85
+        }
+      }
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Finger Food",
+      "sourceName": "Chicken Gyoza",
+      "catalogName": "Chicken Gyoza",
+      "catalogCategory": "Finger Food",
+      "productId": "34fc9939-3193-41e3-a4d0-91711c23576a",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Finger Food",
+      "sourceName": "Thin Chicken Turkish Pizza",
+      "catalogName": "Chicken Lahmacun",
+      "catalogCategory": "Finger Food",
+      "productId": "bf21fa21-74b1-54b8-a0a9-ca8b66a0b595",
+      "reused": true,
+      "differences": {
+        "description": {
+          "source": "",
+          "catalog": "thin Turkish pizza"
+        }
+      }
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Finger Food",
+      "sourceName": "4 Mini Chicken Tacos",
+      "catalogName": "4 Mini Chicken Tacos",
+      "catalogCategory": "Finger Food",
+      "productId": "89e8bfd9-e7ca-4b3c-a9c9-bc1c3816ebff",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Finger Food",
+      "sourceName": "4 Mini Mexican Wagyu Beef Tacos",
+      "catalogName": "4 Mini Mexican Wagyu Beef Tacos",
+      "catalogCategory": "Finger Food",
+      "productId": "bb2bc206-b217-4ce3-8145-19c2619baed1",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Finger Food",
+      "sourceName": "Cheese and Chicken Quesadilla",
+      "catalogName": "Cheese and Chicken Quesadilla",
+      "catalogCategory": "Finger Food",
+      "productId": "66680c81-122e-4baa-aeb8-5d49b659a743",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Local Beers",
+      "sourceName": "San Miguel Light",
+      "catalogName": "San Miguel Light",
+      "catalogCategory": "Local Beers",
+      "productId": "97bb530c-8c5e-493b-8668-cb4c265a903a",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Local Beers",
+      "sourceName": "Bintang Lemon Radler",
+      "catalogName": "Bintang Lemon Radler",
+      "catalogCategory": "Local Beers",
+      "productId": "b452e2a5-5b8a-4b73-b9c6-59cd56644dc9",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Local Beers",
+      "sourceName": "Bintang Crystal",
+      "catalogName": "Bintang Crystal",
+      "catalogCategory": "Local Beers",
+      "productId": "0c400b9d-169b-4cfa-9c24-c2158437aded",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Local Beers",
+      "sourceName": "Carlsberg",
+      "catalogName": "Carlsberg",
+      "catalogCategory": "Local Beers",
+      "productId": "a80db59c-78bf-4a90-84ce-c4bd7a56a1d7",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Local Beers",
+      "sourceName": "Bintang",
+      "catalogName": "Bintang",
+      "catalogCategory": "Local Beers",
+      "productId": "59657d07-d281-448b-8191-24fd6420a5a5",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Local Beers",
+      "sourceName": "Guinness Extra Stout",
+      "catalogName": "Guinness Extra Stout",
+      "catalogCategory": "Local Beers",
+      "productId": "cca7440f-b6ec-40a0-9c9d-624638ca8989",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Local Beers",
+      "sourceName": "Koenig",
+      "catalogName": "Koenig",
+      "catalogCategory": "Local Beers",
+      "productId": "f7f457a2-2928-445f-a3d0-35cc30e1bad4",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Local Beers",
+      "sourceName": "Heineken",
+      "catalogName": "Heineken",
+      "catalogCategory": "Local Beers",
+      "productId": "c8c21eb3-1951-49e2-9b4e-521b90d71366",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Local Beers",
+      "sourceName": "Heineken Draught",
+      "catalogName": "Heineken Draught",
+      "catalogCategory": "Local Beers",
+      "productId": "11df4f50-2a50-4e0d-a88a-fd030e58fe38",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Imported Beers",
+      "sourceName": "Liefmans Fruitesse",
+      "catalogName": "Liefmans Fruitesse",
+      "catalogCategory": "Imported Beers",
+      "productId": "9ba3c922-6554-44f1-b798-b01fc89d6edf",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Imported Beers",
+      "sourceName": "Hoegaarden Blanche",
+      "catalogName": "Hoegaarden Blanche",
+      "catalogCategory": "Imported Beers",
+      "productId": "fba9869a-512e-47ec-bd6f-438ff48fd73c",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Imported Beers",
+      "sourceName": "La Chouffe",
+      "catalogName": "La Chouffe",
+      "catalogCategory": "Imported Beers",
+      "productId": "df7727de-a217-4484-9fcf-49d844d945bc",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Imported Beers",
+      "sourceName": "Duvel Golden Ale",
+      "catalogName": "Duvel Golden Ale",
+      "catalogCategory": "Imported Beers",
+      "productId": "ac801e76-05ac-4c65-bbd6-be92bc2db8d7",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Imported Beers",
+      "sourceName": "Maredsous Triple",
+      "catalogName": "Maredsous Triple",
+      "catalogCategory": "Imported Beers",
+      "productId": "d6ddf1bf-08a3-4bba-b554-36b625ddb735",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Imported Beers",
+      "sourceName": "Erdinger Weissbier",
+      "catalogName": "Erdinger Weissbier",
+      "catalogCategory": "Imported Beers",
+      "productId": "959884f7-8026-455c-bb7c-b2101f98bcf9",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Imported Beers",
+      "sourceName": "Erdinger Dunkel",
+      "catalogName": "Erdinger Dunkel",
+      "catalogCategory": "Imported Beers",
+      "productId": "fa3323e3-ac78-4c18-801e-c78340b3822b",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Imported Beers",
+      "sourceName": "Guinness Micro Draught",
+      "catalogName": "Guinness Micro Draught",
+      "catalogCategory": "Imported Beers",
+      "productId": "fea1a931-c898-47be-88a4-ee93d4b83d31",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Bali Craft Beers",
+      "sourceName": "Island of Imagination Whitty White",
+      "catalogName": "Island of Imagination Whitty White",
+      "catalogCategory": "Bali Craft Beers",
+      "productId": "df64f144-db2e-440e-a4a7-9f1b9edd4df3",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Bali Craft Beers",
+      "sourceName": "Kura Kura Island Ale",
+      "catalogName": "Kura Kura Island Ale",
+      "catalogCategory": "Bali Craft Beers",
+      "productId": "3c576b1d-b146-4466-9a22-083950e55ca4",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Bali Craft Beers",
+      "sourceName": "Small Hazy",
+      "catalogName": "Small Hazy",
+      "catalogCategory": "Bali Craft Beers",
+      "productId": "fd22abbb-0209-480e-bda1-2426cbcc4aae",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Bali Craft Beers",
+      "sourceName": "Island of Imagination XPA",
+      "catalogName": "Island of Imagination XPA",
+      "catalogCategory": "Bali Craft Beers",
+      "productId": "eedf5572-d5ee-4bac-a44e-17c993fd0539",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Bali Craft Beers",
+      "sourceName": "Kura Kura I.P.A",
+      "catalogName": "Kura Kura I.P.A",
+      "catalogCategory": "Bali Craft Beers",
+      "productId": "2f10a9c1-416e-4abc-8a04-a9bd944a6147",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Ciders",
+      "sourceName": "Somersby Apple Cider",
+      "catalogName": "Somersby Apple Cider",
+      "catalogCategory": "Ciders",
+      "productId": "d66ef79b-e485-4c58-82be-6788b9a4310e",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Korean Soju",
+      "sourceName": "Original Soju",
+      "catalogName": "Original Soju",
+      "catalogCategory": "Korean Soju",
+      "productId": "bd49c89c-064d-4af7-8471-24ea316065b0",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Korean Soju",
+      "sourceName": "Lime Soju",
+      "catalogName": "Lime Soju",
+      "catalogCategory": "Korean Soju",
+      "productId": "e84ce467-cac7-48ed-b9ac-4d05e962b79c",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Korean Soju",
+      "sourceName": "Lychee Soju",
+      "catalogName": "Lychee Soju",
+      "catalogCategory": "Korean Soju",
+      "productId": "3ded6491-4b26-4a67-bb60-43058815bf37",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Korean Soju",
+      "sourceName": "Peach Soju",
+      "catalogName": "Peach Soju",
+      "catalogCategory": "Korean Soju",
+      "productId": "51e4202c-a26a-40d6-993e-ab77ff01b3ca",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Korean Soju",
+      "sourceName": "Green Grape Soju",
+      "catalogName": "Green Grape Soju",
+      "catalogCategory": "Korean Soju",
+      "productId": "9bf5a9b4-a0d3-426b-a5c2-59e0fca6383a",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Wine by Glass",
+      "sourceName": "Red Wine",
+      "catalogName": "Red Wine",
+      "catalogCategory": "Wine by Glass",
+      "productId": "b698a0b2-e061-4c86-a1c1-4d63534f6c35",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Wine by Glass",
+      "sourceName": "White Wine",
+      "catalogName": "White Wine",
+      "catalogCategory": "Wine by Glass",
+      "productId": "8e0d9675-4f3c-4989-bfd1-5657b4fb1258",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Wine by Glass",
+      "sourceName": "Sparkling Wine",
+      "catalogName": "Sparkling Wine",
+      "catalogCategory": "Wine by Glass",
+      "productId": "dc31c3db-0456-4ef0-86db-ae0fdf8d7efe",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Wine by Glass",
+      "sourceName": "Niepoort Tawny",
+      "catalogName": "Niepoort Tawny",
+      "catalogCategory": "Wine by Glass",
+      "productId": "fb90305c-e7cd-44c5-a12b-edcc6dba6183",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Milkshake",
+      "sourceName": "Vanilla Milkshake",
+      "catalogName": "Vanilla Milkshake",
+      "catalogCategory": "Milkshake",
+      "productId": "51c0e7fe-043d-4bb2-807e-2de965fce888",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Milkshake",
+      "sourceName": "Chocolate Milkshake",
+      "catalogName": "Chocolate Milkshake",
+      "catalogCategory": "Milkshake",
+      "productId": "c68ed9a9-666c-4d45-b358-83840c6e4373",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Milkshake",
+      "sourceName": "Coconut Milkshake",
+      "catalogName": "Coconut Milkshake",
+      "catalogCategory": "Milkshake",
+      "productId": "952401b2-3b9b-446e-9ad1-052552bed7d0",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Milkshake",
+      "sourceName": "Strawberry Milkshake",
+      "catalogName": "Strawberry Milkshake",
+      "catalogCategory": "Milkshake",
+      "productId": "5949482f-418a-48e5-b384-07a1bfaece53",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Milkshake",
+      "sourceName": "Salted Caramel Milkshake",
+      "catalogName": "Salted Caramel Milkshake",
+      "catalogCategory": "Milkshake",
+      "productId": "16f54327-3538-45b8-af54-9d1651c1c37b",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Smoothies",
+      "sourceName": "Banana Honey Smoothie",
+      "catalogName": "Banana Honey Smoothie",
+      "catalogCategory": "Smoothies",
+      "productId": "8ff8cd5e-864a-4a7e-b269-f97cda1b05d4",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Smoothies",
+      "sourceName": "Strawberry Banana Smoothie",
+      "catalogName": "Strawberry Banana Smoothie",
+      "catalogCategory": "Smoothies",
+      "productId": "834d6516-a39b-4e03-86b6-01ad7783e4f0",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Matcha",
+      "sourceName": "Matcha Latte",
+      "catalogName": "Matcha Latte",
+      "catalogCategory": "Matcha",
+      "productId": "007df515-9b36-45d2-b9b8-7db96993bc52",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Matcha",
+      "sourceName": "Matcha Milkshake",
+      "catalogName": "Matcha Milkshake",
+      "catalogCategory": "Matcha",
+      "productId": "76e7bc49-6a8f-4499-aab3-0d4413edfb92",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Mocktails",
+      "sourceName": "Lychee Spritzer",
+      "catalogName": "Lychee Spritzer",
+      "catalogCategory": "Mocktails",
+      "productId": "9965b576-ab7b-4bf2-b0aa-ec8dbf61e812",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Mocktails",
+      "sourceName": "Orange The Basil",
+      "catalogName": "Orange The Basil",
+      "catalogCategory": "Mocktails",
+      "productId": "418bbd1d-023c-4195-8ad5-0808cd193a7c",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Mocktails",
+      "sourceName": "Pina & Lemongrass",
+      "catalogName": "Pina & Lemongrass",
+      "catalogCategory": "Mocktails",
+      "productId": "52d597a8-e0d5-4c6e-8a08-07d96738d91a",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Soft",
+      "sourceName": "Pokka Green Tea",
+      "catalogName": "Pokka Green Tea",
+      "catalogCategory": "Soft",
+      "productId": "795bf4d2-1316-4e6e-a9f9-5ac6b653fdc2",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Soft",
+      "sourceName": "Coke",
+      "catalogName": "Coke",
+      "catalogCategory": "Soft",
+      "productId": "ca6a210d-9659-4711-8637-e541dfe7b5dc",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Soft",
+      "sourceName": "Sprite",
+      "catalogName": "Sprite",
+      "catalogCategory": "Soft",
+      "productId": "9b3855a4-1aa5-475d-97b8-9642ea78dfd9",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Soft",
+      "sourceName": "Coke Zero",
+      "catalogName": "Coke Zero",
+      "catalogCategory": "Soft",
+      "productId": "2a8a67b6-3ec0-4f7e-a218-4cd8a8d49083",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Soft",
+      "sourceName": "Ginger Ale",
+      "catalogName": "Ginger Ale",
+      "catalogCategory": "Soft",
+      "productId": "b183e6d6-e520-4ecd-9fee-25171e0405f5",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Soft",
+      "sourceName": "Tonic",
+      "catalogName": "Tonic",
+      "catalogCategory": "Soft",
+      "productId": "ccbc2127-d902-4ef4-8bfd-df2a7f038d5a",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Soft",
+      "sourceName": "Soda Water",
+      "catalogName": "Soda Water",
+      "catalogCategory": "Soft",
+      "productId": "86254550-d399-4076-924f-4d9dfc8e3244",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Soft",
+      "sourceName": "Kratingdaeng",
+      "catalogName": "Kratingdaeng",
+      "catalogCategory": "Soft",
+      "productId": "3450deb3-cb1a-47d5-93f9-938ca1b830eb",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Water",
+      "sourceName": "Mineral Water (50cl)",
+      "catalogName": "Mineral Water (50cl)",
+      "catalogCategory": "Water",
+      "productId": "40e17968-feec-4213-b1da-e6388d520499",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Water",
+      "sourceName": "Sparkling Water (50cl)",
+      "catalogName": "Sparkling Water (50cl)",
+      "catalogCategory": "Water",
+      "productId": "34c63a1a-c40d-49c1-9378-a016d37fc76b",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Water",
+      "sourceName": "Aqua Reflection Still (38cl)",
+      "catalogName": "Aqua Reflection Still (38cl)",
+      "catalogCategory": "Water",
+      "productId": "f05e6442-2d08-4ece-bd59-2f4e2d0367f0",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Water",
+      "sourceName": "Aqua Reflection Sparkling (38cl)",
+      "catalogName": "Aqua Reflection Sparkling (38cl)",
+      "catalogCategory": "Water",
+      "productId": "184d5715-dda6-40b5-8570-628d9517b6e5",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Signature Latte",
+      "sourceName": "Sea Salt Caramel Latte",
+      "catalogName": "Sea Salt Caramel Latte",
+      "catalogCategory": "Signature Latte",
+      "productId": "3a30bd5a-78e1-4978-8a95-a38a38530cd2",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Signature Latte",
+      "sourceName": "Crème Brûlée Latte",
+      "catalogName": "Crème Brûlée Latte",
+      "catalogCategory": "Signature Latte",
+      "productId": "26ef5b08-f7db-43c4-b0eb-f89cb053cb70",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Signature Latte",
+      "sourceName": "Cookie and Cream Latte",
+      "catalogName": "Cookie and Cream Latte",
+      "catalogCategory": "Signature Latte",
+      "productId": "1a52c118-9643-4ba9-bc6f-c0047583ef17",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Juice",
+      "sourceName": "Lime Juice",
+      "catalogName": "Lime Juice",
+      "catalogCategory": "Juice",
+      "productId": "6f115c7f-d39f-4a71-b87b-5c146aca5df4",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Juice",
+      "sourceName": "Lemon Juice",
+      "catalogName": "Lemon Juice",
+      "catalogCategory": "Juice",
+      "productId": "9a93d007-723d-42e7-84c0-9b2291af79a3",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Juice",
+      "sourceName": "Melon Juice",
+      "catalogName": "Melon Juice",
+      "catalogCategory": "Juice",
+      "productId": "8a0d8051-94c5-4e00-8330-5ce7c839bf40",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Juice",
+      "sourceName": "Watermelon Juice",
+      "catalogName": "Watermelon Juice",
+      "catalogCategory": "Juice",
+      "productId": "a2a91fc2-cb35-4fc3-994d-3c8cf11e3f1b",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Juice",
+      "sourceName": "Pineapple Juice",
+      "catalogName": "Pineapple Juice",
+      "catalogCategory": "Juice",
+      "productId": "ec814cdf-7165-4bce-ab0b-bcca9ef9d817",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Juice",
+      "sourceName": "Papaya Juice",
+      "catalogName": "Papaya Juice",
+      "catalogCategory": "Juice",
+      "productId": "7a99b938-51d2-4f84-be63-2e3d08af9507",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Juice",
+      "sourceName": "Mango Juice",
+      "catalogName": "Mango Juice",
+      "catalogCategory": "Juice",
+      "productId": "4658f759-d870-4f5e-bae7-622822fee7d2",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Juice",
+      "sourceName": "Strawberry Juice",
+      "catalogName": "Strawberry Juice",
+      "catalogCategory": "Juice",
+      "productId": "9039abcc-a819-4de6-98a4-a1bc165efe8b",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Juice",
+      "sourceName": "Orange Juice",
+      "catalogName": "Orange Juice",
+      "catalogCategory": "Juice",
+      "productId": "633f17b0-c639-457d-bec8-d334a3d61211",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Juice",
+      "sourceName": "Carrot Juice",
+      "catalogName": "Carrot Juice",
+      "catalogCategory": "Juice",
+      "productId": "f199acb6-65eb-4638-b229-602dfca7d809",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Juice",
+      "sourceName": "Orange Squash",
+      "catalogName": "Orange Squash",
+      "catalogCategory": "Juice",
+      "productId": "cfad825a-3ec4-4dc1-90b4-a6287171f2dc",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Chocolate",
+      "sourceName": "Hot or Cold Chocolate",
+      "catalogName": "Hot or Cold Chocolate",
+      "catalogCategory": "Chocolate",
+      "productId": "b4d68292-b630-4e4a-b2b6-69af4552bb72",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Tea",
+      "sourceName": "Tea (Iced or Hot)",
+      "catalogName": "Tea (Iced or Hot)",
+      "catalogCategory": "Tea",
+      "productId": "a246cf84-5c07-4714-bdda-60c2c7c761de",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Tea",
+      "sourceName": "Lemon Tea (Iced or Hot)",
+      "catalogName": "Lemon Tea (Iced or Hot)",
+      "catalogCategory": "Tea",
+      "productId": "921bde09-9daf-4d21-8e20-579fc83bb2e1",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Tea",
+      "sourceName": "Lemongrass Tea",
+      "catalogName": "Lemongrass Tea",
+      "catalogCategory": "Tea",
+      "productId": "462f29cc-7212-4f61-904b-041e481a6f69",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Tea",
+      "sourceName": "Peach Sorbet Iced Tea",
+      "catalogName": "Peach Sorbet Iced Tea",
+      "catalogCategory": "Tea",
+      "productId": "9a85d7cb-92fe-4a20-b2af-ca35c1aabfda",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Tea",
+      "sourceName": "Strawberry Sorbet Iced Tea",
+      "catalogName": "Strawberry Sorbet Iced Tea",
+      "catalogCategory": "Tea",
+      "productId": "494baa90-3390-4324-b7c8-6b55d492809d",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Tea",
+      "sourceName": "Flavoured Iced Tea",
+      "catalogName": "Flavoured Iced Tea",
+      "catalogCategory": "Tea",
+      "productId": "99b0cc55-9206-4b62-a5ff-9c251a4ed848",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Tea",
+      "sourceName": "Pot of TWG Tea",
+      "catalogName": "Pot of TWG Tea",
+      "catalogCategory": "Tea",
+      "productId": "871a96cb-c02e-44e4-8245-3104019ccea2",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Coffee",
+      "sourceName": "Espresso",
+      "catalogName": "Espresso",
+      "catalogCategory": "Coffee",
+      "productId": "c996586d-a014-4fdd-addc-52a24cb99a20",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Coffee",
+      "sourceName": "Black Coffee",
+      "catalogName": "Black Coffee",
+      "catalogCategory": "Coffee",
+      "productId": "9e5a4a03-8502-4cf0-ba8c-a4e6146b883b",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Coffee",
+      "sourceName": "Macchiato",
+      "catalogName": "Macchiato",
+      "catalogCategory": "Coffee",
+      "productId": "bd8e4d9e-8c73-4226-a2a2-008414aabd4a",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Coffee",
+      "sourceName": "Piccolo Latte",
+      "catalogName": "Piccolo Latte",
+      "catalogCategory": "Coffee",
+      "productId": "b290504e-da89-4414-9960-abd9f0d6e820",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Coffee",
+      "sourceName": "Cappuccino",
+      "catalogName": "Cappuccino",
+      "catalogCategory": "Coffee",
+      "productId": "29dc630a-faa1-4a16-8946-b6df64255bb1",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Coffee",
+      "sourceName": "Latte",
+      "catalogName": "Latte",
+      "catalogCategory": "Coffee",
+      "productId": "f4d1734e-0eaf-4844-9ddf-13b1353370db",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Coffee",
+      "sourceName": "Mocha",
+      "catalogName": "Mocha",
+      "catalogCategory": "Coffee",
+      "productId": "382dc52e-15b6-4350-9a9d-aee674a8c5b0",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Healthy Drink",
+      "sourceName": "Papaya & Orange",
+      "catalogName": "Papaya & Orange",
+      "catalogCategory": "Healthy Drink",
+      "productId": "af6c2cd7-8199-4e12-beb1-61a4028b1671",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Healthy Drink",
+      "sourceName": "Yakult & Tomato Basil",
+      "catalogName": "Yakult & Tomato Basil",
+      "catalogCategory": "Healthy Drink",
+      "productId": "2a3bd39c-f18f-4536-830d-9fe8e3ffbf00",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Healthy Drink",
+      "sourceName": "Wheat Grass Orange",
+      "catalogName": "Wheat Grass Orange",
+      "catalogCategory": "Healthy Drink",
+      "productId": "44f5e1f3-9c12-4e13-85c4-c4ce529d4752",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Everyday Happy Hour",
+      "sourceName": "Bintang - Bucket of 5 Bottles",
+      "catalogName": "Bintang - Bucket of 5 Bottles",
+      "catalogCategory": "Everyday Happy Hour",
+      "productId": "1a6e6dd2-4e04-46d6-9cda-b6b7d3c4d963",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Everyday Happy Hour",
+      "sourceName": "San Miguel Light - Bucket of 5 Bottles",
+      "catalogName": "San Miguel Light - Bucket of 5 Bottles",
+      "catalogCategory": "Everyday Happy Hour",
+      "productId": "efb9f14c-8c18-4c77-9305-bdaffd9b40d0",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Everyday Happy Hour",
+      "sourceName": "Carlsberg - Bucket of 5 Bottles",
+      "catalogName": "Carlsberg - Bucket of 5 Bottles",
+      "catalogCategory": "Everyday Happy Hour",
+      "productId": "a925c500-7198-49e8-ac08-b7f696cac5ba",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Everyday Happy Hour",
+      "sourceName": "Heineken - Bucket of 5 Bottles",
+      "catalogName": "Heineken - Bucket of 5 Bottles",
+      "catalogCategory": "Everyday Happy Hour",
+      "productId": "cea4476f-46ff-42fc-96f1-f64271a61c26",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Cocktails",
+      "sourceName": "Dark & Stormy",
+      "catalogName": "Dark & Stormy",
+      "catalogCategory": "Cocktails",
+      "productId": "430f56fa-e26d-4c5e-8c5a-930664d38657",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Cocktails",
+      "sourceName": "Caipiroska",
+      "catalogName": "Caipiroska",
+      "catalogCategory": "Cocktails",
+      "productId": "cfaa7574-23b3-4e2a-b5ed-30fba32c5d7f",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Cocktails",
+      "sourceName": "Whiskey Sour",
+      "catalogName": "Whiskey Sour",
+      "catalogCategory": "Cocktails",
+      "productId": "cbef8854-b9a8-45f7-8d03-ba6d1f17057f",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Cocktails",
+      "sourceName": "Spinning Kiss",
+      "catalogName": "Spinning Kiss",
+      "catalogCategory": "Cocktails",
+      "productId": "8a10fedf-6da9-49ac-a061-368cb134040d",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Cocktails",
+      "sourceName": "Pinkin Sour",
+      "catalogName": "Pinkin Sour",
+      "catalogCategory": "Cocktails",
+      "productId": "d9077ab2-fbfd-4bac-87d1-dfb03d7461c4",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Cocktails",
+      "sourceName": "Negroni",
+      "catalogName": "Negroni",
+      "catalogCategory": "Cocktails",
+      "productId": "a3d18ebf-54e0-4976-8908-bb507e4ba957",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Cocktails",
+      "sourceName": "Aperol Spritz",
+      "catalogName": "Aperol Spritz",
+      "catalogCategory": "Cocktails",
+      "productId": "cc81156f-ea89-4e1a-be5b-85f53dadd9b1",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Cocktails",
+      "sourceName": "Caipirinha",
+      "catalogName": "Caipirinha",
+      "catalogCategory": "Cocktails",
+      "productId": "a6a8c7d6-0683-43c5-9dde-894b5e7acd9e",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Finger Food",
+      "sourceName": "Crispy Enoki",
+      "catalogName": "Crispy Enoki",
+      "catalogCategory": "Finger Food",
+      "productId": "f26d5b6a-4c60-509a-ab6b-d80c8297c5c3",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Finger Food",
+      "sourceName": "Cheese & Beef Croquettes",
+      "catalogName": "Cheese and Beef Croquettes",
+      "catalogCategory": "Finger Food",
+      "productId": "f5a2c24a-ffa6-5bfc-bbe5-a1cc84b3f534",
+      "reused": true,
+      "differences": {
+        "price": {
+          "source": 60.0,
+          "catalog": 65
+        }
+      }
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Finger Food",
+      "sourceName": "Spicy Garlic Chicken Wings",
+      "catalogName": "Spicy Garlic Chicken Wings",
+      "catalogCategory": "Finger Food",
+      "productId": "2cb78a25-ec3e-5660-aca7-8d0ebf76ab53",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Finger Food",
+      "sourceName": "Mexican Nachos",
+      "catalogName": "Mexican Nachos",
+      "catalogCategory": "Finger Food",
+      "productId": "fb9fc65a-6f8c-5720-b76d-a5a16351edd1",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Finger Food",
+      "sourceName": "Vietnamese Vegetarian Spring Roll",
+      "catalogName": "Vietnamese Vegetarian Spring Roll",
+      "catalogCategory": "Finger Food",
+      "productId": "767166a2-ca49-4855-b66f-630037bb1bc4",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Finger Food",
+      "sourceName": "Indian Samosa with Green Chutney",
+      "catalogName": "Indian Samosa with Green Chutney",
+      "catalogCategory": "Finger Food",
+      "productId": "9ed272d4-456b-5ebd-8514-d8fc06ec7098",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Finger Food",
+      "sourceName": "Chicken Arayes (Lebanese Sandwich)",
+      "catalogName": "Chicken Arayes (Lebanese Sandwich)",
+      "catalogCategory": "Finger Food",
+      "productId": "2dac0c84-0b95-4252-83b0-92bae58122d6",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Finger Food",
+      "sourceName": "Homemade Fries with Spicy Aioli",
+      "catalogName": "Homemade Fries with Spicy Aioli",
+      "catalogCategory": "Finger Food",
+      "productId": "53d51493-064c-5ecf-8d56-3564486a658f",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Finger Food",
+      "sourceName": "Grilled Chicken Wings with Herbs",
+      "catalogName": "Grilled Chicken Wings with Herbs",
+      "catalogCategory": "Finger Food",
+      "productId": "e59e116d-6369-4f6f-829d-199d94cd2c01",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Finger Food",
+      "sourceName": "3 Bao Peking Duck (Steamed Sandwich)",
+      "catalogName": "3 Bao Peking Duck (Steamed Sandwich)",
+      "catalogCategory": "Finger Food",
+      "productId": "d7c02143-9625-4ce8-a3b1-700439522c78",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Finger Food",
+      "sourceName": "Crispy Calamari Marinara Sauce",
+      "catalogName": "Crispy Calamari Marinara Sauce",
+      "catalogCategory": "Finger Food",
+      "productId": "35bc062c-9a47-40c1-89af-84c124261d1b",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Finger Food",
+      "sourceName": "Triple Cheese Quesadillas and Guacamole",
+      "catalogName": "Triple Cheese Quesadillas and Guacamole",
+      "catalogCategory": "Finger Food",
+      "productId": "dd0ac532-fbb9-5362-9630-4d4378848c7e",
+      "reused": true,
+      "differences": {
+        "price": {
+          "source": 80.0,
+          "catalog": 85
+        }
+      }
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Finger Food",
+      "sourceName": "Spanish Tortilla Spicy Aioli",
+      "catalogName": "Spanish Tortilla Spicy Aioli",
+      "catalogCategory": "Finger Food",
+      "productId": "a9dc793a-7d91-43b5-9c5d-fc4fbd18f461",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Finger Food",
+      "sourceName": "Chicken & Beef Bacon Gyoza",
+      "catalogName": "Chicken & Beef Bacon Gyoza",
+      "catalogCategory": "Finger Food",
+      "productId": "2eca016a-da93-47a6-8efa-97549eb61cf5",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Finger Food",
+      "sourceName": "Cheese & Seafood Croquette",
+      "catalogName": "Cheese & Seafood Croquette",
+      "catalogCategory": "Finger Food",
+      "productId": "22af2c52-c33f-535e-9c28-807fdff2a771",
+      "reused": true,
+      "differences": {
+        "price": {
+          "source": 65.0,
+          "catalog": 45
+        }
+      }
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Finger Food",
+      "sourceName": "6 Mini Mexican Beef Tacos",
+      "catalogName": "6 Mini Mexican Beef Tacos",
+      "catalogCategory": "Finger Food",
+      "productId": "56e4a53d-5da6-4d4b-a8e6-abc7c00708d6",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Local Beers",
+      "sourceName": "San Miguel Light",
+      "catalogName": "San Miguel Light",
+      "catalogCategory": "Local Beers",
+      "productId": "97bb530c-8c5e-493b-8668-cb4c265a903a",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Local Beers",
+      "sourceName": "Bintang Lemon Radler",
+      "catalogName": "Bintang Lemon Radler",
+      "catalogCategory": "Local Beers",
+      "productId": "b452e2a5-5b8a-4b73-b9c6-59cd56644dc9",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Local Beers",
+      "sourceName": "Bintang Crystal",
+      "catalogName": "Bintang Crystal",
+      "catalogCategory": "Local Beers",
+      "productId": "0c400b9d-169b-4cfa-9c24-c2158437aded",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Local Beers",
+      "sourceName": "Carlsberg",
+      "catalogName": "Carlsberg",
+      "catalogCategory": "Local Beers",
+      "productId": "a80db59c-78bf-4a90-84ce-c4bd7a56a1d7",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Local Beers",
+      "sourceName": "Bintang Draught",
+      "catalogName": "Bintang Draught",
+      "catalogCategory": "Local Beers",
+      "productId": "4d914165-cdc9-4a41-9762-fbbb149feb82",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Local Beers",
+      "sourceName": "Bintang Tower",
+      "catalogName": "Bintang Tower",
+      "catalogCategory": "Local Beers",
+      "productId": "b39bcd14-c198-4382-94f2-99fbb3d7ba95",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Imported Beers",
+      "sourceName": "Liefmans Fruitesse",
+      "catalogName": "Liefmans Fruitesse",
+      "catalogCategory": "Imported Beers",
+      "productId": "9ba3c922-6554-44f1-b798-b01fc89d6edf",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Imported Beers",
+      "sourceName": "Hoegaarden Blanche",
+      "catalogName": "Hoegaarden Blanche",
+      "catalogCategory": "Imported Beers",
+      "productId": "fba9869a-512e-47ec-bd6f-438ff48fd73c",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Imported Beers",
+      "sourceName": "La Chouffe",
+      "catalogName": "La Chouffe",
+      "catalogCategory": "Imported Beers",
+      "productId": "df7727de-a217-4484-9fcf-49d844d945bc",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Imported Beers",
+      "sourceName": "Duvel Golden Ale",
+      "catalogName": "Duvel Golden Ale",
+      "catalogCategory": "Imported Beers",
+      "productId": "ac801e76-05ac-4c65-bbd6-be92bc2db8d7",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Imported Beers",
+      "sourceName": "Maredsous Triple",
+      "catalogName": "Maredsous Triple",
+      "catalogCategory": "Imported Beers",
+      "productId": "d6ddf1bf-08a3-4bba-b554-36b625ddb735",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Imported Beers",
+      "sourceName": "Erdinger Weissbier",
+      "catalogName": "Erdinger Weissbier",
+      "catalogCategory": "Imported Beers",
+      "productId": "959884f7-8026-455c-bb7c-b2101f98bcf9",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Imported Beers",
+      "sourceName": "Erdinger Dunkel",
+      "catalogName": "Erdinger Dunkel",
+      "catalogCategory": "Imported Beers",
+      "productId": "fa3323e3-ac78-4c18-801e-c78340b3822b",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Imported Beers",
+      "sourceName": "Corona",
+      "catalogName": "Corona",
+      "catalogCategory": "Imported Beers",
+      "productId": "cdc3d260-3d0e-4ce8-a1e6-b003df8b682f",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Bali Craft Beers",
+      "sourceName": "Island of Imagination Whitty White",
+      "catalogName": "Island of Imagination Whitty White",
+      "catalogCategory": "Bali Craft Beers",
+      "productId": "df64f144-db2e-440e-a4a7-9f1b9edd4df3",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Bali Craft Beers",
+      "sourceName": "Kura Kura Island Ale",
+      "catalogName": "Kura Kura Island Ale",
+      "catalogCategory": "Bali Craft Beers",
+      "productId": "3c576b1d-b146-4466-9a22-083950e55ca4",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Bali Craft Beers",
+      "sourceName": "Small Hazy",
+      "catalogName": "Small Hazy",
+      "catalogCategory": "Bali Craft Beers",
+      "productId": "fd22abbb-0209-480e-bda1-2426cbcc4aae",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Bali Craft Beers",
+      "sourceName": "Island of Imagination XPA",
+      "catalogName": "Island of Imagination XPA",
+      "catalogCategory": "Bali Craft Beers",
+      "productId": "eedf5572-d5ee-4bac-a44e-17c993fd0539",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Bali Craft Beers",
+      "sourceName": "Kura Kura I.P.A",
+      "catalogName": "Kura Kura I.P.A",
+      "catalogCategory": "Bali Craft Beers",
+      "productId": "2f10a9c1-416e-4abc-8a04-a9bd944a6147",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Korean Soju",
+      "sourceName": "Original Soju",
+      "catalogName": "Original Soju",
+      "catalogCategory": "Korean Soju",
+      "productId": "bd49c89c-064d-4af7-8471-24ea316065b0",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Korean Soju",
+      "sourceName": "Lime Soju",
+      "catalogName": "Lime Soju",
+      "catalogCategory": "Korean Soju",
+      "productId": "e84ce467-cac7-48ed-b9ac-4d05e962b79c",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Korean Soju",
+      "sourceName": "Lychee Soju",
+      "catalogName": "Lychee Soju",
+      "catalogCategory": "Korean Soju",
+      "productId": "3ded6491-4b26-4a67-bb60-43058815bf37",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Korean Soju",
+      "sourceName": "Peach Soju",
+      "catalogName": "Peach Soju",
+      "catalogCategory": "Korean Soju",
+      "productId": "51e4202c-a26a-40d6-993e-ab77ff01b3ca",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Korean Soju",
+      "sourceName": "Green Grape Soju",
+      "catalogName": "Green Grape Soju",
+      "catalogCategory": "Korean Soju",
+      "productId": "9bf5a9b4-a0d3-426b-a5c2-59e0fca6383a",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Wine by Glass",
+      "sourceName": "Red Wine",
+      "catalogName": "Red Wine",
+      "catalogCategory": "Wine by Glass",
+      "productId": "b698a0b2-e061-4c86-a1c1-4d63534f6c35",
+      "reused": true,
+      "differences": {
+        "options": {
+          "source": [],
+          "catalog": [
+            {
+              "name": "12cl",
+              "price": 95,
+              "kind": "Variant"
+            },
+            {
+              "name": "18cl",
+              "price": 135,
+              "kind": "Variant"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Wine by Glass",
+      "sourceName": "White Wine",
+      "catalogName": "White Wine",
+      "catalogCategory": "Wine by Glass",
+      "productId": "8e0d9675-4f3c-4989-bfd1-5657b4fb1258",
+      "reused": true,
+      "differences": {
+        "options": {
+          "source": [],
+          "catalog": [
+            {
+              "name": "12cl",
+              "price": 95,
+              "kind": "Variant"
+            },
+            {
+              "name": "18cl",
+              "price": 135,
+              "kind": "Variant"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Wine by Glass",
+      "sourceName": "Sparkling Wine",
+      "catalogName": "Sparkling Wine",
+      "catalogCategory": "Wine by Glass",
+      "productId": "dc31c3db-0456-4ef0-86db-ae0fdf8d7efe",
+      "reused": true,
+      "differences": {
+        "options": {
+          "source": [],
+          "catalog": [
+            {
+              "name": "12cl",
+              "price": 95,
+              "kind": "Variant"
+            },
+            {
+              "name": "18cl",
+              "price": 135,
+              "kind": "Variant"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Wine by Glass",
+      "sourceName": "Svaa Port Wine - Tawny",
+      "catalogName": "Svaa Port Wine - Tawny",
+      "catalogCategory": "Wine by Glass",
+      "productId": "28a14acf-1b16-4d65-b176-9b411346b825",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Wine by Glass",
+      "sourceName": "Rose Wine",
+      "catalogName": "Rose Wine",
+      "catalogCategory": "Wine by Glass",
+      "productId": "9395792a-56d5-435f-b43b-a93b249d6e9a",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Soft",
+      "sourceName": "Pokka Green Tea",
+      "catalogName": "Pokka Green Tea",
+      "catalogCategory": "Soft",
+      "productId": "795bf4d2-1316-4e6e-a9f9-5ac6b653fdc2",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Soft",
+      "sourceName": "Coke",
+      "catalogName": "Coke",
+      "catalogCategory": "Soft",
+      "productId": "ca6a210d-9659-4711-8637-e541dfe7b5dc",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Soft",
+      "sourceName": "Sprite",
+      "catalogName": "Sprite",
+      "catalogCategory": "Soft",
+      "productId": "9b3855a4-1aa5-475d-97b8-9642ea78dfd9",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Soft",
+      "sourceName": "Coke Zero",
+      "catalogName": "Coke Zero",
+      "catalogCategory": "Soft",
+      "productId": "2a8a67b6-3ec0-4f7e-a218-4cd8a8d49083",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Soft",
+      "sourceName": "Ginger Ale",
+      "catalogName": "Ginger Ale",
+      "catalogCategory": "Soft",
+      "productId": "b183e6d6-e520-4ecd-9fee-25171e0405f5",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Soft",
+      "sourceName": "Tonic",
+      "catalogName": "Tonic",
+      "catalogCategory": "Soft",
+      "productId": "ccbc2127-d902-4ef4-8bfd-df2a7f038d5a",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Soft",
+      "sourceName": "Soda Water",
+      "catalogName": "Soda Water",
+      "catalogCategory": "Soft",
+      "productId": "86254550-d399-4076-924f-4d9dfc8e3244",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Soft",
+      "sourceName": "Kratingdaeng",
+      "catalogName": "Kratingdaeng",
+      "catalogCategory": "Soft",
+      "productId": "3450deb3-cb1a-47d5-93f9-938ca1b830eb",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Water",
+      "sourceName": "Mineral Water (50cl)",
+      "catalogName": "Mineral Water (50cl)",
+      "catalogCategory": "Water",
+      "productId": "40e17968-feec-4213-b1da-e6388d520499",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Water",
+      "sourceName": "Sparkling Water (50cl)",
+      "catalogName": "Sparkling Water (50cl)",
+      "catalogCategory": "Water",
+      "productId": "34c63a1a-c40d-49c1-9378-a016d37fc76b",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Water",
+      "sourceName": "Dolomia Still",
+      "catalogName": "Dolomia Still",
+      "catalogCategory": "Water",
+      "productId": "f4e6813a-28a7-4863-b21b-2ec37caa6c2c",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Water",
+      "sourceName": "Dolomia Sparkling",
+      "catalogName": "Dolomia Sparkling",
+      "catalogCategory": "Water",
+      "productId": "6706baaa-5f15-446e-bbfe-2d89cc966ebb",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Tea",
+      "sourceName": "Tea (Iced or Hot)",
+      "catalogName": "Tea (Iced or Hot)",
+      "catalogCategory": "Tea",
+      "productId": "a246cf84-5c07-4714-bdda-60c2c7c761de",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Tea",
+      "sourceName": "Lemon Tea (Iced or Hot)",
+      "catalogName": "Lemon Tea (Iced or Hot)",
+      "catalogCategory": "Tea",
+      "productId": "921bde09-9daf-4d21-8e20-579fc83bb2e1",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Tea",
+      "sourceName": "Lemongrass Tea",
+      "catalogName": "Lemongrass Tea",
+      "catalogCategory": "Tea",
+      "productId": "462f29cc-7212-4f61-904b-041e481a6f69",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Tea",
+      "sourceName": "Peach Sorbet Iced Tea",
+      "catalogName": "Peach Sorbet Iced Tea",
+      "catalogCategory": "Tea",
+      "productId": "9a85d7cb-92fe-4a20-b2af-ca35c1aabfda",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Tea",
+      "sourceName": "Strawberry Sorbet Iced Tea",
+      "catalogName": "Strawberry Sorbet Iced Tea",
+      "catalogCategory": "Tea",
+      "productId": "494baa90-3390-4324-b7c8-6b55d492809d",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Tea",
+      "sourceName": "Flavoured Iced Tea",
+      "catalogName": "Flavoured Iced Tea",
+      "catalogCategory": "Tea",
+      "productId": "99b0cc55-9206-4b62-a5ff-9c251a4ed848",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Tea",
+      "sourceName": "Pot of TWG Tea",
+      "catalogName": "Pot of TWG Tea",
+      "catalogCategory": "Tea",
+      "productId": "871a96cb-c02e-44e4-8245-3104019ccea2",
+      "reused": true,
+      "differences": {
+        "description": {
+          "source": "Black tea: English Breakfast, Earl Grey",
+          "catalog": "Black tea: English Breakfast, Earl Grey. Green tea: Sencha, Grand Jasmine, Moroccan Mint, Waterfruit. No theine: Chamomille, Vanilla Bourbon Red Tea. Grand Jasmine, Moroccan Mint, Waterfruit and Vanilla Bourbon Red Tea can be served iced."
+        }
+      }
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Coffee",
+      "sourceName": "Espresso",
+      "catalogName": "Espresso",
+      "catalogCategory": "Coffee",
+      "productId": "c996586d-a014-4fdd-addc-52a24cb99a20",
+      "reused": true,
+      "differences": {
+        "options": {
+          "source": [],
+          "catalog": [
+            {
+              "name": "Oat Milk",
+              "price": 5,
+              "kind": "Add-on"
+            },
+            {
+              "name": "Caramel Syrup",
+              "price": 10,
+              "kind": "Add-on"
+            },
+            {
+              "name": "Hazelnut Syrup",
+              "price": 10,
+              "kind": "Add-on"
+            },
+            {
+              "name": "Vanilla Syrup",
+              "price": 10,
+              "kind": "Add-on"
+            },
+            {
+              "name": "Espresso Shot",
+              "price": 12,
+              "kind": "Add-on"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Coffee",
+      "sourceName": "Black Coffee",
+      "catalogName": "Black Coffee",
+      "catalogCategory": "Coffee",
+      "productId": "9e5a4a03-8502-4cf0-ba8c-a4e6146b883b",
+      "reused": true,
+      "differences": {
+        "options": {
+          "source": [],
+          "catalog": [
+            {
+              "name": "Oat Milk",
+              "price": 5,
+              "kind": "Add-on"
+            },
+            {
+              "name": "Caramel Syrup",
+              "price": 10,
+              "kind": "Add-on"
+            },
+            {
+              "name": "Hazelnut Syrup",
+              "price": 10,
+              "kind": "Add-on"
+            },
+            {
+              "name": "Vanilla Syrup",
+              "price": 10,
+              "kind": "Add-on"
+            },
+            {
+              "name": "Espresso Shot",
+              "price": 12,
+              "kind": "Add-on"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Coffee",
+      "sourceName": "Macchiato",
+      "catalogName": "Macchiato",
+      "catalogCategory": "Coffee",
+      "productId": "bd8e4d9e-8c73-4226-a2a2-008414aabd4a",
+      "reused": true,
+      "differences": {
+        "options": {
+          "source": [],
+          "catalog": [
+            {
+              "name": "Oat Milk",
+              "price": 5,
+              "kind": "Add-on"
+            },
+            {
+              "name": "Caramel Syrup",
+              "price": 10,
+              "kind": "Add-on"
+            },
+            {
+              "name": "Hazelnut Syrup",
+              "price": 10,
+              "kind": "Add-on"
+            },
+            {
+              "name": "Vanilla Syrup",
+              "price": 10,
+              "kind": "Add-on"
+            },
+            {
+              "name": "Espresso Shot",
+              "price": 12,
+              "kind": "Add-on"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Coffee",
+      "sourceName": "Piccolo Latte",
+      "catalogName": "Piccolo Latte",
+      "catalogCategory": "Coffee",
+      "productId": "b290504e-da89-4414-9960-abd9f0d6e820",
+      "reused": true,
+      "differences": {
+        "options": {
+          "source": [],
+          "catalog": [
+            {
+              "name": "Oat Milk",
+              "price": 5,
+              "kind": "Add-on"
+            },
+            {
+              "name": "Caramel Syrup",
+              "price": 10,
+              "kind": "Add-on"
+            },
+            {
+              "name": "Hazelnut Syrup",
+              "price": 10,
+              "kind": "Add-on"
+            },
+            {
+              "name": "Vanilla Syrup",
+              "price": 10,
+              "kind": "Add-on"
+            },
+            {
+              "name": "Espresso Shot",
+              "price": 12,
+              "kind": "Add-on"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Coffee",
+      "sourceName": "Cappuccino",
+      "catalogName": "Cappuccino",
+      "catalogCategory": "Coffee",
+      "productId": "29dc630a-faa1-4a16-8946-b6df64255bb1",
+      "reused": true,
+      "differences": {
+        "options": {
+          "source": [],
+          "catalog": [
+            {
+              "name": "Oat Milk",
+              "price": 5,
+              "kind": "Add-on"
+            },
+            {
+              "name": "Caramel Syrup",
+              "price": 10,
+              "kind": "Add-on"
+            },
+            {
+              "name": "Hazelnut Syrup",
+              "price": 10,
+              "kind": "Add-on"
+            },
+            {
+              "name": "Vanilla Syrup",
+              "price": 10,
+              "kind": "Add-on"
+            },
+            {
+              "name": "Espresso Shot",
+              "price": 12,
+              "kind": "Add-on"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Coffee",
+      "sourceName": "Latte",
+      "catalogName": "Latte",
+      "catalogCategory": "Coffee",
+      "productId": "f4d1734e-0eaf-4844-9ddf-13b1353370db",
+      "reused": true,
+      "differences": {
+        "options": {
+          "source": [],
+          "catalog": [
+            {
+              "name": "Oat Milk",
+              "price": 5,
+              "kind": "Add-on"
+            },
+            {
+              "name": "Caramel Syrup",
+              "price": 10,
+              "kind": "Add-on"
+            },
+            {
+              "name": "Hazelnut Syrup",
+              "price": 10,
+              "kind": "Add-on"
+            },
+            {
+              "name": "Vanilla Syrup",
+              "price": 10,
+              "kind": "Add-on"
+            },
+            {
+              "name": "Espresso Shot",
+              "price": 12,
+              "kind": "Add-on"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Cocktails",
+      "sourceName": "Mojito",
+      "catalogName": "Mojito",
+      "catalogCategory": "Cocktails",
+      "productId": "2700f144-da60-49c1-a11d-a1aeaa13fd76",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Cocktails",
+      "sourceName": "Dark & Stormy",
+      "catalogName": "Dark & Stormy",
+      "catalogCategory": "Cocktails",
+      "productId": "430f56fa-e26d-4c5e-8c5a-930664d38657",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Cocktails",
+      "sourceName": "Caipiroska",
+      "catalogName": "Caipiroska",
+      "catalogCategory": "Cocktails",
+      "productId": "cfaa7574-23b3-4e2a-b5ed-30fba32c5d7f",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Cocktails",
+      "sourceName": "Cosmopolitan",
+      "catalogName": "Cosmopolitan",
+      "catalogCategory": "Cocktails",
+      "productId": "7567d840-098b-4786-8702-6e1a0525e054",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Cocktails",
+      "sourceName": "Whiskey Sour",
+      "catalogName": "Whiskey Sour",
+      "catalogCategory": "Cocktails",
+      "productId": "cbef8854-b9a8-45f7-8d03-ba6d1f17057f",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Cocktails",
+      "sourceName": "Spinning Kiss",
+      "catalogName": "Spinning Kiss",
+      "catalogCategory": "Cocktails",
+      "productId": "8a10fedf-6da9-49ac-a061-368cb134040d",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Cocktails",
+      "sourceName": "Pinkin Sour",
+      "catalogName": "Pinkin Sour",
+      "catalogCategory": "Cocktails",
+      "productId": "d9077ab2-fbfd-4bac-87d1-dfb03d7461c4",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Cocktails",
+      "sourceName": "Margarita",
+      "catalogName": "Margarita",
+      "catalogCategory": "Cocktails",
+      "productId": "9e03b103-96fc-44fd-9080-d232ff2220a3",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Cocktails",
+      "sourceName": "Negroni",
+      "catalogName": "Negroni",
+      "catalogCategory": "Cocktails",
+      "productId": "a3d18ebf-54e0-4976-8908-bb507e4ba957",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Cocktails",
+      "sourceName": "Aperol Spritz",
+      "catalogName": "Aperol Spritz",
+      "catalogCategory": "Cocktails",
+      "productId": "cc81156f-ea89-4e1a-be5b-85f53dadd9b1",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Gin",
+      "sourceName": "Gordon's",
+      "catalogName": "Gordon's",
+      "catalogCategory": "Gin",
+      "productId": "9bf7ea8d-96ed-44f4-ba30-cc88b0786a84",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Gin",
+      "sourceName": "Gordon's Pink",
+      "catalogName": "Gordon's Pink",
+      "catalogCategory": "Gin",
+      "productId": "144f6286-a4cb-42ce-b592-0ae9fd598349",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Gin",
+      "sourceName": "H",
+      "catalogName": "H",
+      "catalogCategory": "Gin",
+      "productId": "4854db1f-914f-4a98-816f-59d0089d0ec5",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Gin",
+      "sourceName": "East Indies",
+      "catalogName": "East Indies",
+      "catalogCategory": "Gin",
+      "productId": "1ee045e3-30ea-42af-b8b2-022cf572154b",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Gin",
+      "sourceName": "Bombay Dry",
+      "catalogName": "Bombay Dry",
+      "catalogCategory": "Gin",
+      "productId": "b646aff8-b4fe-407a-951e-946722c4930b",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Gin",
+      "sourceName": "Tenjaku Gin",
+      "catalogName": "Tenjaku Gin",
+      "catalogCategory": "Gin",
+      "productId": "c5d2efa7-b4a3-4cfb-bbb9-285e4eaab972",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Gin",
+      "sourceName": "Tanqueray",
+      "catalogName": "Tanqueray",
+      "catalogCategory": "Gin",
+      "productId": "519e9655-da24-4490-9f1b-dbe6396df189",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Gin",
+      "sourceName": "Bombay Sapphire",
+      "catalogName": "Bombay Sapphire",
+      "catalogCategory": "Gin",
+      "productId": "3ab655e4-8dbc-452d-97a3-b5891e58d1b8",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Gin",
+      "sourceName": "Hendrick's",
+      "catalogName": "Hendrick's",
+      "catalogCategory": "Gin",
+      "productId": "77af4d34-8dab-46c3-9206-bb0ceac84959",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Gin",
+      "sourceName": "Tanqueray 10",
+      "catalogName": "Tanqueray 10",
+      "catalogCategory": "Gin",
+      "productId": "b8cc5c2f-9345-497a-8d82-ffa2d6fa28ec",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Rum",
+      "sourceName": "Captain Morgan White",
+      "catalogName": "Captain Morgan White",
+      "catalogCategory": "Rum",
+      "productId": "d4985d7c-2f35-4222-98d9-90efe51e94dd",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Rum",
+      "sourceName": "Captain Morgan Gold",
+      "catalogName": "Captain Morgan Gold",
+      "catalogCategory": "Rum",
+      "productId": "77f791fd-fc53-4b45-9af3-c3035b054faf",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Rum",
+      "sourceName": "Bacardi Spice",
+      "catalogName": "Bacardi Spice",
+      "catalogCategory": "Rum",
+      "productId": "3066d4cf-c7c4-4d93-b780-ddbe8e2c5795",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Rum",
+      "sourceName": "Bacardi Light",
+      "catalogName": "Bacardi Light",
+      "catalogCategory": "Rum",
+      "productId": "92423e10-6cb8-4da3-922f-2e2afeabc03e",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Rum",
+      "sourceName": "Bacardi Gold",
+      "catalogName": "Bacardi Gold",
+      "catalogCategory": "Rum",
+      "productId": "148c0014-01b1-40dc-b85a-01b0a9e478c8",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Rum",
+      "sourceName": "Kranken",
+      "catalogName": "Kranken",
+      "catalogCategory": "Rum",
+      "productId": "65d6e881-3afe-4b5e-ae1a-b869cfb45f8e",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Vodka",
+      "sourceName": "Smirnoff",
+      "catalogName": "Smirnoff",
+      "catalogCategory": "Vodka",
+      "productId": "2a8551f1-259d-457b-acf4-3945d6142baf",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Vodka",
+      "sourceName": "Skyy",
+      "catalogName": "Skyy",
+      "catalogCategory": "Vodka",
+      "productId": "89ccdc4d-2b74-42d5-a718-014d2b630eee",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Vodka",
+      "sourceName": "Absolut Blue",
+      "catalogName": "Absolut Blue",
+      "catalogCategory": "Vodka",
+      "productId": "3781b30d-5cb8-4823-bd26-63d6eee9e2d2",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Vodka",
+      "sourceName": "Grey Goose Original",
+      "catalogName": "Grey Goose Original",
+      "catalogCategory": "Vodka",
+      "productId": "9a7fcabe-b1c5-4541-ac3a-8c299f5b07f3",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Whisky",
+      "sourceName": "Gilbey's Whisky",
+      "catalogName": "Gilbey's Whisky",
+      "catalogCategory": "Whisky",
+      "productId": "5b586235-315a-4744-9e6e-35ba8192faf2",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Whisky",
+      "sourceName": "JW Red Label",
+      "catalogName": "JW Red Label",
+      "catalogCategory": "Whisky",
+      "productId": "61b4434b-3c08-45fa-bf80-24ee3e4508c4",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Whisky",
+      "sourceName": "Jim Beam",
+      "catalogName": "Jim Beam",
+      "catalogCategory": "Whisky",
+      "productId": "fd418c62-3175-42c9-899b-df3054298176",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Whisky",
+      "sourceName": "Jameson",
+      "catalogName": "Jameson",
+      "catalogCategory": "Whisky",
+      "productId": "478ede8f-97e9-4b27-badc-f1832fa9fe8e",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Whisky",
+      "sourceName": "Tenjaku Whisky",
+      "catalogName": "Tenjaku Whisky",
+      "catalogCategory": "Whisky",
+      "productId": "d7f664dd-5edf-4e5e-a01d-3505cf3fcae1",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Whisky",
+      "sourceName": "Jack Daniel's",
+      "catalogName": "Jack Daniel's",
+      "catalogCategory": "Whisky",
+      "productId": "e8765d37-5aa0-43a2-b70c-807c7555367a",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Whisky",
+      "sourceName": "JW Black Label",
+      "catalogName": "JW Black Label",
+      "catalogCategory": "Whisky",
+      "productId": "36d83cd7-1565-4a0a-91ae-512b98816120",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Whisky",
+      "sourceName": "Chivas Regal 12 YO",
+      "catalogName": "Chivas Regal 12 YO",
+      "catalogCategory": "Whisky",
+      "productId": "26003af8-4e7b-45c3-9d13-d3aafe1cef07",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Whisky",
+      "sourceName": "Gentelman Jack",
+      "catalogName": "Gentelman Jack",
+      "catalogCategory": "Whisky",
+      "productId": "25454498-f760-47d7-b0fc-927837a849a2",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Whisky",
+      "sourceName": "Glenfiddich 12 YO",
+      "catalogName": "Glenfiddich 12 YO",
+      "catalogCategory": "Whisky",
+      "productId": "9f9ed827-18ce-49df-9fb9-4153bb79d2d5",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Whisky",
+      "sourceName": "Umiki",
+      "catalogName": "Umiki",
+      "catalogCategory": "Whisky",
+      "productId": "0ccdd437-510c-415e-bca8-4974159c7a74",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Whisky",
+      "sourceName": "Singleton 12 YO",
+      "catalogName": "Singleton 12 YO",
+      "catalogCategory": "Whisky",
+      "productId": "ae5059ed-b449-4214-aceb-2b7e82310dbc",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Whisky",
+      "sourceName": "Macallan 12 YO - Double Cask",
+      "catalogName": "Macallan 12 YO - Double Cask",
+      "catalogCategory": "Whisky",
+      "productId": "773d5db4-2885-4f71-9a6b-48fb450fa999",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Tequila",
+      "sourceName": "Camino Blanca",
+      "catalogName": "Camino Blanca",
+      "catalogCategory": "Tequila",
+      "productId": "af1007ad-8960-4b04-8f20-40952da3cd41",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Tequila",
+      "sourceName": "Patron Silver",
+      "catalogName": "Patron Silver",
+      "catalogCategory": "Tequila",
+      "productId": "a742b0b0-9cbe-4151-aa7c-922072859516",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Finger Food",
+      "sourceName": "Crispy Enoki",
+      "catalogName": "Crispy Enoki",
+      "catalogCategory": "Finger Food",
+      "productId": "f26d5b6a-4c60-509a-ab6b-d80c8297c5c3",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Finger Food",
+      "sourceName": "Cheese & Beef Croquettes",
+      "catalogName": "Cheese and Beef Croquettes",
+      "catalogCategory": "Finger Food",
+      "productId": "f5a2c24a-ffa6-5bfc-bbe5-a1cc84b3f534",
+      "reused": true,
+      "differences": {
+        "price": {
+          "source": 60.0,
+          "catalog": 65
+        }
+      }
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Finger Food",
+      "sourceName": "Spicy Garlic Chicken Wings",
+      "catalogName": "Spicy Garlic Chicken Wings",
+      "catalogCategory": "Finger Food",
+      "productId": "2cb78a25-ec3e-5660-aca7-8d0ebf76ab53",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Finger Food",
+      "sourceName": "Mexican Nachos",
+      "catalogName": "Mexican Nachos",
+      "catalogCategory": "Finger Food",
+      "productId": "fb9fc65a-6f8c-5720-b76d-a5a16351edd1",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Finger Food",
+      "sourceName": "Indian Samosa with Green Chutney",
+      "catalogName": "Indian Samosa with Green Chutney",
+      "catalogCategory": "Finger Food",
+      "productId": "9ed272d4-456b-5ebd-8514-d8fc06ec7098",
+      "reused": true,
+      "differences": {
+        "price": {
+          "source": 60.0,
+          "catalog": 50
+        }
+      }
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Finger Food",
+      "sourceName": "Homemade Fries with Spicy Aioli",
+      "catalogName": "Homemade Fries with Spicy Aioli",
+      "catalogCategory": "Finger Food",
+      "productId": "53d51493-064c-5ecf-8d56-3564486a658f",
+      "reused": true,
+      "differences": {
+        "price": {
+          "source": 60.0,
+          "catalog": 65
+        }
+      }
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Finger Food",
+      "sourceName": "Platter of Escargots with Garlic Butter",
+      "catalogName": "Platter of Escargots with Garlic Butter",
+      "catalogCategory": "Finger Food",
+      "productId": "504904fb-47b4-4997-bf73-4f0cb0b6230e",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Finger Food",
+      "sourceName": "Triple Cheese Quesadillas and Guacamole",
+      "catalogName": "Triple Cheese Quesadillas and Guacamole",
+      "catalogCategory": "Finger Food",
+      "productId": "dd0ac532-fbb9-5362-9630-4d4378848c7e",
+      "reused": true,
+      "differences": {
+        "price": {
+          "source": 75.0,
+          "catalog": 85
+        }
+      }
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Local Beers",
+      "sourceName": "San Miguel Light",
+      "catalogName": "San Miguel Light",
+      "catalogCategory": "Local Beers",
+      "productId": "97bb530c-8c5e-493b-8668-cb4c265a903a",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Local Beers",
+      "sourceName": "Bintang Lemon Radler",
+      "catalogName": "Bintang Lemon Radler",
+      "catalogCategory": "Local Beers",
+      "productId": "b452e2a5-5b8a-4b73-b9c6-59cd56644dc9",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Local Beers",
+      "sourceName": "Bintang Crystal",
+      "catalogName": "Bintang Crystal",
+      "catalogCategory": "Local Beers",
+      "productId": "0c400b9d-169b-4cfa-9c24-c2158437aded",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Local Beers",
+      "sourceName": "Carlsberg",
+      "catalogName": "Carlsberg",
+      "catalogCategory": "Local Beers",
+      "productId": "a80db59c-78bf-4a90-84ce-c4bd7a56a1d7",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Local Beers",
+      "sourceName": "Bintang",
+      "catalogName": "Bintang",
+      "catalogCategory": "Local Beers",
+      "productId": "59657d07-d281-448b-8191-24fd6420a5a5",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Local Beers",
+      "sourceName": "Guinness Extra Stout",
+      "catalogName": "Guinness Extra Stout",
+      "catalogCategory": "Local Beers",
+      "productId": "cca7440f-b6ec-40a0-9c9d-624638ca8989",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Local Beers",
+      "sourceName": "Koenig",
+      "catalogName": "Koenig",
+      "catalogCategory": "Local Beers",
+      "productId": "f7f457a2-2928-445f-a3d0-35cc30e1bad4",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Local Beers",
+      "sourceName": "Anker",
+      "catalogName": "Anker",
+      "catalogCategory": "Local Beers",
+      "productId": "6825d289-b4af-4aa3-a9d9-ad4e1eb05d2c",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Local Beers",
+      "sourceName": "Carlsberg Draught",
+      "catalogName": "Carlsberg Draught",
+      "catalogCategory": "Local Beers",
+      "productId": "05b9d66a-1e03-469e-8b71-169cc1520aa2",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Imported Beers",
+      "sourceName": "Liefmans Fruitesse",
+      "catalogName": "Liefmans Fruitesse",
+      "catalogCategory": "Imported Beers",
+      "productId": "9ba3c922-6554-44f1-b798-b01fc89d6edf",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Imported Beers",
+      "sourceName": "Hoegaarden Blanche",
+      "catalogName": "Hoegaarden Blanche",
+      "catalogCategory": "Imported Beers",
+      "productId": "fba9869a-512e-47ec-bd6f-438ff48fd73c",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Imported Beers",
+      "sourceName": "La Chouffe",
+      "catalogName": "La Chouffe",
+      "catalogCategory": "Imported Beers",
+      "productId": "df7727de-a217-4484-9fcf-49d844d945bc",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Imported Beers",
+      "sourceName": "Duvel Golden Ale",
+      "catalogName": "Duvel Golden Ale",
+      "catalogCategory": "Imported Beers",
+      "productId": "ac801e76-05ac-4c65-bbd6-be92bc2db8d7",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Imported Beers",
+      "sourceName": "Maredsous Triple",
+      "catalogName": "Maredsous Triple",
+      "catalogCategory": "Imported Beers",
+      "productId": "d6ddf1bf-08a3-4bba-b554-36b625ddb735",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Imported Beers",
+      "sourceName": "Erdinger Weissbier",
+      "catalogName": "Erdinger Weissbier",
+      "catalogCategory": "Imported Beers",
+      "productId": "959884f7-8026-455c-bb7c-b2101f98bcf9",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Imported Beers",
+      "sourceName": "Erdinger Dunkel",
+      "catalogName": "Erdinger Dunkel",
+      "catalogCategory": "Imported Beers",
+      "productId": "fa3323e3-ac78-4c18-801e-c78340b3822b",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Imported Beers",
+      "sourceName": "Corona",
+      "catalogName": "Corona",
+      "catalogCategory": "Imported Beers",
+      "productId": "cdc3d260-3d0e-4ce8-a1e6-b003df8b682f",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Bali Craft Beers",
+      "sourceName": "Island of Imagination Whitty White",
+      "catalogName": "Island of Imagination Whitty White",
+      "catalogCategory": "Bali Craft Beers",
+      "productId": "df64f144-db2e-440e-a4a7-9f1b9edd4df3",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Bali Craft Beers",
+      "sourceName": "Kura Kura Island Ale",
+      "catalogName": "Kura Kura Island Ale",
+      "catalogCategory": "Bali Craft Beers",
+      "productId": "3c576b1d-b146-4466-9a22-083950e55ca4",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Bali Craft Beers",
+      "sourceName": "Small Hazy",
+      "catalogName": "Small Hazy",
+      "catalogCategory": "Bali Craft Beers",
+      "productId": "fd22abbb-0209-480e-bda1-2426cbcc4aae",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Bali Craft Beers",
+      "sourceName": "Island of Imagination XPA",
+      "catalogName": "Island of Imagination XPA",
+      "catalogCategory": "Bali Craft Beers",
+      "productId": "eedf5572-d5ee-4bac-a44e-17c993fd0539",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Bali Craft Beers",
+      "sourceName": "Kura Kura I.P.A",
+      "catalogName": "Kura Kura I.P.A",
+      "catalogCategory": "Bali Craft Beers",
+      "productId": "2f10a9c1-416e-4abc-8a04-a9bd944a6147",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Ciders",
+      "sourceName": "Somersby Apple Cider",
+      "catalogName": "Somersby Apple Cider",
+      "catalogCategory": "Ciders",
+      "productId": "d66ef79b-e485-4c58-82be-6788b9a4310e",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Korean Soju",
+      "sourceName": "Original Soju",
+      "catalogName": "Original Soju",
+      "catalogCategory": "Korean Soju",
+      "productId": "bd49c89c-064d-4af7-8471-24ea316065b0",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Korean Soju",
+      "sourceName": "Lime Soju",
+      "catalogName": "Lime Soju",
+      "catalogCategory": "Korean Soju",
+      "productId": "e84ce467-cac7-48ed-b9ac-4d05e962b79c",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Korean Soju",
+      "sourceName": "Lychee Soju",
+      "catalogName": "Lychee Soju",
+      "catalogCategory": "Korean Soju",
+      "productId": "3ded6491-4b26-4a67-bb60-43058815bf37",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Korean Soju",
+      "sourceName": "Peach Soju",
+      "catalogName": "Peach Soju",
+      "catalogCategory": "Korean Soju",
+      "productId": "51e4202c-a26a-40d6-993e-ab77ff01b3ca",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Korean Soju",
+      "sourceName": "Green Grape Soju",
+      "catalogName": "Green Grape Soju",
+      "catalogCategory": "Korean Soju",
+      "productId": "9bf5a9b4-a0d3-426b-a5c2-59e0fca6383a",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Wine by Glass",
+      "sourceName": "Red Wine",
+      "catalogName": "Red Wine",
+      "catalogCategory": "Wine by Glass",
+      "productId": "b698a0b2-e061-4c86-a1c1-4d63534f6c35",
+      "reused": true,
+      "differences": {
+        "options": {
+          "source": [],
+          "catalog": [
+            {
+              "name": "12cl",
+              "price": 95,
+              "kind": "Variant"
+            },
+            {
+              "name": "18cl",
+              "price": 135,
+              "kind": "Variant"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Wine by Glass",
+      "sourceName": "White Wine",
+      "catalogName": "White Wine",
+      "catalogCategory": "Wine by Glass",
+      "productId": "8e0d9675-4f3c-4989-bfd1-5657b4fb1258",
+      "reused": true,
+      "differences": {
+        "options": {
+          "source": [],
+          "catalog": [
+            {
+              "name": "12cl",
+              "price": 95,
+              "kind": "Variant"
+            },
+            {
+              "name": "18cl",
+              "price": 135,
+              "kind": "Variant"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Wine by Glass",
+      "sourceName": "Niepoort Tawny",
+      "catalogName": "Niepoort Tawny",
+      "catalogCategory": "Wine by Glass",
+      "productId": "fb90305c-e7cd-44c5-a12b-edcc6dba6183",
+      "reused": true,
+      "differences": {
+        "description": {
+          "source": "",
+          "catalog": "9cl"
+        }
+      }
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Milkshake",
+      "sourceName": "Vanilla Milkshake",
+      "catalogName": "Vanilla Milkshake",
+      "catalogCategory": "Milkshake",
+      "productId": "51c0e7fe-043d-4bb2-807e-2de965fce888",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Milkshake",
+      "sourceName": "Chocolate Milkshake",
+      "catalogName": "Chocolate Milkshake",
+      "catalogCategory": "Milkshake",
+      "productId": "c68ed9a9-666c-4d45-b358-83840c6e4373",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Milkshake",
+      "sourceName": "Coconut Milkshake",
+      "catalogName": "Coconut Milkshake",
+      "catalogCategory": "Milkshake",
+      "productId": "952401b2-3b9b-446e-9ad1-052552bed7d0",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Milkshake",
+      "sourceName": "Strawberry Milkshake",
+      "catalogName": "Strawberry Milkshake",
+      "catalogCategory": "Milkshake",
+      "productId": "5949482f-418a-48e5-b384-07a1bfaece53",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Milkshake",
+      "sourceName": "Salted Caramel Milkshake",
+      "catalogName": "Salted Caramel Milkshake",
+      "catalogCategory": "Milkshake",
+      "productId": "16f54327-3538-45b8-af54-9d1651c1c37b",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Mocktails",
+      "sourceName": "Lychee Spritzer",
+      "catalogName": "Lychee Spritzer",
+      "catalogCategory": "Mocktails",
+      "productId": "9965b576-ab7b-4bf2-b0aa-ec8dbf61e812",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Mocktails",
+      "sourceName": "Orange The Basil",
+      "catalogName": "Orange The Basil",
+      "catalogCategory": "Mocktails",
+      "productId": "418bbd1d-023c-4195-8ad5-0808cd193a7c",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Mocktails",
+      "sourceName": "Pina & Lemongrass",
+      "catalogName": "Pina & Lemongrass",
+      "catalogCategory": "Mocktails",
+      "productId": "52d597a8-e0d5-4c6e-8a08-07d96738d91a",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Mocktails",
+      "sourceName": "Cucumber Spring",
+      "catalogName": "Cucumber Spring",
+      "catalogCategory": "Mocktails",
+      "productId": "0badb492-3c8b-4728-933e-e19d14f465eb",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Mocktails",
+      "sourceName": "Yellow Peach",
+      "catalogName": "Yellow Peach",
+      "catalogCategory": "Mocktails",
+      "productId": "443c3ec5-ca5e-4cd5-8429-d5eb252a0c74",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Mocktails",
+      "sourceName": "Unsalted Blue Caramel",
+      "catalogName": "Unsalted Blue Caramel",
+      "catalogCategory": "Mocktails",
+      "productId": "8c5ed384-633b-4fb5-8e7d-fa2ba9abb16f",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Soft",
+      "sourceName": "Pokka Green Tea",
+      "catalogName": "Pokka Green Tea",
+      "catalogCategory": "Soft",
+      "productId": "795bf4d2-1316-4e6e-a9f9-5ac6b653fdc2",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Soft",
+      "sourceName": "Coke",
+      "catalogName": "Coke",
+      "catalogCategory": "Soft",
+      "productId": "ca6a210d-9659-4711-8637-e541dfe7b5dc",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Soft",
+      "sourceName": "Sprite",
+      "catalogName": "Sprite",
+      "catalogCategory": "Soft",
+      "productId": "9b3855a4-1aa5-475d-97b8-9642ea78dfd9",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Soft",
+      "sourceName": "Coke Zero",
+      "catalogName": "Coke Zero",
+      "catalogCategory": "Soft",
+      "productId": "2a8a67b6-3ec0-4f7e-a218-4cd8a8d49083",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Soft",
+      "sourceName": "Ginger Ale",
+      "catalogName": "Ginger Ale",
+      "catalogCategory": "Soft",
+      "productId": "b183e6d6-e520-4ecd-9fee-25171e0405f5",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Soft",
+      "sourceName": "Tonic",
+      "catalogName": "Tonic",
+      "catalogCategory": "Soft",
+      "productId": "ccbc2127-d902-4ef4-8bfd-df2a7f038d5a",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Soft",
+      "sourceName": "Soda Water",
+      "catalogName": "Soda Water",
+      "catalogCategory": "Soft",
+      "productId": "86254550-d399-4076-924f-4d9dfc8e3244",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Soft",
+      "sourceName": "Kratingdaeng",
+      "catalogName": "Kratingdaeng",
+      "catalogCategory": "Soft",
+      "productId": "3450deb3-cb1a-47d5-93f9-938ca1b830eb",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Water",
+      "sourceName": "Mineral Water (50cl)",
+      "catalogName": "Mineral Water (50cl)",
+      "catalogCategory": "Water",
+      "productId": "40e17968-feec-4213-b1da-e6388d520499",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Water",
+      "sourceName": "Sparkling Water (50cl)",
+      "catalogName": "Sparkling Water (50cl)",
+      "catalogCategory": "Water",
+      "productId": "34c63a1a-c40d-49c1-9378-a016d37fc76b",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Water",
+      "sourceName": "Dolomia Still",
+      "catalogName": "Dolomia Still",
+      "catalogCategory": "Water",
+      "productId": "f4e6813a-28a7-4863-b21b-2ec37caa6c2c",
+      "reused": true,
+      "differences": {
+        "price": {
+          "source": 50,
+          "catalog": 45
+        },
+        "options": {
+          "source": [
+            {
+              "name": "33cl",
+              "price": 50,
+              "kind": "Variant"
+            },
+            {
+              "name": "75cl",
+              "price": 75,
+              "kind": "Variant"
+            }
+          ],
+          "catalog": [
+            {
+              "name": "33cl",
+              "price": 45,
+              "kind": "Variant"
+            },
+            {
+              "name": "75cl",
+              "price": 70,
+              "kind": "Variant"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Water",
+      "sourceName": "Dolomia Sparkling",
+      "catalogName": "Dolomia Sparkling",
+      "catalogCategory": "Water",
+      "productId": "6706baaa-5f15-446e-bbfe-2d89cc966ebb",
+      "reused": true,
+      "differences": {
+        "price": {
+          "source": 50,
+          "catalog": 45
+        },
+        "options": {
+          "source": [
+            {
+              "name": "33cl",
+              "price": 50,
+              "kind": "Variant"
+            },
+            {
+              "name": "75cl",
+              "price": 75,
+              "kind": "Variant"
+            }
+          ],
+          "catalog": [
+            {
+              "name": "33cl",
+              "price": 45,
+              "kind": "Variant"
+            },
+            {
+              "name": "75cl",
+              "price": 70,
+              "kind": "Variant"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Juice",
+      "sourceName": "Lime Juice",
+      "catalogName": "Lime Juice",
+      "catalogCategory": "Juice",
+      "productId": "6f115c7f-d39f-4a71-b87b-5c146aca5df4",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Juice",
+      "sourceName": "Lemon Juice",
+      "catalogName": "Lemon Juice",
+      "catalogCategory": "Juice",
+      "productId": "9a93d007-723d-42e7-84c0-9b2291af79a3",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Juice",
+      "sourceName": "Melon Juice",
+      "catalogName": "Melon Juice",
+      "catalogCategory": "Juice",
+      "productId": "8a0d8051-94c5-4e00-8330-5ce7c839bf40",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Juice",
+      "sourceName": "Watermelon Juice",
+      "catalogName": "Watermelon Juice",
+      "catalogCategory": "Juice",
+      "productId": "a2a91fc2-cb35-4fc3-994d-3c8cf11e3f1b",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Juice",
+      "sourceName": "Pineapple Juice",
+      "catalogName": "Pineapple Juice",
+      "catalogCategory": "Juice",
+      "productId": "ec814cdf-7165-4bce-ab0b-bcca9ef9d817",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Juice",
+      "sourceName": "Papaya Juice",
+      "catalogName": "Papaya Juice",
+      "catalogCategory": "Juice",
+      "productId": "7a99b938-51d2-4f84-be63-2e3d08af9507",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Juice",
+      "sourceName": "Mango Juice",
+      "catalogName": "Mango Juice",
+      "catalogCategory": "Juice",
+      "productId": "4658f759-d870-4f5e-bae7-622822fee7d2",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Juice",
+      "sourceName": "Strawberry Juice",
+      "catalogName": "Strawberry Juice",
+      "catalogCategory": "Juice",
+      "productId": "9039abcc-a819-4de6-98a4-a1bc165efe8b",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Juice",
+      "sourceName": "Orange Juice",
+      "catalogName": "Orange Juice",
+      "catalogCategory": "Juice",
+      "productId": "633f17b0-c639-457d-bec8-d334a3d61211",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Juice",
+      "sourceName": "Carrot Juice",
+      "catalogName": "Carrot Juice",
+      "catalogCategory": "Juice",
+      "productId": "f199acb6-65eb-4638-b229-602dfca7d809",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Juice",
+      "sourceName": "Orange Squash",
+      "catalogName": "Orange Squash",
+      "catalogCategory": "Juice",
+      "productId": "cfad825a-3ec4-4dc1-90b4-a6287171f2dc",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Chocolate",
+      "sourceName": "Hot or Cold Chocolate",
+      "catalogName": "Hot or Cold Chocolate",
+      "catalogCategory": "Chocolate",
+      "productId": "b4d68292-b630-4e4a-b2b6-69af4552bb72",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Tea",
+      "sourceName": "Tea (Iced or Hot)",
+      "catalogName": "Tea (Iced or Hot)",
+      "catalogCategory": "Tea",
+      "productId": "a246cf84-5c07-4714-bdda-60c2c7c761de",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Tea",
+      "sourceName": "Lemon Tea (Iced or Hot)",
+      "catalogName": "Lemon Tea (Iced or Hot)",
+      "catalogCategory": "Tea",
+      "productId": "921bde09-9daf-4d21-8e20-579fc83bb2e1",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Tea",
+      "sourceName": "Lemongrass Tea",
+      "catalogName": "Lemongrass Tea",
+      "catalogCategory": "Tea",
+      "productId": "462f29cc-7212-4f61-904b-041e481a6f69",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Tea",
+      "sourceName": "Peach Sorbet Iced Tea",
+      "catalogName": "Peach Sorbet Iced Tea",
+      "catalogCategory": "Tea",
+      "productId": "9a85d7cb-92fe-4a20-b2af-ca35c1aabfda",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Tea",
+      "sourceName": "Strawberry Sorbet Iced Tea",
+      "catalogName": "Strawberry Sorbet Iced Tea",
+      "catalogCategory": "Tea",
+      "productId": "494baa90-3390-4324-b7c8-6b55d492809d",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Tea",
+      "sourceName": "Flavoured Iced Tea",
+      "catalogName": "Flavoured Iced Tea",
+      "catalogCategory": "Tea",
+      "productId": "99b0cc55-9206-4b62-a5ff-9c251a4ed848",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Tea",
+      "sourceName": "Pot of TWG Tea",
+      "catalogName": "Pot of TWG Tea",
+      "catalogCategory": "Tea",
+      "productId": "871a96cb-c02e-44e4-8245-3104019ccea2",
+      "reused": true,
+      "differences": {
+        "description": {
+          "source": "Black tea: English Breakfast, Earl Grey. Green tea: Sencha, Grand Jasmine, Moroccan Mint. No theine: Chamomille, Vanilla Bourbon Red Tea. Grand Jasmine, Moroccan Mint and Vanilla Bourbon Red Tea can be served iced.",
+          "catalog": "Black tea: English Breakfast, Earl Grey. Green tea: Sencha, Grand Jasmine, Moroccan Mint, Waterfruit. No theine: Chamomille, Vanilla Bourbon Red Tea. Grand Jasmine, Moroccan Mint, Waterfruit and Vanilla Bourbon Red Tea can be served iced."
+        }
+      }
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Coffee",
+      "sourceName": "Espresso",
+      "catalogName": "Espresso",
+      "catalogCategory": "Coffee",
+      "productId": "c996586d-a014-4fdd-addc-52a24cb99a20",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Coffee",
+      "sourceName": "Black Coffee",
+      "catalogName": "Black Coffee",
+      "catalogCategory": "Coffee",
+      "productId": "9e5a4a03-8502-4cf0-ba8c-a4e6146b883b",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Coffee",
+      "sourceName": "Macchiato",
+      "catalogName": "Macchiato",
+      "catalogCategory": "Coffee",
+      "productId": "bd8e4d9e-8c73-4226-a2a2-008414aabd4a",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Coffee",
+      "sourceName": "Piccolo Latte",
+      "catalogName": "Piccolo Latte",
+      "catalogCategory": "Coffee",
+      "productId": "b290504e-da89-4414-9960-abd9f0d6e820",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Coffee",
+      "sourceName": "Cappuccino",
+      "catalogName": "Cappuccino",
+      "catalogCategory": "Coffee",
+      "productId": "29dc630a-faa1-4a16-8946-b6df64255bb1",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Coffee",
+      "sourceName": "Latte",
+      "catalogName": "Latte",
+      "catalogCategory": "Coffee",
+      "productId": "f4d1734e-0eaf-4844-9ddf-13b1353370db",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Coffee",
+      "sourceName": "Mocha",
+      "catalogName": "Mocha",
+      "catalogCategory": "Coffee",
+      "productId": "382dc52e-15b6-4350-9a9d-aee674a8c5b0",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Healthy Drink",
+      "sourceName": "Papaya & Orange",
+      "catalogName": "Papaya & Orange",
+      "catalogCategory": "Healthy Drink",
+      "productId": "af6c2cd7-8199-4e12-beb1-61a4028b1671",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Healthy Drink",
+      "sourceName": "Yakult & Tomato Basil",
+      "catalogName": "Yakult & Tomato Basil",
+      "catalogCategory": "Healthy Drink",
+      "productId": "2a3bd39c-f18f-4536-830d-9fe8e3ffbf00",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Healthy Drink",
+      "sourceName": "Wheat Grass Orange",
+      "catalogName": "Wheat Grass Orange",
+      "catalogCategory": "Healthy Drink",
+      "productId": "44f5e1f3-9c12-4e13-85c4-c4ce529d4752",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Everyday Happy Hour",
+      "sourceName": "Bintang - Bucket of 5 Bottles",
+      "catalogName": "Bintang - Bucket of 5 Bottles",
+      "catalogCategory": "Everyday Happy Hour",
+      "productId": "1a6e6dd2-4e04-46d6-9cda-b6b7d3c4d963",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Everyday Happy Hour",
+      "sourceName": "San Miguel Light - Bucket of 5 Bottles",
+      "catalogName": "San Miguel Light - Bucket of 5 Bottles",
+      "catalogCategory": "Everyday Happy Hour",
+      "productId": "efb9f14c-8c18-4c77-9305-bdaffd9b40d0",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Everyday Happy Hour",
+      "sourceName": "Carlsberg - Bucket of 5 Bottles",
+      "catalogName": "Carlsberg - Bucket of 5 Bottles",
+      "catalogCategory": "Everyday Happy Hour",
+      "productId": "a925c500-7198-49e8-ac08-b7f696cac5ba",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Everyday Happy Hour",
+      "sourceName": "Heineken - Bucket of 5 Bottles",
+      "catalogName": "Heineken - Bucket of 5 Bottles",
+      "catalogCategory": "Everyday Happy Hour",
+      "productId": "cea4476f-46ff-42fc-96f1-f64271a61c26",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Everyday Happy Hour",
+      "sourceName": "Anker - Bucket of 5 Bottles",
+      "catalogName": "Anker - Bucket of 5 Bottles",
+      "catalogCategory": "Everyday Happy Hour",
+      "productId": "aac82f55-5f82-48d6-bbff-9dd17fba0f9c",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Everyday Happy Hour",
+      "sourceName": "Corona - Bucket of 5 Bottles",
+      "catalogName": "Corona - Bucket of 5 Bottles",
+      "catalogCategory": "Everyday Happy Hour",
+      "productId": "406e3b5c-b2d5-41a3-98ab-0c2e9dfe8a53",
+      "reused": false,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Cocktails",
+      "sourceName": "Dark & Stormy",
+      "catalogName": "Dark & Stormy",
+      "catalogCategory": "Cocktails",
+      "productId": "430f56fa-e26d-4c5e-8c5a-930664d38657",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Cocktails",
+      "sourceName": "Caipiroska",
+      "catalogName": "Caipiroska",
+      "catalogCategory": "Cocktails",
+      "productId": "cfaa7574-23b3-4e2a-b5ed-30fba32c5d7f",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Cocktails",
+      "sourceName": "Whiskey Sour",
+      "catalogName": "Whiskey Sour",
+      "catalogCategory": "Cocktails",
+      "productId": "cbef8854-b9a8-45f7-8d03-ba6d1f17057f",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Cocktails",
+      "sourceName": "Spinning Kiss",
+      "catalogName": "Spinning Kiss",
+      "catalogCategory": "Cocktails",
+      "productId": "8a10fedf-6da9-49ac-a061-368cb134040d",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Cocktails",
+      "sourceName": "Pinkin Sour",
+      "catalogName": "Pinkin Sour",
+      "catalogCategory": "Cocktails",
+      "productId": "d9077ab2-fbfd-4bac-87d1-dfb03d7461c4",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Cocktails",
+      "sourceName": "Negroni",
+      "catalogName": "Negroni",
+      "catalogCategory": "Cocktails",
+      "productId": "a3d18ebf-54e0-4976-8908-bb507e4ba957",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Cocktails",
+      "sourceName": "Aperol Spritz",
+      "catalogName": "Aperol Spritz",
+      "catalogCategory": "Cocktails",
+      "productId": "cc81156f-ea89-4e1a-be5b-85f53dadd9b1",
+      "reused": true,
+      "differences": {}
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Cocktails",
+      "sourceName": "Caipirinha",
+      "catalogName": "Caipirinha",
+      "catalogCategory": "Cocktails",
+      "productId": "a6a8c7d6-0683-43c5-9dde-894b5e7acd9e",
+      "reused": true,
+      "differences": {}
+    }
+  ]
+}

@@ -5,6 +5,7 @@ __pycache__
 data/*.previous.json
 data/*.tmp
 node_modules
+data/menu-ai/
 .env*
 tmp/
 output/

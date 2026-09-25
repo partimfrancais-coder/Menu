@@ -4,6 +4,8 @@ const app=$('#app'), modal=$('#dialog');
 let data, restaurantId, categoryId, itemId, search='', filter='all', dirty=false, busy=false, unsaved=false, saveError='', hosted=false, currentUser=null;
 let view='restaurants', productId=null, productSearch='', productCategoryId='';
 let catalogDirty=false, pendingIconReads=0;
+let apiKeyDraft='';
+let designSkillView=null, designChatTurns=[], designChatTimer=null, designChatBusy=false, designStudioEpoch=0;
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const id=()=>crypto.randomUUID();
 const restaurant=()=>data.restaurants.find(r=>r.id===restaurantId);
@@ -28,15 +30,17 @@ function render(){
  <nav aria-label="Restaurants">${data.restaurants.map(x=>`<button class="restaurant ${view==='restaurants'&&x.id===r.id?'selected':''}" data-action="restaurant" data-id="${x.id}" aria-current="${view==='restaurants'&&x.id===r.id?'true':'false'}"><span class="restaurant-initial">${esc(x.location.slice(0,1)||x.name.slice(0,1))}</span><span>${esc(x.name)}<small>${esc(x.menuTitle)}</small></span>${view==='restaurants'&&x.id===r.id?'<span class="active-bar"></span>':''}</button>`).join('')}</nav>
  <div class="sidebar-bottom"><p>YOUR MENUS, IN ONE PLACE</p><span>One product catalog, used across your restaurants.</span><div class="backup-actions">${button('backup','Export backup')}${button('restore','Restore backup')}${hosted?button('logout','Sign out'):''}</div><small>${hosted?'Saved in your private workspace':'Stored on this computer'}</small></div></aside>
  <div class="workspace"><header class="topbar"><div class="breadcrumb">${currentUser?.role==='admin'?'<a href="/users">Manage users</a> <span>/</span> ':''}Restaurants <span>/</span> ${esc(r.name)}</div><div class="save-status ${saveError?'error':''}" role="status">${status()}${saveError?button('retry','Retry save'):''}</div></header>
+ ${currentUser?.canManageApiKey?`<section class="api-key-placeholder" aria-label="API key"><label class="field" for="account-api-key">OpenAI API key<input id="account-api-key" type="password" placeholder="Insert your API key" autocomplete="off" spellcheck="false" autocapitalize="none" aria-describedby="api-key-help"></label>${button('save-api-key','Save key','','primary')}${button('remove-api-key','Remove key','','secondary')}<p id="api-key-help">${esc(MenuChat.keyHelp())}</p></section>`:''}
  ${saveError?`<div class="error-banner" role="alert">${esc(saveError)} Export a backup to keep a copy of your changes.</div>`:''}
- <main><div class="page-heading"><div><div class="eyebrow">MENU EDITOR</div><h1>${esc(r.name)}</h1><p>${esc(r.menuTitle)} <span class="dot-sep">·</span> ${items.length} items <span class="dot-sep">·</span> ${r.categories.length} categories</p></div><div class="heading-actions"><a class="secondary customer-menu-link" href="/menu/${encodeURIComponent(r.id)}" target="_blank" rel="noopener">Customer menu ↗</a>${button('copy-customer-link','Copy menu link','','secondary')}${button('design-prompt','Edit design prompt','','secondary')}${button('manage-data','Manage data','','secondary')}${button('settings','Restaurant settings','','secondary')}${button('preview','Preview menu','','primary')}</div></div>
+ <main><div class="page-heading"><div><div class="eyebrow">MENU EDITOR</div><h1>${esc(r.name)}</h1><p>${esc(r.menuTitle)} <span class="dot-sep">·</span> ${items.length} items <span class="dot-sep">·</span> ${r.categories.length} categories</p></div><div class="heading-actions"><a class="secondary customer-menu-link" href="/menu/${encodeURIComponent(r.id)}" target="_blank" rel="noopener">Customer menu ↗</a>${button('copy-customer-link','Copy menu link','','secondary')}${button('view-design-skill','View design skill','','secondary')}${button('design-prompt','Edit design prompt','','secondary')}${button('manage-data','Manage data','','secondary')}${button('settings','Restaurant settings','','secondary')}${button('generate-menu','Generate menu','','primary')}</div></div>
  <div class="menu-strip"><div><strong>${esc(r.currency)} × ${fmt(r.priceUnit)}</strong><span>Price 95 = ${esc(r.currency)} ${fmt(95*r.priceUnit)}</span></div><div><strong>${fmt(r.serviceCharge)}% service · ${fmt(r.tax)}% tax</strong><span>${esc(r.dietaryNote||'No menu-wide dietary note')}</span></div><div class="review-summary"><strong>${review?review+' items to review':'All items reviewed'}</strong><span>${r.source?'Imported from the supplied menu':'Your restaurant menu'}</span></div>${r.source?`<a class="source-link" target="_blank" rel="noopener" href="/sources/${encodeURIComponent(r.source)}">Original PDF ↗</a>`:''}</div>
  <div class="editor-grid"><section class="categories"><div class="section-heading"><h2>Categories</h2>${button('add-category','+','aria-label="Add category"','icon-button')}</div><nav aria-label="Menu categories">${r.categories.map(cat=>`<div class="category-row" data-category-id="${cat.id}"><button data-action="category" data-id="${cat.id}" class="category ${cat.id===categoryId?'active':''}" aria-current="${cat.id===categoryId?'true':'false'}" title="${cat.id===categoryId?'Drag to reorder. Use arrow keys when focused.':'Select category'}"><span>${esc(cat.name)}</span><span>${cat.items.length}</span></button></div>`).join('')||'<p class="empty-small">Add your first category.</p>'}</nav></section>
  <section class="items-panel"><div class="section-heading"><div><div class="eyebrow">CATEGORY</div><h2>${esc(c?.name||'Create a category')}</h2></div>${c?button('edit-category','Edit','','text-button'):''}</div>${c?.notes?`<p class="category-note">${esc(c.notes)}</p>`:''}<div class="item-tools"><label class="search"><span class="sr-only">Search this restaurant’s items by name or product code</span><input id="search" type="search" placeholder="Search items or product codes…" value="${esc(search)}"></label><select id="filter" aria-label="Filter items"><option value="all" ${filter==='all'?'selected':''}>All items</option><option value="review" ${filter==='review'?'selected':''}>To review</option><option value="hidden" ${filter==='hidden'?'selected':''}>Hidden</option></select></div>
  <div class="list-caption"><span>ITEM</span><span>PRICE</span></div><div id="item-list">${listHTML()}</div>${c?button('add-item','+ Add products','','add-item'):''}</section>
  <section class="details-panel">${i?placementHTML(i):`<div class="empty"><span class="empty-symbol">＋</span><h2>${c?'Your menu starts here':'Organize your menu'}</h2><p>${c?'Choose a product from the shared catalog.':'Create a category, then add your dishes.'}</p>${button(c?'add-item':'add-category',c?'Add products':'Add category','','primary')}</div>`}</section></div>
- <footer class="workspace-footer">Menu content workspace <span>PDF design and export will be added in the next phase.</span></footer></main></div>`;
+ <footer class="workspace-footer">Menu content workspace <span>Generate a PDF, then refine it in a conversation.</span></footer></main></div>`;
  if(view==='products'){ $('.breadcrumb').textContent='Products';$('main').innerHTML=productsHTML();}
+ if($('#account-api-key'))$('#account-api-key').value=apiKeyDraft;
  app.classList.toggle('saving',busy);
  if(busy)app.querySelectorAll('button,input,select,textarea').forEach(control=>control.disabled=true);
 }
@@ -63,7 +67,96 @@ async function save(){
  return !saveError;
 }
 function openDialog(title,body,submit='Save changes',wide=false){modal.className=wide?'wide':'';modal.innerHTML=`<form id="modal-form"><header><h2>${esc(title)}</h2>${button('close-dialog','×','aria-label="Close dialog"','icon-button')}</header><div class="modal-body">${body}</div><footer>${button('close-dialog','Cancel','','secondary')}<button class="primary" type="submit">${esc(submit)}</button></footer></form>`;modal.showModal();}
-function finishDialog(){catalogDirty=false;modal.close();modal.innerHTML='';}
+function finishDialog(){catalogDirty=false;designStudioEpoch++;clearTimeout(designChatTimer);modal.close();modal.innerHTML='';}
+async function viewDesignSkill(){
+ const rid=restaurantId,epoch=++designStudioEpoch;
+ designSkillView=null;designChatTurns=[];catalogDirty=false;clearTimeout(designChatTimer);
+ modal.className='wide design-skill-dialog';
+ modal.innerHTML=`<header><h2>Design skill</h2>${button('close-dialog','×','aria-label="Close design skill"','icon-button')}</header><div class="modal-body" data-skill-loading><p role="status">Loading current design skill…</p></div><footer>${button('close-dialog','Close','','secondary')}</footer>`;
+ modal.showModal();
+ const loading=$('[data-skill-loading]',modal);
+ try{
+  const base=`/api/ai/restaurants/${encodeURIComponent(rid)}`;
+  const [res,chatRes]=await Promise.all([fetch(base+'/design-skill',{cache:'no-store'}),fetch(base+'/design-chat',{cache:'no-store'})]);
+  if(!res.ok){let message='Unable to load the design skill. Please try again.';try{message=(await res.json()).error||message;}catch{}throw Error(message);}
+  if(!chatRes.ok)throw Error('Unable to load design conversation. Please try again.');
+  const result=await res.json();if(epoch!==designStudioEpoch||!modal.open||!loading.isConnected)return;
+  designChatTurns=(await chatRes.json()).turns;showDesignStudio(result);
+  if(designChatTurns.some(t=>['queued','running'].includes(t.status)))scheduleDesignChatRefresh();
+ }catch(err){if(modal.open&&loading.isConnected)loading.innerHTML=err.message.includes('before versioning')?`<div class="design-create"><h3>Create v1</h3><p>This restaurant needs an initial skill and reference PDF.</p><label class="field">SKILL.md<input id="design-upload-skill" type="file" accept=".md,text/markdown,text/plain"></label><label class="field">Reference PDF<input id="design-upload-reference" type="file" accept=".pdf,application/pdf"></label>${button('initialize-design-version','Create v1 from files','','primary')}<p class="design-studio-error" role="alert"></p></div>`:`<p role="alert">${esc(err.message)}</p>${button('view-design-skill','Try again','','secondary')}`;}
+}
+function showDesignStudio(result,showDetails=false){
+ designSkillView=result;
+ const rid=restaurantId,active=result.activeVersion,selected=result.version;
+ $('[data-skill-loading]',modal).innerHTML=`<div class="skill-context"><strong>${esc(result.restaurantName)}</strong><span class="mini-tag">Active v${active}</span></div><p class="skill-intro">Each version has a skill and reference PDF. Generate menu uses the active version.</p><div class="design-version-list" aria-label="Design versions">${result.versions.map(v=>button('view-design-version',`v${v.number}${v.active?' · Active':''}`,`data-version="${v.number}" aria-current="${showDetails&&v.number===selected?'true':'false'}"`,'design-version '+(showDetails&&v.number===selected?'selected':''))).join('')}</div>${showDetails?'':'<p class="hint">Choose a version to view its skill and reference PDF.</p>'}<div class="design-version-details" ${showDetails?'':'hidden'}><div class="design-version-heading"><div><strong>v${selected}</strong><span>${selected===active?'Active for Generate menu':'Available to activate'}</span></div>${selected===active?'':button('activate-design-version','Activate v'+selected,`data-version="${selected}"`,'primary')}</div><p class="skill-name">${esc(result.skillName)} · SKILL.md + reference.pdf</p>${designReferenceHTML(result,rid)}<div class="skill-toolbar"><label class="field">Document<select id="design-skill-document">${result.documents.map((doc,index)=>`<option value="${index}">${index===0?'Main skill':esc(doc.name)}</option>`).join('')}<option value="prompt">Restaurant design prompt</option></select></label>${button('download-design-skill','Download document','','secondary')}</div><pre class="skill-content" tabindex="0" aria-label="Design skill document"></pre></div><section class="design-create"><h3>Create a new version</h3><p>Describe a change to create a new skill and reference PDF together. The result stays inactive until you activate it. Uses Alain’s API key; AI usage is billed.</p><label class="field">Design change<textarea id="design-version-message" rows="3" maxlength="6000" placeholder="For example, make the category headings more prominent in the skill and reference layout."></textarea></label>${button('send-design-change','Create next version with AI',`data-version="${selected}"`,'primary')}<details><summary>Upload a prepared skill and reference PDF</summary><p>Both files are required. They will be saved together as the next version.</p><label class="field">SKILL.md<input id="design-upload-skill" type="file" accept=".md,text/markdown,text/plain"></label><label class="field">Reference PDF<input id="design-upload-reference" type="file" accept=".pdf,application/pdf"></label>${button('upload-design-version','Create version from files',`data-version="${selected}"`,'secondary')}</details><p class="design-studio-error" role="alert"></p></section><section class="design-chat"><h3>Version conversation</h3><div class="design-chat-turns" role="log"></div></section>`;
+ showDesignSkillDocument();drawDesignChat();
+ const body=$('[data-skill-loading]',modal);body.closest('.modal-body').scrollTop=0;
+}
+function drawDesignChat(){
+ const log=$('.design-chat-turns',modal);if(!log)return;
+ log.innerHTML=designChatTurns.map(t=>`<article class="design-chat-turn"><strong>You · from v${t.parent}</strong><p>${esc(t.prompt)}</p><div><strong>Design assistant</strong><p>${t.status==='completed'?esc(t.answer):t.status==='failed'?`<span class="danger">${esc(t.error)}</span>`:'Creating skill and reference PDF…'}</p>${t.version?button('view-design-version','View v'+t.version,`data-version="${t.version}"`,'text-button'):''}</div></article>`).join('')||'<p class="hint">No versions have been created in this conversation yet.</p>';
+ const submit=$('[data-action=send-design-change]',modal);if(submit)submit.disabled=designChatBusy||designChatTurns.some(t=>['queued','running'].includes(t.status));
+}
+function scheduleDesignChatRefresh(){clearTimeout(designChatTimer);if(modal.open)designChatTimer=setTimeout(refreshDesignChat,4000);}
+async function refreshDesignChat(){
+ if(!modal.open||!designSkillView)return;
+ const rid=restaurantId,epoch=designStudioEpoch;
+ try{
+  const res=await fetch(`/api/ai/restaurants/${encodeURIComponent(rid)}/design-chat`,{cache:'no-store'});
+  if(!res.ok)throw Error('Could not check design status.');
+  if(epoch!==designStudioEpoch||rid!==restaurantId||!modal.open)return;
+  const previous=designChatTurns;designChatTurns=(await res.json()).turns;drawDesignChat();
+  const completed=designChatTurns.find(t=>t.version&&!previous.some(old=>old.id===t.id&&old.version));
+  if(completed)await loadDesignVersion(completed.version);
+ }catch(err){const error=epoch===designStudioEpoch&&rid===restaurantId?$('.design-studio-error',modal):null;if(error)error.textContent=err.message;}
+ if(designChatTurns.some(t=>['queued','running'].includes(t.status)))scheduleDesignChatRefresh();
+}
+async function loadDesignVersion(number){
+ const rid=restaurantId,epoch=designStudioEpoch;
+ const res=await fetch(`/api/ai/restaurants/${encodeURIComponent(rid)}/design-skill?version=${encodeURIComponent(number)}`,{cache:'no-store'});
+ const result=await res.json();if(!res.ok)throw Error(result.error||'Could not load the version.');
+ if(epoch===designStudioEpoch&&rid===restaurantId&&modal.open&&$('[data-skill-loading]',modal))showDesignStudio(result,true);
+}
+async function activateDesignVersion(number){
+ const res=await fetch(`/api/ai/restaurants/${encodeURIComponent(restaurantId)}/design-versions/${encodeURIComponent(number)}/activate`,{method:'POST'});
+ const result=await res.json();if(!res.ok)throw Error(result.error||'Could not activate the version.');
+ await loadDesignVersion(number);toast(`v${number} is active for new menu generation`);
+}
+async function sendDesignChange(number){
+ const message=$('#design-version-message',modal)?.value.trim();
+ if(!message){$('.design-studio-error',modal).textContent='Describe the change you want.';return;}
+ designChatBusy=true;drawDesignChat();
+ try{
+  const res=await fetch(`/api/ai/restaurants/${encodeURIComponent(restaurantId)}/design-chat`,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({parent:number,message,requestId:crypto.randomUUID()})});
+  const result=await res.json();if(!res.ok)throw Error(result.error||'Could not start design creation.');
+  designChatTurns=result.turns;$('#design-version-message',modal).value='';$('.design-studio-error',modal).textContent='';drawDesignChat();scheduleDesignChatRefresh();
+ }catch(err){$('.design-studio-error',modal).textContent=err.message;}finally{designChatBusy=false;drawDesignChat();}
+}
+async function uploadDesignVersion(number){
+ const skill=$('#design-upload-skill',modal)?.files[0],reference=$('#design-upload-reference',modal)?.files[0];
+ if(!skill||!reference){$('.design-studio-error',modal).textContent='Choose both SKILL.md and a reference PDF.';return;}
+ const body=new FormData();body.set('parent',number);body.set('skill',skill);body.set('reference',reference);
+ const res=await fetch(`/api/ai/restaurants/${encodeURIComponent(restaurantId)}/design-versions`,{method:'POST',body});
+ const result=await res.json();if(!res.ok)throw Error(result.error||'Could not create the version.');
+ await loadDesignVersion(result.version);toast(`v${result.version} is ready to review`);
+}
+async function initializeDesignVersion(){
+ const skill=$('#design-upload-skill',modal)?.files[0],reference=$('#design-upload-reference',modal)?.files[0];
+ if(!skill||!reference){$('.design-studio-error',modal).textContent='Choose both SKILL.md and a reference PDF.';return;}
+ const body=new FormData();body.set('skill',skill);body.set('reference',reference);
+ const res=await fetch(`/api/ai/restaurants/${encodeURIComponent(restaurantId)}/design-versions/initialize`,{method:'POST',body});
+ const result=await res.json();if(!res.ok)throw Error(result.error||'Could not create v1.');
+ await loadDesignVersion(1);toast('v1 is active and ready');
+}
+function designReferenceHTML(result,rid){
+ if(!result.reference)return '<div class="skill-reference"><strong>Reference document</strong><p>No reference PDF is available for this restaurant.</p></div>';
+ const url=`/api/ai/restaurants/${encodeURIComponent(rid)}/reference?version=${encodeURIComponent(result.version)}`;
+ return `<div class="skill-reference"><strong>Reference document · v${result.version}</strong><p>${esc(result.reference.name)}</p><div><a class="secondary" href="${url}" target="_blank" rel="noopener">View reference PDF ↗</a><a class="secondary" href="${url}&download=1" download="${esc(result.reference.name)}">Download reference PDF</a></div><small>The reference paired with this skill version. Current products and prices come from your saved menu data.</small></div>`;
+}
+function currentDesignSkillDocument(){return $('#design-skill-document',modal)?.value==='prompt'?{name:'restaurant-design-prompt.md',content:designSkillView.designPrompt||'No saved design prompt.'}:designSkillView.documents[Number($('#design-skill-document',modal)?.value)||0];}
+function showDesignSkillDocument(){const doc=currentDesignSkillDocument();$('.skill-content',modal).textContent=doc.content;$('.skill-content',modal).scrollTop=0;}
+modal.addEventListener('change',e=>{if(e.target.id==='design-skill-document')showDesignSkillDocument();});
+modal.addEventListener('close',()=>{designStudioEpoch++;clearTimeout(designChatTimer);});
 function newItem(){return {id:id(),name:'New item',cuisine:'',productCode:'',description:'',price:0,tags:[],options:[],notes:'',image:'',available:true,reviewed:true};}
 function cloneRestaurant(r){const copy=structuredClone(r);copy.id=id();copy.categories.forEach(c=>{c.id=id();c.items.forEach(i=>i.id=id());});return copy;}
 function backup(){const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([JSON.stringify(data,null,2)],{type:'application/json'}));a.download=`menu-studio-${new Date().toISOString().slice(0,10)}.json`;a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000);}
@@ -71,6 +164,14 @@ async function imageData(file){if(!file)return '';if(!['image/png','image/jpeg',
 let dialogAction='';
 async function action(name,el){
  if(busy){toast('Please wait for the current save to finish.');return;}
+ if(name==='view-design-skill'){if(!hosted){toast('Design skills are available in the online workspace.');return;}await viewDesignSkill();return;}
+ if(name==='view-design-version'){await loadDesignVersion(Number(el.dataset.version));return;}
+ if(name==='activate-design-version'){await activateDesignVersion(Number(el.dataset.version));return;}
+ if(name==='send-design-change'){await sendDesignChange(Number(el.dataset.version));return;}
+ if(name==='upload-design-version'){try{await uploadDesignVersion(Number(el.dataset.version));}catch(err){$('.design-studio-error',modal).textContent=err.message;}return;}
+ if(name==='initialize-design-version'){try{await initializeDesignVersion();}catch(err){$('.design-studio-error',modal).textContent=err.message;}return;}
+ if(name==='download-design-skill'){if(!designSkillView)return;const doc=currentDesignSkillDocument(),a=document.createElement('a');a.href=URL.createObjectURL(new Blob([doc.content],{type:'text/markdown;charset=utf-8'}));a.download=doc.name.split('/').pop();a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000);return;}
+ if(name==='cancel-category-rename'){closeCategoryRename(el.closest('form').dataset.categoryId);return;}
  if(name==='close-dialog'){if(catalogDirty&&!confirm('Discard unsaved changes in this dialog?'))return;finishDialog();return;}
  if(name==='add-catalog-row'){$('#catalog-rows').insertAdjacentHTML('beforeend',catalogRowHTML({name:'',kind:el.dataset.kind},true));catalogDirty=true;$('#catalog-rows .catalog-row:last-child input').focus();return;}
  if(name==='clear-catalog-icon'){const row=el.closest('.catalog-row');$('.catalog-icon',row).value='';$('.catalog-icon-image',row).value='';$('.catalog-icon-file',row).value='';$('.icon-sample',row).textContent='—';catalogDirty=true;return;}
@@ -81,6 +182,9 @@ async function action(name,el){
   try{const res=await fetch(`/api/restaurants/${encodeURIComponent(restaurantId)}/data`),out=await res.json();if(!res.ok)throw Error(out.error||'Download failed.');const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([JSON.stringify(out,null,2)],{type:'application/json'}));a.download=`${out.restaurant.name.replace(/[^a-z0-9]+/gi,'-')}-${new Date().toISOString().slice(0,10)}.json`;a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000);}catch(err){toast(err.message);}return;
  }
  if(name==='logout'){if(!canLeave())return;if(unsaved&&!confirm('Some changes have not reached the server. Sign out anyway? Export a backup first to keep them.'))return;await fetch('/logout',{method:'POST'});dirty=false;unsaved=false;location.href='/login';return;}
+ if(name==='save-api-key'){el.disabled=true;try{await MenuChat.saveKey(apiKeyDraft);apiKeyDraft='';$('#account-api-key').value='';toast('API key saved securely.');}finally{el.disabled=false;}return;}
+ if(name==='remove-api-key'){if(!confirm('Remove the saved API key? New menu generation will stop until Alain saves a key again.'))return;await MenuChat.removeKey();apiKeyDraft='';$('#account-api-key').value='';toast('API key removed.');return;}
+ if(name==='generate-menu'){if(!hosted){toast('AI menu generation is available in the signed-in hosted workspace.');return;}if(dirty||unsaved||saveError){toast('Save your menu changes before generating a PDF.');return;}await MenuChat.open(restaurant(),()=>data.revision);return;}
  if(name==='retry'){await save();return;}
  if(name==='add-option'){$('#options').insertAdjacentHTML('beforeend',optionHTML());setDirty();return;}
  if(name==='remove-option'){el.closest('.option-row').remove();setDirty();return;}
@@ -88,6 +192,7 @@ async function action(name,el){
  if(!canLeave())return;
  dirty=false;render();
  const r=restaurant(),c=category(),i=item();
+ if(name==='rename-product-category'){openCategoryRename(el.dataset.id);return;}
  if(name==='products'||name==='edit-product'||name==='select-product'){view='products';productId=el.dataset.productId||el.dataset.id||data.products.find(p=>!productCategoryId||p.categoryId===productCategoryId)?.id;if(name==='edit-product'){productCategoryId=item()?.categoryId||'';productSearch='';}render();return;}
  if(name==='product-category'){productCategoryId=el.dataset.id||'';productSearch='';productId=data.products.find(p=>!productCategoryId||p.categoryId===productCategoryId)?.id;view='products';render();return;}
  if(name==='delete-product-category'){if(data.products.some(p=>p.categoryId===productCategoryId)){toast('Move all products to another category before deleting this category.');return;}if(!confirm('Delete this empty category from all restaurants?'))return;data.productCategories=data.productCategories.filter(c=>c.id!==productCategoryId);productCategoryId='';finishDialog();await save();return;}
@@ -109,7 +214,7 @@ async function action(name,el){
  render();dialogAction=name;
  if(name==='add-restaurant'){openDialog('Add restaurant',`${input('name','Restaurant name','','text','required maxlength="200"')}${input('location','Location')}<label class="field">Starting menu<select name="template"><option value="">Start with an empty menu</option>${data.restaurants.map(r=>`<option value="${r.id}">Copy ${esc(r.name)}’s menu</option>`).join('')}</select></label><p class="hint">Categories and order are copied. Product details remain shared across restaurants.</p>`,'Create restaurant');}
  if(name==='manage-labels'){catalogDirty=false;openDialog('Product labels & serving details',`<p>Shared across all products and restaurants.</p><div class="catalog-toolbar">${button('add-catalog-row','+ Label','data-kind="label"','secondary')}${button('add-catalog-row','+ Serving detail','data-kind="serving"','secondary')}</div><div id="catalog-rows">${MenuCatalog.initialize(labelContext()).map(t=>catalogRowHTML(t)).join('')}</div>`,'Save labels & details',true);}
- if(name==='design-prompt'){catalogDirty=false;openDialog('Menu design prompt',`<div class="prompt-context"><strong>${esc(r.name)}</strong><span class="mini-tag">Planning only</span></div><p>Save instructions for matching this restaurant’s menu design. This does not generate a menu or change any dishes.</p>${r.source?`<p><a target="_blank" rel="noopener" href="/sources/${encodeURIComponent(r.source)}">Open reference PDF ↗</a></p>`:''}<label class="field">Design instructions<textarea class="design-prompt-editor" name="designPrompt" maxlength="30000" rows="24" spellcheck="true">${esc(r.designPrompt??MenuDesignPrompts.create(r))}</textarea></label><p class="hint">Changes apply only to ${esc(r.name)}. Menu generation will be added later.</p>`,'Save prompt',true);}
+ if(name==='design-prompt'){catalogDirty=false;openDialog('Menu design prompt',`<div class="prompt-context"><strong>${esc(r.name)}</strong><span class="mini-tag">AI design instructions</span></div><p>Save instructions for matching this restaurant’s menu design. Generate menu uses these instructions with your saved menu content.</p>${r.source?`<p><a target="_blank" rel="noopener" href="/sources/${encodeURIComponent(r.source)}">Open reference PDF ↗</a></p>`:''}<label class="field">Design instructions<textarea class="design-prompt-editor" name="designPrompt" maxlength="30000" rows="24" spellcheck="true">${esc(r.designPrompt??MenuDesignPrompts.create(r))}</textarea></label><p class="hint">Changes apply only to ${esc(r.name)}. Use Generate menu to create a PDF and request adjustments.</p>`,'Save prompt',true);}
  if(name==='manage-data'){openDialog('Manage restaurant data',`<p><strong>${esc(r.name)}</strong></p><p>Download this restaurant's saved data as an editable JSON file, including categories, dishes, prices, labels, icons, settings and design prompt.</p>${button('download-restaurant','Download restaurant data','','secondary')}<hr><h3>Upload replacement data</h3><p>This erases this restaurant's current data and replaces it entirely with the file. Only existing products can be added. Uploaded product details are resolved from the shared Products catalog; edit prices, labels and descriptions in Products. Other restaurants and user accounts are unaffected.</p><label class="field">Restaurant JSON file<input type="file" name="restaurantFile" accept="application/json,.json" required></label><label class="check-row"><input type="checkbox" name="replaceConfirmed" required>I understand that the existing data for this restaurant will be replaced.</label>`,'Replace restaurant data');}
  if(name==='settings'){openDialog('Restaurant settings',`${input('name','Restaurant name',r.name,'text','required')}${input('location','Location',r.location)}${input('menuTitle','Menu title',r.menuTitle,'text','required')}<div class="two-fields">${input('currency','Currency',r.currency,'text','required maxlength="12"')}${input('priceUnit','Price multiplier',r.priceUnit,'number','required min="1" step="1"')}</div><div class="two-fields">${input('serviceCharge','Service charge (%)',r.serviceCharge,'number','required min="0" max="100" step="0.01"')}${input('tax','Tax (%)',r.tax,'number','required min="0" max="100" step="0.01"')}</div>${input('dietaryNote','Menu-wide dietary note',r.dietaryNote)}<label class="field">Footer / pricing note<textarea name="footer" rows="3">${esc(r.footer)}</textarea></label><p class="hint">Update the footer wording if you change the price multiplier, tax or service charge.</p><label class="field">Restaurant logo<input type="file" id="logo-file" accept="image/png,image/jpeg,image/webp"></label>${r.logo?'<label class="check-row"><input type="checkbox" name="removeLogo">Remove current logo</label>':''}<hr>${button('delete-restaurant','Delete restaurant','','text-button danger')}`);}
  if(name==='add-category'||name==='edit-category'){openDialog(name==='add-category'?'Add category':'Edit category',`${name==='add-category'?`<label class="field">Category<select name="catalogCategoryId" required>${data.productCategories.filter(pc=>!r.categories.some(rc=>rc.catalogCategoryId===pc.id)).map(pc=>`<option value="${esc(pc.id)}">${esc(pc.name)}</option>`).join('')}</select></label><p class="hint">Create and rename categories in Products.</p>`:`<p><strong>${esc(c.name)}</strong></p><p class="hint">The category name is shared. Rename it in Products.</p>`}<label class="field">Category notes<textarea name="notes" rows="3">${esc(name==='edit-category'?c.notes:'')}</textarea></label>${name==='edit-category'?`<div class="dialog-actions">${button('delete-category','Delete category','','text-button danger')}</div>`:''}`);}
@@ -119,7 +224,21 @@ async function action(name,el){
 }
 function setDirty(){dirty=true;const state=$('#edit-state');if(state)state.textContent='Unsaved edits';}
 document.addEventListener('click',e=>{const el=e.target.closest('[data-action]');if((el?.dataset.action==='category'&&Date.now()<suppressCategoryClickUntil)||(el?.dataset.action==='item'&&Date.now()<suppressItemClickUntil)){e.preventDefault();return;}if(el)action(el.dataset.action,el).catch(err=>toast(err.message));});
-app.addEventListener('input',e=>{if(e.target.id==='product-search'){productSearch=e.target.value;$('#product-list').innerHTML=productListHTML();return;}if(e.target.id==='search'){search=e.target.value;$('#item-list').innerHTML=listHTML();return;}if(e.target.closest('#item-form,#placement-form'))setDirty();});
+app.addEventListener('keydown',e=>{const form=e.target.closest('.category-rename');if(form&&e.key==='Escape'){e.preventDefault();closeCategoryRename(form.dataset.categoryId);}});
+app.addEventListener('submit',async e=>{
+ if(!e.target.matches('.category-rename'))return;
+ e.preventDefault();if(busy)return;
+ const form=e.target,field=$('[name=categoryName]',form),name=field.value.trim(),cid=form.dataset.categoryId;
+ const key=value=>value.toLowerCase().replaceAll('&',' and ').split(/\s+/).filter(Boolean).join(' ');
+ const error=!name?'Enter a category name.':data.productCategories.some(c=>c.id!==cid&&key(c.name)===key(name))?'This category already exists.':'';
+ if(error){$('.category-rename-error',form).textContent=error;field.setAttribute('aria-invalid','true');field.focus();return;}
+ const cat=data.productCategories.find(c=>c.id===cid);
+ if(cat.name===name){closeCategoryRename(cid);return;}
+ if(!canLeave())return;
+ dirty=false;cat.name=name;
+ try{if(await save())toast('Category renamed across all restaurants');focusCategoryRename(cid);}catch(err){toast(err.message);}
+});
+app.addEventListener('input',e=>{if(e.target.id==='account-api-key'){apiKeyDraft=e.target.value;return;}if(e.target.id==='product-search'){productSearch=e.target.value;$('#product-list').innerHTML=productListHTML();return;}if(e.target.id==='search'){search=e.target.value;$('#item-list').innerHTML=listHTML();return;}if(e.target.closest('#item-form,#placement-form'))setDirty();});
 app.addEventListener('change',async e=>{if(e.target.id==='filter'){filter=e.target.value;$('#item-list').innerHTML=listHTML();return;}if(e.target.id==='item-image'){const form=e.target.closest('form');try{const image=await imageData(e.target.files[0]);if(!image||!form.isConnected)return;$('[name=image]',form).value=image;let img=$('.image-upload img',form);if(!img){img=document.createElement('img');$('.image-upload',form).prepend(img);}img.src=image;img.alt='Selected dish image';setDirty();}catch(err){toast(err.message);}}});
 app.addEventListener('submit',async e=>{if(e.target.id==='placement-form'){e.preventDefault();if(busy)return;const f=new FormData(e.target),i=item(),old=category();i.available=f.has('available');dirty=false;await save();return;}if(e.target.id!=='item-form')return;e.preventDefault();if(busy)return;const form=e.target,fields=new FormData(form),i=item(),old=category();
  const code=fields.get('productCode').trim();if(code&&data.products.some(p=>p.id!==i.id&&p.productCode?.trim().toLowerCase()===code.toLowerCase())){toast('This product code already exists.');return;}
@@ -188,7 +307,7 @@ modal.addEventListener('submit',async e=>{e.preventDefault();if(busy||pendingIco
  }catch(err){toast(err.message||'Could not read the backup.');}
 });
 window.addEventListener('beforeunload',e=>{if(dirty||unsaved||busy||catalogDirty){e.preventDefault();e.returnValue='';}});
-Promise.all([fetch('/api/menus').then(async res=>{if(res.status===401){location.href='/login';throw Error('Please sign in.');}if(!res.ok)throw Error('Could not load saved menus.');return res.json();}),fetch('/api/runtime').then(res=>res.ok?res.json():{hosted:false}).catch(()=>({hosted:false}))]).then(([result,runtime])=>{data=result;hosted=runtime.hosted;currentUser=runtime.user||null;selectRestaurant(data.restaurants[0].id);render();}).catch(e=>{app.innerHTML=`<div class="load-error"><h1>Unable to open your menus</h1><p>${esc(e.message)}</p><p>Check your connection and reload this page.</p><a href="/">Reload</a></div>`;});
+Promise.all([fetch('/api/menus').then(async res=>{if(res.status===401){location.href='/login';throw Error('Please sign in.');}if(!res.ok)throw Error('Could not load saved menus.');return res.json();}),fetch('/api/runtime').then(res=>res.ok?res.json():{hosted:false}).catch(()=>({hosted:false}))]).then(([result,runtime])=>{data=result;hosted=runtime.hosted;currentUser=runtime.user||null;selectRestaurant(data.restaurants[0].id);render();MenuChat.initialize(hosted);}).catch(e=>{app.innerHTML=`<div class="load-error"><h1>Unable to open your menus</h1><p>${esc(e.message)}</p><p>Check your connection and reload this page.</p><a href="/">Reload</a></div>`;});
 
 function tagChoices(item,kind,title){
  const choices=MenuCatalog.initialize(labelContext()).filter(t=>t.kind===kind);
@@ -344,7 +463,15 @@ modal.addEventListener('input',e=>{if(e.target.id==='product-picker-search')for(
 app.addEventListener('keydown',e=>{if(e.target.matches('div.item-row')&&['Enter',' '].includes(e.key)){e.preventDefault();action('item',e.target);}});
 
 function productCategoryField(p){return `<label class="field">Category<select name="productCategory" required>${data.productCategories.map(c=>`<option value="${esc(c.id)}" ${p.categoryId===c.id?'selected':''}>${esc(c.name)}</option>`).join('')}</select></label><p class="hint">One category across all restaurants. Changing it moves this product wherever it is used.</p>`;}
-function productCategoriesHTML(){return `<section class="categories product-categories"><div class="section-heading"><h2>Categories</h2>${button('add-product-category','+','aria-label="Add product category"','icon-button')}</div><nav aria-label="Product categories">${button('product-category',`<span>All products</span><span>${data.products.length}</span>`,'data-id=""','category '+(!productCategoryId?'active':''))}${data.productCategories.map(c=>button('product-category',`<span>${esc(c.name)}</span><span>${data.products.filter(p=>p.categoryId===c.id).length}</span>`,`data-id="${esc(c.id)}"`,'category '+(c.id===productCategoryId?'active':''))).join('')}</nav>${productCategoryId?button('edit-product-category','Edit category','','text-button'):''}</section>`;}
+function productCategoriesHTML(){return `<section class="categories product-categories"><div class="section-heading"><h2>Categories</h2>${button('add-product-category','+','aria-label="Add product category"','icon-button')}</div><nav aria-label="Product categories">${button('product-category',`<span>All products</span><span>${data.products.length}</span>`,'data-id=""','category '+(!productCategoryId?'active':''))}${data.productCategories.map(c=>`<div class="product-category-row ${c.id===productCategoryId?'selected':''}">${button('product-category',`<span>${esc(c.name)}</span><span>${data.products.filter(p=>p.categoryId===c.id).length}</span>`,`data-id="${esc(c.id)}"`,'category '+(c.id===productCategoryId?'active':''))}${button('rename-product-category','<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m16 3 5 5-12 12-6 1 1-6Z"/><path d="m14 5 5 5"/></svg>',`data-id="${esc(c.id)}" aria-label="Rename ${esc(c.name)}" title="Rename category"`,'category-rename-button')}</div>`).join('')}</nav>${productCategoryId?button('edit-product-category','Edit category','','text-button'):''}</section>`;}
+function focusCategoryRename(cid){[...app.querySelectorAll('[data-action="rename-product-category"]')].find(el=>el.dataset.id===cid)?.focus();}
+function closeCategoryRename(cid){$('.product-categories').outerHTML=productCategoriesHTML();focusCategoryRename(cid);}
+function openCategoryRename(cid){
+ const cat=data.productCategories.find(c=>c.id===cid);if(!cat)return;
+ const trigger=[...app.querySelectorAll('[data-action="rename-product-category"]')].find(el=>el.dataset.id===cid);
+ trigger.closest('.product-category-row').outerHTML=`<form class="category-rename" data-category-id="${esc(cid)}" aria-label="Rename category"><label for="category-rename-name">Category name</label><input id="category-rename-name" name="categoryName" value="${esc(cat.name)}" required maxlength="200" autocomplete="off" aria-describedby="category-rename-help category-rename-error"><p id="category-rename-help">Updates all restaurants.</p><p id="category-rename-error" class="category-rename-error" role="alert"></p><div><button type="submit" class="primary">Save</button>${button('cancel-category-rename','Cancel','','text-button')}</div></form>`;
+ $('#category-rename-name').focus();$('#category-rename-name').select();$('.category-rename').scrollIntoView({block:'nearest',inline:'nearest'});
+}
 function syncProductCategories(){
  const masters=new Map(data.productCategories.map(c=>[c.id,c])),products=new Map(data.products.map(p=>[p.id,p]));
  for(const r of data.restaurants){const groups=new Map(),ordered=[],placements=r.categories.flatMap(c=>c.items);

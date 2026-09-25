@@ -1,0 +1,3226 @@
+[
+  [
+    {
+      "category": "Finger Food",
+      "name": "Crispy Enoki",
+      "price": 45.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Finger Food",
+      "name": "Cheese & Beef Croquettes",
+      "price": 60.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Finger Food",
+      "name": "Spicy Garlic Chicken Wings",
+      "price": 65.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Finger Food",
+      "name": "Mexican Nachos",
+      "price": 105.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Finger Food",
+      "name": "Vietnamese Vegetarian Spring Roll",
+      "price": 35.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Finger Food",
+      "name": "Indian Samosa with Green Chutney",
+      "price": 50.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Finger Food",
+      "name": "Chicken Arayes (Lebanese Sandwich)",
+      "price": 60.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Finger Food",
+      "name": "Homemade Fries with Spicy Aioli",
+      "price": 65.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Finger Food",
+      "name": "Grilled Chicken Wings with Herbs",
+      "price": 65.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Finger Food",
+      "name": "3 Bao Peking Duck (Steamed Sandwich)",
+      "price": 65.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Finger Food",
+      "name": "Crispy Calamari Marinara Sauce",
+      "price": 75.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Finger Food",
+      "name": "Triple Cheese Quesadillas and Guacamole",
+      "price": 80.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Finger Food",
+      "name": "Chicken Gyoza",
+      "price": 60.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Finger Food",
+      "name": "Thin Chicken Turkish Pizza",
+      "price": 65.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Finger Food",
+      "name": "4 Mini Chicken Tacos",
+      "price": 95.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Finger Food",
+      "name": "4 Mini Mexican Wagyu Beef Tacos",
+      "price": 115.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Finger Food",
+      "name": "Cheese and Chicken Quesadilla",
+      "price": 115.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Local Beers",
+      "name": "San Miguel Light",
+      "price": 50.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Local Beers",
+      "name": "Bintang Lemon Radler",
+      "price": 50.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Local Beers",
+      "name": "Bintang Crystal",
+      "price": 55.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Local Beers",
+      "name": "Carlsberg",
+      "price": 65.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Local Beers",
+      "name": "Bintang",
+      "price": 50.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Local Beers",
+      "name": "Guinness Extra Stout",
+      "price": 55.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Local Beers",
+      "name": "Koenig",
+      "price": 60.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Local Beers",
+      "name": "Heineken",
+      "price": 65.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Local Beers",
+      "name": "Heineken Draught",
+      "price": 65,
+      "description": "",
+      "options": [
+        {
+          "name": "33cl",
+          "price": 65,
+          "kind": "Variant"
+        },
+        {
+          "name": "55cl",
+          "price": 110,
+          "kind": "Variant"
+        }
+      ]
+    },
+    {
+      "category": "Imported Beers",
+      "name": "Liefmans Fruitesse",
+      "price": 95,
+      "description": "Belgium; 3.8%",
+      "options": []
+    },
+    {
+      "category": "Imported Beers",
+      "name": "Hoegaarden Blanche",
+      "price": 100,
+      "description": "Belgium; 4.9%",
+      "options": []
+    },
+    {
+      "category": "Imported Beers",
+      "name": "La Chouffe",
+      "price": 170,
+      "description": "Belgium; 8%",
+      "options": []
+    },
+    {
+      "category": "Imported Beers",
+      "name": "Duvel Golden Ale",
+      "price": 170,
+      "description": "Belgium; 8.5%",
+      "options": []
+    },
+    {
+      "category": "Imported Beers",
+      "name": "Maredsous Triple",
+      "price": 170,
+      "description": "Belgium; 10%",
+      "options": []
+    },
+    {
+      "category": "Imported Beers",
+      "name": "Erdinger Weissbier",
+      "price": 135,
+      "description": "Germany; 5.3%",
+      "options": []
+    },
+    {
+      "category": "Imported Beers",
+      "name": "Erdinger Dunkel",
+      "price": 135,
+      "description": "Germany; 5.3%",
+      "options": []
+    },
+    {
+      "category": "Imported Beers",
+      "name": "Guinness Micro Draught",
+      "price": 120,
+      "description": "Ireland; 4.2%",
+      "options": []
+    },
+    {
+      "category": "Bali Craft Beers",
+      "name": "Island of Imagination Whitty White",
+      "price": 85,
+      "description": "4.8%",
+      "options": []
+    },
+    {
+      "category": "Bali Craft Beers",
+      "name": "Kura Kura Island Ale",
+      "price": 90,
+      "description": "5%",
+      "options": []
+    },
+    {
+      "category": "Bali Craft Beers",
+      "name": "Small Hazy",
+      "price": 95,
+      "description": "4.8%",
+      "options": []
+    },
+    {
+      "category": "Bali Craft Beers",
+      "name": "Island of Imagination XPA",
+      "price": 135,
+      "description": "7.9%",
+      "options": []
+    },
+    {
+      "category": "Bali Craft Beers",
+      "name": "Kura Kura I.P.A",
+      "price": 145,
+      "description": "7.1%",
+      "options": []
+    },
+    {
+      "category": "Ciders",
+      "name": "Somersby Apple Cider",
+      "price": 75,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Korean Soju",
+      "name": "Original Soju",
+      "price": 125,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Korean Soju",
+      "name": "Lime Soju",
+      "price": 125,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Korean Soju",
+      "name": "Lychee Soju",
+      "price": 125,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Korean Soju",
+      "name": "Peach Soju",
+      "price": 125,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Korean Soju",
+      "name": "Green Grape Soju",
+      "price": 125,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Wine by Glass",
+      "name": "Red Wine",
+      "price": 95,
+      "description": "",
+      "options": [
+        {
+          "name": "12cl",
+          "price": 95,
+          "kind": "Variant"
+        },
+        {
+          "name": "18cl",
+          "price": 135,
+          "kind": "Variant"
+        }
+      ]
+    },
+    {
+      "category": "Wine by Glass",
+      "name": "White Wine",
+      "price": 95,
+      "description": "",
+      "options": [
+        {
+          "name": "12cl",
+          "price": 95,
+          "kind": "Variant"
+        },
+        {
+          "name": "18cl",
+          "price": 135,
+          "kind": "Variant"
+        }
+      ]
+    },
+    {
+      "category": "Wine by Glass",
+      "name": "Sparkling Wine",
+      "price": 95,
+      "description": "",
+      "options": [
+        {
+          "name": "12cl",
+          "price": 95,
+          "kind": "Variant"
+        },
+        {
+          "name": "18cl",
+          "price": 135,
+          "kind": "Variant"
+        }
+      ]
+    },
+    {
+      "category": "Wine by Glass",
+      "name": "Niepoort Tawny",
+      "price": 95,
+      "description": "9cl",
+      "options": []
+    },
+    {
+      "category": "Milkshake",
+      "name": "Vanilla Milkshake",
+      "price": 55,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Milkshake",
+      "name": "Chocolate Milkshake",
+      "price": 55,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Milkshake",
+      "name": "Coconut Milkshake",
+      "price": 55,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Milkshake",
+      "name": "Strawberry Milkshake",
+      "price": 55,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Milkshake",
+      "name": "Salted Caramel Milkshake",
+      "price": 70,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Smoothies",
+      "name": "Banana Honey Smoothie",
+      "price": 55,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Smoothies",
+      "name": "Strawberry Banana Smoothie",
+      "price": 55,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Matcha",
+      "name": "Matcha Latte",
+      "price": 39.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Matcha",
+      "name": "Matcha Milkshake",
+      "price": 55.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Mocktails",
+      "name": "Lychee Spritzer",
+      "price": 55,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Mocktails",
+      "name": "Orange The Basil",
+      "price": 55,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Mocktails",
+      "name": "Pina & Lemongrass",
+      "price": 55,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Soft",
+      "name": "Pokka Green Tea",
+      "price": 20.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Soft",
+      "name": "Coke",
+      "price": 25.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Soft",
+      "name": "Sprite",
+      "price": 25.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Soft",
+      "name": "Coke Zero",
+      "price": 30.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Soft",
+      "name": "Ginger Ale",
+      "price": 30.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Soft",
+      "name": "Tonic",
+      "price": 30.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Soft",
+      "name": "Soda Water",
+      "price": 30.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Soft",
+      "name": "Kratingdaeng",
+      "price": 30.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Water",
+      "name": "Mineral Water (50cl)",
+      "price": 19,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Water",
+      "name": "Sparkling Water (50cl)",
+      "price": 25,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Water",
+      "name": "Aqua Reflection Still (38cl)",
+      "price": 35,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Water",
+      "name": "Aqua Reflection Sparkling (38cl)",
+      "price": 39,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Signature Latte",
+      "name": "Sea Salt Caramel Latte",
+      "price": 49.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Signature Latte",
+      "name": "Crème Brûlée Latte",
+      "price": 49.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Signature Latte",
+      "name": "Cookie and Cream Latte",
+      "price": 49.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Juice",
+      "name": "Lime Juice",
+      "price": 40,
+      "description": "Squeeze or squash",
+      "options": []
+    },
+    {
+      "category": "Juice",
+      "name": "Lemon Juice",
+      "price": 40,
+      "description": "Squeeze or squash",
+      "options": []
+    },
+    {
+      "category": "Juice",
+      "name": "Melon Juice",
+      "price": 45,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Juice",
+      "name": "Watermelon Juice",
+      "price": 45,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Juice",
+      "name": "Pineapple Juice",
+      "price": 45,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Juice",
+      "name": "Papaya Juice",
+      "price": 45,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Juice",
+      "name": "Mango Juice",
+      "price": 55,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Juice",
+      "name": "Strawberry Juice",
+      "price": 55,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Juice",
+      "name": "Orange Juice",
+      "price": 60,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Juice",
+      "name": "Carrot Juice",
+      "price": 60,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Juice",
+      "name": "Orange Squash",
+      "price": 55,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Chocolate",
+      "name": "Hot or Cold Chocolate",
+      "price": 40,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Tea",
+      "name": "Tea (Iced or Hot)",
+      "price": 28.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Tea",
+      "name": "Lemon Tea (Iced or Hot)",
+      "price": 30.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Tea",
+      "name": "Lemongrass Tea",
+      "price": 40.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Tea",
+      "name": "Peach Sorbet Iced Tea",
+      "price": 55.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Tea",
+      "name": "Strawberry Sorbet Iced Tea",
+      "price": 55.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Tea",
+      "name": "Flavoured Iced Tea",
+      "price": 45,
+      "description": "Lychee, Peach, Strawberry, Green Apple syrups",
+      "options": []
+    },
+    {
+      "category": "Tea",
+      "name": "Pot of TWG Tea",
+      "price": 45,
+      "description": "Black tea: English Breakfast, Earl Grey. Green tea: Sencha, Grand Jasmine, Moroccan Mint, Waterfruit. No theine: Chamomille, Vanilla Bourbon Red Tea. Grand Jasmine, Moroccan Mint, Waterfruit and Vanilla Bourbon Red Tea can be served iced.",
+      "options": []
+    },
+    {
+      "category": "Coffee",
+      "name": "Espresso",
+      "price": 28,
+      "description": "",
+      "options": [
+        {
+          "name": "Oat Milk",
+          "price": 5,
+          "kind": "Add-on"
+        },
+        {
+          "name": "Caramel Syrup",
+          "price": 10,
+          "kind": "Add-on"
+        },
+        {
+          "name": "Hazelnut Syrup",
+          "price": 10,
+          "kind": "Add-on"
+        },
+        {
+          "name": "Vanilla Syrup",
+          "price": 10,
+          "kind": "Add-on"
+        },
+        {
+          "name": "Espresso Shot",
+          "price": 12,
+          "kind": "Add-on"
+        }
+      ]
+    },
+    {
+      "category": "Coffee",
+      "name": "Black Coffee",
+      "price": 28,
+      "description": "",
+      "options": [
+        {
+          "name": "Oat Milk",
+          "price": 5,
+          "kind": "Add-on"
+        },
+        {
+          "name": "Caramel Syrup",
+          "price": 10,
+          "kind": "Add-on"
+        },
+        {
+          "name": "Hazelnut Syrup",
+          "price": 10,
+          "kind": "Add-on"
+        },
+        {
+          "name": "Vanilla Syrup",
+          "price": 10,
+          "kind": "Add-on"
+        },
+        {
+          "name": "Espresso Shot",
+          "price": 12,
+          "kind": "Add-on"
+        }
+      ]
+    },
+    {
+      "category": "Coffee",
+      "name": "Macchiato",
+      "price": 32,
+      "description": "",
+      "options": [
+        {
+          "name": "Oat Milk",
+          "price": 5,
+          "kind": "Add-on"
+        },
+        {
+          "name": "Caramel Syrup",
+          "price": 10,
+          "kind": "Add-on"
+        },
+        {
+          "name": "Hazelnut Syrup",
+          "price": 10,
+          "kind": "Add-on"
+        },
+        {
+          "name": "Vanilla Syrup",
+          "price": 10,
+          "kind": "Add-on"
+        },
+        {
+          "name": "Espresso Shot",
+          "price": 12,
+          "kind": "Add-on"
+        }
+      ]
+    },
+    {
+      "category": "Coffee",
+      "name": "Piccolo Latte",
+      "price": 32,
+      "description": "",
+      "options": [
+        {
+          "name": "Oat Milk",
+          "price": 5,
+          "kind": "Add-on"
+        },
+        {
+          "name": "Caramel Syrup",
+          "price": 10,
+          "kind": "Add-on"
+        },
+        {
+          "name": "Hazelnut Syrup",
+          "price": 10,
+          "kind": "Add-on"
+        },
+        {
+          "name": "Vanilla Syrup",
+          "price": 10,
+          "kind": "Add-on"
+        },
+        {
+          "name": "Espresso Shot",
+          "price": 12,
+          "kind": "Add-on"
+        }
+      ]
+    },
+    {
+      "category": "Coffee",
+      "name": "Cappuccino",
+      "price": 42,
+      "description": "",
+      "options": [
+        {
+          "name": "Oat Milk",
+          "price": 5,
+          "kind": "Add-on"
+        },
+        {
+          "name": "Caramel Syrup",
+          "price": 10,
+          "kind": "Add-on"
+        },
+        {
+          "name": "Hazelnut Syrup",
+          "price": 10,
+          "kind": "Add-on"
+        },
+        {
+          "name": "Vanilla Syrup",
+          "price": 10,
+          "kind": "Add-on"
+        },
+        {
+          "name": "Espresso Shot",
+          "price": 12,
+          "kind": "Add-on"
+        }
+      ]
+    },
+    {
+      "category": "Coffee",
+      "name": "Latte",
+      "price": 44,
+      "description": "",
+      "options": [
+        {
+          "name": "Oat Milk",
+          "price": 5,
+          "kind": "Add-on"
+        },
+        {
+          "name": "Caramel Syrup",
+          "price": 10,
+          "kind": "Add-on"
+        },
+        {
+          "name": "Hazelnut Syrup",
+          "price": 10,
+          "kind": "Add-on"
+        },
+        {
+          "name": "Vanilla Syrup",
+          "price": 10,
+          "kind": "Add-on"
+        },
+        {
+          "name": "Espresso Shot",
+          "price": 12,
+          "kind": "Add-on"
+        }
+      ]
+    },
+    {
+      "category": "Coffee",
+      "name": "Mocha",
+      "price": 44,
+      "description": "",
+      "options": [
+        {
+          "name": "Oat Milk",
+          "price": 5,
+          "kind": "Add-on"
+        },
+        {
+          "name": "Caramel Syrup",
+          "price": 10,
+          "kind": "Add-on"
+        },
+        {
+          "name": "Hazelnut Syrup",
+          "price": 10,
+          "kind": "Add-on"
+        },
+        {
+          "name": "Vanilla Syrup",
+          "price": 10,
+          "kind": "Add-on"
+        },
+        {
+          "name": "Espresso Shot",
+          "price": 12,
+          "kind": "Add-on"
+        }
+      ]
+    },
+    {
+      "category": "Healthy Drink",
+      "name": "Papaya & Orange",
+      "price": 55.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Healthy Drink",
+      "name": "Yakult & Tomato Basil",
+      "price": 60.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Healthy Drink",
+      "name": "Wheat Grass Orange",
+      "price": 65.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Everyday Happy Hour",
+      "name": "Bintang - Bucket of 5 Bottles",
+      "price": 195,
+      "description": "Every day, 4–8 PM",
+      "options": []
+    },
+    {
+      "category": "Everyday Happy Hour",
+      "name": "San Miguel Light - Bucket of 5 Bottles",
+      "price": 195,
+      "description": "Every day, 4–8 PM",
+      "options": []
+    },
+    {
+      "category": "Everyday Happy Hour",
+      "name": "Carlsberg - Bucket of 5 Bottles",
+      "price": 255,
+      "description": "Every day, 4–8 PM",
+      "options": []
+    },
+    {
+      "category": "Everyday Happy Hour",
+      "name": "Heineken - Bucket of 5 Bottles",
+      "price": 255,
+      "description": "Every day, 4–8 PM",
+      "options": []
+    },
+    {
+      "category": "Cocktails",
+      "name": "Dark & Stormy",
+      "price": 120,
+      "description": "Spiced Rum, Lime Juice, Fresh Ginger, Brown Sugar",
+      "options": []
+    },
+    {
+      "category": "Cocktails",
+      "name": "Caipiroska",
+      "price": 120,
+      "description": "Vodka, Fresh Lime Juice, Simple Syrup",
+      "options": []
+    },
+    {
+      "category": "Cocktails",
+      "name": "Whiskey Sour",
+      "price": 125,
+      "description": "Blended Whiskey, Lemon Juice, Egg White",
+      "options": []
+    },
+    {
+      "category": "Cocktails",
+      "name": "Spinning Kiss",
+      "price": 125,
+      "description": "Vodka, Strawberry Puree, Pineapple Cordial, Fresh Lemon Juice, Simple Syrup",
+      "options": []
+    },
+    {
+      "category": "Cocktails",
+      "name": "Pinkin Sour",
+      "price": 130,
+      "description": "Gold Rum, Guava Juice, Lemon Juice, Passion Fruit Syrup, Egg White",
+      "options": []
+    },
+    {
+      "category": "Cocktails",
+      "name": "Negroni",
+      "price": 155,
+      "description": "Dry Gin, Sweet Vermouth, Campari Bitter, Orange Peel",
+      "options": []
+    },
+    {
+      "category": "Cocktails",
+      "name": "Aperol Spritz",
+      "price": 160,
+      "description": "Aperol, Ponte Blanco, Soda Water, Orange Sliced",
+      "options": []
+    },
+    {
+      "category": "Cocktails",
+      "name": "Caipirinha",
+      "price": 120,
+      "description": "",
+      "options": []
+    }
+  ],
+  [
+    {
+      "category": "Finger Food",
+      "name": "Crispy Enoki",
+      "price": 45.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Finger Food",
+      "name": "Cheese & Beef Croquettes",
+      "price": 60.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Finger Food",
+      "name": "Spicy Garlic Chicken Wings",
+      "price": 65.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Finger Food",
+      "name": "Mexican Nachos",
+      "price": 105.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Finger Food",
+      "name": "Vietnamese Vegetarian Spring Roll",
+      "price": 35.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Finger Food",
+      "name": "Indian Samosa with Green Chutney",
+      "price": 50.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Finger Food",
+      "name": "Chicken Arayes (Lebanese Sandwich)",
+      "price": 60.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Finger Food",
+      "name": "Homemade Fries with Spicy Aioli",
+      "price": 65.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Finger Food",
+      "name": "Grilled Chicken Wings with Herbs",
+      "price": 65.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Finger Food",
+      "name": "3 Bao Peking Duck (Steamed Sandwich)",
+      "price": 65.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Finger Food",
+      "name": "Crispy Calamari Marinara Sauce",
+      "price": 75.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Finger Food",
+      "name": "Triple Cheese Quesadillas and Guacamole",
+      "price": 80.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Finger Food",
+      "name": "Spanish Tortilla Spicy Aioli",
+      "price": 55.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Finger Food",
+      "name": "Chicken & Beef Bacon Gyoza",
+      "price": 60.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Finger Food",
+      "name": "Cheese & Seafood Croquette",
+      "price": 65.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Finger Food",
+      "name": "6 Mini Mexican Beef Tacos",
+      "price": 115.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Local Beers",
+      "name": "San Miguel Light",
+      "price": 50.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Local Beers",
+      "name": "Bintang Lemon Radler",
+      "price": 50.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Local Beers",
+      "name": "Bintang Crystal",
+      "price": 55.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Local Beers",
+      "name": "Carlsberg",
+      "price": 65.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Local Beers",
+      "name": "Bintang Draught",
+      "price": 50,
+      "description": "",
+      "options": [
+        {
+          "name": "Draught",
+          "price": 50,
+          "kind": "Variant"
+        },
+        {
+          "name": "Pitcher",
+          "price": 225,
+          "kind": "Variant"
+        }
+      ]
+    },
+    {
+      "category": "Local Beers",
+      "name": "Bintang Tower",
+      "price": 450.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Imported Beers",
+      "name": "Liefmans Fruitesse",
+      "price": 95,
+      "description": "Belgium; 3.8%",
+      "options": []
+    },
+    {
+      "category": "Imported Beers",
+      "name": "Hoegaarden Blanche",
+      "price": 100,
+      "description": "Belgium; 4.9%",
+      "options": []
+    },
+    {
+      "category": "Imported Beers",
+      "name": "La Chouffe",
+      "price": 170,
+      "description": "Belgium; 8%",
+      "options": []
+    },
+    {
+      "category": "Imported Beers",
+      "name": "Duvel Golden Ale",
+      "price": 170,
+      "description": "Belgium; 8.5%",
+      "options": []
+    },
+    {
+      "category": "Imported Beers",
+      "name": "Maredsous Triple",
+      "price": 170,
+      "description": "Belgium; 10%",
+      "options": []
+    },
+    {
+      "category": "Imported Beers",
+      "name": "Erdinger Weissbier",
+      "price": 135,
+      "description": "Germany; 5.3%",
+      "options": []
+    },
+    {
+      "category": "Imported Beers",
+      "name": "Erdinger Dunkel",
+      "price": 135,
+      "description": "Germany; 5.3%",
+      "options": []
+    },
+    {
+      "category": "Imported Beers",
+      "name": "Corona",
+      "price": 100,
+      "description": "Mexico; 4.5%",
+      "options": []
+    },
+    {
+      "category": "Bali Craft Beers",
+      "name": "Island of Imagination Whitty White",
+      "price": 85,
+      "description": "4.8%",
+      "options": []
+    },
+    {
+      "category": "Bali Craft Beers",
+      "name": "Kura Kura Island Ale",
+      "price": 90,
+      "description": "5%",
+      "options": []
+    },
+    {
+      "category": "Bali Craft Beers",
+      "name": "Small Hazy",
+      "price": 95,
+      "description": "4.8%",
+      "options": []
+    },
+    {
+      "category": "Bali Craft Beers",
+      "name": "Island of Imagination XPA",
+      "price": 135,
+      "description": "7.9%",
+      "options": []
+    },
+    {
+      "category": "Bali Craft Beers",
+      "name": "Kura Kura I.P.A",
+      "price": 145,
+      "description": "7.1%",
+      "options": []
+    },
+    {
+      "category": "Korean Soju",
+      "name": "Original Soju",
+      "price": 125,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Korean Soju",
+      "name": "Lime Soju",
+      "price": 125,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Korean Soju",
+      "name": "Lychee Soju",
+      "price": 125,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Korean Soju",
+      "name": "Peach Soju",
+      "price": 125,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Korean Soju",
+      "name": "Green Grape Soju",
+      "price": 125,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Wine by Glass",
+      "name": "Red Wine",
+      "price": 95,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Wine by Glass",
+      "name": "White Wine",
+      "price": 95,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Wine by Glass",
+      "name": "Sparkling Wine",
+      "price": 95,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Wine by Glass",
+      "name": "Svaa Port Wine - Tawny",
+      "price": 95,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Wine by Glass",
+      "name": "Rose Wine",
+      "price": 105,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Soft",
+      "name": "Pokka Green Tea",
+      "price": 20.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Soft",
+      "name": "Coke",
+      "price": 25.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Soft",
+      "name": "Sprite",
+      "price": 25.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Soft",
+      "name": "Coke Zero",
+      "price": 30.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Soft",
+      "name": "Ginger Ale",
+      "price": 30.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Soft",
+      "name": "Tonic",
+      "price": 30.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Soft",
+      "name": "Soda Water",
+      "price": 30.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Soft",
+      "name": "Kratingdaeng",
+      "price": 30.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Water",
+      "name": "Mineral Water (50cl)",
+      "price": 19,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Water",
+      "name": "Sparkling Water (50cl)",
+      "price": 25,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Water",
+      "name": "Dolomia Still",
+      "price": 45,
+      "description": "",
+      "options": [
+        {
+          "name": "33cl",
+          "price": 45,
+          "kind": "Variant"
+        },
+        {
+          "name": "75cl",
+          "price": 70,
+          "kind": "Variant"
+        }
+      ]
+    },
+    {
+      "category": "Water",
+      "name": "Dolomia Sparkling",
+      "price": 45,
+      "description": "",
+      "options": [
+        {
+          "name": "33cl",
+          "price": 45,
+          "kind": "Variant"
+        },
+        {
+          "name": "75cl",
+          "price": 70,
+          "kind": "Variant"
+        }
+      ]
+    },
+    {
+      "category": "Tea",
+      "name": "Tea (Iced or Hot)",
+      "price": 28.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Tea",
+      "name": "Lemon Tea (Iced or Hot)",
+      "price": 30.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Tea",
+      "name": "Lemongrass Tea",
+      "price": 40.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Tea",
+      "name": "Peach Sorbet Iced Tea",
+      "price": 55.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Tea",
+      "name": "Strawberry Sorbet Iced Tea",
+      "price": 55.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Tea",
+      "name": "Flavoured Iced Tea",
+      "price": 45,
+      "description": "Lychee, Peach, Strawberry, Green Apple syrups",
+      "options": []
+    },
+    {
+      "category": "Tea",
+      "name": "Pot of TWG Tea",
+      "price": 45,
+      "description": "Black tea: English Breakfast, Earl Grey",
+      "options": []
+    },
+    {
+      "category": "Coffee",
+      "name": "Espresso",
+      "price": 28,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Coffee",
+      "name": "Black Coffee",
+      "price": 28,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Coffee",
+      "name": "Macchiato",
+      "price": 32,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Coffee",
+      "name": "Piccolo Latte",
+      "price": 32,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Coffee",
+      "name": "Cappuccino",
+      "price": 42,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Coffee",
+      "name": "Latte",
+      "price": 44,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Cocktails",
+      "name": "Mojito",
+      "price": 120,
+      "description": "White Rum, Fresh Lemon Juice, Simple Syrup, Mint Leaf",
+      "options": []
+    },
+    {
+      "category": "Cocktails",
+      "name": "Dark & Stormy",
+      "price": 120,
+      "description": "Spiced Rum, Lime Juice, Fresh Ginger, Brown Sugar",
+      "options": []
+    },
+    {
+      "category": "Cocktails",
+      "name": "Caipiroska",
+      "price": 120,
+      "description": "Vodka, Fresh Lime Juice, Simple Syrup",
+      "options": []
+    },
+    {
+      "category": "Cocktails",
+      "name": "Cosmopolitan",
+      "price": 125,
+      "description": "Vodka, Triple Sec, Cranberry Juice, Fresh Lime Juice, Simple Syrup",
+      "options": []
+    },
+    {
+      "category": "Cocktails",
+      "name": "Whiskey Sour",
+      "price": 125,
+      "description": "Blended Whiskey, Lemon Juice, Egg White",
+      "options": []
+    },
+    {
+      "category": "Cocktails",
+      "name": "Spinning Kiss",
+      "price": 125,
+      "description": "Vodka, Strawberry Puree, Pineapple Cordial, Fresh Lemon Juice, Simple Syrup",
+      "options": []
+    },
+    {
+      "category": "Cocktails",
+      "name": "Pinkin Sour",
+      "price": 130,
+      "description": "Gold Rum, Guava Juice, Lemon Juice, Passion Fruit Syrup, Egg White",
+      "options": []
+    },
+    {
+      "category": "Cocktails",
+      "name": "Margarita",
+      "price": 145,
+      "description": "Tequila, Triple Sec, Lime Juice, Simple Syrup",
+      "options": []
+    },
+    {
+      "category": "Cocktails",
+      "name": "Negroni",
+      "price": 155,
+      "description": "Dry Gin, Sweet Vermouth, Campari Bitter, Orange Peel",
+      "options": []
+    },
+    {
+      "category": "Cocktails",
+      "name": "Aperol Spritz",
+      "price": 160,
+      "description": "Aperol, Ponte Blanco, Soda Water, Orange Sliced",
+      "options": []
+    },
+    {
+      "category": "Gin",
+      "name": "Gordon's",
+      "price": 900.0,
+      "description": "Two source prices retained in printed order; serving units are not labelled in the PDF.",
+      "options": [
+        {
+          "name": "First listed price",
+          "price": 900.0,
+          "kind": "Variant"
+        },
+        {
+          "name": "Second listed price",
+          "price": 85.0,
+          "kind": "Variant"
+        }
+      ]
+    },
+    {
+      "category": "Gin",
+      "name": "Gordon's Pink",
+      "price": 900.0,
+      "description": "Two source prices retained in printed order; serving units are not labelled in the PDF.",
+      "options": [
+        {
+          "name": "First listed price",
+          "price": 900.0,
+          "kind": "Variant"
+        },
+        {
+          "name": "Second listed price",
+          "price": 85.0,
+          "kind": "Variant"
+        }
+      ]
+    },
+    {
+      "category": "Gin",
+      "name": "H",
+      "price": 900.0,
+      "description": "Two source prices retained in printed order; serving units are not labelled in the PDF.",
+      "options": [
+        {
+          "name": "First listed price",
+          "price": 900.0,
+          "kind": "Variant"
+        },
+        {
+          "name": "Second listed price",
+          "price": 85.0,
+          "kind": "Variant"
+        }
+      ]
+    },
+    {
+      "category": "Gin",
+      "name": "East Indies",
+      "price": 990.0,
+      "description": "Two source prices retained in printed order; serving units are not labelled in the PDF.",
+      "options": [
+        {
+          "name": "First listed price",
+          "price": 990.0,
+          "kind": "Variant"
+        },
+        {
+          "name": "Second listed price",
+          "price": 90.0,
+          "kind": "Variant"
+        }
+      ]
+    },
+    {
+      "category": "Gin",
+      "name": "Bombay Dry",
+      "price": 1100.0,
+      "description": "Two source prices retained in printed order; serving units are not labelled in the PDF.",
+      "options": [
+        {
+          "name": "First listed price",
+          "price": 1100.0,
+          "kind": "Variant"
+        },
+        {
+          "name": "Second listed price",
+          "price": 95.0,
+          "kind": "Variant"
+        }
+      ]
+    },
+    {
+      "category": "Gin",
+      "name": "Tenjaku Gin",
+      "price": 1300.0,
+      "description": "Two source prices retained in printed order; serving units are not labelled in the PDF.",
+      "options": [
+        {
+          "name": "First listed price",
+          "price": 1300.0,
+          "kind": "Variant"
+        },
+        {
+          "name": "Second listed price",
+          "price": 110.0,
+          "kind": "Variant"
+        }
+      ]
+    },
+    {
+      "category": "Gin",
+      "name": "Tanqueray",
+      "price": 1400.0,
+      "description": "Two source prices retained in printed order; serving units are not labelled in the PDF.",
+      "options": [
+        {
+          "name": "First listed price",
+          "price": 1400.0,
+          "kind": "Variant"
+        },
+        {
+          "name": "Second listed price",
+          "price": 120.0,
+          "kind": "Variant"
+        }
+      ]
+    },
+    {
+      "category": "Gin",
+      "name": "Bombay Sapphire",
+      "price": 1500.0,
+      "description": "Two source prices retained in printed order; serving units are not labelled in the PDF.",
+      "options": [
+        {
+          "name": "First listed price",
+          "price": 1500.0,
+          "kind": "Variant"
+        },
+        {
+          "name": "Second listed price",
+          "price": 125.0,
+          "kind": "Variant"
+        }
+      ]
+    },
+    {
+      "category": "Gin",
+      "name": "Hendrick's",
+      "price": 1750.0,
+      "description": "Two source prices retained in printed order; serving units are not labelled in the PDF.",
+      "options": [
+        {
+          "name": "First listed price",
+          "price": 1750.0,
+          "kind": "Variant"
+        },
+        {
+          "name": "Second listed price",
+          "price": 145.0,
+          "kind": "Variant"
+        }
+      ]
+    },
+    {
+      "category": "Gin",
+      "name": "Tanqueray 10",
+      "price": 2800.0,
+      "description": "Two source prices retained in printed order; serving units are not labelled in the PDF.",
+      "options": [
+        {
+          "name": "First listed price",
+          "price": 2800.0,
+          "kind": "Variant"
+        },
+        {
+          "name": "Second listed price",
+          "price": 235.0,
+          "kind": "Variant"
+        }
+      ]
+    },
+    {
+      "category": "Rum",
+      "name": "Captain Morgan White",
+      "price": 900.0,
+      "description": "Two source prices retained in printed order; serving units are not labelled in the PDF.",
+      "options": [
+        {
+          "name": "First listed price",
+          "price": 900.0,
+          "kind": "Variant"
+        },
+        {
+          "name": "Second listed price",
+          "price": 85.0,
+          "kind": "Variant"
+        }
+      ]
+    },
+    {
+      "category": "Rum",
+      "name": "Captain Morgan Gold",
+      "price": 900.0,
+      "description": "Two source prices retained in printed order; serving units are not labelled in the PDF.",
+      "options": [
+        {
+          "name": "First listed price",
+          "price": 900.0,
+          "kind": "Variant"
+        },
+        {
+          "name": "Second listed price",
+          "price": 85.0,
+          "kind": "Variant"
+        }
+      ]
+    },
+    {
+      "category": "Rum",
+      "name": "Bacardi Spice",
+      "price": 950.0,
+      "description": "Two source prices retained in printed order; serving units are not labelled in the PDF.",
+      "options": [
+        {
+          "name": "First listed price",
+          "price": 950.0,
+          "kind": "Variant"
+        },
+        {
+          "name": "Second listed price",
+          "price": 90.0,
+          "kind": "Variant"
+        }
+      ]
+    },
+    {
+      "category": "Rum",
+      "name": "Bacardi Light",
+      "price": 1200.0,
+      "description": "Two source prices retained in printed order; serving units are not labelled in the PDF.",
+      "options": [
+        {
+          "name": "First listed price",
+          "price": 1200.0,
+          "kind": "Variant"
+        },
+        {
+          "name": "Second listed price",
+          "price": 100.0,
+          "kind": "Variant"
+        }
+      ]
+    },
+    {
+      "category": "Rum",
+      "name": "Bacardi Gold",
+      "price": 1200.0,
+      "description": "Two source prices retained in printed order; serving units are not labelled in the PDF.",
+      "options": [
+        {
+          "name": "First listed price",
+          "price": 1200.0,
+          "kind": "Variant"
+        },
+        {
+          "name": "Second listed price",
+          "price": 100.0,
+          "kind": "Variant"
+        }
+      ]
+    },
+    {
+      "category": "Rum",
+      "name": "Kranken",
+      "price": 2200.0,
+      "description": "Two source prices retained in printed order; serving units are not labelled in the PDF.",
+      "options": [
+        {
+          "name": "First listed price",
+          "price": 2200.0,
+          "kind": "Variant"
+        },
+        {
+          "name": "Second listed price",
+          "price": 180.0,
+          "kind": "Variant"
+        }
+      ]
+    },
+    {
+      "category": "Vodka",
+      "name": "Smirnoff",
+      "price": 900.0,
+      "description": "Two source prices retained in printed order; serving units are not labelled in the PDF.",
+      "options": [
+        {
+          "name": "First listed price",
+          "price": 900.0,
+          "kind": "Variant"
+        },
+        {
+          "name": "Second listed price",
+          "price": 85.0,
+          "kind": "Variant"
+        }
+      ]
+    },
+    {
+      "category": "Vodka",
+      "name": "Skyy",
+      "price": 1100.0,
+      "description": "Two source prices retained in printed order; serving units are not labelled in the PDF.",
+      "options": [
+        {
+          "name": "First listed price",
+          "price": 1100.0,
+          "kind": "Variant"
+        },
+        {
+          "name": "Second listed price",
+          "price": 95.0,
+          "kind": "Variant"
+        }
+      ]
+    },
+    {
+      "category": "Vodka",
+      "name": "Absolut Blue",
+      "price": 1300.0,
+      "description": "Two source prices retained in printed order; serving units are not labelled in the PDF.",
+      "options": [
+        {
+          "name": "First listed price",
+          "price": 1300.0,
+          "kind": "Variant"
+        },
+        {
+          "name": "Second listed price",
+          "price": 110.0,
+          "kind": "Variant"
+        }
+      ]
+    },
+    {
+      "category": "Vodka",
+      "name": "Grey Goose Original",
+      "price": 1900.0,
+      "description": "Two source prices retained in printed order; serving units are not labelled in the PDF.",
+      "options": [
+        {
+          "name": "First listed price",
+          "price": 1900.0,
+          "kind": "Variant"
+        },
+        {
+          "name": "Second listed price",
+          "price": 160.0,
+          "kind": "Variant"
+        }
+      ]
+    },
+    {
+      "category": "Whisky",
+      "name": "Gilbey's Whisky",
+      "price": 690.0,
+      "description": "Two source prices retained in printed order; serving units are not labelled in the PDF.",
+      "options": [
+        {
+          "name": "First listed price",
+          "price": 690.0,
+          "kind": "Variant"
+        },
+        {
+          "name": "Second listed price",
+          "price": 75.0,
+          "kind": "Variant"
+        }
+      ]
+    },
+    {
+      "category": "Whisky",
+      "name": "JW Red Label",
+      "price": 990.0,
+      "description": "Two source prices retained in printed order; serving units are not labelled in the PDF.",
+      "options": [
+        {
+          "name": "First listed price",
+          "price": 990.0,
+          "kind": "Variant"
+        },
+        {
+          "name": "Second listed price",
+          "price": 90.0,
+          "kind": "Variant"
+        }
+      ]
+    },
+    {
+      "category": "Whisky",
+      "name": "Jim Beam",
+      "price": 990.0,
+      "description": "Two source prices retained in printed order; serving units are not labelled in the PDF.",
+      "options": [
+        {
+          "name": "First listed price",
+          "price": 990.0,
+          "kind": "Variant"
+        },
+        {
+          "name": "Second listed price",
+          "price": 90.0,
+          "kind": "Variant"
+        }
+      ]
+    },
+    {
+      "category": "Whisky",
+      "name": "Jameson",
+      "price": 1200.0,
+      "description": "Two source prices retained in printed order; serving units are not labelled in the PDF.",
+      "options": [
+        {
+          "name": "First listed price",
+          "price": 1200.0,
+          "kind": "Variant"
+        },
+        {
+          "name": "Second listed price",
+          "price": 100.0,
+          "kind": "Variant"
+        }
+      ]
+    },
+    {
+      "category": "Whisky",
+      "name": "Tenjaku Whisky",
+      "price": 1500.0,
+      "description": "Two source prices retained in printed order; serving units are not labelled in the PDF.",
+      "options": [
+        {
+          "name": "First listed price",
+          "price": 1500.0,
+          "kind": "Variant"
+        },
+        {
+          "name": "Second listed price",
+          "price": 115.0,
+          "kind": "Variant"
+        }
+      ]
+    },
+    {
+      "category": "Whisky",
+      "name": "Jack Daniel's",
+      "price": 1400.0,
+      "description": "Two source prices retained in printed order; serving units are not labelled in the PDF.",
+      "options": [
+        {
+          "name": "First listed price",
+          "price": 1400.0,
+          "kind": "Variant"
+        },
+        {
+          "name": "Second listed price",
+          "price": 120.0,
+          "kind": "Variant"
+        }
+      ]
+    },
+    {
+      "category": "Whisky",
+      "name": "JW Black Label",
+      "price": 1400.0,
+      "description": "Two source prices retained in printed order; serving units are not labelled in the PDF.",
+      "options": [
+        {
+          "name": "First listed price",
+          "price": 1400.0,
+          "kind": "Variant"
+        },
+        {
+          "name": "Second listed price",
+          "price": 120.0,
+          "kind": "Variant"
+        }
+      ]
+    },
+    {
+      "category": "Whisky",
+      "name": "Chivas Regal 12 YO",
+      "price": 1600.0,
+      "description": "Two source prices retained in printed order; serving units are not labelled in the PDF.",
+      "options": [
+        {
+          "name": "First listed price",
+          "price": 1600.0,
+          "kind": "Variant"
+        },
+        {
+          "name": "Second listed price",
+          "price": 135.0,
+          "kind": "Variant"
+        }
+      ]
+    },
+    {
+      "category": "Whisky",
+      "name": "Gentelman Jack",
+      "price": 1700.0,
+      "description": "Two source prices retained in printed order; serving units are not labelled in the PDF.",
+      "options": [
+        {
+          "name": "First listed price",
+          "price": 1700.0,
+          "kind": "Variant"
+        },
+        {
+          "name": "Second listed price",
+          "price": 140.0,
+          "kind": "Variant"
+        }
+      ]
+    },
+    {
+      "category": "Whisky",
+      "name": "Glenfiddich 12 YO",
+      "price": 2200.0,
+      "description": "Two source prices retained in printed order; serving units are not labelled in the PDF.",
+      "options": [
+        {
+          "name": "First listed price",
+          "price": 2200.0,
+          "kind": "Variant"
+        },
+        {
+          "name": "Second listed price",
+          "price": 185.0,
+          "kind": "Variant"
+        }
+      ]
+    },
+    {
+      "category": "Whisky",
+      "name": "Umiki",
+      "price": 2400.0,
+      "description": "Two source prices retained in printed order; serving units are not labelled in the PDF.",
+      "options": [
+        {
+          "name": "First listed price",
+          "price": 2400.0,
+          "kind": "Variant"
+        },
+        {
+          "name": "Second listed price",
+          "price": 200.0,
+          "kind": "Variant"
+        }
+      ]
+    },
+    {
+      "category": "Whisky",
+      "name": "Singleton 12 YO",
+      "price": 2900.0,
+      "description": "Two source prices retained in printed order; serving units are not labelled in the PDF.",
+      "options": [
+        {
+          "name": "First listed price",
+          "price": 2900.0,
+          "kind": "Variant"
+        },
+        {
+          "name": "Second listed price",
+          "price": 240.0,
+          "kind": "Variant"
+        }
+      ]
+    },
+    {
+      "category": "Whisky",
+      "name": "Macallan 12 YO - Double Cask",
+      "price": 3400.0,
+      "description": "Two source prices retained in printed order; serving units are not labelled in the PDF.",
+      "options": [
+        {
+          "name": "First listed price",
+          "price": 3400.0,
+          "kind": "Variant"
+        },
+        {
+          "name": "Second listed price",
+          "price": 285.0,
+          "kind": "Variant"
+        }
+      ]
+    },
+    {
+      "category": "Tequila",
+      "name": "Camino Blanca",
+      "price": 1200.0,
+      "description": "Two source prices retained in printed order; serving units are not labelled in the PDF.",
+      "options": [
+        {
+          "name": "First listed price",
+          "price": 1200.0,
+          "kind": "Variant"
+        },
+        {
+          "name": "Second listed price",
+          "price": 100.0,
+          "kind": "Variant"
+        }
+      ]
+    },
+    {
+      "category": "Tequila",
+      "name": "Patron Silver",
+      "price": 2900.0,
+      "description": "Two source prices retained in printed order; serving units are not labelled in the PDF.",
+      "options": [
+        {
+          "name": "First listed price",
+          "price": 2900.0,
+          "kind": "Variant"
+        },
+        {
+          "name": "Second listed price",
+          "price": 240.0,
+          "kind": "Variant"
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "category": "Finger Food",
+      "name": "Crispy Enoki",
+      "price": 45.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Finger Food",
+      "name": "Cheese & Beef Croquettes",
+      "price": 60.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Finger Food",
+      "name": "Spicy Garlic Chicken Wings",
+      "price": 65.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Finger Food",
+      "name": "Mexican Nachos",
+      "price": 105.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Finger Food",
+      "name": "Indian Samosa with Green Chutney",
+      "price": 60.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Finger Food",
+      "name": "Homemade Fries with Spicy Aioli",
+      "price": 60.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Finger Food",
+      "name": "Platter of Escargots with Garlic Butter",
+      "price": 60.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Finger Food",
+      "name": "Triple Cheese Quesadillas and Guacamole",
+      "price": 75.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Local Beers",
+      "name": "San Miguel Light",
+      "price": 50.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Local Beers",
+      "name": "Bintang Lemon Radler",
+      "price": 50.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Local Beers",
+      "name": "Bintang Crystal",
+      "price": 55.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Local Beers",
+      "name": "Carlsberg",
+      "price": 65.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Local Beers",
+      "name": "Bintang",
+      "price": 50.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Local Beers",
+      "name": "Guinness Extra Stout",
+      "price": 55.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Local Beers",
+      "name": "Koenig",
+      "price": 60.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Local Beers",
+      "name": "Anker",
+      "price": 50.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Local Beers",
+      "name": "Carlsberg Draught",
+      "price": 65,
+      "description": "",
+      "options": [
+        {
+          "name": "33cl",
+          "price": 65,
+          "kind": "Variant"
+        },
+        {
+          "name": "55cl",
+          "price": 110,
+          "kind": "Variant"
+        }
+      ]
+    },
+    {
+      "category": "Imported Beers",
+      "name": "Liefmans Fruitesse",
+      "price": 95,
+      "description": "Belgium; 3.8%",
+      "options": []
+    },
+    {
+      "category": "Imported Beers",
+      "name": "Hoegaarden Blanche",
+      "price": 100,
+      "description": "Belgium; 4.9%",
+      "options": []
+    },
+    {
+      "category": "Imported Beers",
+      "name": "La Chouffe",
+      "price": 170,
+      "description": "Belgium; 8%",
+      "options": []
+    },
+    {
+      "category": "Imported Beers",
+      "name": "Duvel Golden Ale",
+      "price": 170,
+      "description": "Belgium; 8.5%",
+      "options": []
+    },
+    {
+      "category": "Imported Beers",
+      "name": "Maredsous Triple",
+      "price": 170,
+      "description": "Belgium; 10%",
+      "options": []
+    },
+    {
+      "category": "Imported Beers",
+      "name": "Erdinger Weissbier",
+      "price": 135,
+      "description": "Germany; 5.3%",
+      "options": []
+    },
+    {
+      "category": "Imported Beers",
+      "name": "Erdinger Dunkel",
+      "price": 135,
+      "description": "Germany; 5.3%",
+      "options": []
+    },
+    {
+      "category": "Imported Beers",
+      "name": "Corona",
+      "price": 100,
+      "description": "Mexico; 4.5%",
+      "options": []
+    },
+    {
+      "category": "Bali Craft Beers",
+      "name": "Island of Imagination Whitty White",
+      "price": 85,
+      "description": "4.8%",
+      "options": []
+    },
+    {
+      "category": "Bali Craft Beers",
+      "name": "Kura Kura Island Ale",
+      "price": 90,
+      "description": "5%",
+      "options": []
+    },
+    {
+      "category": "Bali Craft Beers",
+      "name": "Small Hazy",
+      "price": 95,
+      "description": "4.8%",
+      "options": []
+    },
+    {
+      "category": "Bali Craft Beers",
+      "name": "Island of Imagination XPA",
+      "price": 135,
+      "description": "7.9%",
+      "options": []
+    },
+    {
+      "category": "Bali Craft Beers",
+      "name": "Kura Kura I.P.A",
+      "price": 145,
+      "description": "7.1%",
+      "options": []
+    },
+    {
+      "category": "Ciders",
+      "name": "Somersby Apple Cider",
+      "price": 75,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Korean Soju",
+      "name": "Original Soju",
+      "price": 125,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Korean Soju",
+      "name": "Lime Soju",
+      "price": 125,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Korean Soju",
+      "name": "Lychee Soju",
+      "price": 125,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Korean Soju",
+      "name": "Peach Soju",
+      "price": 125,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Korean Soju",
+      "name": "Green Grape Soju",
+      "price": 125,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Wine by Glass",
+      "name": "Red Wine",
+      "price": 95,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Wine by Glass",
+      "name": "White Wine",
+      "price": 95,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Wine by Glass",
+      "name": "Niepoort Tawny",
+      "price": 95,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Milkshake",
+      "name": "Vanilla Milkshake",
+      "price": 55,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Milkshake",
+      "name": "Chocolate Milkshake",
+      "price": 55,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Milkshake",
+      "name": "Coconut Milkshake",
+      "price": 55,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Milkshake",
+      "name": "Strawberry Milkshake",
+      "price": 55,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Milkshake",
+      "name": "Salted Caramel Milkshake",
+      "price": 70,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Mocktails",
+      "name": "Lychee Spritzer",
+      "price": 55,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Mocktails",
+      "name": "Orange The Basil",
+      "price": 55,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Mocktails",
+      "name": "Pina & Lemongrass",
+      "price": 55,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Mocktails",
+      "name": "Cucumber Spring",
+      "price": 55,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Mocktails",
+      "name": "Yellow Peach",
+      "price": 65,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Mocktails",
+      "name": "Unsalted Blue Caramel",
+      "price": 65,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Soft",
+      "name": "Pokka Green Tea",
+      "price": 20.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Soft",
+      "name": "Coke",
+      "price": 25.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Soft",
+      "name": "Sprite",
+      "price": 25.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Soft",
+      "name": "Coke Zero",
+      "price": 30.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Soft",
+      "name": "Ginger Ale",
+      "price": 30.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Soft",
+      "name": "Tonic",
+      "price": 30.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Soft",
+      "name": "Soda Water",
+      "price": 30.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Soft",
+      "name": "Kratingdaeng",
+      "price": 30.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Water",
+      "name": "Mineral Water (50cl)",
+      "price": 19,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Water",
+      "name": "Sparkling Water (50cl)",
+      "price": 25,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Water",
+      "name": "Dolomia Still",
+      "price": 50,
+      "description": "",
+      "options": [
+        {
+          "name": "33cl",
+          "price": 50,
+          "kind": "Variant"
+        },
+        {
+          "name": "75cl",
+          "price": 75,
+          "kind": "Variant"
+        }
+      ]
+    },
+    {
+      "category": "Water",
+      "name": "Dolomia Sparkling",
+      "price": 50,
+      "description": "",
+      "options": [
+        {
+          "name": "33cl",
+          "price": 50,
+          "kind": "Variant"
+        },
+        {
+          "name": "75cl",
+          "price": 75,
+          "kind": "Variant"
+        }
+      ]
+    },
+    {
+      "category": "Juice",
+      "name": "Lime Juice",
+      "price": 40,
+      "description": "Squeeze or squash",
+      "options": []
+    },
+    {
+      "category": "Juice",
+      "name": "Lemon Juice",
+      "price": 40,
+      "description": "Squeeze or squash",
+      "options": []
+    },
+    {
+      "category": "Juice",
+      "name": "Melon Juice",
+      "price": 45,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Juice",
+      "name": "Watermelon Juice",
+      "price": 45,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Juice",
+      "name": "Pineapple Juice",
+      "price": 45,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Juice",
+      "name": "Papaya Juice",
+      "price": 45,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Juice",
+      "name": "Mango Juice",
+      "price": 55,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Juice",
+      "name": "Strawberry Juice",
+      "price": 55,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Juice",
+      "name": "Orange Juice",
+      "price": 60,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Juice",
+      "name": "Carrot Juice",
+      "price": 60,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Juice",
+      "name": "Orange Squash",
+      "price": 55,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Chocolate",
+      "name": "Hot or Cold Chocolate",
+      "price": 40,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Tea",
+      "name": "Tea (Iced or Hot)",
+      "price": 28.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Tea",
+      "name": "Lemon Tea (Iced or Hot)",
+      "price": 30.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Tea",
+      "name": "Lemongrass Tea",
+      "price": 40.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Tea",
+      "name": "Peach Sorbet Iced Tea",
+      "price": 55.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Tea",
+      "name": "Strawberry Sorbet Iced Tea",
+      "price": 55.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Tea",
+      "name": "Flavoured Iced Tea",
+      "price": 45,
+      "description": "Lychee, Peach, Strawberry, Green Apple syrups",
+      "options": []
+    },
+    {
+      "category": "Tea",
+      "name": "Pot of TWG Tea",
+      "price": 45,
+      "description": "Black tea: English Breakfast, Earl Grey. Green tea: Sencha, Grand Jasmine, Moroccan Mint. No theine: Chamomille, Vanilla Bourbon Red Tea. Grand Jasmine, Moroccan Mint and Vanilla Bourbon Red Tea can be served iced.",
+      "options": []
+    },
+    {
+      "category": "Coffee",
+      "name": "Espresso",
+      "price": 28,
+      "description": "",
+      "options": [
+        {
+          "name": "Oat Milk",
+          "price": 5,
+          "kind": "Add-on"
+        },
+        {
+          "name": "Caramel Syrup",
+          "price": 10,
+          "kind": "Add-on"
+        },
+        {
+          "name": "Hazelnut Syrup",
+          "price": 10,
+          "kind": "Add-on"
+        },
+        {
+          "name": "Vanilla Syrup",
+          "price": 10,
+          "kind": "Add-on"
+        },
+        {
+          "name": "Espresso Shot",
+          "price": 12,
+          "kind": "Add-on"
+        }
+      ]
+    },
+    {
+      "category": "Coffee",
+      "name": "Black Coffee",
+      "price": 28,
+      "description": "",
+      "options": [
+        {
+          "name": "Oat Milk",
+          "price": 5,
+          "kind": "Add-on"
+        },
+        {
+          "name": "Caramel Syrup",
+          "price": 10,
+          "kind": "Add-on"
+        },
+        {
+          "name": "Hazelnut Syrup",
+          "price": 10,
+          "kind": "Add-on"
+        },
+        {
+          "name": "Vanilla Syrup",
+          "price": 10,
+          "kind": "Add-on"
+        },
+        {
+          "name": "Espresso Shot",
+          "price": 12,
+          "kind": "Add-on"
+        }
+      ]
+    },
+    {
+      "category": "Coffee",
+      "name": "Macchiato",
+      "price": 32,
+      "description": "",
+      "options": [
+        {
+          "name": "Oat Milk",
+          "price": 5,
+          "kind": "Add-on"
+        },
+        {
+          "name": "Caramel Syrup",
+          "price": 10,
+          "kind": "Add-on"
+        },
+        {
+          "name": "Hazelnut Syrup",
+          "price": 10,
+          "kind": "Add-on"
+        },
+        {
+          "name": "Vanilla Syrup",
+          "price": 10,
+          "kind": "Add-on"
+        },
+        {
+          "name": "Espresso Shot",
+          "price": 12,
+          "kind": "Add-on"
+        }
+      ]
+    },
+    {
+      "category": "Coffee",
+      "name": "Piccolo Latte",
+      "price": 32,
+      "description": "",
+      "options": [
+        {
+          "name": "Oat Milk",
+          "price": 5,
+          "kind": "Add-on"
+        },
+        {
+          "name": "Caramel Syrup",
+          "price": 10,
+          "kind": "Add-on"
+        },
+        {
+          "name": "Hazelnut Syrup",
+          "price": 10,
+          "kind": "Add-on"
+        },
+        {
+          "name": "Vanilla Syrup",
+          "price": 10,
+          "kind": "Add-on"
+        },
+        {
+          "name": "Espresso Shot",
+          "price": 12,
+          "kind": "Add-on"
+        }
+      ]
+    },
+    {
+      "category": "Coffee",
+      "name": "Cappuccino",
+      "price": 42,
+      "description": "",
+      "options": [
+        {
+          "name": "Oat Milk",
+          "price": 5,
+          "kind": "Add-on"
+        },
+        {
+          "name": "Caramel Syrup",
+          "price": 10,
+          "kind": "Add-on"
+        },
+        {
+          "name": "Hazelnut Syrup",
+          "price": 10,
+          "kind": "Add-on"
+        },
+        {
+          "name": "Vanilla Syrup",
+          "price": 10,
+          "kind": "Add-on"
+        },
+        {
+          "name": "Espresso Shot",
+          "price": 12,
+          "kind": "Add-on"
+        }
+      ]
+    },
+    {
+      "category": "Coffee",
+      "name": "Latte",
+      "price": 44,
+      "description": "",
+      "options": [
+        {
+          "name": "Oat Milk",
+          "price": 5,
+          "kind": "Add-on"
+        },
+        {
+          "name": "Caramel Syrup",
+          "price": 10,
+          "kind": "Add-on"
+        },
+        {
+          "name": "Hazelnut Syrup",
+          "price": 10,
+          "kind": "Add-on"
+        },
+        {
+          "name": "Vanilla Syrup",
+          "price": 10,
+          "kind": "Add-on"
+        },
+        {
+          "name": "Espresso Shot",
+          "price": 12,
+          "kind": "Add-on"
+        }
+      ]
+    },
+    {
+      "category": "Coffee",
+      "name": "Mocha",
+      "price": 44,
+      "description": "",
+      "options": [
+        {
+          "name": "Oat Milk",
+          "price": 5,
+          "kind": "Add-on"
+        },
+        {
+          "name": "Caramel Syrup",
+          "price": 10,
+          "kind": "Add-on"
+        },
+        {
+          "name": "Hazelnut Syrup",
+          "price": 10,
+          "kind": "Add-on"
+        },
+        {
+          "name": "Vanilla Syrup",
+          "price": 10,
+          "kind": "Add-on"
+        },
+        {
+          "name": "Espresso Shot",
+          "price": 12,
+          "kind": "Add-on"
+        }
+      ]
+    },
+    {
+      "category": "Healthy Drink",
+      "name": "Papaya & Orange",
+      "price": 55.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Healthy Drink",
+      "name": "Yakult & Tomato Basil",
+      "price": 60.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Healthy Drink",
+      "name": "Wheat Grass Orange",
+      "price": 65.0,
+      "description": "",
+      "options": []
+    },
+    {
+      "category": "Everyday Happy Hour",
+      "name": "Bintang - Bucket of 5 Bottles",
+      "price": 195,
+      "description": "Every day, 4–8 PM",
+      "options": []
+    },
+    {
+      "category": "Everyday Happy Hour",
+      "name": "San Miguel Light - Bucket of 5 Bottles",
+      "price": 195,
+      "description": "Every day, 4–8 PM",
+      "options": []
+    },
+    {
+      "category": "Everyday Happy Hour",
+      "name": "Carlsberg - Bucket of 5 Bottles",
+      "price": 255,
+      "description": "Every day, 4–8 PM",
+      "options": []
+    },
+    {
+      "category": "Everyday Happy Hour",
+      "name": "Heineken - Bucket of 5 Bottles",
+      "price": 255,
+      "description": "Every day, 4–8 PM",
+      "options": []
+    },
+    {
+      "category": "Everyday Happy Hour",
+      "name": "Anker - Bucket of 5 Bottles",
+      "price": 195,
+      "description": "Every day, 4–8 PM",
+      "options": []
+    },
+    {
+      "category": "Everyday Happy Hour",
+      "name": "Corona - Bucket of 5 Bottles",
+      "price": 395,
+      "description": "Every day, 4–8 PM",
+      "options": []
+    },
+    {
+      "category": "Cocktails",
+      "name": "Dark & Stormy",
+      "price": 120,
+      "description": "Spiced Rum, Lime Juice, Fresh Ginger, Brown Sugar",
+      "options": []
+    },
+    {
+      "category": "Cocktails",
+      "name": "Caipiroska",
+      "price": 120,
+      "description": "Vodka, Fresh Lime Juice, Simple Syrup",
+      "options": []
+    },
+    {
+      "category": "Cocktails",
+      "name": "Whiskey Sour",
+      "price": 125,
+      "description": "Blended Whiskey, Lemon Juice, Egg White",
+      "options": []
+    },
+    {
+      "category": "Cocktails",
+      "name": "Spinning Kiss",
+      "price": 125,
+      "description": "Vodka, Strawberry Puree, Pineapple Cordial, Fresh Lemon Juice, Simple Syrup",
+      "options": []
+    },
+    {
+      "category": "Cocktails",
+      "name": "Pinkin Sour",
+      "price": 130,
+      "description": "Gold Rum, Guava Juice, Lemon Juice, Passion Fruit Syrup, Egg White",
+      "options": []
+    },
+    {
+      "category": "Cocktails",
+      "name": "Negroni",
+      "price": 155,
+      "description": "Dry Gin, Sweet Vermouth, Campari Bitter, Orange Peel",
+      "options": []
+    },
+    {
+      "category": "Cocktails",
+      "name": "Aperol Spritz",
+      "price": 160,
+      "description": "Aperol, Ponte Blanco, Soda Water, Orange Sliced",
+      "options": []
+    },
+    {
+      "category": "Cocktails",
+      "name": "Caipirinha",
+      "price": 120,
+      "description": "",
+      "options": []
+    }
+  ]
+]

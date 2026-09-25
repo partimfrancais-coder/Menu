@@ -1,0 +1,272 @@
+{
+  "restaurants": [
+    {
+      "name": "KOI Kuningan Drinks and Cocktail",
+      "items": 117,
+      "categories": 21
+    },
+    {
+      "name": "KOI Rooftop Drinks and Cocktail",
+      "items": 115,
+      "categories": 16
+    },
+    {
+      "name": "KOI Mahakam Drinks and Cocktail",
+      "items": 105,
+      "categories": 18
+    }
+  ],
+  "newProducts": 165,
+  "newCategories": [
+    "Local Beers",
+    "Imported Beers",
+    "Bali Craft Beers",
+    "Ciders",
+    "Korean Soju",
+    "Wine by Glass",
+    "Milkshake",
+    "Smoothies",
+    "Matcha",
+    "Mocktails",
+    "Soft",
+    "Water",
+    "Signature Latte",
+    "Juice",
+    "Chocolate",
+    "Tea",
+    "Coffee",
+    "Healthy Drink",
+    "Everyday Happy Hour",
+    "Cocktails",
+    "Gin",
+    "Rum",
+    "Vodka",
+    "Whisky",
+    "Tequila"
+  ],
+  "reusedPlacements": 172,
+  "priceDifferences": [
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Finger Food",
+      "sourceName": "Cheese & Beef Croquettes",
+      "catalogName": "Cheese and Beef Croquettes",
+      "catalogCategory": "Finger Food",
+      "productId": "f5a2c24a-ffa6-5bfc-bbe5-a1cc84b3f534",
+      "reused": true,
+      "differences": {
+        "price": {
+          "source": 60.0,
+          "catalog": 65
+        }
+      }
+    },
+    {
+      "restaurant": "KOI Kuningan Drinks and Cocktail",
+      "sourceCategory": "Finger Food",
+      "sourceName": "Triple Cheese Quesadillas and Guacamole",
+      "catalogName": "Triple Cheese Quesadillas and Guacamole",
+      "catalogCategory": "Finger Food",
+      "productId": "dd0ac532-fbb9-5362-9630-4d4378848c7e",
+      "reused": true,
+      "differences": {
+        "price": {
+          "source": 80.0,
+          "catalog": 85
+        }
+      }
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Finger Food",
+      "sourceName": "Cheese & Beef Croquettes",
+      "catalogName": "Cheese and Beef Croquettes",
+      "catalogCategory": "Finger Food",
+      "productId": "f5a2c24a-ffa6-5bfc-bbe5-a1cc84b3f534",
+      "reused": true,
+      "differences": {
+        "price": {
+          "source": 60.0,
+          "catalog": 65
+        }
+      }
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Finger Food",
+      "sourceName": "Triple Cheese Quesadillas and Guacamole",
+      "catalogName": "Triple Cheese Quesadillas and Guacamole",
+      "catalogCategory": "Finger Food",
+      "productId": "dd0ac532-fbb9-5362-9630-4d4378848c7e",
+      "reused": true,
+      "differences": {
+        "price": {
+          "source": 80.0,
+          "catalog": 85
+        }
+      }
+    },
+    {
+      "restaurant": "KOI Rooftop Drinks and Cocktail",
+      "sourceCategory": "Finger Food",
+      "sourceName": "Cheese & Seafood Croquette",
+      "catalogName": "Cheese & Seafood Croquette",
+      "catalogCategory": "Finger Food",
+      "productId": "22af2c52-c33f-535e-9c28-807fdff2a771",
+      "reused": true,
+      "differences": {
+        "price": {
+          "source": 65.0,
+          "catalog": 45
+        }
+      }
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Finger Food",
+      "sourceName": "Cheese & Beef Croquettes",
+      "catalogName": "Cheese and Beef Croquettes",
+      "catalogCategory": "Finger Food",
+      "productId": "f5a2c24a-ffa6-5bfc-bbe5-a1cc84b3f534",
+      "reused": true,
+      "differences": {
+        "price": {
+          "source": 60.0,
+          "catalog": 65
+        }
+      }
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Finger Food",
+      "sourceName": "Indian Samosa with Green Chutney",
+      "catalogName": "Indian Samosa with Green Chutney",
+      "catalogCategory": "Finger Food",
+      "productId": "9ed272d4-456b-5ebd-8514-d8fc06ec7098",
+      "reused": true,
+      "differences": {
+        "price": {
+          "source": 60.0,
+          "catalog": 50
+        }
+      }
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Finger Food",
+      "sourceName": "Homemade Fries with Spicy Aioli",
+      "catalogName": "Homemade Fries with Spicy Aioli",
+      "catalogCategory": "Finger Food",
+      "productId": "53d51493-064c-5ecf-8d56-3564486a658f",
+      "reused": true,
+      "differences": {
+        "price": {
+          "source": 60.0,
+          "catalog": 65
+        }
+      }
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Finger Food",
+      "sourceName": "Triple Cheese Quesadillas and Guacamole",
+      "catalogName": "Triple Cheese Quesadillas and Guacamole",
+      "catalogCategory": "Finger Food",
+      "productId": "dd0ac532-fbb9-5362-9630-4d4378848c7e",
+      "reused": true,
+      "differences": {
+        "price": {
+          "source": 75.0,
+          "catalog": 85
+        }
+      }
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Water",
+      "sourceName": "Dolomia Still",
+      "catalogName": "Dolomia Still",
+      "catalogCategory": "Water",
+      "productId": "f4e6813a-28a7-4863-b21b-2ec37caa6c2c",
+      "reused": true,
+      "differences": {
+        "price": {
+          "source": 50,
+          "catalog": 45
+        },
+        "options": {
+          "source": [
+            {
+              "name": "33cl",
+              "price": 50,
+              "kind": "Variant"
+            },
+            {
+              "name": "75cl",
+              "price": 75,
+              "kind": "Variant"
+            }
+          ],
+          "catalog": [
+            {
+              "name": "33cl",
+              "price": 45,
+              "kind": "Variant"
+            },
+            {
+              "name": "75cl",
+              "price": 70,
+              "kind": "Variant"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "restaurant": "KOI Mahakam Drinks and Cocktail",
+      "sourceCategory": "Water",
+      "sourceName": "Dolomia Sparkling",
+      "catalogName": "Dolomia Sparkling",
+      "catalogCategory": "Water",
+      "productId": "6706baaa-5f15-446e-bbfe-2d89cc966ebb",
+      "reused": true,
+      "differences": {
+        "price": {
+          "source": 50,
+          "catalog": 45
+        },
+        "options": {
+          "source": [
+            {
+              "name": "33cl",
+              "price": 50,
+              "kind": "Variant"
+            },
+            {
+              "name": "75cl",
+              "price": 75,
+              "kind": "Variant"
+            }
+          ],
+          "catalog": [
+            {
+              "name": "33cl",
+              "price": 45,
+              "kind": "Variant"
+            },
+            {
+              "name": "75cl",
+              "price": 70,
+              "kind": "Variant"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "reviewNotes": [
+    "Spirit prices are preserved in printed order; the PDF does not label serving units.",
+    "The Mahakam PDF includes a Thursday Aperitivo promotion explicitly restricted to Kemang and Mega Kuningan; it was not assigned to Mahakam.",
+    "Product prices, options, and descriptions are shared across restaurants. Differences are recorded in the audit."
+  ]
+}

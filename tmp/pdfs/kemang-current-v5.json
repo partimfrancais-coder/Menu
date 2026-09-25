@@ -1,0 +1,2171 @@
+{
+  "categories": [
+    {
+      "catalogCategoryId": "d6017433-375d-5ac0-8c32-5e236e6ab1da",
+      "id": "3655b84edb844e8b98425b821329b5c2",
+      "items": [
+        {
+          "available": false,
+          "cuisine": "European",
+          "description": "with Garlic Butter",
+          "id": "88537e674f3f4c6ea57295e92d53fd47",
+          "image": "",
+          "name": "Escargots Gratin",
+          "notes": "",
+          "options": [],
+          "price": 60,
+          "productCode": "kk4002",
+          "productId": "11a61b44-2d69-54a3-a6cc-893bcaa509a4",
+          "reviewed": true,
+          "tags": [
+            "With baguette"
+          ]
+        },
+        {
+          "available": true,
+          "cuisine": "European",
+          "description": "",
+          "id": "04817698cf0c49c5aee749f498c1562c",
+          "image": "",
+          "name": "Cheese Fondue",
+          "notes": "",
+          "options": [],
+          "price": 85,
+          "productCode": "kk4265",
+          "productId": "9c9db5e5-5fac-5e86-8cb7-6099dd01694b",
+          "reviewed": true,
+          "tags": [
+            "Vegetarian"
+          ]
+        },
+        {
+          "available": true,
+          "cuisine": "European",
+          "description": "with Dry Tomato Toast",
+          "id": "b65b4a258f4041dcb91fe5d65e11e53b",
+          "image": "",
+          "name": "Avocado & Goat Cheese",
+          "notes": "",
+          "options": [],
+          "price": 125,
+          "productCode": "kk3981",
+          "productId": "743d0e24-1601-5605-b7f9-d10e66411306",
+          "reviewed": true,
+          "tags": [
+            "Vegetarian"
+          ]
+        },
+        {
+          "available": true,
+          "categoryId": "d6017433-375d-5ac0-8c32-5e236e6ab1da",
+          "cuisine": "European",
+          "description": "",
+          "id": "ad069316-fded-4958-830c-2c5046553f21",
+          "image": "",
+          "name": "Salmon Gravlax Plate",
+          "notes": "",
+          "options": [],
+          "price": 125,
+          "productCode": "kk4814",
+          "productId": "eec9862f-6b93-5f8e-9886-a8247149f1af",
+          "reviewed": true,
+          "tags": []
+        },
+        {
+          "available": true,
+          "cuisine": "European",
+          "description": "with Chutney",
+          "id": "3db020eb0c26419a8a8542f9b94c7cbb",
+          "image": "",
+          "name": "Homemade Duck Pâté",
+          "notes": "",
+          "options": [],
+          "price": 145,
+          "productCode": "kk2602",
+          "productId": "1ee6f8f3-8912-5948-aad4-c9f217031d2e",
+          "reviewed": true,
+          "tags": [
+            "With baguette"
+          ]
+        },
+        {
+          "available": false,
+          "cuisine": "European",
+          "description": "with baby Spinach",
+          "id": "6e86f361-d7f2-4073-9a5b-f0ade2b31450",
+          "image": "",
+          "name": "Smoked Salmon Platter",
+          "notes": "",
+          "options": [],
+          "price": 140,
+          "productCode": "kk3979",
+          "productId": "82aa0094-cfed-5c02-a029-c71e97debe19",
+          "reviewed": true,
+          "tags": [
+            "With baguette"
+          ]
+        }
+      ],
+      "name": "Appetizers",
+      "notes": ""
+    },
+    {
+      "catalogCategoryId": "894f395a-c119-5a25-b963-b585192d0481",
+      "id": "5464c4c5ca7741429ff7aeb86659c623",
+      "items": [
+        {
+          "available": true,
+          "cuisine": "European",
+          "description": "",
+          "id": "15465fca1f0e4c8a92800af67de26b48",
+          "image": "",
+          "name": "Mushroom Soup with Garlic Bread",
+          "notes": "",
+          "options": [],
+          "price": 70,
+          "productCode": "kk4749b",
+          "productId": "ec196822-18af-52b8-8078-a5a81350bf98",
+          "reviewed": true,
+          "tags": [
+            "Vegetarian",
+            "Takes more than 15 mins"
+          ]
+        },
+        {
+          "available": true,
+          "cuisine": "European",
+          "description": "with Cheese Toast Gratined",
+          "id": "5e5833193a0e455298c2396cb0c694c3",
+          "image": "",
+          "name": "Onion Soup",
+          "notes": "",
+          "options": [],
+          "price": 70,
+          "productCode": "kk4743",
+          "productId": "bd0f53f4-992b-56ca-a94b-1d45411897d6",
+          "reviewed": true,
+          "tags": [
+            "New menu"
+          ]
+        },
+        {
+          "available": true,
+          "cuisine": "European",
+          "description": "with Seed Bread",
+          "id": "db079624ab124e189f50199c1d0f5972",
+          "image": "",
+          "name": "Asparagus Soup",
+          "notes": "",
+          "options": [],
+          "price": 70,
+          "productCode": "kk4325",
+          "productId": "2fd083b4-134c-530a-95fe-8632d9bc2760",
+          "reviewed": true,
+          "tags": []
+        },
+        {
+          "available": true,
+          "cuisine": "European",
+          "description": "with Baguette",
+          "id": "33cc333d0257425ead08058db77d7543",
+          "image": "",
+          "name": "Baby Spinach Soup",
+          "notes": "",
+          "options": [],
+          "price": 95,
+          "productCode": "kk562",
+          "productId": "410d1984-065f-50ce-8904-a2a8e51a3b9d",
+          "reviewed": true,
+          "tags": [
+            "Vegetarian"
+          ]
+        },
+        {
+          "available": true,
+          "cuisine": "Asian",
+          "description": "Served with Rice or Rice Noodles",
+          "id": "5d8a96276283444e9439300feed10ab0",
+          "image": "",
+          "name": "Tom Yam Seafood",
+          "notes": "",
+          "options": [],
+          "price": 125,
+          "productCode": "kk436",
+          "productId": "22c7ffcd-9be6-5603-9f9d-e3603bead9cf",
+          "reviewed": true,
+          "tags": [
+            "Spicy"
+          ]
+        }
+      ],
+      "name": "Soups",
+      "notes": ""
+    },
+    {
+      "catalogCategoryId": "b07edfa5-b75c-5b4f-9b6d-f67ffc4cc9ec",
+      "id": "677cc2174f47468e849b9bac8c4395dd",
+      "items": [
+        {
+          "available": true,
+          "cuisine": "European",
+          "description": "with Truffle & Krupuk",
+          "id": "157214f502bc4cf59f3207b62bfd52fe",
+          "image": "",
+          "name": "Koi Special Caesar Salad",
+          "notes": "",
+          "options": [
+            {
+              "kind": "Variant",
+              "name": "with Chicken or Beef or Beef Snout",
+              "price": 140
+            },
+            {
+              "kind": "Variant",
+              "name": "with Salmon Gravlax",
+              "price": 155
+            }
+          ],
+          "price": 105,
+          "productCode": "kk1937",
+          "productId": "fc044648-f4ad-53df-ad95-063dd2922371",
+          "reviewed": true,
+          "tags": [
+            "Vegetarian"
+          ]
+        },
+        {
+          "available": true,
+          "cuisine": "Asian",
+          "description": "with Wasabi Dressing",
+          "id": "fcd9834f4f8d4fbaade2e567716771b6",
+          "image": "",
+          "name": "Chicken & Avocado Salad",
+          "notes": "",
+          "options": [],
+          "price": 95,
+          "productCode": "kk3976",
+          "productId": "62e5b61b-9bd3-5088-80d4-b821aef52146",
+          "reviewed": true,
+          "tags": []
+        },
+        {
+          "available": true,
+          "cuisine": "Asian",
+          "description": "Indonesian Salad",
+          "id": "16fbf9cf760f4fc1bb7da599ef520d53",
+          "image": "",
+          "name": "Gado - Gado",
+          "notes": "",
+          "options": [],
+          "price": 70,
+          "productCode": "kk4388",
+          "productId": "b4bddd01-fc9c-5bf2-b0ec-8e97bd7dc042",
+          "reviewed": true,
+          "tags": []
+        }
+      ],
+      "name": "Salads",
+      "notes": ""
+    },
+    {
+      "catalogCategoryId": "3a0491ca-3fbf-57e6-9d04-aaa307e7d6c5",
+      "id": "132fa79cdba84c17b8ada2dffb811158",
+      "items": [
+        {
+          "available": true,
+          "cuisine": "Asian",
+          "description": "white & red cabbage, carrot, chayote, radishes, edamame, Nori, & mushrooms dressing",
+          "id": "ca9b901e22594003b127b320f3bfc847",
+          "image": "",
+          "name": "Grilled Chicken poke",
+          "notes": "",
+          "options": [],
+          "price": 89,
+          "productCode": "kk4788",
+          "productId": "d6ce9546-60de-5701-a3bf-5a53ef81ffa8",
+          "reviewed": true,
+          "tags": [
+            "New menu",
+            "Choice of white or red rice"
+          ]
+        },
+        {
+          "available": true,
+          "cuisine": "Asian",
+          "description": "white & red cabbage, carrot, chayote, radishes, edamame, mushrooms, nori & KOI caesar sauce",
+          "id": "a934862be24242a0be75477ec2248bee",
+          "image": "",
+          "name": "Shrimp",
+          "notes": "",
+          "options": [],
+          "price": 89,
+          "productCode": "kk4796",
+          "productId": "0120dadf-ba77-54b6-86da-72f2bf561f42",
+          "reviewed": true,
+          "tags": [
+            "New menu",
+            "Choice of white or red rice"
+          ]
+        },
+        {
+          "available": true,
+          "cuisine": "Asian",
+          "description": "white & red cabbage, carrot, chayote, radishes, edamame, mushrooms, nori & KOI caesar sauce",
+          "id": "d8d58448341c4b2ebab9c8bc4d8836d5",
+          "image": "",
+          "name": "Salmon Poke",
+          "notes": "",
+          "options": [],
+          "price": 105,
+          "productCode": "kk4787g",
+          "productId": "bd43b098-a531-59ee-996e-cdf2442888e6",
+          "reviewed": true,
+          "tags": [
+            "New menu",
+            "Choice of white or red rice"
+          ]
+        }
+      ],
+      "name": "Poke Bowl",
+      "notes": ""
+    },
+    {
+      "catalogCategoryId": "a4bc8f81-3881-5a3d-8bf1-3ecddb8bf014",
+      "id": "158da9104319488e9eccb437ce8a1b9d",
+      "items": [
+        {
+          "available": false,
+          "cuisine": "European",
+          "description": "with Cream Cheese",
+          "id": "49195dedb77449b4b0bdd8307016f60e",
+          "image": "",
+          "name": "Home Made Smoked Salmon Bagel",
+          "notes": "",
+          "options": [],
+          "price": 95,
+          "productCode": "kk3020",
+          "productId": "ee50689a-4f22-5e11-a9c9-1b4d8157e0f4",
+          "reviewed": true,
+          "tags": [
+            "New menu"
+          ]
+        },
+        {
+          "available": true,
+          "cuisine": "European",
+          "description": "",
+          "id": "21545479c94e4d03b849d7d558db0850",
+          "image": "",
+          "name": "Club Sandwich",
+          "notes": "",
+          "options": [],
+          "price": 115,
+          "productCode": "kk1955",
+          "productId": "77282d71-0fbf-5ab9-af1e-0d8cc48b9bf4",
+          "reviewed": true,
+          "tags": [
+            "With French or Belgian fries"
+          ]
+        },
+        {
+          "available": true,
+          "cuisine": "European",
+          "description": "",
+          "id": "866f4d8967474e48b91fcfb550d11ab5",
+          "image": "",
+          "name": "Beef Bacon, Egg and Cheese Croissant",
+          "notes": "",
+          "options": [],
+          "price": 129,
+          "productCode": "kk2257",
+          "productId": "b4908af3-1a9d-5ed2-9d10-f9e5539fdd3a",
+          "reviewed": true,
+          "tags": [
+            "With French or Belgian fries"
+          ]
+        }
+      ],
+      "name": "Sandwiches",
+      "notes": ""
+    },
+    {
+      "catalogCategoryId": "cb914c44-a631-5935-9367-3d951f0a2f61",
+      "id": "fa8c8fbbb3e84ba4b98f95d26ff3e43a",
+      "items": [
+        {
+          "available": true,
+          "cuisine": "European",
+          "description": "Tomato Sauce, Basil & Mozarella",
+          "id": "715ad3e8c96b47b9bd819cb310a234d7",
+          "image": "",
+          "name": "Margherita",
+          "notes": "",
+          "options": [],
+          "price": 75,
+          "productCode": "kk4172",
+          "productId": "d94081c4-3bb4-504e-88fe-7e7ac8eba3ab",
+          "reviewed": true,
+          "tags": [
+            "Vegetarian"
+          ]
+        },
+        {
+          "available": true,
+          "cuisine": "European",
+          "description": "Beef Kebab, Cherry Tomatoes, Mint & Mozarella",
+          "id": "c5c584b8edc946f6ad475782bd0487cc",
+          "image": "",
+          "name": "Turkish Beef",
+          "notes": "",
+          "options": [],
+          "price": 105,
+          "productCode": "kk4390",
+          "productId": "a4f2ad58-beef-5761-8153-9b030ee697cf",
+          "reviewed": true,
+          "tags": []
+        },
+        {
+          "available": true,
+          "cuisine": "European",
+          "description": "Beef Bacon, Egg 62°, Mozarella & Parmesan",
+          "id": "920595ec51cc4ce6a82895eb4304cb64",
+          "image": "",
+          "name": "Carbonara",
+          "notes": "",
+          "options": [],
+          "price": 155,
+          "productCode": "kk4173",
+          "productId": "aa19d006-fdb2-53f0-bcbb-b2f58f00aed9",
+          "reviewed": true,
+          "tags": []
+        },
+        {
+          "available": true,
+          "cuisine": "European",
+          "description": "Tomato Sc, Beef sausage, Brisket, paprika & Mozarella",
+          "id": "37e40d8b524c47228b10c166ade04de4",
+          "image": "",
+          "name": "Carnivora",
+          "notes": "",
+          "options": [],
+          "price": 170,
+          "productCode": "kk4174",
+          "productId": "552635e6-8990-5fa8-bc48-c9303c7b6d25",
+          "reviewed": true,
+          "tags": []
+        },
+        {
+          "available": false,
+          "cuisine": "European",
+          "description": "",
+          "id": "1dcb5f67c59846c5871bd8dafc1eea92",
+          "image": "",
+          "name": "Burrata and Rucola",
+          "notes": "",
+          "options": [],
+          "price": 195,
+          "productCode": "kk4747",
+          "productId": "2103c8bd-e77d-588f-812d-78b1bcbbeaf0",
+          "reviewed": true,
+          "tags": [
+            "New menu"
+          ]
+        }
+      ],
+      "name": "Pizza",
+      "notes": ""
+    },
+    {
+      "catalogCategoryId": "e4b8354e-2c0c-5d06-bfd1-dde6260a2ecc",
+      "id": "3b4a90fb193d4024b699404901f55dcf",
+      "items": [
+        {
+          "available": true,
+          "cuisine": "European",
+          "description": "",
+          "id": "803618c3279e4612a2df5a021b36e98f",
+          "image": "",
+          "name": "Beef Burger",
+          "notes": "",
+          "options": [],
+          "price": 139,
+          "productCode": "kk384",
+          "productId": "d47a46cf-295b-58ea-822a-c69a45566add",
+          "reviewed": true,
+          "tags": []
+        },
+        {
+          "available": true,
+          "cuisine": "European",
+          "description": "",
+          "id": "f789459ef5fb446b8f05e710b6ff59d0",
+          "image": "",
+          "name": "Vegetarian Burger with Melted Cheese",
+          "notes": "",
+          "options": [],
+          "price": 140,
+          "productCode": "kk1407",
+          "productId": "471ad2e8-1a8f-588e-b4be-cbdfce7ba32b",
+          "reviewed": true,
+          "tags": [
+            "Vegetarian"
+          ]
+        },
+        {
+          "available": true,
+          "cuisine": "European",
+          "description": "",
+          "id": "fef042d9e6ca4e10a0e2ceea69697c58",
+          "image": "",
+          "name": "Cheese Burger",
+          "notes": "",
+          "options": [],
+          "price": 149,
+          "productCode": "kk2001",
+          "productId": "c46d2122-2425-5598-aa3c-ad3c89ddfe90",
+          "reviewed": true,
+          "tags": []
+        },
+        {
+          "available": true,
+          "cuisine": "European",
+          "description": "with Melted Cheese",
+          "id": "ee11bfa460f34c809de748c3be68173f",
+          "image": "",
+          "name": "Smoked Beef Brisket Burger",
+          "notes": "",
+          "options": [],
+          "price": 199,
+          "productCode": "kk3330",
+          "productId": "85c58a1b-e601-5bdf-8ffc-4061b8f429e8",
+          "reviewed": true,
+          "tags": []
+        },
+        {
+          "available": true,
+          "cuisine": "European",
+          "description": "",
+          "id": "e249f88e9f9f4267ac9caba208bc92d8",
+          "image": "",
+          "name": "KOI Mega Double Cheese Burger",
+          "notes": "",
+          "options": [],
+          "price": 215,
+          "productCode": "kk1809",
+          "productId": "8e2aa6a0-e4c6-542c-b43f-058a3fe47999",
+          "reviewed": true,
+          "tags": [
+            "New menu"
+          ]
+        }
+      ],
+      "name": "Burger",
+      "notes": "Served with French or Belgian fries and mixed salad."
+    },
+    {
+      "catalogCategoryId": "25221301-3423-5c09-ba12-d406b631f75c",
+      "id": "7b190a2c0e75483cbd8382434b873b4c",
+      "items": [
+        {
+          "available": true,
+          "cuisine": "European",
+          "description": "",
+          "id": "891dc13515b8403db0860da6190aa2f3",
+          "image": "",
+          "name": "Aglio Olio Spaghetti",
+          "notes": "",
+          "options": [
+            {
+              "kind": "Add-on",
+              "name": "Additional Chicken or Beef bacon or Tuna",
+              "price": 30
+            }
+          ],
+          "price": 95,
+          "productCode": "kk702",
+          "productId": "19d790c4-cc69-51cc-a39c-77ecd12834ef",
+          "reviewed": true,
+          "tags": [
+            "Vegetarian",
+            "Spicy"
+          ]
+        },
+        {
+          "available": true,
+          "cuisine": "European",
+          "description": "with Beef Bacon",
+          "id": "cf1c0d8660e445bcb288fec15781f952",
+          "image": "",
+          "name": "Mac & Cheese",
+          "notes": "",
+          "options": [],
+          "price": 95,
+          "productCode": "kk4025",
+          "productId": "9467b329-bd33-5f2a-a666-d43e429bfee8",
+          "reviewed": true,
+          "tags": []
+        },
+        {
+          "available": true,
+          "cuisine": "European",
+          "description": "with Gorgonzola Sauce & Cherry Tomatoes",
+          "id": "8e579c176f084ecc9ecfb9b58a961b2f",
+          "image": "",
+          "name": "Potato Gnocchi",
+          "notes": "",
+          "options": [],
+          "price": 105,
+          "productCode": "kk1811",
+          "productId": "461891fb-bd37-592f-bdaa-61c6f7e3f5bd",
+          "reviewed": true,
+          "tags": [
+            "Vegetarian",
+            "New menu"
+          ]
+        },
+        {
+          "available": true,
+          "cuisine": "European",
+          "description": "",
+          "id": "d9564f8d2a164b3a99fa318452e707f5",
+          "image": "",
+          "name": "Beef Lasagna",
+          "notes": "",
+          "options": [],
+          "price": 115,
+          "productCode": "kk62",
+          "productId": "95dfbb71-cfa7-5f16-8d13-de2da8a20cb4",
+          "reviewed": true,
+          "tags": []
+        },
+        {
+          "available": true,
+          "cuisine": "European",
+          "description": "with Shrimp and Calamari",
+          "id": "5adbf88870804e689f02593ffedfdf7b",
+          "image": "",
+          "name": "Black ink Seafood Spaghetti",
+          "notes": "",
+          "options": [],
+          "price": 125,
+          "productCode": "kk4260",
+          "productId": "eed15086-529f-53f0-8889-6a71e61f4b56",
+          "reviewed": true,
+          "tags": []
+        },
+        {
+          "available": true,
+          "cuisine": "European",
+          "description": "with Beef Bacon, Parmesan & 62° Egg",
+          "id": "89620938c95f48139bafdde81e33c010",
+          "image": "",
+          "name": "Tagliatelle Carbonara",
+          "notes": "",
+          "options": [],
+          "price": 125,
+          "productCode": "Kkk3230",
+          "productId": "f92baed7-9f52-56ed-a073-5837db6dc1a3",
+          "reviewed": true,
+          "tags": []
+        },
+        {
+          "available": true,
+          "cuisine": "European",
+          "description": "",
+          "id": "30e27d2665874317aef7ee0071f76dbe",
+          "image": "",
+          "name": "Spaghetti Bolognese",
+          "notes": "",
+          "options": [],
+          "price": 130,
+          "productCode": "kk55s",
+          "productId": "b8b6a6df-25b6-5e22-ab89-e175d33773b6",
+          "reviewed": true,
+          "tags": []
+        },
+        {
+          "available": true,
+          "cuisine": "European",
+          "description": "with Gravy Sauce",
+          "id": "dfe747082efa4756bcfe3c055959b269",
+          "image": "",
+          "name": "Smoked Brisket Ravioli",
+          "notes": "",
+          "options": [],
+          "price": 130,
+          "productCode": "kk3562",
+          "productId": "5846b534-2f2f-51d4-a812-b6a2e882fb25",
+          "reviewed": true,
+          "tags": []
+        },
+        {
+          "available": true,
+          "cuisine": "European",
+          "description": "with Brown Butter",
+          "id": "644f2477281041219e507d9c92880f07",
+          "image": "",
+          "name": "Truffle Ravioli",
+          "notes": "",
+          "options": [],
+          "price": 130,
+          "productCode": "kk3575",
+          "productId": "fd78d8a7-a3f1-567a-9f14-2f7e766851a8",
+          "reviewed": true,
+          "tags": [
+            "Vegetarian"
+          ]
+        },
+        {
+          "available": true,
+          "cuisine": "European",
+          "description": "with Light Crustacean Creamy Sauce",
+          "id": "147d7f72dfd245e19c2cef4205263c91",
+          "image": "",
+          "name": "Salmon Ravioli",
+          "notes": "",
+          "options": [],
+          "price": 130,
+          "productCode": "kk3108c",
+          "productId": "12e146de-954c-53a2-a496-4d8a12769a7b",
+          "reviewed": true,
+          "tags": []
+        },
+        {
+          "available": true,
+          "cuisine": "European",
+          "description": "with Creamy Parmesan Sauce",
+          "id": "0aaeb438a6d64007a366e31b7df2b3c4",
+          "image": "",
+          "name": "Spinach Ravioli",
+          "notes": "",
+          "options": [],
+          "price": 130,
+          "productCode": "kk2971",
+          "productId": "9683fdee-f3e2-539a-9c0b-f0f884b6dfca",
+          "reviewed": true,
+          "tags": [
+            "Vegetarian"
+          ]
+        },
+        {
+          "available": false,
+          "cuisine": "European",
+          "description": "",
+          "id": "ff093862d86d456789774d87c3cf18cb",
+          "image": "",
+          "name": "Arabica Spaghetti Burrata",
+          "notes": "",
+          "options": [],
+          "price": 190,
+          "productCode": "kk4758",
+          "productId": "db203e32-c73a-5c45-b7e3-c1cd89ed05cc",
+          "reviewed": true,
+          "tags": [
+            "Spicy",
+            "New menu"
+          ]
+        }
+      ],
+      "name": "Pastas",
+      "notes": ""
+    },
+    {
+      "catalogCategoryId": "caef8613-4b3b-560a-81b6-bb1da1e14620",
+      "id": "805b9b4d2cdf4c40858c2fca5b25b1cf",
+      "items": [
+        {
+          "available": true,
+          "cuisine": "Asian",
+          "description": "",
+          "id": "e4296eefbba44ffd858be6c53c909528",
+          "image": "",
+          "name": "Mie Ayam Kampung",
+          "notes": "",
+          "options": [],
+          "price": 75,
+          "productCode": "kk4567",
+          "productId": "47ddc861-be70-5cb2-95f6-58054370789e",
+          "reviewed": true,
+          "tags": []
+        },
+        {
+          "available": true,
+          "cuisine": "Asian",
+          "description": "",
+          "id": "5eebb032c6c84e57b22e644c1ec02259",
+          "image": "",
+          "name": "Mie Goreng",
+          "notes": "",
+          "options": [],
+          "price": 85,
+          "productCode": "kk30",
+          "productId": "bdc0119c-9991-5ae4-8f38-a4edc7e9171d",
+          "reviewed": true,
+          "tags": []
+        },
+        {
+          "available": true,
+          "cuisine": "Asian",
+          "description": "",
+          "id": "d9e43c12b1bd407a9e4e8a3c95d0c13f",
+          "image": "",
+          "name": "Nasi Goreng (Chicken or Beef or Seafood)",
+          "notes": "",
+          "options": [
+            {
+              "kind": "Add-on",
+              "name": "Additional Chicken Satay (2Pcs)",
+              "price": 25
+            }
+          ],
+          "price": 99,
+          "productCode": "kk2456",
+          "productId": "4e31fade-9631-53ff-a18f-b48ecd412a97",
+          "reviewed": true,
+          "tags": [
+            "Choice of white or red rice"
+          ]
+        },
+        {
+          "available": true,
+          "cuisine": "Asian",
+          "description": "",
+          "id": "2b6c3abcb21e462aa0ec71fba678debf",
+          "image": "",
+          "name": "Nasi Goreng (Lamb or Duck)",
+          "notes": "",
+          "options": [
+            {
+              "kind": "Add-on",
+              "name": "Additional Chicken Satay (2Pcs)",
+              "price": 25
+            }
+          ],
+          "price": 140,
+          "productCode": "kk2455",
+          "productId": "8328e313-0b84-528e-b463-574e0a06ec85",
+          "reviewed": true,
+          "tags": [
+            "Choice of white or red rice"
+          ]
+        },
+        {
+          "available": true,
+          "cuisine": "Asian",
+          "description": "",
+          "id": "11e71c10715c48f1b00c16d5cc1ecef7",
+          "image": "",
+          "name": "Fried Rice Sambal Ijo with Beef",
+          "notes": "",
+          "options": [],
+          "price": 99,
+          "productCode": "kk4140",
+          "productId": "b7b36825-1e41-58e0-ba02-d162d5e5ae36",
+          "reviewed": true,
+          "tags": []
+        },
+        {
+          "available": true,
+          "cuisine": "Asian",
+          "description": "",
+          "id": "71e4af96f4e44270984bef75b1842e31",
+          "image": "",
+          "name": "Pad Thai (Chicken/Sea Food)",
+          "notes": "",
+          "options": [],
+          "price": 105,
+          "productCode": "kk524",
+          "productId": "c440f9a3-e061-5844-b60b-38193c6448df",
+          "reviewed": true,
+          "tags": []
+        },
+        {
+          "available": true,
+          "cuisine": "Asian",
+          "description": "with Crispy Chicken, Egg, Chili Tempe & Beef Satay",
+          "id": "82eaf62d073e497486ff2b7aaefba32a",
+          "image": "",
+          "name": "Nasi Campur",
+          "notes": "",
+          "options": [],
+          "price": 135,
+          "productCode": "kk2641",
+          "productId": "ad341b21-2767-56e7-aa5e-69ac5842b679",
+          "reviewed": true,
+          "tags": [
+            "Choice of white or red rice"
+          ]
+        }
+      ],
+      "name": "Noodles & Rice",
+      "notes": ""
+    },
+    {
+      "catalogCategoryId": "fc09009d-704b-5f06-b9b6-10637bb3dfb8",
+      "id": "e9b890056b41496b98fb84785c82961d",
+      "items": [
+        {
+          "available": true,
+          "cuisine": "European",
+          "description": "with Tabbouleh & Fresh Pita Bread",
+          "id": "052a82f593d341069ad7167003930ed6",
+          "image": "",
+          "name": "Chicken Shawarma",
+          "notes": "",
+          "options": [],
+          "price": 115,
+          "productCode": "kk4361",
+          "productId": "2e1738cf-713f-5ef7-99cf-75ef1401e99b",
+          "reviewed": true,
+          "tags": []
+        },
+        {
+          "available": false,
+          "cuisine": "European",
+          "description": "with Green Pepper Sauce & French Fries",
+          "id": "ccb9f32a981944a099928d86ad2fed45",
+          "image": "",
+          "name": "Pan-Fried Duck Fillet",
+          "notes": "",
+          "options": [],
+          "price": 150,
+          "productCode": "kk1796",
+          "productId": "a41f45b9-c6b4-5f7b-a111-ebf3050aeca3",
+          "reviewed": true,
+          "tags": [
+            "New menu"
+          ]
+        },
+        {
+          "available": true,
+          "cuisine": "European",
+          "description": "",
+          "id": "31f13d58b3104a389d36bdc8d974fb6f",
+          "image": "",
+          "name": "Roasted Chicken (1/2 Chicken)",
+          "notes": "",
+          "options": [],
+          "price": 155,
+          "productCode": "kk1948",
+          "productId": "5a6d4344-a24d-59fe-a340-183a0db1854d",
+          "reviewed": true,
+          "tags": [
+            "Takes more than 15 mins",
+            "With French or Belgian fries",
+            "With mixed salad"
+          ]
+        },
+        {
+          "available": true,
+          "cuisine": "European",
+          "description": "with Green Beans & Beef Bacon",
+          "id": "47545537ecf846b699c68061b824a82d",
+          "image": "",
+          "name": "Homemade Duck Confit",
+          "notes": "",
+          "options": [],
+          "price": 155,
+          "productCode": "kk904",
+          "productId": "fca4bb25-6e3f-53d5-85e8-d77e38c2e2c6",
+          "reviewed": true,
+          "tags": []
+        },
+        {
+          "available": true,
+          "cuisine": "Asian",
+          "description": "Steamed or Fried",
+          "id": "c57e12817e8940d4a37a24c686f5fece",
+          "image": "",
+          "name": "Hainanese Chicken Rice",
+          "notes": "",
+          "options": [],
+          "price": 105,
+          "productCode": "kk42",
+          "productId": "f37ce6b6-c7af-5303-8c3b-bbb9b717e200",
+          "reviewed": true,
+          "tags": []
+        },
+        {
+          "available": true,
+          "cuisine": "Asian",
+          "description": "with Garlic Rice & Sambal Matah",
+          "id": "11b8c462bb854ea6b2ae1757eb73665f",
+          "image": "",
+          "name": "Chicken Betutu",
+          "notes": "",
+          "options": [],
+          "price": 105,
+          "productCode": "kk2450",
+          "productId": "96e5aaf4-c3c4-5399-8998-e0490569f717",
+          "reviewed": true,
+          "tags": [
+            "Spicy"
+          ]
+        },
+        {
+          "available": true,
+          "cuisine": "Asian",
+          "description": "",
+          "id": "0cd8ab9f3ef54580b27d47bcab35b270",
+          "image": "",
+          "name": "Thai Chicken Green Curry",
+          "notes": "",
+          "options": [],
+          "price": 105,
+          "productCode": "kk4247",
+          "productId": "488d496b-3f21-5a20-af2d-cfb915a6abb2",
+          "reviewed": true,
+          "tags": [
+            "With jasmine rice"
+          ]
+        },
+        {
+          "available": true,
+          "cuisine": "Asian",
+          "description": "with Nasi Daun Jeruk",
+          "id": "fd11754b5b554d28bafad38dd3eea844",
+          "image": "",
+          "name": "Ayam Bakar",
+          "notes": "",
+          "options": [],
+          "price": 105,
+          "productCode": "kk4715",
+          "productId": "2982bfc1-b110-59f1-a13e-8fb6244cfabd",
+          "reviewed": true,
+          "tags": []
+        },
+        {
+          "available": true,
+          "cuisine": "Asian",
+          "description": "",
+          "id": "b94dfd4a73bc475fb950953521cd35c5",
+          "image": "",
+          "name": "Chicken Kemangi",
+          "notes": "",
+          "options": [],
+          "price": 105,
+          "productCode": "kk4392",
+          "productId": "f28c0f18-612d-59bc-b8b7-a2c9bcd072d0",
+          "reviewed": true,
+          "tags": [
+            "With jasmine rice"
+          ]
+        }
+      ],
+      "name": "Poultry",
+      "notes": ""
+    },
+    {
+      "catalogCategoryId": "b6b33f92-659f-5b41-ad24-2a6691dfa55d",
+      "id": "99a38380abb94d74b93789bbd91b3433",
+      "items": [
+        {
+          "available": true,
+          "cuisine": "European",
+          "description": "with Eggplant, Red Paprika, Mushrooms, Basil Sauce & Mashed Potatoes",
+          "id": "1233bcfcf6ae4ab29df16d2229272b95",
+          "image": "",
+          "name": "Roasted Dory Fillet topped with “Niçoise”",
+          "notes": "",
+          "options": [],
+          "price": 105,
+          "productCode": "kk4783",
+          "productId": "75fb80c8-21c7-5e56-83e5-4031c07409c2",
+          "reviewed": true,
+          "tags": [
+            "New menu"
+          ]
+        },
+        {
+          "available": true,
+          "cuisine": "European",
+          "description": "steamed on crushed potatoes with leek, cherry tomatoes & asparagus sauce",
+          "id": "1b8eb090e4ed447aa10781dd8e142e68",
+          "image": "",
+          "name": "Smoked Barramundi Fillet",
+          "notes": "",
+          "options": [],
+          "price": 120,
+          "productCode": "kk4791",
+          "productId": "df2ac65b-4542-5e32-9092-fcea4a05ae83",
+          "reviewed": true,
+          "tags": [
+            "New menu"
+          ]
+        },
+        {
+          "available": true,
+          "cuisine": "European",
+          "description": "with Tartare Sauce",
+          "id": "2f23d6a8473b43d58485cbe1f110d74e",
+          "image": "",
+          "name": "Fish & Chips",
+          "notes": "",
+          "options": [],
+          "price": 130,
+          "productCode": "kk1889",
+          "productId": "afe996c3-5ac7-57fc-9f46-799f48301801",
+          "reviewed": true,
+          "tags": []
+        },
+        {
+          "available": true,
+          "cuisine": "European",
+          "description": "Served with Sautéed Asparagus and Ricotta Ravioli",
+          "id": "ade31ef1d0ce41599e482ad9c2cde3e7",
+          "image": "",
+          "name": "Dory Fish Fillet & Parmesan Gratin",
+          "notes": "",
+          "options": [],
+          "price": 165,
+          "productCode": "kk4329",
+          "productId": "a54bd652-71f5-56a6-86ef-20da1a7da0c7",
+          "reviewed": true,
+          "tags": []
+        },
+        {
+          "available": true,
+          "cuisine": "Asian",
+          "description": "with Creamy Polenta, Cherry Tomatoes & Arugula",
+          "id": "05488f3fc1c3422f964a7bb00c9ecef0",
+          "image": "",
+          "name": "Barramundi Fillet",
+          "notes": "",
+          "options": [],
+          "price": 210,
+          "productCode": "kk1676",
+          "productId": "a80a68c6-174c-565a-8135-38f81633d246",
+          "reviewed": true,
+          "tags": []
+        },
+        {
+          "available": true,
+          "cuisine": "European",
+          "description": "with Nori Butter, Sautéed Vegetables & Fennel Creamy Sauce",
+          "id": "88dece5c4ee643018b362d2473444f6c",
+          "image": "",
+          "name": "Salmon Fillet",
+          "notes": "",
+          "options": [],
+          "price": 245,
+          "productCode": "kk2323",
+          "productId": "5e2d2b0c-7791-5fb8-8fb3-12ad730719f1",
+          "reviewed": true,
+          "tags": [
+            "With mashed potato"
+          ]
+        },
+        {
+          "available": true,
+          "cuisine": "Asian",
+          "description": "with Shrimp",
+          "id": "a920c5624c0b48bfa6231f4ff14cf4fb",
+          "image": "",
+          "name": "Crispy Kalan",
+          "notes": "",
+          "options": [],
+          "price": 65,
+          "productCode": "kk1508",
+          "productId": "00857a8a-1d5b-5b3c-b55e-c7630d1ac84d",
+          "reviewed": true,
+          "tags": [
+            "Spicy"
+          ]
+        },
+        {
+          "available": true,
+          "cuisine": "Asian",
+          "description": "",
+          "id": "429d1dd80d524d44b1b25f422ccc2257",
+          "image": "",
+          "name": "Indonesian Dory Fillet “Bumbu Kuning”",
+          "notes": "",
+          "options": [],
+          "price": 95,
+          "productCode": "kk1787",
+          "productId": "8018a1a7-2f9c-5c5a-8762-0a2f6555f300",
+          "reviewed": true,
+          "tags": [
+            "New menu"
+          ]
+        },
+        {
+          "available": true,
+          "cuisine": "Asian",
+          "description": "Deep Fried Squid Sautéed w/ Chilli Padi & Garlic",
+          "id": "62a3cf05cedc47fbbc81275219351cf9",
+          "image": "",
+          "name": "Calamari Asiatique",
+          "notes": "",
+          "options": [],
+          "price": 115,
+          "productCode": "kk3983",
+          "productId": "92acf80a-f16c-5b8e-a55d-b7299b5840d3",
+          "reviewed": true,
+          "tags": [
+            "Spicy",
+            "With jasmine rice"
+          ]
+        }
+      ],
+      "name": "Seafood",
+      "notes": ""
+    },
+    {
+      "catalogCategoryId": "91f44b0f-9e19-564b-b731-5a4e865c48dc",
+      "id": "c5772cd398c848199bc0f8e52dea81c0",
+      "items": [
+        {
+          "available": false,
+          "cuisine": "European",
+          "description": "with Beef and Cheese",
+          "id": "fca846fa37d14a2aa2c8bb12d012bce4",
+          "image": "",
+          "name": "Gratin Potato",
+          "notes": "",
+          "options": [],
+          "price": 80,
+          "productCode": "kk4774",
+          "productId": "f1e26ec1-0a04-5c5e-9413-ac11e5ba7ef4",
+          "reviewed": true,
+          "tags": [
+            "New menu"
+          ]
+        },
+        {
+          "available": false,
+          "cuisine": "European",
+          "description": "carrot, Leek",
+          "id": "7da19309d1c84a4091af140de219811e",
+          "image": "",
+          "name": "Beef Tongue “Poulette”",
+          "notes": "",
+          "options": [],
+          "price": 145,
+          "productCode": "kk1810",
+          "productId": "60eaed03-f291-536a-83c7-0438393f06e7",
+          "reviewed": true,
+          "tags": [
+            "With baby potatoes"
+          ]
+        },
+        {
+          "available": true,
+          "cuisine": "European",
+          "description": "",
+          "id": "c876f6680fb94169a38db8ad65144f1e",
+          "image": "",
+          "name": "Vegetarian Tartare",
+          "notes": "",
+          "options": [],
+          "price": 165,
+          "productCode": "kk4029",
+          "productId": "f32f448e-a3e1-5d21-9dd3-184d3a3b17ce",
+          "reviewed": true,
+          "tags": [
+            "With French or Belgian fries"
+          ]
+        },
+        {
+          "available": true,
+          "cuisine": "European",
+          "description": "",
+          "id": "464c5529b15c4ef39758cce2464e4cda",
+          "image": "",
+          "name": "Beef Piccata",
+          "notes": "",
+          "options": [],
+          "price": 175,
+          "productCode": "kk4537",
+          "productId": "dcb6e6a9-c236-5f8e-bf3f-99f5078f5ea7",
+          "reviewed": true,
+          "tags": [
+            "With mashed potato"
+          ]
+        },
+        {
+          "available": true,
+          "cuisine": "European",
+          "description": "",
+          "id": "20fc6a347f5d4996836c6ff10a86782e",
+          "image": "",
+          "name": "Belgian Beef Stew",
+          "notes": "",
+          "options": [],
+          "price": 185,
+          "productCode": "kk1347",
+          "productId": "566d35b5-f5ee-5809-8e06-d613ca330174",
+          "reviewed": true,
+          "tags": [
+            "With French or Belgian fries"
+          ]
+        },
+        {
+          "available": true,
+          "cuisine": "European",
+          "description": "",
+          "id": "57b913c7c6064793a2019211ae821810",
+          "image": "",
+          "name": "Beef Tartare",
+          "notes": "",
+          "options": [],
+          "price": 225,
+          "productCode": "kk404",
+          "productId": "3f07dc0e-117b-53eb-b0b9-4c83eb90aa79",
+          "reviewed": true,
+          "tags": [
+            "With French or Belgian fries",
+            "With mixed salad"
+          ]
+        },
+        {
+          "available": true,
+          "cuisine": "Asian",
+          "description": "with Fried Rice",
+          "id": "3928850cdc79456188fdc738d88eacaf",
+          "image": "",
+          "name": "Vietnamese Steak",
+          "notes": "",
+          "options": [],
+          "price": 135,
+          "productCode": "kk1690",
+          "productId": "9f687624-8e32-5e0f-aca0-4375606159a2",
+          "reviewed": true,
+          "tags": []
+        },
+        {
+          "available": true,
+          "cuisine": "Asian",
+          "description": "",
+          "id": "84082b5d-c00b-4aa3-88b1-c4a6b2299f82",
+          "image": "",
+          "name": "Classic Indonesian Beef Stew “Rawon”",
+          "notes": "",
+          "options": [],
+          "price": 135,
+          "productCode": "kk4255",
+          "productId": "a0c8e501-42c9-5d76-b121-be8b08828e1b",
+          "reviewed": true,
+          "tags": []
+        },
+        {
+          "available": true,
+          "cuisine": "Asian",
+          "description": "",
+          "id": "64140f2e58fb404083a5e203d238f6d9",
+          "image": "",
+          "name": "Beef Rendang",
+          "notes": "",
+          "options": [],
+          "price": 155,
+          "productCode": "kk1563",
+          "productId": "9e3f75a1-1166-5fa2-97ed-6fdbd3cbd428",
+          "reviewed": true,
+          "tags": [
+            "With jasmine rice"
+          ]
+        },
+        {
+          "available": true,
+          "cuisine": "Asian",
+          "description": "with Fried Rice",
+          "id": "e90c3d0cbd9747638dcee55194f073c0",
+          "image": "",
+          "name": "Beef Ribs",
+          "notes": "",
+          "options": [],
+          "price": 155,
+          "productCode": "kk4419",
+          "productId": "151350ee-dc44-5b30-bdeb-863e92a8a38f",
+          "reviewed": true,
+          "tags": []
+        },
+        {
+          "available": true,
+          "cuisine": "Asian",
+          "description": "",
+          "id": "cee3ed4a7cee468e8cfa9a971312ccbc",
+          "image": "",
+          "name": "Beef Tongue “Sambal Ijo”",
+          "notes": "",
+          "options": [],
+          "price": 155,
+          "productCode": "kk4000",
+          "productId": "6c5ef2ef-93c2-5379-acd0-4a62f908a48e",
+          "reviewed": true,
+          "tags": [
+            "Spicy",
+            "With jasmine rice"
+          ]
+        },
+        {
+          "available": true,
+          "cuisine": "Asian",
+          "description": "",
+          "id": "b229ac19f3724144b405247e8b811255",
+          "image": "",
+          "name": "Oxtail Soup",
+          "notes": "",
+          "options": [],
+          "price": 265,
+          "productCode": "kk1718",
+          "productId": "b006ee41-62f8-58c7-a489-9fbfb5601852",
+          "reviewed": true,
+          "tags": []
+        }
+      ],
+      "name": "Beef",
+      "notes": ""
+    },
+    {
+      "catalogCategoryId": "27bc843b-5799-5608-bf8c-cc03933304f1",
+      "id": "a051324559fc4195a90ce3fe85c73d5c",
+      "items": [
+        {
+          "available": true,
+          "cuisine": "European",
+          "description": "",
+          "id": "2128e97b22224a178e9120a4c844b6b7",
+          "image": "",
+          "name": "Meltique Australian Striploin (200Gr)",
+          "notes": "",
+          "options": [],
+          "price": 225,
+          "productCode": "kk1518",
+          "productId": "3d20d01f-e31e-522a-9348-6b2f0c1e36cf",
+          "reviewed": true,
+          "tags": []
+        },
+        {
+          "available": true,
+          "cuisine": "European",
+          "description": "",
+          "id": "ef7837db86fd406f84e387f10186b7cc",
+          "image": "",
+          "name": "Tenderloin (220Gr)",
+          "notes": "",
+          "options": [],
+          "price": 249,
+          "productCode": "kk1992",
+          "productId": "c09628d4-506c-544f-95d5-3627f2f9998d",
+          "reviewed": true,
+          "tags": []
+        },
+        {
+          "available": true,
+          "cuisine": "European",
+          "description": "",
+          "id": "e8db2d4feccf469fb7168ac46c9236de",
+          "image": "",
+          "name": "Wagyu Flank Steak (200Gr)",
+          "notes": "",
+          "options": [],
+          "price": 295,
+          "productCode": "kk3532",
+          "productId": "1baed746-b172-56ef-8c3b-8589f3754d81",
+          "reviewed": true,
+          "tags": []
+        },
+        {
+          "available": true,
+          "cuisine": "European",
+          "description": "",
+          "id": "2cb083b8779448b3a5fd397b9afdc331",
+          "image": "",
+          "name": "Wagyu Rib Eye Grade 6 (300G 2Pax)",
+          "notes": "",
+          "options": [],
+          "price": 895,
+          "productCode": "kk4613",
+          "productId": "9f00a49a-8ade-5c3c-a120-30a2b786656e",
+          "reviewed": true,
+          "tags": []
+        }
+      ],
+      "name": "Grill",
+      "notes": "Served with French or Belgian fries and mixed salad."
+    },
+    {
+      "catalogCategoryId": "d7ee001f-fc92-584f-b09a-57c83de5baf7",
+      "id": "5c8b7567dab94e66bc0be65e9d94cc17",
+      "items": [
+        {
+          "available": true,
+          "cuisine": "Asian",
+          "description": "",
+          "id": "90e9f643f8074d93a35e979e58820140",
+          "image": "",
+          "name": "Lamb “Tongseng”",
+          "notes": "",
+          "options": [],
+          "price": 145,
+          "productCode": "kk3512",
+          "productId": "c3820691-60f9-57af-bec3-bcf9997cffe6",
+          "reviewed": true,
+          "tags": [
+            "With jasmine rice"
+          ]
+        }
+      ],
+      "name": "Lamb",
+      "notes": ""
+    },
+    {
+      "catalogCategoryId": "08d90376-5028-5aba-852b-84cd3c7fead2",
+      "id": "412cf4402c0747fbaaf1d2d396173b0f",
+      "items": [
+        {
+          "available": true,
+          "cuisine": "European",
+          "description": "",
+          "id": "a2da57db1bcc45cf941fb77b43d8987a",
+          "image": "",
+          "name": "Tartare, Mushroom",
+          "notes": "",
+          "options": [],
+          "price": 20,
+          "productCode": "kk101",
+          "productId": "7454e7a6-192d-5b6f-96a9-7d34cb642cf2",
+          "reviewed": true,
+          "tags": []
+        },
+        {
+          "available": true,
+          "cuisine": "European",
+          "description": "",
+          "id": "bde0345e7cae428aad766353f5194a53",
+          "image": "",
+          "name": "Black Pepper, BBQ",
+          "notes": "",
+          "options": [],
+          "price": 20,
+          "productCode": "kk107",
+          "productId": "93c5ce1d-1d56-5449-9c67-879bc5046809",
+          "reviewed": true,
+          "tags": []
+        },
+        {
+          "available": true,
+          "cuisine": "European",
+          "description": "",
+          "id": "529faa8b2c2f44428f2e03bdcef0bf98",
+          "image": "",
+          "name": "Béarnaise",
+          "notes": "",
+          "options": [],
+          "price": 45,
+          "productCode": "kk99",
+          "productId": "b9fbff34-ebb8-5fbb-b760-dc5619548855",
+          "reviewed": true,
+          "tags": []
+        },
+        {
+          "available": true,
+          "cuisine": "European",
+          "description": "",
+          "id": "d54ae75eca094ca1b0658d8dca9e086d",
+          "image": "",
+          "name": "Gorgonzola Blue Cheese",
+          "notes": "",
+          "options": [],
+          "price": 45,
+          "productCode": "kk104",
+          "productId": "5ba8088d-b5d1-5637-9487-805605474158",
+          "reviewed": true,
+          "tags": []
+        }
+      ],
+      "name": "Sauce",
+      "notes": ""
+    },
+    {
+      "catalogCategoryId": "96089743-a769-5b57-8113-1877e9632b6b",
+      "id": "e557ecdd4c264f3b881dace64e6eae10",
+      "items": [
+        {
+          "available": true,
+          "cuisine": "Asian",
+          "description": "",
+          "id": "d7ed1175f5484e578a39c9c4256ab325",
+          "image": "",
+          "name": "Jasmine Rice",
+          "notes": "",
+          "options": [],
+          "price": 15,
+          "productCode": "kk87",
+          "productId": "a7c77776-a74c-5d5d-a2c8-88c688103f7e",
+          "reviewed": true,
+          "tags": []
+        },
+        {
+          "available": true,
+          "cuisine": "European",
+          "description": "",
+          "id": "03e7561c2bb2486e85adaa690513972b",
+          "image": "",
+          "name": "Sautéed Green Beans",
+          "notes": "",
+          "options": [],
+          "price": 30,
+          "productCode": "kk4007",
+          "productId": "dd47f47a-7ab3-58b6-ba67-02de4e990fca",
+          "reviewed": true,
+          "tags": []
+        },
+        {
+          "available": true,
+          "cuisine": "European",
+          "description": "",
+          "id": "0b5ea4a08a2f4c11b9278921354c6510",
+          "image": "",
+          "name": "Baby Potato",
+          "notes": "",
+          "options": [],
+          "price": 30,
+          "productCode": "kk4074",
+          "productId": "b9853fa3-80d5-5a93-811d-726d8215c11c",
+          "reviewed": true,
+          "tags": []
+        },
+        {
+          "available": true,
+          "cuisine": "European",
+          "description": "",
+          "id": "70e3b538b2214ad6a91a05db1ad429ca",
+          "image": "",
+          "name": "Green Salad with Vinaigrette",
+          "notes": "",
+          "options": [],
+          "price": 55,
+          "productCode": "kk100",
+          "productId": "067ce1bb-f52e-5510-9cca-ac6bd4ee0c5c",
+          "reviewed": true,
+          "tags": []
+        },
+        {
+          "available": true,
+          "cuisine": "European",
+          "description": "",
+          "id": "c9794ecfd1494e68a8ab76c0bb494511",
+          "image": "",
+          "name": "Spinach à la Crème",
+          "notes": "",
+          "options": [],
+          "price": 49,
+          "productCode": "kk1920",
+          "productId": "c00c9159-ba5b-5adb-a0fb-53d0007e9999",
+          "reviewed": true,
+          "tags": []
+        },
+        {
+          "available": true,
+          "cuisine": "European",
+          "description": "",
+          "id": "6b1eb0bbc1db4c9c84bc84be70490bd7",
+          "image": "",
+          "name": "Garlic Bread",
+          "notes": "",
+          "options": [],
+          "price": 40,
+          "productCode": "kk380",
+          "productId": "b4f8943b-e925-560b-9e11-52529becdccf",
+          "reviewed": true,
+          "tags": []
+        },
+        {
+          "available": true,
+          "cuisine": "European",
+          "description": "",
+          "id": "588bc93fd81e4777bb6f995131590b70",
+          "image": "",
+          "name": "French Fries",
+          "notes": "",
+          "options": [],
+          "price": 49,
+          "productCode": "kk89",
+          "productId": "ce365c18-268b-576a-ab5d-37c5fbf33e16",
+          "reviewed": true,
+          "tags": []
+        },
+        {
+          "available": true,
+          "cuisine": "European",
+          "description": "",
+          "id": "002e7e6ab95f4fd9a166c3cfda3f5bc3",
+          "image": "",
+          "name": "Mashed Potato",
+          "notes": "",
+          "options": [],
+          "price": 49,
+          "productCode": "kk429",
+          "productId": "800eb333-442e-5b03-9127-26957c41ea73",
+          "reviewed": true,
+          "tags": []
+        },
+        {
+          "available": true,
+          "cuisine": "European",
+          "description": "",
+          "id": "9471ab34ebf142f994cbd047dc032bd9",
+          "image": "",
+          "name": "Homemade Belgian Fries",
+          "notes": "",
+          "options": [],
+          "price": 49,
+          "productCode": "kk1957",
+          "productId": "221a2fd7-ab5d-5d80-bb3b-7681b7c6ba68",
+          "reviewed": true,
+          "tags": []
+        },
+        {
+          "available": true,
+          "cuisine": "European",
+          "description": "",
+          "id": "d718c430a41a4e03b34816b894be6391",
+          "image": "",
+          "name": "Potato Gratined",
+          "notes": "",
+          "options": [],
+          "price": 49,
+          "productCode": "kk83",
+          "productId": "175d5eaf-b0b3-5a4c-9006-1be0adb6fa4a",
+          "reviewed": true,
+          "tags": []
+        }
+      ],
+      "name": "Side Dishes",
+      "notes": ""
+    },
+    {
+      "catalogCategoryId": "91cb6532-eb38-516a-a362-f9bbb715a25b",
+      "id": "23922dd4121e41d9a60b419a8080706f",
+      "items": [
+        {
+          "available": true,
+          "cuisine": "European",
+          "description": "",
+          "id": "9f1d2f6862ba45e2a2beb69fd1b2c8fc",
+          "image": "",
+          "name": "Kids Roasted Boneless Chicken",
+          "notes": "",
+          "options": [],
+          "price": 80,
+          "productCode": "kk2299",
+          "productId": "9cd46d8c-a434-556f-9a28-a87f641e7337",
+          "reviewed": true,
+          "tags": [
+            "With French or Belgian fries"
+          ]
+        },
+        {
+          "available": true,
+          "cuisine": "European",
+          "description": "",
+          "id": "13f6e6927cc94cd39f4cb5c0a6261bc4",
+          "image": "",
+          "name": "Kids Spaghetti Bolognese",
+          "notes": "",
+          "options": [],
+          "price": 65,
+          "productCode": "kk2293",
+          "productId": "ff874262-eee2-53d2-8ec9-d54e68db59ac",
+          "reviewed": true,
+          "tags": []
+        },
+        {
+          "available": true,
+          "cuisine": "European",
+          "description": "",
+          "id": "2dea523709e147eea1f4d59afec6445a",
+          "image": "",
+          "name": "Kids Beef Sausage",
+          "notes": "",
+          "options": [],
+          "price": 75,
+          "productCode": "kk2294",
+          "productId": "471796d5-61ad-5f60-977d-97b498893453",
+          "reviewed": true,
+          "tags": [
+            "With French or Belgian fries"
+          ]
+        }
+      ],
+      "name": "Kids",
+      "notes": ""
+    },
+    {
+      "catalogCategoryId": "b36356e1-f299-4350-8bad-b29eff4140fc",
+      "id": "07858edb-f041-4afd-8503-b5a8bca15859",
+      "items": [
+        {
+          "available": true,
+          "categoryId": "912ca605-c2ee-5307-987b-ccca3e2cb988",
+          "cuisine": "European",
+          "description": "",
+          "id": "d21ba8d7-0849-4e24-86ab-6d3b0e8ac571",
+          "image": "",
+          "name": "Shrimp Stuffed Potatoes",
+          "notes": "PROVISIONAL PRICE — temporary placeholder requested by owner; confirm before final printing or customer use.",
+          "options": [],
+          "price": 75,
+          "productCode": "kk4829s",
+          "productId": "54476338-6d4b-509a-bf53-b8eed17512c2",
+          "reviewed": true,
+          "tags": []
+        },
+        {
+          "available": true,
+          "categoryId": "b36356e1-f299-4350-8bad-b29eff4140fc",
+          "cuisine": "European",
+          "description": "",
+          "id": "61dec087-0a41-4899-82ad-ae6f2c52ad67",
+          "image": "",
+          "name": "Chicken Stuffed Potato",
+          "notes": "",
+          "options": [],
+          "price": 65,
+          "productCode": "kk4829c",
+          "productId": "f69ddbb2-a422-4219-8e0c-fa5daad1d712",
+          "reviewed": true,
+          "tags": []
+        },
+        {
+          "available": true,
+          "categoryId": "b36356e1-f299-4350-8bad-b29eff4140fc",
+          "cuisine": "European",
+          "description": "",
+          "id": "5c93795c-f410-4a1d-bc16-a5f082b85b96",
+          "image": "",
+          "name": "Beef Stuffed potato",
+          "notes": "",
+          "options": [],
+          "price": 65,
+          "productCode": "kk4829b",
+          "productId": "d709c115-bf71-45f4-89d7-1248831256fc",
+          "reviewed": true,
+          "tags": []
+        }
+      ],
+      "name": "Monthly Specials Appetizers",
+      "notes": ""
+    },
+    {
+      "catalogCategoryId": "917bebd3-079f-5d29-88e9-8c6514a6c7ad",
+      "id": "078c3074b377472697fef5d0e130edc4",
+      "items": [
+        {
+          "available": false,
+          "cuisine": "Asian",
+          "description": "",
+          "id": "106833e6d0894289b72f1c6dad5bbd5c",
+          "image": "",
+          "name": "Thai Seafood Salad",
+          "notes": "",
+          "options": [],
+          "price": 80,
+          "productCode": "kk1938",
+          "productId": "1c4ea856-9e48-5afd-939b-abcb26dcbbd6",
+          "reviewed": true,
+          "tags": []
+        },
+        {
+          "available": true,
+          "cuisine": "Asian",
+          "description": "",
+          "id": "961ba7fe-4339-495c-a77e-e3651b5e0e0e",
+          "image": "",
+          "name": "Asinan Bogor",
+          "notes": "PROVISIONAL PRICE — temporary placeholder requested by owner; confirm before final printing or customer use.",
+          "options": [],
+          "price": 65,
+          "productCode": "kk4818",
+          "productId": "bd270353-6374-5085-a1fd-b978ef9a6098",
+          "reviewed": true,
+          "tags": []
+        }
+      ],
+      "name": "Monthly Specials · Salads",
+      "notes": ""
+    },
+    {
+      "catalogCategoryId": "f56a3f26-e22d-5468-94b7-fd605131ba99",
+      "id": "7ec62d8c652343bfb4665e87b97cf3fd",
+      "items": [
+        {
+          "available": false,
+          "cuisine": "European",
+          "description": "with salmon",
+          "id": "b1555bb41a0543b09d4fed064cdc4999",
+          "image": "",
+          "name": "Ricotta raviolis",
+          "notes": "Check spelling against original artwork: one character in the dish name is unclear in both source PDFs.",
+          "options": [],
+          "price": 115,
+          "productCode": "kk4068",
+          "productId": "a84d94a9-6ee2-5642-953a-e821f72c2c80",
+          "reviewed": true,
+          "tags": []
+        }
+      ],
+      "name": "Monthly Specials · Pastas",
+      "notes": ""
+    },
+    {
+      "catalogCategoryId": "912ca605-c2ee-5307-987b-ccca3e2cb988",
+      "id": "dd0a788e78384424a637223fa77c28fd",
+      "items": [
+        {
+          "available": true,
+          "cuisine": "European",
+          "description": "with Cafe de Paris sauce",
+          "id": "ecbcd6b9-1179-4894-882d-a348e4556ae6",
+          "image": "",
+          "name": "40-hour Ribeye",
+          "notes": "PROVISIONAL PRICE — temporary placeholder requested by owner; confirm before final printing or customer use.",
+          "options": [],
+          "price": 225,
+          "productCode": "kk4828",
+          "productId": "63c32cfd-f885-58b6-afb1-01a192dd82f0",
+          "reviewed": true,
+          "tags": []
+        },
+        {
+          "available": false,
+          "cuisine": "European",
+          "description": "with mushroom ravioli",
+          "id": "bdb4d0d1e6ff4c3c8b13477d669191e7",
+          "image": "",
+          "name": "Whole Duck Stew",
+          "notes": "",
+          "options": [],
+          "price": 150,
+          "productCode": "kk4784",
+          "productId": "71f49a0e-6177-551d-9b41-80d9a1ef598a",
+          "reviewed": true,
+          "tags": []
+        },
+        {
+          "available": true,
+          "cuisine": "Asian",
+          "description": "",
+          "id": "80a549dd-d899-43c0-b6c7-b2386cabf5cc",
+          "image": "",
+          "name": "Chicken Satay 5 pcs",
+          "notes": "PROVISIONAL PRICE — temporary placeholder requested by owner; confirm before final printing or customer use.",
+          "options": [],
+          "price": 85,
+          "productCode": "kk4825",
+          "productId": "1cd77067-f625-5f35-83e3-c3fd49b7af3c",
+          "reviewed": true,
+          "tags": []
+        },
+        {
+          "available": true,
+          "cuisine": "Asian",
+          "description": "",
+          "id": "58ce08d0-6bdd-4d6e-a648-33f85a985e20",
+          "image": "",
+          "name": "Ribeye Geprek",
+          "notes": "PROVISIONAL PRICE — temporary placeholder requested by owner; confirm before final printing or customer use.",
+          "options": [],
+          "price": 135,
+          "productCode": "kk4820",
+          "productId": "7bbea2e7-8436-55b3-b699-d58298cdae5e",
+          "reviewed": true,
+          "tags": []
+        }
+      ],
+      "name": "Monthly Specials · Mains",
+      "notes": ""
+    },
+    {
+      "catalogCategoryId": "2dcb238d-01b9-5fe7-8604-c69c6a47346b",
+      "id": "add46a293e2e49fb84705eb828253451",
+      "items": [
+        {
+          "available": false,
+          "cuisine": "European",
+          "description": "",
+          "id": "bfdc7424fa9247e9a6f14fe33f4cf86e",
+          "image": "",
+          "name": "Poppy Seed Lemon Cake",
+          "notes": "",
+          "options": [],
+          "price": 55,
+          "productCode": "kk4782",
+          "productId": "77209fbd-0e1b-58bf-97c6-28c4719d292c",
+          "reviewed": true,
+          "tags": []
+        },
+        {
+          "available": false,
+          "cuisine": "Asian",
+          "description": "",
+          "id": "bc7ee5ebff7b4d4db20cc13eff7a8956",
+          "image": "",
+          "name": "Bika Ambon Chocolate Brulee",
+          "notes": "",
+          "options": [],
+          "price": 75,
+          "productCode": "kk1975",
+          "productId": "c033f4eb-961f-5678-a8dc-3461bde2261d",
+          "reviewed": true,
+          "tags": []
+        },
+        {
+          "available": true,
+          "cuisine": "European",
+          "description": "",
+          "id": "4989f499-a373-4602-ad75-b3b96b64e35d",
+          "image": "",
+          "name": "Chocolate Brownie",
+          "notes": "PROVISIONAL PRICE — temporary placeholder requested by owner; confirm before final printing or customer use.",
+          "options": [],
+          "price": 60,
+          "productCode": "kk4823",
+          "productId": "44eb6ad6-ae79-5fb8-895f-211792472ca7",
+          "reviewed": true,
+          "tags": []
+        },
+        {
+          "available": true,
+          "cuisine": "European",
+          "description": "with dry grape ice cream",
+          "id": "2148c9d9-f2aa-43b4-92ee-66055aa90930",
+          "image": "",
+          "name": "White Chocolate Cremeux",
+          "notes": "PROVISIONAL PRICE — temporary placeholder requested by owner; confirm before final printing or customer use.",
+          "options": [],
+          "price": 60,
+          "productCode": "kk4822",
+          "productId": "68643012-75c9-55b2-bdc9-9f97322dbc3b",
+          "reviewed": true,
+          "tags": []
+        }
+      ],
+      "name": "Monthly Specials · Dessert",
+      "notes": ""
+    },
+    {
+      "catalogCategoryId": "a1b92531-f961-50ec-8c3b-2dbe515cc5b6",
+      "id": "91d4611857cf499a9a8767c56f0f2309",
+      "items": [
+        {
+          "available": true,
+          "cuisine": "European",
+          "description": "Italy 2022",
+          "id": "6ff0c82590cf4044a797d0f28d0cfd6d",
+          "image": "",
+          "name": "MOI Primitivo Puglia",
+          "notes": "Bottle price; previous bottle price 690 is crossed out in the source.",
+          "options": [
+            {
+              "kind": "Variant",
+              "name": "Glass 12cl",
+              "price": 105
+            },
+            {
+              "kind": "Variant",
+              "name": "Glass 18cl",
+              "price": 155
+            }
+          ],
+          "price": 590,
+          "productCode": "wi852",
+          "productId": "2c535473-da8a-5b16-9fbf-3e33906767b6",
+          "reviewed": true,
+          "tags": []
+        }
+      ],
+      "name": "Wine of the Month",
+      "notes": ""
+    }
+  ],
+  "currency": "IDR",
+  "designPrompt": "MENU DESIGN BRIEF — KOI Kemang\n\nSTATUS AND PURPOSE\nThis is a saved design prompt for future work. Saving or editing it must not generate a menu. Only execute it after an explicit request to generate the menu.\nWhen generation is requested, reproduce the visual design of Kemang Lunch & Dinner 20260605A.pdf as closely as possible using the current approved menu data for THIS restaurant. Recreate the reference faithfully; do not redesign it or turn it into a modern card-based menu.\n\nSOURCE OF TRUTH\nUse the reference PDF for visual structure, typography, colors, artwork, proportions, spacing, and placement. Use the current restaurant data for the menu title, categories, order, visible items, exact dish names, descriptions, prices, variants, add-ons, label assignments, icons, service charge, tax, dietary statement, and footer. The reference is not a source of current prices or item availability. Never restore removed items or copy content from another restaurant. Preserve accents, punctuation and units. Omit hidden items. Flag missing or inconsistent values for review rather than inventing them.\n\nPAGE AND COMPOSITION\nUse the reference’s landscape format and approximately 1.414:1 width-to-height ratio. Its native page measures 892.92 × 631.44 PDF points; verify the final physical print size before export instead of assuming A4 or A3. Maintain the same relative geometry if scaled to an approved print size.\nUse a plain white background, compact black menu text, narrow bright-red rules, red category headings and small colored food/serving icons. Keep the airy upper header and dense, orderly body. No photographs, decorative backgrounds, shadows, rounded cards, or new decorative graphics. Uploaded dish photos remain assets unless their inclusion is separately requested, since the reference has none.\nCenter the existing red square KOI logo above the large, black, very bold condensed uppercase menu title. Keep the title’s proportions and placement relative to the logo. Place the small no-pork/no-lard symbol and the approved dietary statement below it. Use current approved wording, not an assumed claim. Reuse the original logo/artwork unless a replacement has been supplied.\nAt the upper right, arrange the compact icon legend in two columns with icons at a consistent size and vertically aligned explanatory text. Use this restaurant’s current label and serving-detail definitions and assigned artwork. Preserve the original circle/starburst silhouettes, colors, white internal marks, and visual weight. Add new legend entries by extending the same layout; do not substitute emoji when custom artwork exists. Do not infer dietary or allergen claims from dish names.\nSeparate the header and body with the reference’s pair of thin, closely spaced red horizontal rules running almost the full usable width.\n\nBODY GRID AND THIS RESTAURANT’S BASELINE\nRecreate four vertical menu columns with narrow, consistent gutters and aligned top edges. The reference’s category flow is:\n• Left column: Soups, Appetizers, Salads, Sandwiches, Burger.\n• Second column: Pastas, Noodles & Rice, Poultry.\n• Third column: Seafood, Beef, Grill.\n• Right column: Pizza, Lamb, Poke Bowl, Sauce, Side Dishes, Kids.\nKeep Kemang’s regular Pizza section at the top of the right column when that category remains in the current data. It is distinct from the Pizza subsection inside Monthly Specials.\nTreat this flow as the reference layout, not a fixed item count. Respect deliberate ordering changes in the current menu. Add new categories in their configured order using the same heading style. Remove empty categories without leaving ghost headings or fixed empty slots.\n\nTYPOGRAPHY AND DISH ROWS\nMatch the reference’s tall, narrow uppercase category lettering with red outlines and white interiors. Center each category heading above a thin red rule spanning its column. The main title is solid black, bold and condensed; it must not look like the outlined category headings.\nUse the original fonts or approved metrically close replacements, measuring them against the PDF. Embedded font resources include Calibri, Tw Cen MT Std Bold, Myriad Pro Regular and Arial MT; verify their actual roles rather than assuming that list identifies the outlined heading font. Some headings/artwork may be vector outlines. Reuse those outlines where suitable; do not claim exact typeface matching without checking the source.\nSet dish names in compact, readable black sans-serif. Keep descriptions and qualifiers smaller and lighter in visual emphasis, matching the reference’s inline or indented continuation treatment. Preserve the reference’s modest weight differences; avoid making every name heavy bold.\nReserve a stable, right-aligned price column for every section. Prices must line up vertically and never collide with names or descriptions. Use the restaurant’s stored currency and price multiplier; e.g. IDR × 1,000 displays 95 as 95 rather than 95,000. Do not append a currency symbol to every row if it is explained in the footer. Never change or round a price to make it fit.\nPlace assigned icons close to the associated dish, aligned with the text baseline; preserve leading/trailing placement where meaningful. Keep icons clear and consistently scaled, with enough separation from text and prices. Keep variants and additional charges visually attached to their parent item. Distinguish a variant’s replacement price from an add-on charge; indent supporting rows. Reproduce thin black internal separators where the reference groups subsections, without drawing a box around every item.\n\nMONTHLY SPECIALS\nKeep a prominent thin red rectangular panel near the lower center, spanning the second and third columns. Use its outlined red uppercase MONTHLY SPECIALS heading centered above a red dividing line. Inside, use the reference’s two-column arrangement with smaller solid-red bold uppercase subgroup headings: Salad, Pasta and Main on the left; Pizza, Dessert and Wine of the Month on the right, when present in current data.\nKeep specials separate from the regular category stacks. Adapt the panel’s height to its actual contents. Align special prices and preserve wine bottle/glass sizes and prices. Show a crossed-out previous price only when explicitly recorded as an approved previous price; never copy an obsolete promotion from the PDF. If there are no specials, remove the panel and rebalance the space. Add or remove subgroups using the same visual hierarchy.\n\nFOOTER\nPlace the restaurant’s current pricing/service/tax note in small, readable black text near the bottom center. Reconcile it with the saved price multiplier and percentages before export; flag discrepancies rather than silently calculating or rewriting terms. Keep any restaurant/version identifier small at the lower left. Do not copy the old reference filename or date as the new menu version. Keep footer text inside the printable area, clear of the specials panel and body.\n\nFLEXIBLE CONTENT RULES\nFor an unchanged menu, aim for a visually faithful reproduction of the reference. When content changes, preserve the same design language and hierarchy rather than every old line break.\nFor fewer dishes: keep type and icon sizes stable; close unnecessary gaps and balance section spacing without stretching lines or inflating text to fill the page.\nFor extra dishes or longer names/descriptions: first reflow text within its text area while protecting the price column; then adjust section gaps and available column heights modestly. Keep category headings with at least their first item, and keep a dish with its description, variants and add-ons. Rebalance whole sections only when necessary, keeping a clear reading order and the specials panel’s central role.\nFor longer prices: reserve enough price-column width for the widest current value, then reflow adjacent text. Do not overlap text, abbreviate approved item names, truncate descriptions, drop items, shrink icons to illegibility, or silently reduce the print scale.\nAim for one page while preserving the reference’s readable density. If the approved content cannot fit legibly, prepare additional pages in the same visual system and flag the page-count change for review. Continue categories with a clear continuation heading, repeat necessary header/legend context and footer, and keep item groups intact. Exact one-page geometry and unlimited extra content cannot both be guaranteed: content completeness and readability take priority over forcing overflow onto one page.\n\nFUTURE GENERATION CHECKS\nBefore releasing a generated menu, compare the rendered result side by side with this restaurant’s reference at the same scale: logo/title placement, header rules, column alignment, heading shapes, red color, legend symbols, text hierarchy, price alignment, specials panel and footer. Check every visible item and price against current data, verify icon assignments, and inspect all pages for clipping, overlaps, broken accents, orphan headings and missing content. Flag uncertain source spelling or missing fonts/assets for review. Keep text selectable and vector artwork crisp where feasible; embed fonts and preserve print-quality assets.\nDo not generate a menu now. This document is the editable placeholder for the later generation stage.",
+  "dietaryNote": "No pork, no lard",
+  "footer": "All prices are listed in Rp. 1.000,- and are subject to a 10% service charge and 10% tax",
+  "id": "8da98570fdb44f4285cdc2314393798c",
+  "location": "Kemang",
+  "logo": "",
+  "menuTitle": "Lunch & Dinner",
+  "name": "KOI Kemang",
+  "priceUnit": 1000,
+  "serviceCharge": 10,
+  "source": "Kemang Lunch & Dinner 20260605A.pdf",
+  "tagCatalog": [
+    {
+      "icon": "menu:vegetarian",
+      "iconImage": "",
+      "kind": "label",
+      "name": "Vegetarian"
+    },
+    {
+      "icon": "menu:spicy",
+      "iconImage": "",
+      "kind": "label",
+      "name": "Spicy"
+    },
+    {
+      "icon": "menu:new",
+      "iconImage": "",
+      "kind": "label",
+      "name": "New menu"
+    },
+    {
+      "icon": "menu:timer",
+      "iconImage": "",
+      "kind": "serving",
+      "name": "Takes more than 15 mins"
+    },
+    {
+      "icon": "menu:jasmine-rice",
+      "iconImage": "",
+      "kind": "serving",
+      "name": "With jasmine rice"
+    },
+    {
+      "icon": "menu:rice-choice",
+      "iconImage": "",
+      "kind": "serving",
+      "name": "Choice of white or red rice"
+    },
+    {
+      "icon": "menu:baby-potatoes",
+      "iconImage": "",
+      "kind": "serving",
+      "name": "With baby potatoes"
+    },
+    {
+      "icon": "menu:mashed-potato",
+      "iconImage": "",
+      "kind": "serving",
+      "name": "With mashed potato"
+    },
+    {
+      "icon": "menu:fries",
+      "iconImage": "",
+      "kind": "serving",
+      "name": "With French or Belgian fries"
+    },
+    {
+      "icon": "menu:salad",
+      "iconImage": "",
+      "kind": "serving",
+      "name": "With mixed salad"
+    },
+    {
+      "icon": "menu:baguette",
+      "iconImage": "",
+      "kind": "serving",
+      "name": "With baguette"
+    },
+    {
+      "icon": "",
+      "iconImage": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFIAAABOCAYAAACzOEF7AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAGyUlEQVR4nO2cC2wUVRSGRwUBSSCAYIj4Ir5CStQAidFEkaiEGJWQRgSNARWDxkgiBiT4CI8IqCFBIwYImp3dpWVpUYvF2NpUS0tNgUjLQ1ptLdJWHgWl3drS9s7x3Jnd7nbZtrNzz72zmDnJn+1rp+d+e8695z5mNM0zzzzzzLMrykDbMhg0/+2gBR4HTV+Mege/X29JX4d6C79eiK8z8G8muO1v2hhowYkI5SWEs83Q/IfxtRsFdmVo+ll8XwF+vRyvNcXt9ig1bPQ9qDUI8Egq0GyqHvUh6i632ynFQNs7xIo8vVICvL5UhnoGNLjK7fYLG4IbjlrBU1AhwASZH95st1k4Nu48NqLBPYCJ/am/GP3JcJuLbQMtNBYdDjlu8JgQGAvKgGXXAas8D6y5HVhTGNiBc8C214DxbAkYw3Y4BdqFepdXB25z6tfQyekI8bQjgCOygX10FFjLJWCM9a+LHcA2HAFjeJZToBU4yt/hNq+khs69CimWLz0QH/gO2KnWgQEmqiEMxqOFDlNdb027vtMqlh2m8qwie1HYlzq7wFhY5jAydcaLfLf5mYaObHIMcVo+sFYBiPEwZ/7gNM050I+vXIjXBoFV/yMOMapGTPPrHA9CHOY6tyA6TmcT5Gs/00GMiF9TxCfUEsUQ+cKBkMPAys+Sg2SFjaIgDQyQJxVBDEzCES8sFI08rS910YPEmlP0A0ZdQI2XDJEvc4kvNhi37KaHGE3vIUECmHqhZJDm+qCwo0ZGnjyQN+dSRCWHuUASRN+NePE2EpBT8uWBnJpPBfIMdmMjJIDUP6FxEEFO/14eSKF6MlG+lcQQfWMQZDsZyKUH5YGcW0IGEgfVZr4USAhSX0Hm3KAAsGMXpIHkK0R0EWnqdUqQNVSOsXVH5EHkaus0qwI6kHoNEcTA/WTROHonsA4J9WOi9jYQR6XvPgKQzufTl4F8rFA+xGhfecMuSpirKUAeJwM5Pif5ak9XN7D6FjqQ3d1m9BOCPCQIMTQazPknXZoYTxebC7Jmg0+2AltTCcYEq4hm7x82IfQAae8EllUH7IMqYGf/7Q2r6jyw9djfBmqt68T/bhv1gMPXLYOjRKJxDq1DEZiatbUAkVfjjQpzldz8+cNYY+q/A/vsBBgTv4q959bdsdG+qMl6H87Zuczf872eyXt6vYcY5kwBkL6VcpyKia2t6hVlxvOl5uaWMRQ1rwRY3p/AcuotSPxnOL00gfOinm+MnWkDY1KeVB8jetMxSCxId8l20Fh2yF6/x9P8c4zSV8qBbanutXrEBzHpfmr6VoGI1H+R7iDf+BIdoe/+RkVEfisQkf4m6SAHB4GFBfZteAF+dUAFyFKRiCSbX/cnPng4BnnwnAqIPLWrBEDKd9AEuarSOcit1R7IHidnFDjvH+fv80D2OInljtM5ON2K+EAg/YdFQF5QBZOVnUkdZF2LEt8iIAsEQKo7GMoPRaUM0l+rDCTqC8cgVRTkPZ/4E0Wpp/Vi4QMBqcj5CpDoaYqUQI7MtlaBUgGpZmoYkT5HAGQgU+EnDuxQs32QjWGV0YjKukkkIscpBbnpuH2QoT+U+YVd3F+OIcbBlHEbR3KHM3+0n9aLylWC1ClArlLm8Lhd9kHe+bUykEL9YxzIDHUO++1t1Z5qVRmNYdBCw4RBcsOL7VcGkq81plH9SJLWUcMLzlPm+HP7Bk7rF0qVgcTK5SFCkOZxvpNKQOLceUCQt1EeAOhP+gEyiDGY+iJVUcDn0Okwv5Zyehc73GuwvziqBOS2mr5BblG2/rifHGIMZuBBIN7nTtqIzJ/6TuvZxSpAdku//xvDfbt0kGNDyefd/H6aUaQnKPrSZqkQLZCBERj21bIbY97EmQiy5LQKiL+RnokcAOZk/GcdUkF++uvlINdUSobIN/uC9yqBGAfzRZmNMk9ZJPaPs4pkgsS+3zdfKcQ4mG9LA5nkFhLiE2aJWu4KxBhM/2pZjTNveI+CrL0oE+JGVyFGDfuWtVJA8gNU8ufX6QExamDOx2lPZhhLKmJpjXNwWoD8zKPimzjtGi/YDc1/igzkhFyrnvy7g7R/5Cve/GlWbvPq16xTvnouWXpvPGbuMBJG4h7QdlzvNifbhk4/peI0Wwqqx4yZ6zYXRxZ5gNJ7mEoX3QNo3lOIZdqXQ93mIWx8WokNWkrZf9rQCevpfoqmeyoNtOJBfI0PG+mPPC6GGl4jajNO8x75XzwTzY7xVMNInYVgN/C1P1SLg7Stw9ccK3X1qW63KW2MP1wz8pBNnMfryy6X/+XILSvTsDoY6ba/nnnmmWeeeeaZZ5555tT+A4NEGX1I9hwHAAAAAElFTkSuQmCC",
+      "kind": "serving",
+      "name": "With Vanilla Ice Cream"
+    }
+  ],
+  "tax": 10
+}

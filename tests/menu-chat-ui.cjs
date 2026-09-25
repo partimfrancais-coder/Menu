@@ -1,0 +1,43 @@
+const {chromium}=require('playwright');
+const assert=require('node:assert/strict');
+(async()=>{
+ const browser=await chromium.launch({channel:'chrome',headless:true});
+ try{
+  const context=await browser.newContext({ignoreHTTPSErrors:true,viewport:{width:1440,height:1100}});
+  const page=await context.newPage();const errors=[];page.on('pageerror',e=>errors.push(e.message));
+  const generations=[];page.on('request',r=>{if(r.method()==='POST'&&r.url().endsWith('/conversation'))generations.push(r.postDataJSON());});
+  await page.goto('https://127.0.0.1:8779/');
+  await page.locator('[name=username]').fill('alain');await page.locator('[name=password]').fill('browser-test-only');await page.locator('button[type=submit]').click();
+  await page.getByRole('button',{name:'Generate menu',exact:true}).waitFor();
+  assert.equal(await page.getByRole('button',{name:'Preview menu',exact:true}).count(),0);
+  await page.locator('#account-api-key').fill('sk-browser-test-only-1234567890');await page.getByRole('button',{name:'Save key',exact:true}).click();
+  await page.waitForFunction(()=>document.querySelector('#api-key-help').textContent.includes('Key saved securely'));
+  await page.waitForFunction(()=>document.querySelector('#account-api-key').value==='');
+  await page.getByRole('button',{name:'Generate menu',exact:true}).click();
+  await page.locator('.menu-chat button[type=submit]:enabled').waitFor();
+  assert.equal(generations.length,0,'Opening an empty chat must not generate');
+  await page.locator('.menu-chat').getByRole('button',{name:'Generate menu',exact:true}).click();
+  await page.locator('.chat-pdf').first().waitFor({timeout:20000});
+  assert.equal(generations.length,1);assert.equal(generations[0].mode,'fresh');
+  const initialVersions=await page.locator('.chat-pdf').count();
+  await page.locator('.chat-diagnostics summary').first().click();
+  assert((await page.locator('.chat-diagnostics').first().innerText()).includes('Provider status: completed'));
+  assert((await page.locator('.chat-diagnostics').first().innerText()).includes('Output token limit: 24000'));
+  await page.locator('.menu-chat textarea').fill('Increase the space between categories.');await page.getByRole('button',{name:'Send adjustment',exact:true}).click();
+  await page.waitForFunction(count=>document.querySelectorAll('.chat-pdf').length===count,initialVersions+1,{timeout:20000});
+  await page.screenshot({path:'tmp/menu-chat-desktop.png'});
+  await page.getByRole('button',{name:'Close conversation'}).click();await page.reload();
+  await page.getByRole('button',{name:'Generate menu',exact:true}).click();
+  await page.locator('.menu-chat button[type=submit]:enabled').waitFor();
+  assert.equal(await page.locator('.chat-pdf').count(),initialVersions+1);
+  assert.equal(generations.length,2,'Reopening an existing chat must not generate');
+  await page.getByRole('button',{name:'Regenerate from saved menu',exact:true}).click();
+  await page.waitForFunction(count=>document.querySelectorAll('.chat-pdf').length===count,initialVersions+2,{timeout:20000});
+  assert.equal(generations.length,3);assert.equal(generations[2].mode,'fresh');
+  assert((await page.locator('.chat-message.user').last().innerText()).includes('current saved back-office data'));
+  await page.setViewportSize({width:390,height:844});
+  await page.screenshot({path:'tmp/menu-chat-mobile.png'});
+  assert(await page.evaluate(()=>document.querySelector('.menu-chat').scrollWidth<=innerWidth));
+  assert.deepEqual(errors,[]);console.log('PASS: key save/clear, first generation, follow-up PDF, reload recovery, mobile layout, no browser errors. Fake provider only.');
+ }finally{await browser.close();}
+})().catch(e=>{console.error(e);process.exit(1)});

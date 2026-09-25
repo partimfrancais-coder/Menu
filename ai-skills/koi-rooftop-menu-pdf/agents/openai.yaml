@@ -1,0 +1,4 @@
+interface:
+  display_name: "KOI Rooftop Menu PDF"
+  short_description: "Make Rooftop menus using its separate dark design"
+  default_prompt: "Use $koi-rooftop-menu-pdf to generate a Rooftop menu from its latest saved items and shared prices, matching its own two-page reference design."
